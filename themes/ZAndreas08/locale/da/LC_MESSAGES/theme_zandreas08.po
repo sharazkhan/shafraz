@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ZSELEX Theme ZAndreas08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-18 08:53+0200\n"
+"PO-Revision-Date: 2013-04-18 08:55+0100\n"
+"Last-Translator: Kim Enemark <kim@acta-it.dk>\n"
+"Language-Team: ACTA-IT <kim@acta-it.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: version.php:16
+msgid "ZAndreas08"
+msgstr "ZAndreas08"
+
+#: version.php:17
+msgid ""
+"Based on the theme Andreas08 by Andreas Viklund and extended for Zikula with "
+"the CSS Framework 'fluid960gs' and converted to ZSELEX by Kim Enemark, ACTA-"
+"IT."
+msgstr ""
+
+#: templates/admin.tpl:5 templates/home.tpl:6 templates/master.tpl:6
+#: templates/master1.tpl:6 templates/minishop.tpl:6 templates/minisite.tpl:6
+msgid "Home"
+msgstr "Hjem"
+
+#: templates/admin.tpl:6
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: templates/admin.tpl:7
+msgid "Extensions"
+msgstr ""
+
+#: templates/admin.tpl:8
+msgid "Blocks"
+msgstr "Blok"
+
+#: templates/admin.tpl:9
+msgid "Users"
+msgstr "Brugere"
+
+#: templates/admin.tpl:10
+msgid "Groups"
+msgstr "Grupper"
+
+#: templates/admin.tpl:11
+msgid "Permission rules"
+msgstr "Tilladelsesregler"
+
+#: templates/admin.tpl:12
+msgid "Themes"
+msgstr "Temaer"
+
+#: templates/home.tpl:6 templates/master.tpl:6 templates/master1.tpl:6
+#: templates/minishop.tpl:6 templates/minisite.tpl:6
+msgid "Go to the site's home page"
+msgstr "Gå til hjemmesiden"
+
+#: templates/home.tpl:7 templates/master.tpl:7 templates/master1.tpl:7
+#: templates/minishop.tpl:7 templates/minisite.tpl:7
+msgid "Go to your account panel"
+msgstr "Gå til dit kontopanel"
+
+#: templates/home.tpl:7 templates/master.tpl:7 templates/master1.tpl:7
+#: templates/minishop.tpl:7 templates/minisite.tpl:7
+msgid "My Account"
+msgstr "Min konto"
+
+#: templates/home.tpl:8 templates/master.tpl:8 templates/master1.tpl:8
+#: templates/minishop.tpl:8 templates/minisite.tpl:8
+msgid "Search this site"
+msgstr "Søg på dette website"
+
+#: templates/home.tpl:8 templates/master.tpl:8 templates/master1.tpl:8
+#: templates/minishop.tpl:8 templates/minisite.tpl:8
+msgid "Site search"
+msgstr "Website søgning"
+
+#: templates/includes/footer.tpl:2
+msgid "Powered by"
+msgstr ""
+
+#: templates/includes/footer.tpl:2
+msgid "Mobile version"
+msgstr "Mobil version"
+
+#: templates/modules/Search/search_block_search.tpl:1
+msgid "Search keywords"
+msgstr "Søge nøgleord"
+
+#: templates/modules/Search/search_block_search.tpl:6
+msgid "Go"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:135
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:138
+msgid "No Products."
+msgstr "Ingen produkter."
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:171
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:174
+msgid "No entries found."
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:180
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:183
+msgid "No products found."
+msgstr "Ingen produkter fundet."

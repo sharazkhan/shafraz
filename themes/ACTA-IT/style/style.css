@@ -1,0 +1,320 @@
+body{margin:0px; padding:0px; font-family: Calibri, Arial, "Arial Narrow"; font-size:12px; color: #3a3939}
+img{border:none}
+.Container {	height: auto;	width: auto;}
+
+.Banner a, .Footer a, .Content_Section a, .ImageBox_Section a{text-decoration:none; color:#06C; }
+.Banner a:visited, .Footer a:visited, .Content_Section a:visited, .ImageBox_Section a:visited{text-decoration:none; }
+.Banner a:hover, .Footer a:hover, .Content_Section a:hover, .ImageBox_Section a:hover{text-decoration:none; font-weight:bold ; color:red}
+
+h2{ background-image:url(../images/HeaderBullet.jpg); background-repeat:no-repeat; background-position:left; padding-left:25px; color:black}
+h1{ color:#5280aa}
+h4{ background-image:url(../images/HeaderBullet.jpg); background-repeat:no-repeat; background-position:left; padding-left:25px; font-size: 16px; font-weight: bold; color: black }
+
+
+
+
+/*  _________________________________Header ____________________  */
+.HeaderBlock {	height: 170px;	width: 100%; float:left}
+.Header {	margin: auto;	height:170px;	width: 950px;}
+.Logo{ height:138px; width:108px; float:left}
+.TopBannerSection{ height:138px; width:950px; background-image:url(../images/MenuTopShadow.jpg); background-repeat:repeat-x; background-position:bottom}
+.LogoPlain{	height:138px;	width:657px; float:left; }
+.LogoRight{ width:20%; height:138px; float:right; }
+.Flash{ width: 650px; float: left;  height: 138px }
+.Flash h4{ display:none }
+.BannerImage {background:url(../images/Banner.jpg)}
+.BannerImage h4{display:none}
+
+.LogoRight h4{display: none}
+.LogoRight .extmenuadmin { display: none}
+.TopRightmenu{ width:100%; height:15px; margin-top:15px; float:right }
+.TopRightmenu ul{ float: right}
+.TopRightmenu ul,li{list-style:none; margin:0px; padding:0px; text-align:center}
+.TopRightmenu li{float:left; border-right:2px solid #09F; padding: 0px 8px }
+.TopRightmenu a{ text-decoration:none; color:#004863; font-weight: normal}
+.TopRightmenu a:visited{ color:#004863; }
+.TopRightmenu a:hover{ color:RED;}
+/*.TopRightmenu dt, dl{float:right; text-align:center; }
+.TopRightmenu dl{margin-left:10px;}*/
+.MenuFlag{ text-align: right; width:100%; height:15px; margin-top:15px; float:right}
+.MenuFlag div div div{ display:none; }
+.MenuFlag div div p{  text-align: right}
+.MenuFlag a{ padding: 0px 4px; text-decoration: none}
+
+
+.Menu_Section{ height:30px; width:948px; background:#53b6da; border: solid 1px; color:#7e7c7c}
+.Menu_Section h4{display: none}
+.Menu_Section .extmenuadmin{ display: none}
+.Menu_Section ul,li{list-style:none; padding:0px; margin:0px;}
+.Menu_Section ul li{float:left; height:30px; width:100px;  background-image:url(../images/MenuBorder.jpg); background-repeat:no-repeat; background-position:left;}
+.Menu_Section ul li a{ display:block; text-decoration:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; height:26px; color:white; margin-left:2px; width:97px; padding-top:8px}
+.Menu_Section ul li a:visited{ text-decoration:none;}
+.Menu_Section ul li a:hover{ text-decoration:none; font-weight:bold; background-color:#18558e}
+/*  _________________________________End Header ____________________  */
+
+
+
+/*  _________________________________Banner ____________________  */
+
+.Banner_Container {	height: 144px;	width: 100%; float:left }
+.Banner{margin: auto;	height: 144px;	width:950px; background-image: url(../images/BannerBotGrade.jpg); background-repeat: repeat-x; background-position:bottom}
+.BannerImage{	height: 137px;	width: 765px; float:left}
+.BannerImage h4{display:none}
+.BannerRightLogin{height: 137px; width: 185px; float:left; background:url(../images/LoginRightBG.jpg) no-repeat; font-size:12px; padding-top:2px; color:white }
+.Banner a:link{color:white; text-decoration:underline}
+.Banner a:visited{color:white}
+
+
+
+#loginbutton{ display: none}
+#hide{ display: none}
+.BannerRightLogin #loginbutton { display: block}
+
+.BannerRightLogin #loginblock { display: none}
+.BannerRightLogin #hide{ display: inline}
+
+#lbuttn{background-color: grey}
+
+
+/*  _________________________________Login SEction ____________________  */
+
+#users_loginblock_login_form input { width:100%}
+#users_loginblock_login_form input[type="submit"] { background-image:(../images/MenuBorder.jpg); width:auto}
+#users_loginblock_login_form input[type="checkbox"] {width:auto}
+.SubButtomDIv{text-align:right}
+
+.z-bt-ok{
+    margin: 0 1px 0 0;
+    padding: 3px 8px 4px 27px !important;  
+    background: url("../images/button_ok.png") no-repeat scroll 10px 50%, -moz-linear-gradient(center top , #FFFFFF, #DFDFDF) repeat scroll 0 0 transparent;
+    border-color: #CCCCCC #B9B9B9 #B9B9B9 #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    color: #444444;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Lucida Grande",Tahoma,Arial,Verdana,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 130%;
+    padding: 5px 10px 6px;
+    text-align: center;
+    text-decoration: none !important;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+
+}
+
+.Content_Section #users_loginblock_login_form .UserOption, ImageBox_Section #users_loginblock_login_form .UserOption{ margin:0px; padding:0px; margin-top:10px;}
+.Content_Section #users_loginblock_login_form input[type="text"], ImageBox_Section #users_loginblock_login_form input[type="submit"]
+{ margin-bottom:10px; margin-top:5px; }
+.Content_Section #users_loginblock_login_form input[type="checkbox"], ImageBox_Section #users_loginblock_login_form input[type="submit"]
+{  margin-top:9px; }
+
+.Content_Section #users_loginblock_login_form .NewUser, ImageBox_Section #users_loginblock_login_form .NewUser
+{padding:0px; margin:0px; list-style:none; background:yellow; padding-left:25px; background:url("../images/add_user.png") left no-repeat; margin-bottom:10px;}
+
+.Content_Section #users_loginblock_login_form .ForgetPass, ImageBox_Section #users_loginblock_login_form .ForgetPass
+{padding:0px; margin:0px; list-style:none; background:yellow; padding-left:25px; background:url("../images/lostusername.png") left no-repeat;}
+
+
+
+
+
+#BannerRightLogin h4{margin:0px; padding:0px; background:none; color:white; display:none; }
+#BannerRightLogin div{margin:0px; padding:0px; color:white; padding-left:8px; font-size:11px}
+#BannerRightLogin ul,li{list-style:none; margin:0px; padding:0px}
+#BannerRightLogin li{float:left; text-align:left; padding-left:5px; padding-right:5px}
+#BannerRightLogin ul{ margin-top:4px; margin-left:5px}
+#BannerRightLogin input[type="text"] { width:120px; }
+#BannerRightLogin input[type="password"] { width:120px; }
+#BannerRightLogin input[type="submit"] { background-image:(../images/MenuBorder.jpg); width:auto}
+#BannerRightLogin input[type="checkbox"] {margin-left:8px; width:auto }
+#BannerRightLogin label{ color:white }
+#BannerRightLogin h5{ display:none}
+#BannerRightLogin #users_loginblock_no_loginformfields{ display:none; }
+#BannerRightLogin .SubButtomDIv{ text-align:left}
+
+.Content_Section #users_loginblock_login_form h5, ImageBox_Section #users_loginblock_login_form h5 { display:block; font-size:12px; margin:5px 0px; text-decoration:underline}
+#greetings input[type="submit"]{ width:50px}
+
+
+#greetings{ width:85%; height:100px; color:#FFF; text-align:center; margin-top:15px; font-size:13px}
+#greetings form{ margin-top:10px; margin-bottom:10px;}
+#greetings form input{ cursor:pointer; width: 50px; height:21px; background: url(../images/LoginOut.jpg); background-repeat:no-repeat; border:none}
+
+
+.greetings1{ width:85%; height:100px; color:#FFF; text-align:center; margin-top:15px; font-size:13px}
+.greetings1 form{ margin-top:10px; margin-bottom:10px;}
+.greetings1 form input{ cursor:pointer; width: 50px; height:21px; background: url(../images/LoginOut.jpg); background-repeat:no-repeat; border:none}
+
+/*  _________________________________End of Login SEction ____________________  */
+
+
+
+.SearchBlock{ height:38px; width:183px; margin-top:40px; border-left: solid 2px #414244; background:url(../images/SearchBG.jpg) repeat-x; float: right}
+.search{ height:28px; width:172px; margin-top:3px; float:right; }
+#Searchcolor{ color:#666; font-style:italic}
+.search div{float:left; margin-left:3px}
+.loginPara{padding-top:5px; padding-left:20px}
+.loginPara input{margin-top:3px; margin-bottom:3px;}
+.white{color:white;}
+.textbox{width:110px; height:17px; vertical-align:middle; }
+.button{background: url("../images/play.png"); height:25px; width: 28px; border:0px; cursor: pointer; margin-left:4px; vertical-align:middle; }
+/*  _________________________________End Banner ____________________  */
+
+
+
+/*  _________________________________Content ____________________  */
+.Content_Section {	height: auto;	width: 100%; float:left}
+
+
+.Content_Section .search_results{float: none}
+.search_hit a{font-size: 14px;}
+.Content_Section dt, dl{text-align:justify; padding-bottom: 5px }
+.Content_Section dd{margin-left:0px; margin-bottom:5px;}
+.Content {	margin: auto;	height: auto;	width: 950px;}
+.Content ul li{ text-align:left; list-style:disc; margin:3px}
+.ContentLeft{width:500px; height:auto; padding:10px 15px; float:left  }
+.ContentLeft p, .ContentRight p, .ContentMiddle p{ line-height:18px; font-weight:normal; text-align:justify; padding-right:20px }
+.ContentRight{width:412px; height:auto; float:right; padding-left:6px; font-size:12px;}
+.ContentRightTopImgBox{height:auto; width:411px; margin-top:42px; background-image:url(../images/largImgBotGrade.jpg); background-position:bottom; background-repeat:no-repeat}
+
+.ContentRightTopTxtBox{height:auto; width:398px;  }
+.link{font-weight:bold; color:#036; font-size:14px }
+
+.ContentLeftStd{width:25%; height:auto; background:red;}.
+.ContentMiddleStd{width:50%; height:auto; background:red;}
+.ContentRightStd{width:25%; height:auto; background:red;}
+
+.Master .ContentLeft{ width:200px; height:auto; padding:0px; margin:0px; }
+.Master .ContentRight{ width:200px; height:auto; padding:0px; margin:0px; }
+.Master .ContentMiddle{ width:530px; height:auto; float:left; margin:0px 10px; }
+
+/*  _________________________________Content End ____________________  */
+
+
+
+
+/*  ________________________________Image Box ____________________  */
+.ImageBox_Section {	min-height:176px; height: auto;	width: 100%; float:left}
+.ImageBox {	margin: auto;	min-height:176px; height: auto; width: 950px; margin-top:20px}
+.Sec1{ min-height:176px; height: auto;	 width:310px; padding-top:16px; background: url(../images/IMGTOP.jpg) no-repeat top; float:left; margin-left:5px}
+.link a{font-weight:bold; font-size:14px;}
+.ImageBox h4{ display:none}
+.sec1H{ padding:6px 0px; color:black; text-transform:uppercase; font-weight: bold; font-size: 16px; font-family: Calibri,Arial,"Arial Narrow"; margin: 0px }
+/*  _________________________________End of Image Box____________________  */
+
+
+
+
+
+/*  _________________________________Fotter____________________  */
+.Footer_Section {height:auto; width: 100%; float:left; display: table-cell;}
+.FooterActa {margin: auto;	height:auto;	width: 950px; color:white; font-size:12px; padding-top:5px;  background: url(../images/FotterGrade.jpg) repeat-x; background-color:#339999;  }
+.FooterActa a{color:white; text-align:center; text-decoration: none;}
+.Footer_Section h4{display: none;}
+/*.FooterMenu{margin:auto; width:auto; margin-top:7px; text-align: center; height: 30px;}*/
+
+
+/*
+.FooterMenu ul{ float: none; list-style: none;}
+.FooterMenu li{list-style:none; float:left; border-right:1px solid #FFF; padding: 0px 10px;  } */
+
+
+.FooterMenu{ width: 100%; overflow: hidden; height:25px; margin-top:7px; }
+.FooterMenu ul,li{list-style:none; margin:0px; padding:0px;}
+.FooterMenu ul{ position: relative; float: left; display: block; left: 50%;}
+.FooterMenu li{float:left; border-right:1px solid #FFF; position: relative; display: block; right: 50%; padding-left:10px; padding-right:10px }
+
+
+
+
+.FooterMenu li:last-child { border-right:0px; }
+.FooterMenu {font-family:Calibri, Arial, "Arial Narrow"; font-weight:normal}
+#noneb{border-right: 0px}
+.Copyrites{margin:auto; height:auto; text-align:center; font-size:11px;}
+.FooterMenu h4{display: none;}
+.FooterMenu .extmenuadmin{ display: none}
+
+
+
+/*  _________________________________End fotter____________________  */
+
+.z-errormsg h1,
+.z-errormsg h2,
+.z-errormsg h3 { background: none; padding-left: 0px}
+
+
+
+
+
+/*tool tip*/
+
+
+
+.add {float:right; margin-right:10px; margin-top:6px; clear:right}
+.add p{padding-top: 5px; padding-bottom:7px; margin-top:11px}
+.add a:link{ text-decoration:none}
+.addbutton{
+    position: relative;
+    float: right;
+    z-index:0;
+}
+
+
+.addbutton:hover {
+    background-color: transparent;
+    z-index: 50;
+}
+
+.addbutton span{
+    position: absolute;
+    background-color:none;
+    background:none;
+    padding: 0px;
+    left: -1000px;
+    border: 0;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+}
+
+.addbutton span img {
+    border-width: 0;
+    padding-left: 40px; 
+    padding-top: 2px;
+}
+
+.addbutton:hover span{
+    visibility: visible;
+    top: 24px;
+    left: -35px;
+}
+
+
+.addbutton:hover p {
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -12px;
+    width: 110px; 
+    height: 13px;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    background-color: #282b30;
+}
+
+/* Tool Tip ends here */
+
+
+/* Nave Menu COntent Part */
+
+.Content_Section .navcontainer ul, .ImageBox_Section .navcontainer ul{list-style:none; margin:0px; padding:0px; border-bottom: solid 1px; border-color:#666;}
+.Content_Section .navcontainer ul li, .ImageBox_Section .navcontainer ul li{list-style:none;  margin:0px; padding:0px; border-top: solid 1px; border-color:#666; display:block; font-family:Arial, Helvetica, sans-serif; font-size:12px}
+.Content_Section .navcontainer ul li a, .ImageBox_Section .navcontainer ul li a{text-decoration:none; color:#666; font-weight:bold; display:block; padding-left:15px; padding-top:6px; padding-bottom:0px; height:25px;}
+.Content_Section .navcontainer ul li a:link, .ImageBox_Section .navcontainer ul li a:link{text-decoration:none;}
+.Content_Section .navcontainer ul li a:visited, .ImageBox_Section .navcontainer ul li a:visited{text-decoration:none; color:#666; background:none }
+.Content_Section .navcontainer ul li a:hover, .ImageBox_Section .navcontainer ul li a:hover{text-decoration:none; color:#FFF ;  background:#0099FF}

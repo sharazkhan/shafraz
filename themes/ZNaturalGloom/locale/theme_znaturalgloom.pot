@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-18 08:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: version.php:4
+msgid "ZNaturalGloom"
+msgstr ""
+
+#: version.php:8
+msgid "ZNatural Gloom open source template for ZSELEX"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:7
+msgid "Tincidunt"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:9 templates/includes/dashboard.tpl:28
+#: templates/includes/dashboard.tpl:40
+msgid "Consequat molestie"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:10 templates/includes/dashboard.tpl:25
+msgid "Sem justo"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:11
+msgid "Semper eros"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:12 templates/includes/dashboard.tpl:26
+#: templates/includes/dashboard.tpl:41
+msgid "Magna sed purus"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:13
+msgid "Tincidunt morbi"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:22
+msgid "Fermentum"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:24
+msgid "Semper fermentum"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:27
+msgid "Tincidunt nisl"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:37
+msgid "Praesent"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:39
+msgid "Semper lobortis"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:42
+msgid "Sem morbi"
+msgstr ""
+
+#: templates/includes/dashboard.tpl:43
+msgid "Tincidunt sed"
+msgstr ""
+
+#: templates/includes/footer.tpl:7
+msgid "Sitemap"
+msgstr ""
+
+#: templates/includes/footer.tpl:8
+msgid "RSS"
+msgstr ""
+
+#: templates/includes/navigation.tpl:6
+msgid "Home"
+msgstr ""
+
+#: templates/includes/navigation.tpl:7
+msgid "Blog Post"
+msgstr ""
+
+#: templates/includes/navigation.tpl:8
+msgid "Style Demo"
+msgstr ""
+
+#: templates/includes/navigation.tpl:9
+msgid "Archives"
+msgstr ""
+
+#: templates/includes/navigation.tpl:10
+msgid "Empty Page"
+msgstr ""
+
+#: templates/includes/navigation.tpl:20
+msgid "First subpage"
+msgstr ""
+
+#: templates/includes/navigation.tpl:21
+msgid "Second subpage"
+msgstr ""
+
+#: templates/includes/navigation.tpl:22
+msgid "Third subpage"
+msgstr ""
+
+#: templates/includes/navigation.tpl:23
+msgid "And so on.."
+msgstr ""
+
+#: templates/modules/News/old/news_user_index.htm:2
+msgid "clock.gif"
+msgstr ""
+
+#: templates/modules/News/old/news_user_index.htm:4
+msgid "Read more"
+msgstr ""
+
+#: templates/modules/News/old/news_user_index.htm:4
+msgid "document.gi"
+msgstr ""
+
+#: templates/modules/News/old/news_user_index.htm:4
+msgid "Comments"
+msgstr ""
+
+#: templates/modules/News/old/news_user_index.htm:4
+msgid "comment.gif"
+msgstr ""
+
+#: templates/modules/News-Sample/news_user_articlecontent.tpl:2
+msgid "Characters Used"
+msgstr ""
+
+#: templates/modules/News-Sample/news_user_articlecontent.tpl:9
+msgid "Posted By"
+msgstr ""
+
+#: templates/modules/News-Sample/news_user_articlecontent.tpl:9
+msgid "On"
+msgstr ""
+
+#: templates/modules/News-Sample/news_user_index.tpl:4
+msgid "Contributed"
+msgstr ""
+
+#: templates/modules/News-Sample/news_user_index.tpl:4
+#, php-format
+msgid "by %1$s on %2$s"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:142
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:145
+msgid "No Products."
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:178
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:181
+msgid "No entries found."
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:187
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:190
+msgid "No products found."
+msgstr ""

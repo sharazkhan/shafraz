@@ -1,0 +1,526 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: socialise!\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-27 14:33+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Kim Enemark <kim@acta-it.dk>\n"
+"Language-Team: Fabian Wuertz\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.5\n"
+
+#: lib/Socialise/Api/Admin.php:33 templates/admin/modifyconfig.tpl:5
+msgid "Keys Management"
+msgstr ""
+
+#: lib/Socialise/Api/Plugin.php:372
+msgid "Share!"
+msgstr "Del!"
+
+#: lib/Socialise/Api/User.php:62 lib/Socialise/Api/User.php:117
+#: lib/Socialise/Api/User.php:197 lib/Socialise/Api/User.php:232
+#: lib/Socialise/Api/User.php:287 lib/Socialise/Api/User.php:292
+#: lib/Socialise/Api/User.php:297 lib/Socialise/Api/User.php:302
+#: lib/Socialise/Api/User.php:342 lib/Socialise/Api/User.php:357
+#: lib/Socialise/Api/User.php:367 lib/Socialise/Api/User.php:372
+#: lib/Socialise/Api/User.php:392
+#, php-format
+msgid "Submit this to %s"
+msgstr "Send dette til %s"
+
+#: lib/Socialise/Api/User.php:67 lib/Socialise/Api/User.php:72
+#: lib/Socialise/Api/User.php:87 lib/Socialise/Api/User.php:102
+#: lib/Socialise/Api/User.php:107 lib/Socialise/Api/User.php:122
+#: lib/Socialise/Api/User.php:142 lib/Socialise/Api/User.php:177
+#: lib/Socialise/Api/User.php:182 lib/Socialise/Api/User.php:187
+#: lib/Socialise/Api/User.php:202 lib/Socialise/Api/User.php:207
+#: lib/Socialise/Api/User.php:322 lib/Socialise/Api/User.php:382
+#: lib/Socialise/Api/User.php:402 lib/Socialise/Api/User.php:422
+#, php-format
+msgid "Share this on %s"
+msgstr "Del dette på %s"
+
+#: lib/Socialise/Api/User.php:77
+msgid "Digg this!"
+msgstr "Kan lide dette!"
+
+#: lib/Socialise/Api/User.php:82
+#, php-format
+msgid "Post this on %s"
+msgstr "Udgiv dette på %s"
+
+#: lib/Socialise/Api/User.php:92
+msgid "Buzz up!"
+msgstr "Buzz op!"
+
+#: lib/Socialise/Api/User.php:97
+msgid "Stumble upon something good? Share it on StumbleUpon"
+msgstr "Faldet over noget godt? Del det på StumbleUpon"
+
+#: lib/Socialise/Api/User.php:112 lib/Socialise/Api/User.php:252
+#: lib/Socialise/Api/User.php:272 lib/Socialise/Api/User.php:412
+#, php-format
+msgid "Post this to %s"
+msgstr "Udgiv dette på %s"
+
+#: lib/Socialise/Api/User.php:127
+msgid "Tweet This!"
+msgstr "Tweet dette!"
+
+#: lib/Socialise/Api/User.php:132
+msgid "Email this to a friend"
+msgstr "Email dette til en ven"
+
+#: lib/Socialise/Api/User.php:136
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: lib/Socialise/Api/User.php:137
+msgid "Subscribe to the comments for this post"
+msgstr "Abonnér på kommentarer til dette indlæg"
+
+#: lib/Socialise/Api/User.php:147
+#, php-format
+msgid "Seed this on %s"
+msgstr "Så dette på %s"
+
+#: lib/Socialise/Api/User.php:152 lib/Socialise/Api/User.php:157
+#: lib/Socialise/Api/User.php:167 lib/Socialise/Api/User.php:172
+#: lib/Socialise/Api/User.php:212 lib/Socialise/Api/User.php:217
+#: lib/Socialise/Api/User.php:222 lib/Socialise/Api/User.php:227
+#: lib/Socialise/Api/User.php:247 lib/Socialise/Api/User.php:312
+#: lib/Socialise/Api/User.php:407
+#, php-format
+msgid "Add this to %s"
+msgstr "Tilføj dette til %s"
+
+#: lib/Socialise/Api/User.php:162
+msgid "Post on Google Buzz"
+msgstr "Udgiv på Google Buzz"
+
+#: lib/Socialise/Api/User.php:192
+#, php-format
+msgid "Mark this on %s"
+msgstr "Marker dette på %s"
+
+#: lib/Socialise/Api/User.php:206 lib/Socialise/Api/User.php:211
+#: lib/Socialise/Api/User.php:216 lib/Socialise/Api/User.php:221
+#: lib/Socialise/Api/User.php:226
+msgid "Russian"
+msgstr "Russisk"
+
+#: lib/Socialise/Api/User.php:237
+#, php-format
+msgid "Send this page to %s"
+msgstr "Send denne side til %s"
+
+#: lib/Socialise/Api/User.php:242
+#, php-format
+msgid "Bump this on %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:257
+#, php-format
+msgid "Save this to %s"
+msgstr "Gem dette til %s"
+
+#: lib/Socialise/Api/User.php:262
+#, php-format
+msgid "Tip this to %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:267
+#, php-format
+msgid "Sphinn this on %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:277
+#, php-format
+msgid "Grind this! on %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:282
+#, php-format
+msgid "Ping this on %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:286 lib/Socialise/Api/User.php:291
+msgid "Dutch"
+msgstr "Hollandsk"
+
+#: lib/Socialise/Api/User.php:307
+msgid "Blend this!"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:311
+msgid "Polish"
+msgstr "Polsk"
+
+#: lib/Socialise/Api/User.php:317
+msgid "Engage with this article!"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:326
+msgid "Swedish"
+msgstr "Svensk"
+
+#: lib/Socialise/Api/User.php:327
+#, php-format
+msgid "Push this on %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:331
+msgid "Japanese"
+msgstr "Japansk"
+
+#: lib/Socialise/Api/User.php:332
+#, php-format
+msgid "Bookmarks this on %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:337
+#, php-format
+msgid "Store this link on %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:347
+#, php-format
+msgid "Add to a lense on %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:352
+#, php-format
+msgid "Submit this story to %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:362
+#, php-format
+msgid "Clip this to %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:366 lib/Socialise/Api/User.php:371
+msgid "Spanish"
+msgstr "Spansk"
+
+#: lib/Socialise/Api/User.php:377
+#, php-format
+msgid "Submit this link to %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:387
+#, php-format
+msgid "Submit tip to %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:397
+#, php-format
+msgid "Promote this on %s"
+msgstr ""
+
+#: lib/Socialise/Api/User.php:417
+#, php-format
+msgid "Blog this on %s"
+msgstr ""
+
+#: lib/Socialise/Controller/Admin.php:71
+msgid ""
+"Please enter a Facebook ID, otherwise you won't be able to use its plugins."
+msgstr ""
+
+#: lib/Socialise/Controller/Ajax.php:45
+msgid "No services passed."
+msgstr ""
+
+#: lib/Socialise/Version.php:31
+msgid "Socialise!"
+msgstr "Socialise!"
+
+#: lib/Socialise/Version.php:32
+msgid ""
+"Share content with social websites like Facebook and Twitter and handle your "
+"site Keys."
+msgstr ""
+"Del indhold med sociale sites som FaceBook og Twitter og hold styr på dine "
+"nøgler."
+
+#. ! module url in lowercase and different to displayname
+#: lib/Socialise/Version.php:34
+msgid "socialise"
+msgstr "socialise"
+
+#: templates/plugins/function.ogtag.php:51
+#: templates/plugins/function.ogtag.php:56
+#, php-format
+msgid "Error! in %1$s: the %2$s parameter must be specified."
+msgstr "Fejl! i %1$s: Parameteren %2$s skal specificeres."
+
+#: templates/admin/facebook.tpl:5
+msgid "Facebook"
+msgstr "Facebook"
+
+#: templates/admin/facebook.tpl:8
+msgid "Like button"
+msgstr "Syntes om knap"
+
+#: templates/admin/facebook.tpl:11 templates/admin/googleplus.tpl:9
+#: templates/admin/sexybookmarks.tpl:14 templates/admin/sharethis.tpl:9
+#: templates/admin/socialshareprivacy.tpl:9 templates/admin/twitter.tpl:9
+msgid "Usages:"
+msgstr ""
+
+#: templates/admin/facebook.tpl:19 templates/admin/sexybookmarks.tpl:19
+#: templates/admin/sharethis.tpl:16
+msgid "url: The URL to submit. By default it takes the current URL."
+msgstr ""
+
+#: templates/admin/facebook.tpl:20
+msgid ""
+"layout: Allowed values: \"horizontal\"/\"button_count\", \"vertical\"/"
+"\"box_count\" and \"standard\" (default)"
+msgstr ""
+
+#: templates/admin/facebook.tpl:21
+msgid "rel: Identifier of the button source of the traffic (optional)."
+msgstr ""
+
+#: templates/admin/facebook.tpl:22
+msgid ""
+"tpl: Template to use (plugin/fblike_XYZ.tpl). The XFBML version is more "
+"versatile, but requires use of the JavaScript SDK."
+msgstr ""
+
+#: templates/admin/facebook.tpl:23
+msgid "width: Width of the widget (default: 55)."
+msgstr ""
+
+#: templates/admin/facebook.tpl:24
+msgid "height: Height of the widget (default: 20)."
+msgstr ""
+
+#: templates/admin/facebook.tpl:25
+msgid ""
+"action: The verb to display on the button. Options: \"like\", \"recommend"
+"\" (default: like)."
+msgstr ""
+
+#: templates/admin/facebook.tpl:26
+msgid ""
+"colorscheme: The color scheme for the like button. Options: \"light\", \"dark"
+"\" (default: light)."
+msgstr ""
+
+#: templates/admin/facebook.tpl:27
+msgid ""
+"font: Possible values: arial, lucida grande, segoe ui, tahoma, trebuchet ms, "
+"verdana.  (optional)"
+msgstr ""
+
+#: templates/admin/facebook.tpl:28
+msgid ""
+"faces: Specifies whether to display profile photos below the button "
+"(standard layout only) (default: false)."
+msgstr ""
+
+#: templates/admin/facebook.tpl:29
+msgid ""
+"addmetatags: Enable the addition of the meta tags by the plugin (default: "
+"false)."
+msgstr ""
+
+#: templates/admin/facebook.tpl:30
+msgid ""
+"metatitle: Title to be set on the meta tag, if enabled  (default: false)."
+msgstr ""
+
+#: templates/admin/facebook.tpl:32
+#, php-format
+msgid ""
+"metatype: The type of entity. You must select a type from the list of <a "
+"href=\"%s\">Open Graph types</a>. (default: article)."
+msgstr ""
+
+#: templates/admin/facebook.tpl:33
+msgid "metaimage: Image to be set on the meta tag  (optional)."
+msgstr ""
+
+#: templates/admin/facebook.tpl:37
+#, php-format
+msgid ""
+"You can find more information and visuals examples <a href='%s'>here</a>."
+msgstr ""
+
+#: templates/admin/facebook.tpl:39 templates/admin/googleplus.tpl:28
+#: templates/admin/sexybookmarks.tpl:24 templates/admin/sharethis.tpl:22
+#: templates/admin/twitter.tpl:33
+msgid "Examples:"
+msgstr ""
+
+#: templates/admin/facebook.tpl:41 templates/admin/facebook.tpl:43
+#: templates/admin/googleplus.tpl:30 templates/admin/googleplus.tpl:32
+#: templates/admin/sexybookmarks.tpl:26 templates/admin/sexybookmarks.tpl:28
+#: templates/admin/sharethis.tpl:24 templates/admin/sharethis.tpl:26
+#: templates/admin/twitter.tpl:35 templates/admin/twitter.tpl:37
+#, php-format
+msgid "%s module:"
+msgstr "%s modul:"
+
+#: templates/admin/googleplus.tpl:5
+msgid "Google+"
+msgstr "Google+"
+
+#: templates/admin/googleplus.tpl:18
+msgid ""
+"title: Text of the page to be shared. By default the button takes the title "
+"of the page the button is on."
+msgstr ""
+
+#: templates/admin/googleplus.tpl:19
+msgid "description: Desription of the page to be shared."
+msgstr ""
+
+#: templates/admin/googleplus.tpl:20
+msgid "width: The width of the button."
+msgstr ""
+
+#: templates/admin/googleplus.tpl:21
+msgid ""
+"size: The size of the button. The possible values are: small (15px), medium "
+"(20px), standard (24px) and tall (60px)."
+msgstr ""
+
+#: templates/admin/googleplus.tpl:22
+msgid ""
+"inline: The method of the button. The possible values are: inline, bubble "
+"and none."
+msgstr ""
+
+#: templates/admin/googleplus.tpl:26 templates/admin/twitter.tpl:31
+#, php-format
+msgid ""
+"You can find more informations and visuals examples <a href='%s'>here</a>."
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:17
+msgid ""
+"A comma-separated list of either the Facebook IDs of page administrators or "
+"a Facebook Platform application ID. At a minimum, include only your own "
+"Facebook ID."
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:30 templates/admin/sexybookmarks.tpl:48
+msgid "Save"
+msgstr "Gem"
+
+#: templates/admin/modifyconfig.tpl:31
+msgid "Cancel"
+msgstr "Annuller"
+
+#: templates/admin/sexybookmarks.tpl:8
+msgid "SexyBookmarks"
+msgstr "SexyBookmarks"
+
+#: templates/admin/sexybookmarks.tpl:20 templates/admin/sharethis.tpl:17
+msgid "title: The title of the page the button is on."
+msgstr ""
+
+#: templates/admin/sexybookmarks.tpl:34
+msgid "Inactive services"
+msgstr ""
+
+#: templates/admin/sexybookmarks.tpl:41
+msgid "Active services"
+msgstr ""
+
+#: templates/admin/sharethis.tpl:5
+msgid "ShareThis"
+msgstr "DelDette"
+
+#: templates/admin/sharethis.tpl:15
+msgid "id: The unique ID to apply to this instance of the ShareThis Link."
+msgstr ""
+
+#: templates/admin/sharethis.tpl:18
+msgid "text: Text to use in the plugin link (optional) (default: Share!)."
+msgstr ""
+
+#: templates/admin/socialshareprivacy.tpl:5
+msgid "SocialSharePrivacy"
+msgstr ""
+
+#: templates/admin/socialshareprivacy.tpl:15
+#, php-format
+msgid "You can find more informations <a href='%s'>here</a>."
+msgstr ""
+
+#: templates/admin/twitter.tpl:5
+msgid "Twitter"
+msgstr ""
+
+#: templates/admin/twitter.tpl:15
+msgid "anotherTwitterAccount"
+msgstr ""
+
+#: templates/admin/twitter.tpl:16 templates/admin/twitter.tpl:25
+msgid "account:description"
+msgstr ""
+
+#: templates/admin/twitter.tpl:19
+msgid ""
+"url: The URL to submit (optional). By default the button takes the current "
+"URL."
+msgstr ""
+
+#: templates/admin/twitter.tpl:20
+msgid ""
+"title: Text of the tweet to be shared. By default the button takes the title "
+"of the page the button is on."
+msgstr ""
+
+#: templates/admin/twitter.tpl:21
+msgid ""
+"count: The place of the count box. Allowed values: \"horizontal\", \"vertical"
+"\" and \"none\" (default)"
+msgstr ""
+
+#: templates/admin/twitter.tpl:22
+msgid ""
+"Recommends up to two Twitter accounts to users to follow after sharing the "
+"contents of your web site with:"
+msgstr ""
+
+#: templates/admin/twitter.tpl:24
+msgid ""
+"via: The site's Twitter account or a fixed one, or false to disable "
+"(default: true)."
+msgstr ""
+
+#: templates/admin/twitter.tpl:25
+#, php-format
+msgid ""
+"related: A collaborator or partner account with its description in the "
+"format: %s."
+msgstr ""
+
+#: templates/plugin/sharethis_include.tpl:5
+msgid "Close"
+msgstr "Luk"
+
+#~ msgid "Settings"
+#~ msgstr "Indstillinger"
+
+#~ msgid "Service %s"
+#~ msgstr "Service %s"
+
+#~ msgid "Demo"
+#~ msgstr "Demo"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Type"
+#~ msgstr "Type"

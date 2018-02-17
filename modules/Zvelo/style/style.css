@@ -1,0 +1,110 @@
+/**
+ * Tag - a content-tagging module for the Zikukla Application Framework
+ * 
+ * @license MIT
+ *
+ * Please see the NOTICE file distributed with this source code for further
+ * information regarding copyright and licensing.
+ */
+
+/* GENERAL TAGLIST STYLING */
+.tagcloud {
+    margin-top: 5px;
+}
+
+#z-maincontent .tagcloud ul,
+#z-maincontent #selectedTags {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#z-maincontent .tagcloud ul li,
+#z-maincontent #selectedTags li {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding-right: 8px;
+}
+
+/* TAGCLOUD WEIGHTING */
+.tag_pop_20 {
+    font-weight: 100;
+    font-size: 100%;
+}
+.tag_pop_40 {
+    font-weight: 300;
+    font-size: 125%;
+}
+.tag_pop_60 {
+    font-weight: 500;
+    font-size: 150%;
+}
+.tag_pop_80 {
+    font-weight: 700;
+    font-size: 175%;
+}
+.tag_pop_100 {
+    font-weight: 900;
+    font-size: 200%;
+}
+
+/* TAG DISPLAY */
+#z-maincontent .activeTag {
+    font-size: 10px;
+    color: #467AA7;
+    font-family: Veranda, Tahoma, Arial, sans-serif;
+    background: #C5E8F1 15px 50% no-repeat;
+    text-align: left;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #95C9EF;
+    min-height: 1em;
+    -webkit-border-radius: 10px 3px 3px 10px;
+    -moz-border-radius: 10px 3px 3px 10px;
+    border-radius: 10px 3px 3px 10px;
+}
+#z-maincontent .activeTag a {
+    color: #467AA7;
+}
+#z-maincontent .activeTag a:hover {
+    color: #2A5A8A
+}
+#z-maincontent .activeTag .tagRemover {
+    font-weight: 700;
+}
+#z-maincontent .activeTag .taghole {
+    color: #95C9EF;
+    margin-right: 4px;
+}
+
+/* AUTOCOMPLETE STYLES */
+#livetagsearch .autocomplete_tag {
+    position: absolute;
+    /*    width: 25em;*/
+    background-color: white;
+    border: 1px solid #888;
+    margin: 0;
+    padding: 0;
+}
+
+#livetagsearch .autocomplete_tag ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#livetagsearch .autocomplete_tag ul li.selected {
+    background-color: #ffb;
+}
+
+#livetagsearch .autocomplete_tag ul li {
+    list-style-type:none;
+    display:block;
+    cursor: pointer;
+    margin: 0;
+    padding: 3px 0 3px 5px;
+}
+
+/* OTHER GENERAL STYLES */
+#tagsAvailableToAdd {
+    margin-top: 5px;
+}

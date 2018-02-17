@@ -1,0 +1,1462 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-24 23:02+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plugins/block.menu.php:29 plugins/block.menu.php:34
+#, php-format
+msgid "Error! in %1$s: the %2$s parameter must be specified."
+msgstr ""
+
+#: plugins/function.alteraccountmenu.php:38
+msgid "My Page"
+msgstr ""
+
+#: plugins/function.alteraccountmenu.php:53
+msgid "My Site"
+msgstr ""
+
+#: plugins/function.alteraccountmenu.php:68
+msgid "CityPilot Backend"
+msgstr ""
+
+#: plugins/function.shiftshop.php:171 plugins/function.shiftshop.php:187
+msgid "Change Shop"
+msgstr ""
+
+#: plugins/function.userloggedinname.php:34
+msgid "anonymous guest"
+msgstr ""
+
+#: plugins/function.zselex.php:5
+msgid "ZSELEX plugin"
+msgstr ""
+
+#: version.php:3
+msgid "CityPilot"
+msgstr ""
+
+#: version.php:4
+msgid "CityPilot theme for zikula."
+msgstr ""
+
+#: templates/deletecommon2.tpl:16
+msgid "Confirmation prompt"
+msgstr ""
+
+#: templates/deletecommon2.tpl:18 templates/modules/ZSELEX/user/cart.tpl:75
+msgid "Delete"
+msgstr ""
+
+#: templates/deletecommon2.tpl:19 templates/modules/News/user/create1.tpl:311
+msgid "Cancel"
+msgstr ""
+
+#: templates/findus.tpl:39 templates/minisite.tpl:45
+msgid "Edit Shopsettings"
+msgstr ""
+
+#: templates/includes/adminheader.tpl:30
+msgid "Home"
+msgstr ""
+
+#: templates/includes/adminheader.tpl:31
+msgid "Search"
+msgstr ""
+
+#: templates/includes/adminheader.tpl:33
+msgid "User account panel"
+msgstr ""
+
+#: templates/includes/adminheader.tpl:54
+msgid "Cart"
+msgstr ""
+
+#: templates/includes/feedback.tpl:136
+msgid "Please Send Us Your Feedback"
+msgstr ""
+
+#: templates/includes/feedback.tpl:137
+msgid "Make sure to be placed on the page you want to give us info about!"
+msgstr ""
+
+#: templates/includes/head.tpl:84
+msgid "Scroll"
+msgstr ""
+
+#: templates/includes/shopheader.tpl:29 templates/includes/shopheader1.tpl:13
+msgid "Edit Content"
+msgstr ""
+
+#: templates/includes/shopheader.tpl:39 templates/includes/shopheader.tpl:60
+#: templates/includes/shopheader1.tpl:20 templates/includes/shopheader1.tpl:41
+msgid "You can rate shop"
+msgstr ""
+
+#: templates/just_translations.tpl:3
+msgid "Monday"
+msgstr ""
+
+#: templates/just_translations.tpl:4
+msgid "Tuesday"
+msgstr ""
+
+#: templates/just_translations.tpl:5
+msgid "Wednesday"
+msgstr ""
+
+#: templates/just_translations.tpl:6
+msgid "Thursday"
+msgstr ""
+
+#: templates/just_translations.tpl:7
+msgid "Friday"
+msgstr ""
+
+#: templates/just_translations.tpl:8
+msgid "Saturday"
+msgstr ""
+
+#: templates/just_translations.tpl:9
+msgid "Sunday"
+msgstr ""
+
+#: templates/just_translations.tpl:10
+msgid "January"
+msgstr ""
+
+#: templates/just_translations.tpl:11
+msgid "February"
+msgstr ""
+
+#: templates/just_translations.tpl:12
+msgid "March"
+msgstr ""
+
+#: templates/just_translations.tpl:13
+msgid "April"
+msgstr ""
+
+#: templates/just_translations.tpl:14
+msgid "May"
+msgstr ""
+
+#: templates/just_translations.tpl:15
+msgid "June"
+msgstr ""
+
+#: templates/just_translations.tpl:16
+msgid "July"
+msgstr ""
+
+#: templates/just_translations.tpl:17
+msgid "August"
+msgstr ""
+
+#: templates/just_translations.tpl:18
+msgid "September"
+msgstr ""
+
+#: templates/just_translations.tpl:19
+msgid "October"
+msgstr ""
+
+#: templates/just_translations.tpl:20
+msgid "November"
+msgstr ""
+
+#: templates/just_translations.tpl:21
+msgid "December"
+msgstr ""
+
+#: templates/just_translations.tpl:23
+msgid "Feedback Sent"
+msgstr ""
+
+#: templates/just_translations.tpl:24
+msgid "Feedback Failed to Send"
+msgstr ""
+
+#: templates/just_translations.tpl:25
+msgid "Please enter feedback!"
+msgstr ""
+
+#: templates/just_translations.tpl:27
+msgid "loading cities..."
+msgstr ""
+
+#: templates/just_translations.tpl:29
+#: templates/modules/ZSELEX/user/productview.tpl:36
+#: templates/modules/ZSELEX/user/productview2.tpl:24
+#: templates/modules/ZSELEX/user/productview3.tpl:27
+msgid "Edit Product"
+msgstr ""
+
+#: templates/just_translations.tpl:31
+msgid "Show Shops"
+msgstr ""
+
+#: templates/minisite.tpl:56
+#: templates/modules/ZSELEX/blocks/minisiteevent/minisiteevent.tpl:15
+msgid "Edit Events"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:48
+#: templates/modules/admin_shopinner.tpl:47
+#: templates/modules/admin_two_column.tpl:40
+msgid "I have had"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:49
+#: templates/modules/admin_shopinner.tpl:48
+#: templates/modules/admin_two_column.tpl:41
+msgid "new visitors lately"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:49
+#: templates/modules/admin_shopinner.tpl:48
+#: templates/modules/admin_two_column.tpl:41
+msgid "visitors in total"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:50
+#: templates/modules/admin_shopinner.tpl:49
+#: templates/modules/admin_two_column.tpl:42
+msgid "rated your page"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:50
+#: templates/modules/admin_shopinner.tpl:49
+#: templates/modules/admin_two_column.tpl:42
+msgid "has laid a comment"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:51
+#: templates/modules/admin_shopinner.tpl:50
+#: templates/modules/admin_two_column.tpl:43
+msgid "I've sold"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:51
+#: templates/modules/admin_shopinner.tpl:50
+#: templates/modules/admin_two_column.tpl:43
+msgid "Products in"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:52
+#: templates/modules/admin_shopinner.tpl:51
+#: templates/modules/admin_two_column.tpl:44
+msgid "products in total"
+msgstr ""
+
+#: templates/modules/News/user/articlecontent.tpl:22
+#: templates/modules/News/user/index.tpl:3
+msgid "Contributed"
+msgstr ""
+
+#: templates/modules/News/user/articlecontent.tpl:22
+#: templates/modules/News/user/index.tpl:3
+#, php-format
+msgid "by %1$s on %2$s"
+msgstr ""
+
+#: templates/modules/News/user/articlecontent.tpl:31
+#: templates/modules/News/user/articlecontent.tpl:52
+#: templates/modules/News/user/index.tpl:9
+#: templates/modules/News/user/index.tpl:11
+#: templates/modules/ZSELEX/user/viewevent.tpl:88
+#: templates/modules/ZSELEX/user/viewevent.tpl:108
+#, php-format
+msgid "Picture %1$s for %2$s"
+msgstr ""
+
+#: templates/modules/News/user/articlecontent.tpl:48
+#: templates/modules/ZSELEX/user/viewevent.tpl:104
+msgid "Picture gallery"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:48
+msgid "Create an article"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:68
+msgid "Title"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:71
+msgid "Title text"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:77
+msgid "Permalink URL"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:79
+msgid "(Generated automatically if left blank)"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:85
+msgid "Category"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:86
+msgid "Choose category"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:114
+msgid "Language for which article should be displayed"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:121
+msgid "Article"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:124
+msgid "Permitted HTML tags"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:126
+msgid ""
+"You must enter either <strong>teaser text</strong> or <strong>body text</"
+"strong>."
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:129
+msgid "Index page teaser text"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:131
+#: templates/modules/News/user/create1.tpl:165
+#, php-format
+msgid "(Limit: %s characters)"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:136
+msgid "Index page teaser format"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:138
+#: templates/modules/News/user/create1.tpl:154
+msgid "Plain text"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:139
+#: templates/modules/News/user/create1.tpl:155
+msgid "Text formatted with mark-up language"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:145
+msgid "Article body text"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:147
+msgid "#{chars"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:152
+msgid "Article body format"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:162
+#: templates/modules/News/user/create1.tpl:213
+#: templates/modules/News/user/create1.tpl:280
+msgid "Show"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:162
+msgid "Footnote"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:173
+msgid "Pictures"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:174
+#, php-format
+msgid "Select a picture (max. %s kB per picture)"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:180
+#, php-format
+msgid ""
+"(max files %s, first picture is used as thumbnail in the index teaser page "
+"for this article.)"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:194
+#: templates/modules/News/user/create1.tpl:204
+msgid "Delete this picture"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:202
+msgid "news picture"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:213
+msgid "Publishing options"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:216
+msgid "Display on news index page"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:220
+msgid "Article weight"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:226
+msgid "No time limit"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:231
+msgid "Start date"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:237
+msgid "No end date"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:242
+msgid "End date"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:250
+msgid "Allow comments on this article"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:252
+msgid "(EZComments must be hooked to News to enable commenting.)"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:255
+msgid "Article ID"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:280
+msgid "Article attributes"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:296
+msgid "Submit this article"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:296
+#: templates/modules/Users/users_user_lostpassword.tpl:24
+#: templates/modules/Users/users_user_lostpasswordcode.tpl:31
+#: templates/modules/Users/users_user_lostuname.tpl:17
+msgid "Submit"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:298
+msgid "Publish this article"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:298
+msgid "Publish"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:300
+msgid "Save this article as draft"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:300
+msgid "Save as draft"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:303
+#: templates/modules/News/user/create1.tpl:304
+msgid "Save quick draft"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:303
+msgid "Quick save as draft"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:307
+msgid "Save full draft"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:308
+msgid "Mark this article as pending"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:308
+msgid "Pending"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:310
+msgid "Preview this article"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:310
+msgid "Preview"
+msgstr ""
+
+#: templates/modules/News/user/index.tpl:24
+msgid "Filed under:"
+msgstr ""
+
+#: templates/modules/News/user/menu.tpl:11
+msgid "News"
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:1
+msgid "Search results"
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:6
+#, php-format
+msgid "Number of hits: %s"
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:57
+#, php-format
+msgid "Created on %s."
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:66
+msgid "No search results found. You can try the following:"
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:68
+msgid "Check that you spelled all words correctly."
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:69
+msgid "Use different keywords."
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:70
+msgid "Use keywords that are more general."
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:71
+msgid "Use fewer words."
+msgstr ""
+
+#: templates/modules/Users/users_email_importnotify_html.tpl:15
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:24
+#: templates/modules/Users/users_email_welcome_html.tpl:26
+#, php-format
+msgid "Welcome to %1$s!"
+msgstr ""
+
+#: templates/modules/Users/users_email_importnotify_html.tpl:29
+#, php-format
+msgid "Welcome to %1$s (%2$s)!"
+msgstr ""
+
+#: templates/modules/Users/users_email_importnotify_html.tpl:37
+#, php-format
+msgid ""
+"Hello! This e-mail address ('%1$s') has been used to register an account on "
+"the '%2$s' site."
+msgstr ""
+
+#: templates/modules/Users/users_email_importnotify_html.tpl:38
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:47
+msgid "Your account details are as follows:"
+msgstr ""
+
+#: templates/modules/Users/users_email_importnotify_html.tpl:39
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:49
+#, php-format
+msgid "User name: %s"
+msgstr ""
+
+#: templates/modules/Users/users_email_importnotify_html.tpl:40
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:50
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:12
+#, php-format
+msgid "Reset your password at '%1$s'"
+msgstr ""
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:25
+#: templates/modules/Users/users_email_lostuname_html.tpl:24
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:26
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:26
+#: templates/modules/Users/users_email_welcome_html.tpl:28
+msgid "Hello!"
+msgstr ""
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:33
+#, php-format
+msgid ""
+"The user account '%1$s' at %2$s has this e-mail address associated with it."
+msgstr ""
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:36
+#, php-format
+msgid ""
+"The administrator at %s requested that you receive a confirmation code that "
+"will allow you to reset your password."
+msgstr ""
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:38
+#, php-format
+msgid ""
+"Someone with the IP address %s has just requested a confirmation code to "
+"allow the password for your account to be reset."
+msgstr ""
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:41
+#, php-format
+msgid "The confirmation code is: %s"
+msgstr ""
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:43
+msgid ""
+"With this confirmation code, you can now create a new password by clicking "
+"on this link:"
+msgstr ""
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:43
+msgid "Reset My Password"
+msgstr ""
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:44
+#, php-format
+msgid ""
+"(If you cannot click on the link, you can copy this URL and paste it into "
+"your browser: %s )"
+msgstr ""
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:46
+#: templates/modules/Users/users_email_lostuname_html.tpl:50
+msgid ""
+"If the request was not made by you then you don't need to take any action."
+msgstr ""
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:46
+msgid ""
+"The password won't be changed unless the confirmation code is used, and you "
+"are the only recipient of this message."
+msgstr ""
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:46
+msgid ""
+"You can just delete the message and log-in with your existing password next "
+"time you visit the site."
+msgstr ""
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:13
+#, php-format
+msgid "'%1$s' account information"
+msgstr ""
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:32
+#, php-format
+msgid ""
+"The administrator at %s requested that you receive your user name via e-mail."
+msgstr ""
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:34
+#, php-format
+msgid ""
+"Someone with the IP address %1$s has just requested the account information "
+"at %2$s associated with this e-mail address."
+msgstr ""
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:37
+#, php-format
+msgid "The user name for your account is: %1$s"
+msgstr ""
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:40
+#, php-format
+msgid "You may use the following information to %1$slog into your account%2$s:"
+msgstr ""
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:45
+#, php-format
+msgid ""
+"(If you cannot click on the log-in link, you can copy this URL and paste it "
+"into your browser: %s )"
+msgstr ""
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:47
+msgid ""
+"You do not have any active methods available to log into our site. Please "
+"contact a site administrator."
+msgstr ""
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:50
+msgid ""
+"You are the only recipient of this message, and your user name has not been "
+"sent to any other e-mail address."
+msgstr ""
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:50
+msgid "You can just delete this message."
+msgstr ""
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:9
+msgid "New registration pending approval"
+msgstr ""
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:10
+#, php-format
+msgid "New registration pending approval: %s"
+msgstr ""
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:12
+msgid "New registration pending e-mail verification"
+msgstr ""
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:13
+#, php-format
+msgid "New registration pending verification: %s"
+msgstr ""
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:15
+msgid "New user activated"
+msgstr ""
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:16
+#, php-format
+msgid "New user activated: %s"
+msgstr ""
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:49
+#, php-format
+msgid "A new user account has been activated on %1$s."
+msgstr ""
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:50
+#, php-format
+msgid ""
+"It was created by an administrator or sub-administrator logged in as '%1$s'."
+msgstr ""
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:51
+msgid "The account details are as follows:"
+msgstr ""
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:53
+#, php-format
+msgid "User name: '%s'."
+msgstr ""
+
+#: templates/modules/Users/users_email_regdeny_html.tpl:13
+#, php-format
+msgid "Your recent request at %1$s."
+msgstr ""
+
+#: templates/modules/Users/users_email_regdeny_html.tpl:26
+#, php-format
+msgid "A message from %1$s..."
+msgstr ""
+
+#: templates/modules/Users/users_email_regdeny_html.tpl:34
+#, php-format
+msgid ""
+"Recently, this e-mail address ('%1$s') was used to request an account on "
+"'%2$s' (%3$s)."
+msgstr ""
+
+#: templates/modules/Users/users_email_regdeny_html.tpl:35
+#: templates/modules/Users/users_email_welcome_html.tpl:36
+msgid "The information that was registered is as follows:"
+msgstr ""
+
+#: templates/modules/Users/users_email_regdeny_html.tpl:37
+#: templates/modules/Users/users_email_welcome_html.tpl:38
+#: templates/modules/Users/users_user_lostpassword.tpl:12
+#: templates/modules/Users/users_user_lostpasswordcode.tpl:13
+msgid "User name"
+msgstr ""
+
+#: templates/modules/Users/users_email_regdeny_html.tpl:39
+msgid ""
+"Thank you for your application for a new account. At this time we are unable "
+"to approve your application."
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:11
+#, php-format
+msgid "Verify your e-mail address for %s."
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:34
+#, php-format
+msgid ""
+"Your e-mail address ('%1$s') has been used to register an account on "
+"'%2$s' (%3$s)."
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:36
+msgid "Our system is waiting for you to verify your e-mail address."
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:37
+msgid "Your request is also waiting for administrator approval."
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:38
+msgid ""
+"We will not be able to approve your account until after you have completed "
+"this verification step."
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:39
+msgid ""
+"Once both this verification step is complete and an administrator has "
+"approved your request, you will be able to log in with your user name."
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:41
+msgid ""
+"Please click on the following link to complete the e-mail address check: "
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:41
+msgid "Verify my e-mail address"
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:43
+msgid ""
+"If you are not able to click on the above link, you can copy the following "
+"URL into your browser:"
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:45
+msgid "Your verification code is:"
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:47
+msgid ""
+"Once verified and your account has been approved, then you will be able to "
+"log in."
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:47
+msgid "Once verified, you will be able to choose a password and then log in."
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:47
+msgid "Once verified, you will be able to log in."
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:50
+#, php-format
+msgid "Password reminder: %s"
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:52
+#: templates/modules/Users/users_email_welcome_html.tpl:41
+msgid ""
+"(This is the only time you will receive your password. Please keep it in a "
+"safe place.)"
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:54
+msgid ""
+"Remember: both this verification step and approval from an administrator "
+"must be completed before you can log in."
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:54
+msgid ""
+"You will receive an additional e-mail message once an administrator has "
+"reviewed your request."
+msgstr ""
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:55
+msgid ""
+"If you do not wish to use this web site, please either contact our site "
+"administrator, or simply disregard this message."
+msgstr ""
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:13
+#, php-format
+msgid "Verify your request to change your e-mail address at '%1$s'"
+msgstr ""
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:32
+#, php-format
+msgid ""
+"You requested to change your e-mail address for user account '%1$s' at %2$s "
+"from %3$s to %4$s."
+msgstr ""
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:33
+msgid "You must confirm this change before it will take effect."
+msgstr ""
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:33
+#, php-format
+msgid ""
+"If you do not confirm this change within the next day, the request will be "
+"deleted from our system."
+msgid_plural ""
+"If you do not confirm this change within the next %1$s days, the request "
+"will be deleted from our system."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:35
+msgid "You can confirm the e-mail address change by clicking on this link: "
+msgstr ""
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:35
+msgid "Verify my e-mail address change."
+msgstr ""
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:37
+msgid ""
+"(If you cannot click on the link above, you can copy this URL into your "
+"browser:"
+msgstr ""
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:39
+msgid ""
+"If you did not make this request then you do not need to take any action."
+msgstr ""
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:40
+msgid ""
+"The e-mail address wil not be changed unless the confirmation code is used, "
+"and you are the only recipient of this message. You can just delete this "
+"message."
+msgstr ""
+
+#: templates/modules/Users/users_email_welcome_html.tpl:13
+#, php-format
+msgid "Welcome to %1$s, %2$s!"
+msgstr ""
+
+#: templates/modules/Users/users_email_welcome_html.tpl:35
+#, php-format
+msgid ""
+"This e-mail address ('%1$s') has been used to register an account on "
+"'%2$s' (%3$s)."
+msgstr ""
+
+#: templates/modules/Users/users_email_welcome_html.tpl:39
+msgid "Password"
+msgstr ""
+
+#: templates/modules/Users/users_email_welcome_html.tpl:39
+msgid "Password reminder"
+msgstr ""
+
+#: templates/modules/Users/users_email_welcome_html.tpl:43
+msgid ""
+"Thank you for your application for a new account.  Your application has been "
+"forwarded to the site administrator for review. Please expect a message once "
+"the review process is complete."
+msgstr ""
+
+#: templates/modules/Users/users_email_welcome_html.tpl:44
+msgid ""
+"Your account application has been approved. Thank you for your patience "
+"during the new account application review process."
+msgstr ""
+
+#: templates/modules/Users/users_email_welcome_html.tpl:45
+msgid "The web site administrator has created this new account for you."
+msgstr ""
+
+#: templates/modules/Users/users_email_welcome_html.tpl:47
+msgid "You may now log into the web site with your user name and password."
+msgstr ""
+
+#: templates/modules/Users/users_user_login.tpl:32
+msgid "User log-in"
+msgstr ""
+
+#: templates/modules/Users/users_user_login.tpl:38
+msgid ""
+"Choose how you would like to log in by clicking on one of the following..."
+msgstr ""
+
+#: templates/modules/Users/users_user_login.tpl:39
+msgid ""
+"Log in below, or change how you would like to log in by clicking on one of "
+"the following..."
+msgstr ""
+
+#: templates/modules/Users/users_user_login.tpl:75
+msgid "Keep me logged in on this computer"
+msgstr ""
+
+#: templates/modules/Users/users_user_login.tpl:98
+msgid "Log in"
+msgstr ""
+
+#: templates/modules/Users/users_user_login.tpl:110
+msgid "The log-in option you chose is not available at the moment."
+msgstr ""
+
+#: templates/modules/Users/users_user_login.tpl:112
+msgid "Please choose another or contact the site administrator for assistance."
+msgstr ""
+
+#: templates/modules/Users/users_user_login.tpl:114
+msgid "Please contact the site administrator for assistance."
+msgstr ""
+
+#: templates/modules/Users/users_user_lostpassword.tpl:1
+msgid "Lost password recovery"
+msgstr ""
+
+#: templates/modules/Users/users_user_lostpassword.tpl:5
+msgid ""
+"Please enter EITHER your user name OR your e-mail address below and click "
+"the 'Submit' button. You will be e-mailed a confirmation code. Check your e-"
+"mail, and follow the given instructions."
+msgstr ""
+
+#: templates/modules/Users/users_user_lostpassword.tpl:16
+#: templates/modules/Users/users_user_lostpasswordcode.tpl:17
+msgid "or"
+msgstr ""
+
+#: templates/modules/Users/users_user_lostpassword.tpl:19
+#: templates/modules/Users/users_user_lostpasswordcode.tpl:20
+#: templates/modules/Users/users_user_lostuname.tpl:12
+msgid "E-mail address"
+msgstr ""
+
+#: templates/modules/Users/users_user_lostpasswordcode.tpl:1
+msgid "Enter confirmation code"
+msgstr ""
+
+#: templates/modules/Users/users_user_lostpasswordcode.tpl:5
+msgid ""
+"Please enter and EITHER your user name OR your e-mail address, and also "
+"enter the confirmation code you received. Once you enter this information "
+"and click the 'Submit' button you will receive a new password via e-mail."
+msgstr ""
+
+#: templates/modules/Users/users_user_lostpasswordcode.tpl:26
+msgid "Confirmation code"
+msgstr ""
+
+#: templates/modules/Users/users_user_lostpwduname.tpl:1
+msgid "Account information and password recovery"
+msgstr ""
+
+#: templates/modules/Users/users_user_lostpwduname.tpl:5
+msgid "Please select one of the following:"
+msgstr ""
+
+#: templates/modules/Users/users_user_lostpwduname.tpl:8
+msgid "I have forgotten my account information (for example, my user name)."
+msgstr ""
+
+#: templates/modules/Users/users_user_lostpwduname.tpl:9
+msgid "I have forgotten my password."
+msgstr ""
+
+#: templates/modules/Users/users_user_lostpwduname.tpl:10
+msgid "I have received a password recovery code, and would like to enter it."
+msgstr ""
+
+#: templates/modules/Users/users_user_lostuname.tpl:1
+msgid "Account information recovery"
+msgstr ""
+
+#: templates/modules/Users/users_user_lostuname.tpl:5
+msgid ""
+"Please enter your e-mail address below and click the 'Submit' button. You "
+"will be sent an e-mail with your account information."
+msgstr ""
+
+#: templates/modules/Users/users_user_main.tpl:1
+#: templates/modules/Users/users_user_main1.tpl:1
+msgid "My account"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/advertise.tpl:21
+msgid "DKK"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/advertise.tpl:24
+#: templates/modules/ZSELEX/user/productview.tpl:150
+#: templates/modules/ZSELEX/user/productview.tpl:159
+#: templates/modules/ZSELEX/user/productview1.tpl:68
+#: templates/modules/ZSELEX/user/productview2.tpl:113
+#: templates/modules/ZSELEX/user/productview2.tpl:120
+#: templates/modules/ZSELEX/user/productview3.tpl:141
+#: templates/modules/ZSELEX/user/productview3.tpl:150
+msgid "Add to Cart"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/advertise.tpl:33
+msgid "No entries found."
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:20
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:7
+msgid "Edit Products"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:54
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:56
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:93
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:66
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:68
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:77
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:78
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:91
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:130
+msgid "Buy"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:103
+msgid "No products found."
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minisiteevent/minisiteevent.tpl:19
+msgid "Event"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minisiteevent/minisiteevent.tpl:72
+#: templates/modules/ZSELEX/user/viewevent.tpl:127
+msgid "view all"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minisiteimagesblock/minisiteimages.tpl:56
+msgid "Edit Pictures"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minisiteimagesblock/minisiteimages.tpl:76
+#: templates/modules/ZSELEX/blocks/minisiteimagesblock/minisiteimages.tpl:79
+msgid "more images"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:10
+msgid "Products"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:13
+msgid "See All"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:84
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:97
+#: templates/modules/ZSELEX/user/productview.tpl:154
+#: templates/modules/ZSELEX/user/productview3.tpl:145
+msgid "Out Of Stock!"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:117
+#: templates/modules/ZSELEX/blocks/selection3.tpl:117
+msgid "search region"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:128
+#: templates/modules/ZSELEX/blocks/selection3.tpl:127
+msgid "search city"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:141
+#: templates/modules/ZSELEX/blocks/selection1.tpl:65
+#: templates/modules/ZSELEX/blocks/selection2.tpl:118
+#: templates/modules/ZSELEX/blocks/selection3.tpl:139
+msgid "search area"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:153
+#: templates/modules/ZSELEX/blocks/selection1.tpl:77
+#: templates/modules/ZSELEX/blocks/selection2.tpl:130
+#: templates/modules/ZSELEX/blocks/selection3.tpl:151
+msgid "search category"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:163
+#: templates/modules/ZSELEX/blocks/selection1.tpl:87
+#: templates/modules/ZSELEX/blocks/selection2.tpl:140
+#: templates/modules/ZSELEX/blocks/selection3.tpl:161
+msgid "search for..."
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:168
+#: templates/modules/ZSELEX/blocks/selection1.tpl:95
+#: templates/modules/ZSELEX/blocks/selection2.tpl:148
+#: templates/modules/ZSELEX/blocks/selection3.tpl:167
+msgid "reset search"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:169
+#: templates/modules/ZSELEX/blocks/selection1.tpl:92
+#: templates/modules/ZSELEX/blocks/selection2.tpl:145
+#: templates/modules/ZSELEX/blocks/selection3.tpl:166
+msgid "Show shops"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents.tpl:5
+#: templates/modules/ZSELEX/user/allevents1.tpl:5
+msgid "Events"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents.tpl:15
+#: templates/modules/ZSELEX/user/allevents.tpl:17
+#: templates/modules/ZSELEX/user/allevents.tpl:19
+#: templates/modules/ZSELEX/user/allevents1.tpl:76
+#: templates/modules/ZSELEX/user/allevents1.tpl:78
+#: templates/modules/ZSELEX/user/allevents1.tpl:80
+#: templates/modules/ZSELEX/user/cart.tpl:144
+#: templates/modules/ZSELEX/user/cart1.tpl:139
+msgid "Back"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents1.tpl:40
+#: templates/modules/ZSELEX/user/cart.tpl:35
+#: templates/modules/ZSELEX/user/cart1.tpl:34
+msgid "Price"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents1.tpl:40
+#: templates/modules/ZSELEX/user/viewevent.tpl:194
+msgid "FREE"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents1.tpl:41
+msgid "Time"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents1.tpl:42
+msgid "Location"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents1.tpl:46
+msgid "Contact"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents1.tpl:46
+msgid "Organizer"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents1.tpl:47
+msgid "See More..."
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents1.tpl:54
+msgid "No Events Found"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents1.tpl:58
+msgid "Load More Events"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:8
+#: templates/modules/ZSELEX/user/cart1.tpl:7
+msgid "Shopping Cart"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:18
+#: templates/modules/ZSELEX/user/cart1.tpl:17
+msgid "Seller"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:18
+#: templates/modules/ZSELEX/user/cart1.tpl:17
+msgid "Shop"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:32
+#: templates/modules/ZSELEX/user/cart1.tpl:31
+msgid "Quantity"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:34
+#: templates/modules/ZSELEX/user/cart1.tpl:33
+msgid "Product"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:36
+#: templates/modules/ZSELEX/user/cart1.tpl:35
+msgid "Total"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:58
+msgid "In Stock"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:88
+#: templates/modules/ZSELEX/user/cart1.tpl:83
+msgid "Total price"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:99
+#: templates/modules/ZSELEX/user/cart.tpl:101
+#: templates/modules/ZSELEX/user/cart1.tpl:94
+#: templates/modules/ZSELEX/user/cart1.tpl:96
+#: templates/modules/ZSELEX/user/checkout.tpl:36
+#: templates/modules/ZSELEX/user/checkout.tpl:39
+msgid "Continue Shopping"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:104
+#: templates/modules/ZSELEX/user/cart1.tpl:99
+msgid "Update Cart"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:112
+#: templates/modules/ZSELEX/user/cart1.tpl:107
+msgid "Send Order"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:119
+#: templates/modules/ZSELEX/user/cart.tpl:128
+#: templates/modules/ZSELEX/user/cart1.tpl:114
+#: templates/modules/ZSELEX/user/cart1.tpl:123
+msgid "Check Out"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:135
+#: templates/modules/ZSELEX/user/cart1.tpl:130
+msgid "No Items In Cart"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:136
+#: templates/modules/ZSELEX/user/cart1.tpl:131
+msgid "Back to frontpage"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart1.tpl:71
+msgid "delete"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:12
+msgid "Enter Customer Information"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:17
+msgid "First Name"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:18
+msgid "Please enter your first name"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:21
+msgid "Last Name"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:22
+msgid "Please enter your last name"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:25
+msgid "Address"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:26
+msgid "Please enter your address"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:29
+msgid "ZIP code. city"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:30
+msgid "Please enter your zip code"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:30
+msgid "Please enter your city"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:46
+msgid "Phone"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:47
+msgid "Please enter a valid phone number"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:50
+msgid "Email address"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:51
+msgid "Please enter a valid email"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:54
+msgid "Subscribe To Newsletter"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:61
+msgid "Go to delivery"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/productview.tpl:66
+#: templates/modules/ZSELEX/user/productview1.tpl:43
+#: templates/modules/ZSELEX/user/productview2.tpl:41
+#: templates/modules/ZSELEX/user/productview3.tpl:57
+msgid "Available Options"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/productview.tpl:82
+#: templates/modules/ZSELEX/user/productview.tpl:108
+#: templates/modules/ZSELEX/user/productview1.tpl:53
+#: templates/modules/ZSELEX/user/productview2.tpl:56
+#: templates/modules/ZSELEX/user/productview2.tpl:82
+#: templates/modules/ZSELEX/user/productview3.tpl:73
+#: templates/modules/ZSELEX/user/productview3.tpl:99
+msgid "select"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/productview.tpl:163
+#: templates/modules/ZSELEX/user/productview2.tpl:116
+#: templates/modules/ZSELEX/user/productview2.tpl:123
+#: templates/modules/ZSELEX/user/productview3.tpl:154
+msgid " Out Of Stock!"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/shop.tpl:35
+msgid "Click here to go to our homepage (will open in new page)..."
+msgstr ""
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:12
+msgid "Edit Event"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:63
+msgid "view document"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:71
+#: templates/modules/ZSELEX/user/viewevent.tpl:81
+msgid "Product name"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:154
+#: templates/modules/ZSELEX/user/viewevent.tpl:168
+#: templates/modules/ZSELEX/user/viewevent.tpl:181
+#: templates/modules/ZSELEX/user/viewevent.tpl:198
+msgid "see event image"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:156
+#: templates/modules/ZSELEX/user/viewevent.tpl:170
+#: templates/modules/ZSELEX/user/viewevent.tpl:183
+#: templates/modules/ZSELEX/user/viewevent.tpl:200
+msgid "see event"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:209
+msgid "Event Site"
+msgstr ""

@@ -1,0 +1,16 @@
+/* minishop products */
+#minishop_products_block{
+    width:7500px;
+    height:auto;
+    display:table-cell;
+
+}
+
+#minishop_products_block .minishop_inner{
+    float:left; 
+    width:160px; 
+    margin-left:10px; 
+    display:table-cell
+}
+/* minishop products ends */
+

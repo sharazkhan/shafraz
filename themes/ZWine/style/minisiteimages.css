@@ -1,0 +1,11 @@
+#minisiteimage_block{
+   border:solid 1px #CCC;
+   padding-left:10px;
+   padding-right:10px; 
+   padding-top:10px;
+   padding-bottom:10px
+}
+
+#clearboth{
+    display:none;
+}

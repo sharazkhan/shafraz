@@ -1,0 +1,164 @@
+
+.BorderTopGrey{ border-top:8px solid #f62350;}
+.BodyBlock{ padding-top:36px;}
+.ContentLeft{ width:625px; color:#474747}
+.Rating{ margin-top:0px;  width: 147px;}
+
+.Rating ul li.Chat {
+   text-align: center;
+    width: 29px; color: white;
+}
+.Rating ul{ float:right}
+#ShopName span{ color:#474747}
+#ShopName{ border-bottom:3px #474747 solid; color:#474747; text-transform:uppercase; font-size:45px; font-family:'Adelle Regular'}
+.TreeView{ font-size:16px; }
+.TreeView li a{font-size:16px; text-transform:uppercase; font-weight:bold}
+
+#minisitemenu_block{ display: inline-block; width:475px; }
+#minisitemenu_block ul.navlist{ font-size:16px;  }
+#minisitemenu_block ul.navlist li a{font-size:16px; text-transform:uppercase; font-weight:bold}
+#minisitemenu_block ul.navlist li a{font-size:16px; text-transform:uppercase; font-weight:bold}
+#minisitemenu_block ul.navlist li.selected a {    color: #F62350;}
+#minisitemenu_block ul.navlist li a:hover {    color: #F62350;}
+
+.Rating ul li.ActiveStar{background-image: url("images/skin3/ActiveStar.png");}
+.bodyText{ font-size:14px; width:480px; text-align:justify}
+
+.bodyimage{  width:490px; }
+.Skinh3{ font-size:18px; text-transform:uppercase;color:#474747}
+.ImageThumbSec{ width:238px; height:195px; float:left; margin-right:10px;}
+.ContentRight .Skinh3{ margin-bottom:5px;}
+.skinColorOval	{ width:200px; display:inline-block; float:right; background:#474747; border-radius:10px; margin-top:15px;  padding:10px 10px;		}
+.skinColorOval h3{ font-size:14px; color:#f62350; text-transform:uppercase; margin:0px; padding:5px 0px;}
+.skinColorOval p{color:white; padding:5px 0px; margin:0px; line-height:20px; font-size:13px;}
+.skinColorOval table{color:white; padding:5px 0px; margin:0px; line-height:20px; font-size:13px;}
+
+.skinContentRightDiv{ width:220px; display:inline-block; float:right; padding:0px}
+.RightImageBlock{ padding-top:10px; display:inline-block; width:220px; }
+.SeALL{ width:100px; padding-right:0px; text-align:right}
+.SeALL a{ font-weight:bold; color:#f62350; text-decoration:none;}
+.SeALL a:hover{ font-weight:bold; color:#f62350; text-decoration:none;}
+
+.ImageSection{ text-transform:uppercase}
+.ImageSection{ border:none; border-top:3px solid #474747; border-bottom:3px solid #474747}
+.ImageBlock{ padding-bottom:15px;}
+
+.ImageBlock h4{ padding-left:0px;}
+
+ul.RightImagePreview{ list-style: none; padding: 0px; margin: 0px; }
+li.RightImageBlock{
+    display: inline-block;
+    height: 94px;
+    list-style: none outside none;
+    margin: 0 4px 6px 0;
+    padding: 0;
+    vertical-align: top;
+    width: 104px;
+}
+.RightImageBlock img{ width:104px; height: 94px;}
+
+.Product-Images-Sequence li{ width:216px; margin-right:16px; margin-bottom: 15px; vertical-align:top; height:auto; float: none; display: inline-block}
+.Product-Images-Sequence li.lastImg{}
+
+.FlexiImg{ height:200px; border:3px solid #eeeeee; width:210px; display: table-cell;vertical-align: middle;}
+.FlexiImg img{ width:auto; height:auto}
+
+.PText span{ width:50%; display:inline-block; font-size:14px}
+.PText span.left{ text-align:left; color:#474747 }
+.PText span.right{ text-align:right; color:#f62350; font-weight:bold}
+.Product-Images-Sequence .Box{ width:112px; height:23px; background:#474747; padding-top:5px; font-size:14px;}
+.Product-Images-Sequence{ padding-top:0px;}
+
+
+.Discussion{ width:675px;}
+.Discussion h6{  color:#474747; text-transform:uppercase}
+.ShiftRight {    margin-left: 105px;}
+
+.DiscSectionRight .Comment{ margin-top: -26px; margin-left: 135px;}
+.ActivComment h6{ color:#f62350;}
+.FormDiv input[type="text"]{ color:#474747 }
+.FormDiv input[type="button"]{ border-radius:8px; background:#474747; border: 1px solid #474747; padding:3px 8px; text-transform:uppercase}
+
+.Product-Images-Sequence .Circle { background-color: #f62350; font-size: 24px;    height: 90px; margin-right: -15px;    margin-top: -220px;    width: 90px; border-radius:45px;}
+.Product-Images-Sequence .Circle p.CText { font-size:35px; padding-top:23px; font-family:'Adelle Regular';
+
+                                           transform:rotate(10deg);
+                                           -ms-transform:rotate(10deg); /* IE 9 */
+                                           -webkit-transform:rotate(10deg); /* Safari and Chrome */
+}
+
+.CircleContainer{ width:200px;  height:185px; /*z-index:999;*/ position:absolute; top:0; left:50%;  margin-left:290px; margin-top:162px; overflow:hidden}
+.CircleBanner{ border-radius:83px; background:#fff; width:166px; height:166px; margin:auto; margin-top:-20px; overflow:hidden; 
+               -webkit-box-shadow: 3px 3px 19px rgba(41, 50, 50, 0.44);
+               -moz-box-shadow:    3px 3px 19px rgba(41, 50, 50, 0.44);
+               box-shadow:         3px 3px 19px rgba(41, 50, 50, 0.44);
+}
+.BannerSloppedText{  transform:rotate(15deg);
+                     -ms-transform:rotate(15deg); /* IE 9 */
+                     -webkit-transform:rotate(15deg); /* Safari and Chrome */
+
+                     padding-left:10px;  }
+.BannerSloppedText h3, .BannerSloppedText h6, .BannerSloppedText p{ margin:0px; padding:0px; text-align:center; color:#474747; }
+.BannerSloppedText h3{ padding:0px 0px; font-size:45px; padding-bottom:0px;  /*border-top:1px solid #de6873;*/ margin-top:35px;   }
+.BannerSloppedText p{ font-size:12px; padding-bottom:10px;}
+.BannerSloppedText h6{ font-size:16px; font-weight:bold;  }
+.SkinMap{ width:100%; height:auto; display:inline-block; margin-top:10px;}
+.Om_ImageBlock{ width:100%; display:inline-block; margin-bottom:15px;}
+.Om_ImgSec{ width:430px; min-height:96px; display:inline-block; border:1px solid #e9e9e9; border-radius:10px; padding:15px; }
+.Om_Thum{ width:100px; height:100px;}
+.Om_Txt{ width:320px;   }
+.Om_Txt h4, .Om_Txt h5, .Om_Txt p{ padding:0px; margin:0px}
+
+.Om_Txt h4{ color:#f62350; font-size:16px; text-transform:uppercase}
+.Om_Txt h5{color:#717584;  font-size:14px; padding:8px 0px;}
+.Om_Txt p{ font-size:12px;}
+.NoBorder{ border:none;}
+.FullProduct li { margin-bottom:40px;}
+
+
+.DetailImageBlock{ width:460px; display:inline-block; }
+.DetailImage{ width:454px; height:420px; border:3px solid #eeeeee}
+.DetailImageContainter{ padding:20px 0px; display:inline-block; width:100%;}
+.ImagePrevieMain ul, .ImagePrevieMain ul li{ padding:0px; margin:0px; list-style:none}
+.ImagePrevieMain ul{ margin-bottom:50px; display:inline-block}
+.ImagePrevieMain ul li{ float:left; margin:13px 0px; margin-right:20px; width:104px; height:94px; border:3px solid #eeeeee; cursor:pointer }
+.DetailProduct_TextBlock{ width:385px; }
+.DetailProduct_TextBlock h3, .DetailProduct_TextBlock h4, .DetailProduct_TextBlock p{ padding:0px; margin:0px;   }
+
+.DetailProduct_TextBlock h3{ text-transform:uppercase; font-size:35px; color: #474747;;}
+.DetailProduct_TextBlock h4{ text-transform:uppercase; font-size:25px; color:#f62350; }
+.DetailProduct_TextBlock p{ padding:15px 0px; font-size:13px; text-align:justify; padding-right:20px;}
+.DetailProduct_TextBlock p select{ width:124px; border:1px solid #474747; padding:3px;}
+
+.DetailProduct_TextBlock p input[type=button]{ width:130px; text-align:center; text-transform:uppercase; color:#fff; background:#f62350; padding:3px;  border:1px solid #f62350; padding:3px; border-radius:10px; font-size:19px; }
+
+ul.TreeView a, ul.TreeView a:visited{ color:#474747;}
+.TreeView li.Parent a{color:#f62350;}
+
+.FormDiv textarea{ color:#474747;}
+.Rating ul li.Chat{ font-size:8px; text-align:center; color:white}
+.Rating ul li.Chat span{ display:inline-block; padding-left:5px; }
+
+.ImageBlock {
+    color: #474747;
+}
+
+.BorderTopGrey img, .CircleContainer{ display:block}
+
+/*.ContentLeft{width: 615px;}
+.ContentRight{width: 300px;}*/
+.BGContainer{ width:100%; display: inline-block; background:white; padding-left: 10px; padding-right: 10px; padding-bottom:15px; }
+.FooterBlock{ margin-top:30px}
+.Containter{background: url(../images/BG.jpg) 0px 160px repeat}
+
+.minisiteproducts h4{display:none}
+.skinContentRightDiv h4{display:none}
+.Events h4{display:none}
+.findus h4{display:none}
+.minishop h4{display:none}
+
+.shopaddress table{ color: white;}
+
+#CityPilotFotter{ background:none !important;}
+
+.inner{ width: 960px;  }

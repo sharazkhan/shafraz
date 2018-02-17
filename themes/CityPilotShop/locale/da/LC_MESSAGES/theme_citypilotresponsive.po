@@ -1,0 +1,1863 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ZSELEX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-19 23:51+0200\n"
+"PO-Revision-Date: 2016-09-19 23:51+0200\n"
+"Last-Translator: Kim Enemark <kim@acta-it.dk>\n"
+"Language-Team: ACTA-IT <kim@acta-it.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+
+#: plugins/block.menu.php:29 plugins/block.menu.php:34
+#, php-format
+msgid "Error! in %1$s: the %2$s parameter must be specified."
+msgstr "Fejl! i %1$s: Parameteren %2$s skal angives."
+
+#: plugins/function.alteraccountmenu.php:38
+msgid "My Page"
+msgstr "Min Side"
+
+#: plugins/function.alteraccountmenu.php:53
+msgid "My Site"
+msgstr "Min forside"
+
+#: plugins/function.alteraccountmenu.php:68
+msgid "CityPilot Backend"
+msgstr "Backend"
+
+#: plugins/function.shiftshop.php:186 plugins/function.shiftshop.php:203
+msgid "Change Shop"
+msgstr "Skift butik"
+
+#: plugins/function.userloggedinname.php:34
+msgid "anonymous guest"
+msgstr "anonym gæst"
+
+#: plugins/function.zselex.php:5
+msgid "ZSELEX plugin"
+msgstr "System plugin"
+
+#: version.php:3
+msgid "CityPilotResponsive"
+msgstr "CityPilotResponsive"
+
+#: version.php:4
+msgid "CityPilotResponsive theme for zikula."
+msgstr "CityPilotResponsive tema for Zikula"
+
+#: templates/includes/adminheader.tpl:30 templates/includes/shopheader.tpl:33
+msgid "Home"
+msgstr "Hjem"
+
+#: templates/includes/adminheader.tpl:31
+msgid "Search"
+msgstr "Søg"
+
+#: templates/includes/adminheader.tpl:33
+msgid "User account panel"
+msgstr "Brugerkonto"
+
+#: templates/includes/adminheader.tpl:54
+#: templates/modules/ZSELEX/user/cartmenu.tpl:2
+msgid "Cart"
+msgstr "Kurv"
+
+#: templates/includes/feedback.tpl:136
+msgid "Please Send Us Your Feedback"
+msgstr "Send os din feedback"
+
+#: templates/includes/feedback.tpl:137
+msgid "Make sure to be placed on the page you want to give us info about!"
+msgstr "Stå venligst på den side du vil informere os om!"
+
+#: templates/includes/footer.tpl:25
+msgid "RETURN AND PAYMENT"
+msgstr "RMA OG BETALING"
+
+#: templates/includes/footer.tpl:30
+msgid "RMA"
+msgstr "Returvarer"
+
+#: templates/includes/footer.tpl:37
+msgid "Delivery prices"
+msgstr "Leveringspriser"
+
+#: templates/includes/footer.tpl:44
+msgid "Delivery time"
+msgstr "Leveringstid"
+
+#: templates/includes/footer.tpl:51
+msgid "TERMS AND CONDITIONS"
+msgstr "BETINGELSER OG VILKÅR"
+
+#: templates/includes/footer.tpl:56
+msgid "Terms of trade"
+msgstr "Handelsbetingelser"
+
+#: templates/includes/footer.tpl:63
+msgid "Privacy"
+msgstr "Fortrolighedspolitik"
+
+#: templates/includes/footer.tpl:70
+msgid "Secure payment"
+msgstr "Sikker betaling"
+
+#: templates/includes/footer.tpl:90
+msgid "Follow Us"
+msgstr "Følg os"
+
+#: templates/includes/shopheader.tpl:19
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:3
+msgid "Edit Content"
+msgstr "Rediger Indhold"
+
+#: templates/includes/shopheader.tpl:34
+msgid "Products"
+msgstr "Produkter"
+
+#: templates/includes/shopheader.tpl:35
+msgid "Pages"
+msgstr "Sider"
+
+#: templates/includes/shopheader.tpl:36
+msgid "Find Us"
+msgstr "Find os"
+
+#: templates/includes/shopheader.tpl:48
+msgid "You can rate shop"
+msgstr "Du kan vurdere denne butik"
+
+#: templates/just_translations.tpl:3
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:25
+msgid "Monday"
+msgstr "Mandag"
+
+#: templates/just_translations.tpl:4
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:41
+msgid "Tuesday"
+msgstr "Tirsdag"
+
+#: templates/just_translations.tpl:5
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:56
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: templates/just_translations.tpl:6
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:71
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: templates/just_translations.tpl:7
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:86
+msgid "Friday"
+msgstr "Fredag"
+
+#: templates/just_translations.tpl:8
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:101
+msgid "Saturday"
+msgstr "Lørdag"
+
+#: templates/just_translations.tpl:9
+msgid "Sunday"
+msgstr "Søndag"
+
+#: templates/just_translations.tpl:10
+msgid "January"
+msgstr "Januar"
+
+#: templates/just_translations.tpl:11
+msgid "February"
+msgstr "Februar"
+
+#: templates/just_translations.tpl:12
+msgid "March"
+msgstr "Marts"
+
+#: templates/just_translations.tpl:13
+msgid "April"
+msgstr "April"
+
+#: templates/just_translations.tpl:14
+msgid "May"
+msgstr "Maj"
+
+#: templates/just_translations.tpl:15
+msgid "June"
+msgstr "Juni"
+
+#: templates/just_translations.tpl:16
+msgid "July"
+msgstr "Juli"
+
+#: templates/just_translations.tpl:17
+msgid "August"
+msgstr "August"
+
+#: templates/just_translations.tpl:18
+msgid "September"
+msgstr "September"
+
+#: templates/just_translations.tpl:19
+msgid "October"
+msgstr "Oktober"
+
+#: templates/just_translations.tpl:20
+msgid "November"
+msgstr "November"
+
+#: templates/just_translations.tpl:21
+msgid "December"
+msgstr "December"
+
+#: templates/just_translations.tpl:23
+msgid "Feedback Sent"
+msgstr "Feedback er sendt"
+
+#: templates/just_translations.tpl:24
+msgid "Feedback Failed to Send"
+msgstr "Feedback kunne ikke sendes"
+
+#: templates/just_translations.tpl:25
+msgid "Please enter feedback!"
+msgstr "Indtast informationstekst!"
+
+#: templates/just_translations.tpl:27
+msgid "loading cities..."
+msgstr "indlæser byer..."
+
+#: templates/just_translations.tpl:29
+#: templates/modules/ZSELEX/user/productview.tpl:7
+msgid "Edit Product"
+msgstr "Rediger produkt"
+
+#: templates/just_translations.tpl:31
+msgid "Show Shops"
+msgstr "Vis butikker"
+
+#: templates/modules/admin_shop.tpl:48 templates/modules/admin_shopinner.tpl:47
+#: templates/modules/admin_two_column.tpl:40
+msgid "I have had"
+msgstr "Jeg har haft"
+
+#: templates/modules/admin_shop.tpl:49 templates/modules/admin_shopinner.tpl:48
+#: templates/modules/admin_two_column.tpl:41
+msgid "new visitors lately"
+msgstr "nye besøgende for nylig"
+
+#: templates/modules/admin_shop.tpl:49 templates/modules/admin_shopinner.tpl:48
+#: templates/modules/admin_two_column.tpl:41
+msgid "visitors in total"
+msgstr "besøgende i alt"
+
+#: templates/modules/admin_shop.tpl:50 templates/modules/admin_shopinner.tpl:49
+#: templates/modules/admin_two_column.tpl:42
+msgid "rated your page"
+msgstr "vurderede din side"
+
+#: templates/modules/admin_shop.tpl:50 templates/modules/admin_shopinner.tpl:49
+#: templates/modules/admin_two_column.tpl:42
+msgid "has laid a comment"
+msgstr "har skrevet en kommentar"
+
+#: templates/modules/admin_shop.tpl:51 templates/modules/admin_shopinner.tpl:50
+#: templates/modules/admin_two_column.tpl:43
+msgid "I've sold"
+msgstr "Jeg har solgt"
+
+#: templates/modules/admin_shop.tpl:51 templates/modules/admin_shopinner.tpl:50
+#: templates/modules/admin_two_column.tpl:43
+msgid "Products in"
+msgstr "produkter i"
+
+#: templates/modules/admin_shop.tpl:52 templates/modules/admin_shopinner.tpl:51
+#: templates/modules/admin_two_column.tpl:44
+msgid "products in total"
+msgstr "prodyjter i alt"
+
+#: templates/modules/News/user/articlecontent.tpl:22
+#: templates/modules/News/user/index.tpl:3
+msgid "Contributed"
+msgstr "Bidraget"
+
+#: templates/modules/News/user/articlecontent.tpl:22
+#: templates/modules/News/user/index.tpl:3
+#, php-format
+msgid "by %1$s on %2$s"
+msgstr "af %1$s på %2$s"
+
+#: templates/modules/News/user/articlecontent.tpl:31
+#: templates/modules/News/user/articlecontent.tpl:52
+#: templates/modules/News/user/index.tpl:9
+#: templates/modules/News/user/index.tpl:11
+#, php-format
+msgid "Picture %1$s for %2$s"
+msgstr "Billeder %1$s af %2$s"
+
+#: templates/modules/News/user/articlecontent.tpl:48
+msgid "Picture gallery"
+msgstr "Billedgalleri"
+
+#: templates/modules/News/user/create1.tpl:48
+msgid "Create an article"
+msgstr "Opret en artikel"
+
+#: templates/modules/News/user/create1.tpl:68
+msgid "Title"
+msgstr "Titel"
+
+#: templates/modules/News/user/create1.tpl:71
+msgid "Title text"
+msgstr "Titeltekst"
+
+#: templates/modules/News/user/create1.tpl:77
+msgid "Permalink URL"
+msgstr "Permalink URL"
+
+#: templates/modules/News/user/create1.tpl:79
+msgid "(Generated automatically if left blank)"
+msgstr "(Genereres automatisk hvis blank)"
+
+#: templates/modules/News/user/create1.tpl:85
+msgid "Category"
+msgstr "Kategori"
+
+#: templates/modules/News/user/create1.tpl:86
+msgid "Choose category"
+msgstr "Vælg kategori"
+
+#: templates/modules/News/user/create1.tpl:114
+msgid "Language for which article should be displayed"
+msgstr "Sprog for hvilket artikel skal vises"
+
+#: templates/modules/News/user/create1.tpl:121
+msgid "Article"
+msgstr "Artikel"
+
+#: templates/modules/News/user/create1.tpl:124
+msgid "Permitted HTML tags"
+msgstr "Tilladte HTML-tags"
+
+#: templates/modules/News/user/create1.tpl:126
+msgid ""
+"You must enter either <strong>teaser text</strong> or <strong>body text</"
+"strong>."
+msgstr ""
+"Du skal angive enten <strong> teaser tekst </strong> eller <strong> body "
+"tekst </strong>."
+
+#: templates/modules/News/user/create1.tpl:129
+msgid "Index page teaser text"
+msgstr "Index sidens teaser tekst"
+
+#: templates/modules/News/user/create1.tpl:131
+#: templates/modules/News/user/create1.tpl:165
+#, php-format
+msgid "(Limit: %s characters)"
+msgstr "(Begræns: %s tegn)"
+
+#: templates/modules/News/user/create1.tpl:136
+msgid "Index page teaser format"
+msgstr "Index sidens teaser format"
+
+#: templates/modules/News/user/create1.tpl:138
+#: templates/modules/News/user/create1.tpl:154
+msgid "Plain text"
+msgstr "Almindelig tekst"
+
+#: templates/modules/News/user/create1.tpl:139
+#: templates/modules/News/user/create1.tpl:155
+msgid "Text formatted with mark-up language"
+msgstr "Tekst formateret med mark-up sprog"
+
+#: templates/modules/News/user/create1.tpl:145
+msgid "Article body text"
+msgstr "Artikeltekst"
+
+#: templates/modules/News/user/create1.tpl:147
+msgid "#{chars"
+msgstr "#{chars"
+
+#: templates/modules/News/user/create1.tpl:152
+msgid "Article body format"
+msgstr "Artikelformat"
+
+#: templates/modules/News/user/create1.tpl:162
+#: templates/modules/News/user/create1.tpl:213
+#: templates/modules/News/user/create1.tpl:280
+msgid "Show"
+msgstr "Vis"
+
+#: templates/modules/News/user/create1.tpl:162
+msgid "Footnote"
+msgstr "Fodnote"
+
+#: templates/modules/News/user/create1.tpl:173
+msgid "Pictures"
+msgstr "Billeder"
+
+#: templates/modules/News/user/create1.tpl:174
+#, php-format
+msgid "Select a picture (max. %s kB per picture)"
+msgstr "Vælg et billede (max. %s KB pr billede)"
+
+#: templates/modules/News/user/create1.tpl:180
+#, php-format
+msgid ""
+"(max files %s, first picture is used as thumbnail in the index teaser page "
+"for this article.)"
+msgstr ""
+"(maks antal filer %s, det første billede anvendes som miniature på teaser "
+"siden for denne artikel.)"
+
+#: templates/modules/News/user/create1.tpl:194
+#: templates/modules/News/user/create1.tpl:204
+msgid "Delete this picture"
+msgstr "Slet dette billede"
+
+#: templates/modules/News/user/create1.tpl:202
+msgid "news picture"
+msgstr "Nyhedsbillede"
+
+#: templates/modules/News/user/create1.tpl:213
+msgid "Publishing options"
+msgstr "Udgivelsesindstillinger"
+
+#: templates/modules/News/user/create1.tpl:216
+msgid "Display on news index page"
+msgstr "Vis på nyheds forsiden"
+
+#: templates/modules/News/user/create1.tpl:220
+msgid "Article weight"
+msgstr "artikel vægtning"
+
+#: templates/modules/News/user/create1.tpl:226
+msgid "No time limit"
+msgstr "Ingen tidsbegrænsning"
+
+#: templates/modules/News/user/create1.tpl:231
+msgid "Start date"
+msgstr "Startdato"
+
+#: templates/modules/News/user/create1.tpl:237
+msgid "No end date"
+msgstr "Ingen slutdato"
+
+#: templates/modules/News/user/create1.tpl:242
+msgid "End date"
+msgstr "Slutdato"
+
+#: templates/modules/News/user/create1.tpl:250
+msgid "Allow comments on this article"
+msgstr "Tillad kommentarer til denne artikel"
+
+#: templates/modules/News/user/create1.tpl:252
+msgid "(EZComments must be hooked to News to enable commenting.)"
+msgstr "(EZComments skal kobles til Nyheder for at aktivere kommentering.)"
+
+#: templates/modules/News/user/create1.tpl:255
+msgid "Article ID"
+msgstr "Artikel ID"
+
+#: templates/modules/News/user/create1.tpl:280
+msgid "Article attributes"
+msgstr "Artikelegenskaber"
+
+#: templates/modules/News/user/create1.tpl:296
+msgid "Submit this article"
+msgstr "Send denne artikel"
+
+#: templates/modules/News/user/create1.tpl:296
+#: templates/modules/Users/users_user_lostpassword1.tpl:24
+#: templates/modules/Users/users_user_lostpasswordcode1.tpl:31
+#: templates/modules/Users/users_user_lostuname1.tpl:17
+msgid "Submit"
+msgstr "Send"
+
+#: templates/modules/News/user/create1.tpl:298
+msgid "Publish this article"
+msgstr "Udgive denne artikel"
+
+#: templates/modules/News/user/create1.tpl:298
+msgid "Publish"
+msgstr "Udgiv"
+
+#: templates/modules/News/user/create1.tpl:300
+msgid "Save this article as draft"
+msgstr "Gem denne artikel som kladde"
+
+#: templates/modules/News/user/create1.tpl:300
+msgid "Save as draft"
+msgstr "Gem som kladde"
+
+#: templates/modules/News/user/create1.tpl:303
+#: templates/modules/News/user/create1.tpl:304
+msgid "Save quick draft"
+msgstr "Gem hurtig kladde"
+
+#: templates/modules/News/user/create1.tpl:303
+msgid "Quick save as draft"
+msgstr "Hurtig gem som kladde"
+
+#: templates/modules/News/user/create1.tpl:307
+msgid "Save full draft"
+msgstr "Gem hele kladden"
+
+#: templates/modules/News/user/create1.tpl:308
+msgid "Mark this article as pending"
+msgstr "Markér denne artikel som afventende"
+
+#: templates/modules/News/user/create1.tpl:308
+msgid "Pending"
+msgstr "afventer"
+
+#: templates/modules/News/user/create1.tpl:310
+msgid "Preview this article"
+msgstr "Vis denne artikel"
+
+#: templates/modules/News/user/create1.tpl:310
+msgid "Preview"
+msgstr "Vis"
+
+#: templates/modules/News/user/create1.tpl:311
+msgid "Cancel"
+msgstr "Annuller"
+
+#: templates/modules/News/user/index.tpl:24
+msgid "Filed under:"
+msgstr "Arkiveret under:"
+
+#: templates/modules/News/user/menu.tpl:11
+msgid "News"
+msgstr "Nyheder"
+
+#: templates/modules/Users/users_email_importnotify_html.tpl:15
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:24
+#: templates/modules/Users/users_email_welcome_html.tpl:26
+#, php-format
+msgid "Welcome to %1$s!"
+msgstr "Velkommen hos %1$s!"
+
+#: templates/modules/Users/users_email_importnotify_html.tpl:29
+#, php-format
+msgid "Welcome to %1$s (%2$s)!"
+msgstr "Velkommen hos %1$s, %2$s!"
+
+#: templates/modules/Users/users_email_importnotify_html.tpl:37
+#, php-format
+msgid ""
+"Hello! This e-mail address ('%1$s') has been used to register an account on "
+"the '%2$s' site."
+msgstr ""
+"Hej! Denne emailadresse (%1$s) er blevet brugt til at registrere en "
+"brugerkonto på %2$s side."
+
+#: templates/modules/Users/users_email_importnotify_html.tpl:38
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:47
+msgid "Your account details are as follows:"
+msgstr "Dine brugerkonto detaljer er følgende:"
+
+#: templates/modules/Users/users_email_importnotify_html.tpl:39
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:49
+#, php-format
+msgid "User name: %s"
+msgstr "Brugernavn: '%s'."
+
+#: templates/modules/Users/users_email_importnotify_html.tpl:40
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:50
+#, php-format
+msgid "Password: %s"
+msgstr "Adgangskode:  %s"
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:12
+#, php-format
+msgid "Reset your password at '%1$s'"
+msgstr "Nulstil din adgangskode hos '%1$s'"
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:25
+#: templates/modules/Users/users_email_lostuname_html.tpl:24
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:26
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:26
+#: templates/modules/Users/users_email_welcome_html.tpl:28
+msgid "Hello!"
+msgstr "Hej"
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:33
+#, php-format
+msgid ""
+"The user account '%1$s' at %2$s has this e-mail address associated with it."
+msgstr "Brugerkontoen '%1$s' hos %2$s har denne emailadresse tilknyttet."
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:36
+#, php-format
+msgid ""
+"The administrator at %s requested that you receive a confirmation code that "
+"will allow you to reset your password."
+msgstr ""
+"Administratoren hos %s har anmodet om, at du modtager en bekræftelseskode, "
+"som vil give dig mulighed for at nulstille din adgangskode."
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:38
+#, php-format
+msgid ""
+"Someone with the IP address %s has just requested a confirmation code to "
+"allow the password for your account to be reset."
+msgstr ""
+"Nogen med IP-adressen %s har netop anmodet om en bekræftelseskode for at "
+"tillade, at adgangskoden til din brugerkonto bliver nulstillet."
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:41
+#, php-format
+msgid "The confirmation code is: %s"
+msgstr "Bekræftelseskoden er: %s"
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:43
+msgid ""
+"With this confirmation code, you can now create a new password by clicking "
+"on this link:"
+msgstr ""
+"Med denne bekræftelseskode kan du nu oprette en ny adgangskode ved at klikke "
+"på dette link:"
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:43
+msgid "Reset My Password"
+msgstr "Nulstil min adgangskode"
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:44
+#, php-format
+msgid ""
+"(If you cannot click on the link, you can copy this URL and paste it into "
+"your browser: %s )"
+msgstr ""
+"(Hvis du ikke kan klikke på linket, kan du kopiere denne URL-adresse, og "
+"indsætte den i din browser: %s )"
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:46
+#: templates/modules/Users/users_email_lostuname_html.tpl:50
+msgid ""
+"If the request was not made by you then you don't need to take any action."
+msgstr ""
+"Hvis anmodningen ikke blev foretaget af dig så behøver du ikke at foretage "
+"dig noget."
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:46
+msgid ""
+"The password won't be changed unless the confirmation code is used, and you "
+"are the only recipient of this message."
+msgstr ""
+"Adgangskoden bliver ikke ændret, med mindre bekræftelseskoden anvendes. Du "
+"er den eneste modtager af denne meddelelse."
+
+#: templates/modules/Users/users_email_lostpassword_html.tpl:46
+msgid ""
+"You can just delete the message and log-in with your existing password next "
+"time you visit the site."
+msgstr ""
+"Du kan bare slette beskeden og logge ind med din eksisterende adgangskode, "
+"næste gang du besøger siden."
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:13
+#, php-format
+msgid "'%1$s' account information"
+msgstr "'%1$s' brugerkonto oplysninger"
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:32
+#, php-format
+msgid ""
+"The administrator at %s requested that you receive your user name via e-mail."
+msgstr ""
+"Administrator hos %s har anmodet om, at du modtager dit brugernavn via email."
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:34
+#, php-format
+msgid ""
+"Someone with the IP address %1$s has just requested the account information "
+"at %2$s associated with this e-mail address."
+msgstr ""
+"Nogen med IP-adresse %1$s har netop anmodet om brugerkontooplysninger på "
+"%2$s som er forbundet med denne emailadresse."
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:37
+#, php-format
+msgid "The user name for your account is: %1$s"
+msgstr "Brugernavnet til din brugerkonto er: %1$s"
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:40
+#, php-format
+msgid "You may use the following information to %1$slog into your account%2$s:"
+msgstr "Du kan bruge følgende oplysninger til %1$slogge ind på din konto%2$s:"
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:45
+#, php-format
+msgid ""
+"(If you cannot click on the log-in link, you can copy this URL and paste it "
+"into your browser: %s )"
+msgstr ""
+"(Hvis du ikke kan klikke på log ind linket, kan du kopiere denne URL-"
+"adresse, og indsætte den i din browser: %s )"
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:47
+msgid ""
+"You do not have any active methods available to log into our site. Please "
+"contact a site administrator."
+msgstr ""
+"Du har ingen mulighed for at logge på vores side. Kontakt venligst en "
+"administrator."
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:50
+msgid ""
+"You are the only recipient of this message, and your user name has not been "
+"sent to any other e-mail address."
+msgstr ""
+"Du er den eneste modtager af denne besked, og dit brugernavn er ikke blevet "
+"sendt til andre emailadresser."
+
+#: templates/modules/Users/users_email_lostuname_html.tpl:50
+msgid "You can just delete this message."
+msgstr "Du kan bare slette denne besked."
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:9
+msgid "New registration pending approval"
+msgstr "Ny registrering afventer godkendelse"
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:10
+#, php-format
+msgid "New registration pending approval: %s"
+msgstr "Ny registrering afventer godkendelse: %s"
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:12
+msgid "New registration pending e-mail verification"
+msgstr "Ny registrering afventer emailbekræftelse"
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:13
+#, php-format
+msgid "New registration pending verification: %s"
+msgstr "Ny tilmelding afventer bekræftelse: %s"
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:15
+msgid "New user activated"
+msgstr "Ny bruger aktiveret"
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:16
+#, php-format
+msgid "New user activated: %s"
+msgstr "Ny bruger aktiveret: %s"
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:49
+#, php-format
+msgid "A new user account has been activated on %1$s."
+msgstr "En ny brugerkonto er blevet aktiveret på %1$s."
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:50
+#, php-format
+msgid ""
+"It was created by an administrator or sub-administrator logged in as '%1$s'."
+msgstr ""
+"Oprettet af en administrator eller en under-administrator logget ind som "
+"'%1$s'."
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:51
+msgid "The account details are as follows:"
+msgstr "Brugerkonto detaljerne er følgende:"
+
+#: templates/modules/Users/users_email_regadminnotify_html.tpl:53
+#, php-format
+msgid "User name: '%s'."
+msgstr "Brugernavn: '%s'."
+
+#: templates/modules/Users/users_email_regdeny_html.tpl:13
+#, php-format
+msgid "Your recent request at %1$s."
+msgstr "Din seneste forespørgsel på %1$s."
+
+#: templates/modules/Users/users_email_regdeny_html.tpl:26
+#, php-format
+msgid "A message from %1$s..."
+msgstr "En besked fra %1$s..."
+
+#: templates/modules/Users/users_email_regdeny_html.tpl:34
+#, php-format
+msgid ""
+"Recently, this e-mail address ('%1$s') was used to request an account on "
+"'%2$s' (%3$s)."
+msgstr ""
+"Emailadressen (%1$s) blev for nylig anvendt til registrering af en "
+"brugerkonto på %2$s (%3$s)."
+
+#: templates/modules/Users/users_email_regdeny_html.tpl:35
+#: templates/modules/Users/users_email_welcome_html.tpl:36
+msgid "The information that was registered is as follows:"
+msgstr "De registrerede oplysninger er følgende:"
+
+#: templates/modules/Users/users_email_regdeny_html.tpl:37
+#: templates/modules/Users/users_email_welcome_html.tpl:38
+#: templates/modules/Users/users_user_lostpassword1.tpl:12
+#: templates/modules/Users/users_user_lostpasswordcode1.tpl:13
+msgid "User name"
+msgstr "Brugernavn"
+
+#: templates/modules/Users/users_email_regdeny_html.tpl:39
+msgid ""
+"Thank you for your application for a new account. At this time we are unable "
+"to approve your application."
+msgstr ""
+"Tak for din ansøgning om en ny brugerkonto. I øjeblikket kan vi ikke "
+"godkende din ansøgning."
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:11
+#, php-format
+msgid "Verify your e-mail address for %s."
+msgstr "Bekræft din e-mail-adresse til %s."
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:34
+#, php-format
+msgid ""
+"Your e-mail address ('%1$s') has been used to register an account on "
+"'%2$s' (%3$s)."
+msgstr ""
+"Din emailadresse (%1$s) er blevet anvendt til at registrere en brugerkonto "
+"hos %2$s (%3$s)."
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:36
+msgid "Our system is waiting for you to verify your e-mail address."
+msgstr "Vores system venter på at du bekræfter din emailadresse."
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:37
+msgid "Your request is also waiting for administrator approval."
+msgstr "Din anmodning venter også på administrator godkendelse."
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:38
+msgid ""
+"We will not be able to approve your account until after you have completed "
+"this verification step."
+msgstr ""
+"Vi er ikke i stand til at godkende din anmodning, før du har fuldført denne "
+"kontrol."
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:39
+msgid ""
+"Once both this verification step is complete and an administrator has "
+"approved your request, you will be able to log in with your user name."
+msgstr ""
+"Når både bekræftelsesprocessen er afsluttet, og en administrator har "
+"godkendt din anmodning, vil du være i stand til at logge ind med dit "
+"brugernavn."
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:41
+msgid ""
+"Please click on the following link to complete the e-mail address check: "
+msgstr "Klik på følgende link for at fuldføre kontrol af emailadresse:"
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:41
+msgid "Verify my e-mail address"
+msgstr "Bekræft min e-mail adresse"
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:43
+msgid ""
+"If you are not able to click on the above link, you can copy the following "
+"URL into your browser:"
+msgstr ""
+"Hvis du ikke er i stand til at klikke på ovenstående link, kan du kopiere "
+"følgende URL til din browser:"
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:45
+msgid "Your verification code is:"
+msgstr "Din bekræftelseskode er:"
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:47
+msgid ""
+"Once verified and your account has been approved, then you will be able to "
+"log in."
+msgstr "Når din brugerkonto er blevet bekræftet og godkendt, kan du logge ind."
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:47
+msgid "Once verified, you will be able to choose a password and then log in."
+msgstr ""
+"Når din brugerkonto er blevet bekræftet, kan du vælge en adgangskode og "
+"logge ind."
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:47
+msgid "Once verified, you will be able to log in."
+msgstr "Når din brugerkonto er blevet bekræftet, kan du logge ind."
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:50
+#, php-format
+msgid "Password reminder: %s"
+msgstr "Adgangskode påmindelse: %s"
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:52
+#: templates/modules/Users/users_email_welcome_html.tpl:41
+msgid ""
+"(This is the only time you will receive your password. Please keep it in a "
+"safe place.)"
+msgstr ""
+"(Dette er den eneste gang, du vil modtage din adgangskode. Opbevar venligst "
+"adgangskoden på et sikkert sted.)"
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:54
+msgid ""
+"Remember: both this verification step and approval from an administrator "
+"must be completed before you can log in."
+msgstr ""
+"Husk: både bekræftelsesprocessen og godkendelse fra en administrator skal "
+"være afsluttet, før du kan logge ind"
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:54
+msgid ""
+"You will receive an additional e-mail message once an administrator has "
+"reviewed your request."
+msgstr ""
+"Du vil modtage en email, når en administrator har gennemgået din anmodning."
+
+#: templates/modules/Users/users_email_regverifyemail_html.tpl:55
+msgid ""
+"If you do not wish to use this web site, please either contact our site "
+"administrator, or simply disregard this message."
+msgstr ""
+"Hvis du ikke ønsker at benytte dette website, kan du enten kontakte vores "
+"administrator, eller se bort fra denne besked."
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:13
+#, php-format
+msgid "Verify your request to change your e-mail address at '%1$s'"
+msgstr "Bekræft din anmodning om at ændre din emailadresse hos %1$s"
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:32
+#, php-format
+msgid ""
+"You requested to change your e-mail address for user account '%1$s' at %2$s "
+"from %3$s to %4$s."
+msgstr ""
+"Du har bedt om at ændre din emailadresse for bruger-konto '%1$s' hos %2$s "
+"fra %3$s til %4$s."
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:33
+msgid "You must confirm this change before it will take effect."
+msgstr "Du skal bekræfte ændringen, før den træder i kraft"
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:33
+#, php-format
+msgid ""
+"If you do not confirm this change within the next day, the request will be "
+"deleted from our system."
+msgid_plural ""
+"If you do not confirm this change within the next %1$s days, the request "
+"will be deleted from our system."
+msgstr[0] ""
+"Hvis du ikke bekræfter ændringen indenfor den næste dag vil forespørgslen "
+"blive slettet fra vores system."
+msgstr[1] ""
+"Hvis du ikke bekræfter ændringen indenfor de næste %1$s dage vil "
+"forespørgslen blive slettet fra vores system."
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:35
+msgid "You can confirm the e-mail address change by clicking on this link: "
+msgstr "Du kan bekræfte emailadresseændringen ved at klikke på dette link:"
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:35
+msgid "Verify my e-mail address change."
+msgstr "Bekræft min ændring af emailadresse."
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:37
+msgid ""
+"(If you cannot click on the link above, you can copy this URL into your "
+"browser:"
+msgstr ""
+"(Hvis du ikke kan klikke på linket ovenfor, kan du kopiere denne URL ind i "
+"din browser:"
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:39
+msgid ""
+"If you did not make this request then you do not need to take any action."
+msgstr "Hvis du ikke har sendt denne anmodning behøver du ikke at gøre noget."
+
+#: templates/modules/Users/users_email_userverifyemail_html.tpl:40
+msgid ""
+"The e-mail address wil not be changed unless the confirmation code is used, "
+"and you are the only recipient of this message. You can just delete this "
+"message."
+msgstr ""
+"Emailadressen bliver ikke ændret med mindre du anvender bekræftelseskoden. "
+"Du er den eneste modtager af denne besked. Du kan bare slette beskedden."
+
+#: templates/modules/Users/users_email_welcome_html.tpl:13
+#, php-format
+msgid "Welcome to %1$s, %2$s!"
+msgstr "Velkommen hos %1$s, %2$s!"
+
+#: templates/modules/Users/users_email_welcome_html.tpl:35
+#, php-format
+msgid ""
+"This e-mail address ('%1$s') has been used to register an account on "
+"'%2$s' (%3$s)."
+msgstr ""
+"Emailadressen (%1$s) er blevet anvendt til at registrere en brugerkonto hos "
+"%2$s (%3$s)."
+
+#: templates/modules/Users/users_email_welcome_html.tpl:39
+msgid "Password"
+msgstr "Adgangskode"
+
+#: templates/modules/Users/users_email_welcome_html.tpl:39
+msgid "Password reminder"
+msgstr "Adgangskode påmindelse"
+
+#: templates/modules/Users/users_email_welcome_html.tpl:43
+msgid ""
+"Thank you for your application for a new account.  Your application has been "
+"forwarded to the site administrator for review. Please expect a message once "
+"the review process is complete."
+msgstr ""
+"Tak for din ansøgning om en ny brugerkonto. Din ansøgning er blevet sendt "
+"til administratoren for at blive gennemgået. Du kan forvente en besked, når "
+"gennemgangen er afsluttet."
+
+#: templates/modules/Users/users_email_welcome_html.tpl:44
+msgid ""
+"Your account application has been approved. Thank you for your patience "
+"during the new account application review process."
+msgstr ""
+"Din ansøgning er blevet godkendt. Tak for din tålmodighed under "
+"godkendelsesprocessen."
+
+#: templates/modules/Users/users_email_welcome_html.tpl:45
+msgid "The web site administrator has created this new account for you."
+msgstr "Sidens administrator har oprettet brugerkontoen til dig."
+
+#: templates/modules/Users/users_email_welcome_html.tpl:47
+msgid "You may now log into the web site with your user name and password."
+msgstr "Du kan nu logge ind på siden med dit brugernavn og din adgangskode."
+
+#: templates/modules/Users/users_user_login.tpl.original:32
+#: templates/modules/Users/users_user_login_orig.tpl:32
+#: templates/modules/Users/users_user_login1.tpl:32
+msgid "User log-in"
+msgstr "Bruger log ind"
+
+#: templates/modules/Users/users_user_login.tpl.original:38
+#: templates/modules/Users/users_user_login_orig.tpl:38
+#: templates/modules/Users/users_user_login1.tpl:38
+msgid ""
+"Choose how you would like to log in by clicking on one of the following..."
+msgstr "Vælg hvordan du ønsker at logge ind ved at klikke på én af følgende..."
+
+#: templates/modules/Users/users_user_login.tpl.original:39
+#: templates/modules/Users/users_user_login_orig.tpl:39
+#: templates/modules/Users/users_user_login1.tpl:39
+msgid ""
+"Log in below, or change how you would like to log in by clicking on one of "
+"the following..."
+msgstr ""
+"Log ind herunder, eller ændre hvordan du ønsker at logge ind ved at klikke "
+"på én af følgende..."
+
+#: templates/modules/Users/users_user_login.tpl.original:75
+#: templates/modules/Users/users_user_login_orig.tpl:75
+#: templates/modules/Users/users_user_login1.tpl:75
+msgid "Keep me logged in on this computer"
+msgstr "Hold mig logget ind på denne computer"
+
+#: templates/modules/Users/users_user_login.tpl.original:98
+#: templates/modules/Users/users_user_login_orig.tpl:98
+#: templates/modules/Users/users_user_login1.tpl:98
+msgid "Log in"
+msgstr "Log ind"
+
+#: templates/modules/Users/users_user_login.tpl.original:110
+#: templates/modules/Users/users_user_login_orig.tpl:110
+#: templates/modules/Users/users_user_login1.tpl:110
+msgid "The log-in option you chose is not available at the moment."
+msgstr "Den log ind mulighed, du har valgt er ikke tilgængelig i øjeblikket."
+
+#: templates/modules/Users/users_user_login.tpl.original:112
+#: templates/modules/Users/users_user_login_orig.tpl:112
+#: templates/modules/Users/users_user_login1.tpl:112
+msgid "Please choose another or contact the site administrator for assistance."
+msgstr "Vælg en anden eller kontakt administrator for at få hjælp."
+
+#: templates/modules/Users/users_user_login.tpl.original:114
+#: templates/modules/Users/users_user_login_orig.tpl:114
+#: templates/modules/Users/users_user_login1.tpl:114
+msgid "Please contact the site administrator for assistance."
+msgstr "Kontakt venligst administrator for at få hjælp."
+
+#: templates/modules/Users/users_user_lostpassword1.tpl:1
+msgid "Lost password recovery"
+msgstr "Gendannelse af mistet adgangskode"
+
+#: templates/modules/Users/users_user_lostpassword1.tpl:5
+msgid ""
+"Please enter EITHER your user name OR your e-mail address below and click "
+"the 'Submit' button. You will be e-mailed a confirmation code. Check your e-"
+"mail, and follow the given instructions."
+msgstr ""
+"Du bedes indtaste ENTEN dit brugernavn ELLER din emailadresse nedenfor og "
+"klikke på 'Send' knappen. Du vil modtage en bekræftelseskode på email. Tjek "
+"din email og følg de givne anvisninger."
+
+#: templates/modules/Users/users_user_lostpassword1.tpl:16
+#: templates/modules/Users/users_user_lostpasswordcode1.tpl:17
+msgid "or"
+msgstr "eller"
+
+#: templates/modules/Users/users_user_lostpassword1.tpl:19
+#: templates/modules/Users/users_user_lostpasswordcode1.tpl:20
+#: templates/modules/Users/users_user_lostuname1.tpl:12
+msgid "E-mail address"
+msgstr "Emailadresse"
+
+#: templates/modules/Users/users_user_lostpasswordcode1.tpl:1
+msgid "Enter confirmation code"
+msgstr "Indtast bekræftelseskode"
+
+#: templates/modules/Users/users_user_lostpasswordcode1.tpl:5
+msgid ""
+"Please enter and EITHER your user name OR your e-mail address, and also "
+"enter the confirmation code you received. Once you enter this information "
+"and click the 'Submit' button you will receive a new password via e-mail."
+msgstr ""
+"Indtast venligst ENTEN dit brugernavn ELLER din emailadresse, og indtast "
+"også bekræftelseskoden du har modtaget. Når du indtaster disse oplysninger, "
+"og klikker på 'Send' knappen, vil du modtage et nyt kodeord via email."
+
+#: templates/modules/Users/users_user_lostpasswordcode1.tpl:26
+msgid "Confirmation code"
+msgstr "Bekræftelseskode"
+
+#: templates/modules/Users/users_user_lostpwduname1.tpl:1
+msgid "Account information and password recovery"
+msgstr "Gendannelse af kontooplysninger og adgangskode"
+
+#: templates/modules/Users/users_user_lostpwduname1.tpl:5
+msgid "Please select one of the following:"
+msgstr "Vælg en af følgende:"
+
+#: templates/modules/Users/users_user_lostpwduname1.tpl:8
+msgid "I have forgotten my account information (for example, my user name)."
+msgstr "Jeg har glemt mine kontooplysninger (f.eks. mit brugernavn)"
+
+#: templates/modules/Users/users_user_lostpwduname1.tpl:9
+msgid "I have forgotten my password."
+msgstr "Jeg har glemt min adgangskode."
+
+#: templates/modules/Users/users_user_lostpwduname1.tpl:10
+msgid "I have received a password recovery code, and would like to enter it."
+msgstr ""
+"Jeg har modtaget en genopretningskode til min adgangskode, og vil gerne "
+"indtaste den."
+
+#: templates/modules/Users/users_user_lostuname1.tpl:1
+msgid "Account information recovery"
+msgstr "Gendannelse af kontooplysninger"
+
+#: templates/modules/Users/users_user_lostuname1.tpl:5
+msgid ""
+"Please enter your e-mail address below and click the 'Submit' button. You "
+"will be sent an e-mail with your account information."
+msgstr ""
+"Indtast venligst din emailadresse nedenfor og klikke på 'Send' knappen Du "
+"vil få tilsendt en email med dine kontooplysninger."
+
+#: templates/modules/Users/users_user_main.tpl:1
+msgid "My account"
+msgstr "Min konto"
+
+#: templates/modules/ZSELEX/ajax/newshops.tpl:50
+msgid "No shops found"
+msgstr "Ingen butikker fundet"
+
+#: templates/modules/ZSELEX/ajax/productadhigh.tpl:26
+#: templates/modules/ZSELEX/ajax/productadhigh.tpl:60
+#: templates/modules/ZSELEX/user/cart.tpl:14
+#: templates/modules/ZSELEX/user/order.tpl:8
+msgid "Shop"
+msgstr "Butik"
+
+#: templates/modules/ZSELEX/ajax/show_all_events.tpl:26
+#: templates/modules/ZSELEX/ajax/upcommingevents.tpl:28
+#: templates/modules/ZSELEX/user/cart.tpl:21
+#: templates/modules/ZSELEX/user/delivery.tpl:111
+#: templates/modules/ZSELEX/user/order.tpl:15
+#: templates/modules/ZSELEX/user/thankyou.tpl:21
+msgid "Price"
+msgstr "Pris"
+
+#: templates/modules/ZSELEX/ajax/show_all_events.tpl:26
+#: templates/modules/ZSELEX/ajax/specialdealevents.tpl:49
+#: templates/modules/ZSELEX/ajax/upcommingevents.tpl:28
+#: templates/viewevent.tpl:70
+msgid "FREE"
+msgstr "GRATIS"
+
+#: templates/modules/ZSELEX/ajax/show_all_events.tpl:27
+msgid "Time"
+msgstr "Tid"
+
+#: templates/modules/ZSELEX/ajax/show_all_events.tpl:28
+msgid "Location"
+msgstr "Lokation"
+
+#: templates/modules/ZSELEX/ajax/show_all_events.tpl:34
+msgid "Contact"
+msgstr "Kontakt"
+
+#: templates/modules/ZSELEX/ajax/show_all_events.tpl:35
+msgid "Organizer"
+msgstr "Arrangør"
+
+#: templates/modules/ZSELEX/ajax/show_all_events.tpl:42
+#: templates/modules/ZSELEX/ajax/show_all_events.tpl:47
+msgid "No Events Found"
+msgstr "Ingen Events fundet."
+
+#: templates/modules/ZSELEX/ajax/showParentOptionValues.tpl:5
+#: templates/modules/ZSELEX/user/productview.tpl:58
+msgid "select"
+msgstr "vælg"
+
+#: templates/modules/ZSELEX/ajax/upcommingevents.tpl:39
+msgid "No events found"
+msgstr "Ingen events fundet."
+
+#: templates/modules/ZSELEX/ajax/upcommingevents.tpl:43
+msgid "All Events"
+msgstr "Alle Events"
+
+#: templates/modules/ZSELEX/blocks/banner/banner1.tpl:24
+msgid "Edit Banner"
+msgstr "Rediger Banner"
+
+#: templates/modules/ZSELEX/blocks/employees/employees.tpl:3
+msgid "Edit Employees"
+msgstr "Rediger Medarbejdere"
+
+#: templates/modules/ZSELEX/blocks/employees/employees.tpl:8
+msgid "Employees"
+msgstr "Medarbejdere"
+
+#: templates/modules/ZSELEX/blocks/minisiteevent/minisiteevent.tpl:3
+msgid "Edit Events"
+msgstr "Rediger Events"
+
+#: templates/modules/ZSELEX/blocks/minisiteevent/minisiteevent.tpl:7
+msgid "Event"
+msgstr "Event"
+
+#: templates/modules/ZSELEX/blocks/minisiteevent/minisiteevent.tpl:47
+#: templates/modules/ZSELEX/user/viewevent.tpl:63
+msgid "view all"
+msgstr "Vis alle"
+
+#: templates/modules/ZSELEX/blocks/minisiteimagesblock/minisiteimages.tpl:6
+msgid "Edit Pictures"
+msgstr "Rediger Billeder"
+
+#: templates/modules/ZSELEX/blocks/minisiteimagesblock/minisiteimages.tpl:21
+msgid "more images"
+msgstr "flere billeder"
+
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:5
+#: templates/modules/ZSELEX/user/minishop.tpl:51
+msgid "Edit Products"
+msgstr "Rediger Produkter"
+
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:13
+msgid "See All"
+msgstr "Vis alle"
+
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:55
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:65
+#: templates/modules/ZSELEX/user/minishop.tpl:92
+#: templates/modules/ZSELEX/user/minishop.tpl:94
+#: templates/modules/ZSELEX/user/minishop.tpl:105
+msgid "BUY"
+msgstr "Køb"
+
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:59
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:67
+#: templates/modules/ZSELEX/user/minishop.tpl:98
+#: templates/modules/ZSELEX/user/minishop.tpl:108
+#: templates/modules/ZSELEX/user/productview.tpl:108
+msgid "Out Of Stock!"
+msgstr "Udsolgt!"
+
+#: templates/modules/ZSELEX/blocks/Newshops/newshops.tpl:4
+msgid "New Shops"
+msgstr "Nye butikker"
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:9
+msgid "search region"
+msgstr "Søg efter region"
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:17
+msgid "search city"
+msgstr "Søg efter by"
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:25
+msgid "search category"
+msgstr "Søg efter kategori"
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:32
+#: templates/modules/ZSELEX/blocks/selection.tpl:33
+msgid "search for..."
+msgstr "Søg efter..."
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:32
+msgid "search for ..."
+msgstr "Søg efter..."
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:36
+msgid "Show shops"
+msgstr "Vis butikker"
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:37
+msgid "reset"
+msgstr "Reset"
+
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:10
+msgid "Opening Hours"
+msgstr "Åbningstider"
+
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:27
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:43
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:58
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:73
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:88
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:103
+msgid "Closed"
+msgstr "Lukket"
+
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:117
+msgid "Contact Us"
+msgstr "Kontakt os"
+
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:124
+msgid "Email"
+msgstr "Email"
+
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:127
+msgid "Fax"
+msgstr "Fax"
+
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:130
+msgid "Tel"
+msgstr "Tel"
+
+#: templates/modules/ZSELEX/blocks/shopaddress/shopaddress.tpl:133
+msgid "VAT#"
+msgstr "CVR"
+
+#: templates/modules/ZSELEX/blocks/specialdeals/specialdeals.tpl:17
+msgid "Special Deals"
+msgstr "Specielle tilbud"
+
+#: templates/modules/ZSELEX/blocks/upcommingevents/upcommingevents.tpl:12
+#: templates/modules/ZSELEX/user/allevents.tpl:7
+msgid "Events"
+msgstr "Events"
+
+#: templates/modules/ZSELEX/plugin/showRating.tpl:32
+#: templates/modules/ZSELEX/user/showRating.tpl:29
+msgid "You rated this as"
+msgstr "Du bedømte dette site med"
+
+#: templates/modules/ZSELEX/user/allevents.tpl:13
+#: templates/modules/ZSELEX/user/allevents.tpl:15
+#: templates/modules/ZSELEX/user/cart.tpl:86
+#: templates/modules/ZSELEX/user/order.tpl:79
+msgid "Back"
+msgstr "Tilbage"
+
+#: templates/modules/ZSELEX/user/cart.tpl:4
+#: templates/modules/ZSELEX/user/order.tpl:5
+msgid "Shopping Cart"
+msgstr "Indkøbskurv"
+
+#: templates/modules/ZSELEX/user/cart.tpl:20
+#: templates/modules/ZSELEX/user/order.tpl:14
+#: templates/modules/ZSELEX/user/thankyou.tpl:20
+msgid "Product"
+msgstr "Produkt"
+
+#: templates/modules/ZSELEX/user/cart.tpl:22
+#: templates/modules/ZSELEX/user/order.tpl:16
+#: templates/modules/ZSELEX/user/thankyou.tpl:22
+msgid "Quantity"
+msgstr "Antal"
+
+#: templates/modules/ZSELEX/user/cart.tpl:23
+#: templates/modules/ZSELEX/user/order.tpl:17
+#: templates/modules/ZSELEX/user/thankyou.tpl:23
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: templates/modules/ZSELEX/user/cart.tpl:81
+#: templates/modules/ZSELEX/user/delivery.tpl:127
+#: templates/modules/ZSELEX/user/order.tpl:73
+#: templates/modules/ZSELEX/user/thankyou.tpl:79
+msgid "Total"
+msgstr "I alt"
+
+#: templates/modules/ZSELEX/user/cart.tpl:85
+#: templates/modules/ZSELEX/user/checkout.tpl:89
+#: templates/modules/ZSELEX/user/delivery.tpl:148
+#: templates/modules/ZSELEX/user/thankyou.tpl:84
+msgid "Continue Shopping"
+msgstr "Fortsæt med at handle"
+
+#: templates/modules/ZSELEX/user/cart.tpl:89
+#: templates/modules/ZSELEX/user/order.tpl:85
+#: templates/modules/ZSELEX/user/thankyou.tpl:93
+msgid "Total price"
+msgstr "Total pris"
+
+#: templates/modules/ZSELEX/user/cart.tpl:93
+msgid "Checkout"
+msgstr "Gå til kassen"
+
+#: templates/modules/ZSELEX/user/cart.tpl:106
+msgid "No products in cart"
+msgstr "Ingen produkter i kurven"
+
+#: templates/modules/ZSELEX/user/cartmenu.tpl:4
+msgid "Customer Information"
+msgstr "Kundeoplysninger"
+
+#: templates/modules/ZSELEX/user/cartmenu.tpl:7
+msgid "Delivery"
+msgstr "Levering"
+
+#: templates/modules/ZSELEX/user/cartmenu.tpl:10
+msgid "Payment"
+msgstr "Betaling"
+
+#: templates/modules/ZSELEX/user/cartmenu.tpl:13
+msgid "Order Confirmation"
+msgstr "Ordrebekræftelse"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:10
+msgid "Enter Customer Information"
+msgstr "Indtast kundeoplysninger"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:18
+#: templates/modules/ZSELEX/user/delivery.tpl:46
+msgid "First Name"
+msgstr "Fornavn"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:20
+#: templates/modules/ZSELEX/user/delivery.tpl:48
+msgid "Please enter your first name"
+msgstr "Indtast fornavn"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:24
+#: templates/modules/ZSELEX/user/delivery.tpl:52
+msgid "Last Name"
+msgstr "Efternavn"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:26
+#: templates/modules/ZSELEX/user/delivery.tpl:54
+msgid "Please enter your last name"
+msgstr "Indtast efternavn"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:30
+#: templates/modules/ZSELEX/user/delivery.tpl:58
+msgid "Address"
+msgstr "Adresse"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:32
+#: templates/modules/ZSELEX/user/delivery.tpl:60
+msgid "Please enter your address"
+msgstr "Indtast adresse"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:36
+#: templates/modules/ZSELEX/user/delivery.tpl:70
+msgid "ZIP code. city"
+msgstr "Postnr. By"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:38
+msgid "Please enter your zip code"
+msgstr "Indtast postnr"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:41
+msgid "Please enter your city"
+msgstr "Indtast by"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:49
+#: templates/modules/ZSELEX/user/delivery.tpl:64
+msgid "Phone"
+msgstr "Telefon"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:51
+#: templates/modules/ZSELEX/user/delivery.tpl:66
+msgid "Please enter a valid phone number"
+msgstr "Indtast telefonnr"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:55
+msgid "Email address"
+msgstr "Emailadresse"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:57
+msgid "Please enter a valid email"
+msgstr "Skriv venligst en gyldig email adresse."
+
+#: templates/modules/ZSELEX/user/checkout.tpl:61
+msgid "Subscribe To Newsletter"
+msgstr "Tilmeld nyhedsbrev"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:90
+msgid "Go to delivery"
+msgstr "Gå til levering"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:15
+msgid "Delivery Address"
+msgstr "Leveringsadresse"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:26
+msgid "I will pick up the order in your shop myself"
+msgstr "Jeg henter selv varen i butikken"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:29
+msgid "Your order will be delivered to you within"
+msgstr "Din ordre vil blive leveret indenfor"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:41
+msgid "Choose a different delivery address"
+msgstr "Vælg en anden leveringsadresse"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:72
+msgid "Please enter zip code"
+msgstr "Indtast postnr"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:75
+msgid "Please enter city"
+msgstr "Indtast by"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:81
+msgid "Discount code"
+msgstr "Rabatkode"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:82
+msgid ""
+"Enter discount code. Each voucher can only be used once. There can only be "
+"used one voucher per order:"
+msgstr ""
+"Indtast rabatkode. Hver kode kan kun anvendes en gang. Der kan kun anvendes "
+"en kode pr. ordre:"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:87
+msgid "Enter Code.."
+msgstr "Indtast kode.."
+
+#: templates/modules/ZSELEX/user/delivery.tpl:89
+msgid "Update price"
+msgstr "Opdater pris"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:105
+msgid "Your order"
+msgstr "Din ordre"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:115
+msgid "Discount"
+msgstr "Rabat"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:119
+#: templates/modules/ZSELEX/user/order.tpl:71
+#: templates/modules/ZSELEX/user/order.tpl:83
+#: templates/modules/ZSELEX/user/thankyou.tpl:77
+#: templates/modules/ZSELEX/user/thankyou.tpl:91
+msgid "Shipping"
+msgstr "Forsendelse"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:123
+msgid "VAT is"
+msgstr "MOMS udgør"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:135
+msgid "Please select the terms and conditions"
+msgstr "Accepter venligst vore betingelser og vilkår"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:136
+msgid "I have read and accept this shops"
+msgstr "Jeg har læst og accepterer denne butiks"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:136
+msgid "terms and conditions"
+msgstr "betingelser og vilkår"
+
+#: templates/modules/ZSELEX/user/delivery.tpl:152
+msgid "Go to payment"
+msgstr "Gå til betaling"
+
+#: templates/modules/ZSELEX/user/minishop.tpl:11
+msgid "Select Category"
+msgstr "Vælg kategori"
+
+#: templates/modules/ZSELEX/user/minishop.tpl:24
+msgid "Select Manufacturer"
+msgstr "Vælg producent"
+
+#: templates/modules/ZSELEX/user/order.tpl:71
+#: templates/modules/ZSELEX/user/order.tpl:88
+#: templates/modules/ZSELEX/user/thankyou.tpl:77
+#: templates/modules/ZSELEX/user/thankyou.tpl:96
+msgid "Free"
+msgstr "Gratis"
+
+#: templates/modules/ZSELEX/user/order.tpl:72
+#: templates/modules/ZSELEX/user/order.tpl:84
+#: templates/modules/ZSELEX/user/thankyou.tpl:78
+#: templates/modules/ZSELEX/user/thankyou.tpl:92
+msgid "Vat"
+msgstr "MOMS udgør"
+
+#: templates/modules/ZSELEX/user/order.tpl:128
+msgid "Pay with PayPal"
+msgstr "PayPal"
+
+#: templates/modules/ZSELEX/user/order.tpl:128
+#: templates/modules/ZSELEX/user/order.tpl:135
+#: templates/modules/ZSELEX/user/order.tpl:179
+msgid "test mode"
+msgstr "test modus"
+
+#: templates/modules/ZSELEX/user/order.tpl:135
+msgid "Pay with Netaxept"
+msgstr "Betal med kort (Netaxept)"
+
+#: templates/modules/ZSELEX/user/order.tpl:156
+msgid "Pay with QuickPay"
+msgstr "Betal med kort (QuickPay)"
+
+#: templates/modules/ZSELEX/user/order.tpl:179
+msgid "Pay with ePay"
+msgstr "Betal med kort (ePay)"
+
+#: templates/modules/ZSELEX/user/order.tpl:186
+msgid "Print Order"
+msgstr "Udskriv ordre"
+
+#: templates/modules/ZSELEX/user/paymentoptions.tpl:5
+msgid "Select Payment Method"
+msgstr "Vælg betalingsmetode"
+
+#: templates/modules/ZSELEX/user/paymentoptions.tpl:63
+#: templates/modules/ZSELEX/user/paymentoptions.tpl:80
+#: templates/modules/ZSELEX/user/paymentoptions.tpl:97
+msgid ""
+"Save time. Checkout securely. Pay without sharing your financial information."
+msgstr "Spar tid. Afslut sikkert. Betal uden at dele dine kort informationer."
+
+#: templates/modules/ZSELEX/user/paymentoptions.tpl:67
+#: templates/modules/ZSELEX/user/paymentoptions.tpl:84
+#: templates/modules/ZSELEX/user/paymentoptions.tpl:102
+#: templates/modules/ZSELEX/user/paymentoptions.tpl:120
+msgid "Place Order"
+msgstr "Færdigør bestilling"
+
+#: templates/modules/ZSELEX/user/ppcancelled.tpl:4
+msgid "Sorry - Your Payment has been cancelled"
+msgstr "Beklager - Betalingen er blevet afbrudt"
+
+#: templates/modules/ZSELEX/user/ppcancelled.tpl:9
+msgid "Go to Payment"
+msgstr "Gå til betaling"
+
+#: templates/modules/ZSELEX/user/productview.tpl:44
+msgid "Available Options"
+msgstr "Tilgængelige optioner"
+
+#: templates/modules/ZSELEX/user/productview.tpl:105
+#: templates/modules/ZSELEX/user/productview.tpl:114
+msgid "Add to Cart"
+msgstr "Tilføj til indkøbskurv"
+
+#: templates/modules/ZSELEX/user/productview.tpl:117
+msgid " Out Of Stock!"
+msgstr "Udsolgt!"
+
+#: templates/modules/ZSELEX/user/shop.tpl:33
+msgid "Click here to go to our homepage (will open in new page)..."
+msgstr "Klik her for at gå til vores hjemmeside (åbner ny side)..."
+
+#: templates/modules/ZSELEX/user/shoplist.tpl:65
+msgid "See Products"
+msgstr "Se produkter"
+
+#: templates/modules/ZSELEX/user/thankyou.tpl:5
+msgid "Order Summary"
+msgstr "Ordre oversigt"
+
+#: templates/modules/ZSELEX/user/thankyou.tpl:6
+msgid "Your Order Id"
+msgstr "Dit ordrenr"
+
+#: templates/modules/ZSELEX/user/thankyou.tpl:7
+msgid ""
+"Congratulations on your order has gone through - you will receive an order "
+"confirmation by email. If you have not received it within 10 minutes, please "
+"contact us"
+msgstr ""
+"Tillykke din ordre er gået igennem - du vil modtage en ordrebekræftelse på "
+"mail. Hvis du ikke har modtaget den inden for 10-20 min, bedes du kontakte "
+"os."
+
+#: templates/modules/ZSELEX/user/thankyou.tpl:14
+msgid "From Seller"
+msgstr "Fra sælger"
+
+#: templates/modules/ZSELEX/user/thankyou.tpl:86
+msgid "Payment next shop"
+msgstr "Betaling i næste butik"
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:4
+msgid "Edit Event"
+msgstr "Rediger Event"
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:42
+msgid "view document"
+msgstr "Vis"
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:50
+msgid "Product name"
+msgstr "Produkt navn"
+
+#: templates/modules/ZTEXT/blocks/pageindex.tpl:3
+msgid "Edit Pages"
+msgstr "Rediger sider"
+
+#: templates/modules/ZTEXT/blocks/pageindex.tpl:8
+msgid "Page Index"
+msgstr "Sideoversigt"
+
+#: templates/modules/ZTEXT/user/pages.tpl:4
+msgid "Edit Page"
+msgstr "Rediger siden"
+
+#: templates/viewevent.tpl:57 templates/viewevent.tpl:74
+msgid "see event image"
+msgstr "se event billede"
+
+#: templates/viewevent.tpl:59 templates/viewevent.tpl:76
+msgid "see event"
+msgstr "se Event"
+
+#~ msgid "reset search"
+#~ msgstr "nulstil søgning"
+
+#~ msgid "Confirmation prompt"
+#~ msgstr "Bekræft"
+
+#~ msgid "Delete"
+#~ msgstr "Slet"
+
+#~ msgid "Edit Shopsettings"
+#~ msgstr "Rediger Butiksindstillinger"
+
+#~ msgid "Scroll"
+#~ msgstr "Scroll"
+
+#~ msgid "Search results"
+#~ msgstr "Søgeresultater"
+
+#~ msgid "Number of hits: %s"
+#~ msgstr "Antal søgeopslag: %s"
+
+#~ msgid "Created on %s."
+#~ msgstr "Oprettet den %s."
+
+#~ msgid "No search results found. You can try the following:"
+#~ msgstr "Ingen søgeresultater fundet. Du kan prøve følgende:"
+
+#~ msgid "Check that you spelled all words correctly."
+#~ msgstr "Kontroller at du har stavet alle ord rigtigt."
+
+#~ msgid "Use different keywords."
+#~ msgstr "Anvend forskellige søgeord."
+
+#~ msgid "Use keywords that are more general."
+#~ msgstr "Anvend søgeord der er mere generelle."
+
+#~ msgid "Use fewer words."
+#~ msgstr "Anvend færre ord."
+
+#~ msgid "DKK"
+#~ msgstr "DKK"
+
+#~ msgid "No entries found."
+#~ msgstr "Ingen indlæg fundet."
+
+#~ msgid "Buy"
+#~ msgstr "Køb"
+
+#~ msgid "search area"
+#~ msgstr "Søg efter område"
+
+#~ msgid "See More..."
+#~ msgstr "Se mere..."
+
+#~ msgid "Load More Events"
+#~ msgstr "Vis flere Events"
+
+#~ msgid "In Stock"
+#~ msgstr "på lager"
+
+#~ msgid "No Items In Cart"
+#~ msgstr "Intet i din indkøbskurv"
+
+#~ msgid "Back to frontpage"
+#~ msgstr "Tilbage til forsiden"
+
+#~ msgid "delete"
+#~ msgstr "Slet"
+
+#~ msgid "Event Site"
+#~ msgstr "Event Link"
+
+#~ msgid "Crop"
+#~ msgstr "Beskær"
+
+#~ msgid ""
+#~ "Hello! This e-mail address ('%1$s') has been used to register an account "
+#~ "on '%2$s' (%3$s)."
+#~ msgstr ""
+#~ "Hej! Denne emailadresse (%1$s) er blevet brugt til at registrere en "
+#~ "brugerkonto på %2$s (%3$s)."
+
+#~ msgid "Antal"
+#~ msgstr "Antal"
+
+#~ msgid "search branch"
+#~ msgstr "Søg efter branche"
+
+#~ msgid "search shop"
+#~ msgstr "Søg efter butik"
+
+#~ msgid "CityPilot administration"
+#~ msgstr "CityPilot administration"
+
+#~ msgid "Unknown"
+#~ msgstr "Ukendt"
+
+#~ msgid "Not approved yet!"
+#~ msgstr "Ikke godkendt endnu"
+
+#~ msgid "Company: <b>%s</b>"
+#~ msgstr "Virksomhed: <b>%s</b>"
+
+#~ msgid "User: <b>%s</b>"
+#~ msgstr "Bruger: <b>%s</b>"
+
+#~ msgid "Please login to get access!"
+#~ msgstr "Log venligst ind for at få adgang!"
+
+#~ msgid "Ask in shop"
+#~ msgstr "Spørg i butikken"

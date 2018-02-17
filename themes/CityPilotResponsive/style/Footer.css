@@ -1,0 +1,77 @@
+@charset "utf-8";@font-face{font-family:'Adelle Bold';src:url('../fonts/adelle_bold-webfont.eot');src:url('../fonts/adelle_bold-webfont.eot?#iefix') format('embedded-opentype'),
+                                url('../fonts/adelle_bold-webfont.woff') format('woff'),
+                                url('../fonts/adelle_bold-webfont.ttf') format('truetype'),
+                                url('../fonts/adelle_bold-webfont.svg#adelle_rgbold') format('svg');}
+@font-face{font-family:'Adelle Regular';src:url('../fonts/adelle_reg-webfont.eot');src:url('../fonts/adelle_reg-webfont.eot?#iefix') format('embedded-opentype'),
+               url('../fonts/adelle_reg-webfont.woff') format('woff'),
+               url('../fonts/adelle_reg-webfont.ttf') format('truetype'),
+               url('../fonts/adelle_reg-webfont.svg#adelle_rgregular') format('svg');}
+html, body{margin:0px;padding:0px;height:100%;width:100%;}
+#CityPilotFotter h4{display:none;}
+#CityPilotFotter .FooterSubBlock1 h4{display:block;}
+#CityPilotFotter .followus h4{display:block;}
+#CityPilotFotter{background-color:#f9f9f9;font-family:"Adelle Regular";font-size:11px;color:#717d82;text-align:left;}
+#CityPilotFotter input, #CityPilotFotter select, #CityPilotFotter textarea{font-family:"Adelle Regular";}
+#CityPilotFotter img{border:none;}
+#CityPilotFotter h4{color:#717d82;font-size:26px;margin-bottom:17px;margin-top:17px;}
+#CityPilotFotter a{color:#e65621;text-decoration:none;}
+#CityPilotFotter a:visited{color:#e65621;font-weight:normal;text-decoration:none;}
+#CityPilotFotter a:hover{text-decoration:underline;}
+#CityPilotFotter .right{float:right;}
+#CityPilotFotter .left{float:left;}
+#CityPilotFotter .TextRight{text-align:right;}
+#CityPilotFotter .TextCenter{text-align:center;}
+#CityPilotFotter .Zero{margin:0px;}
+#CityPilotFotter .HeaderBlock .navcontainer ul.navlist li{list-style:none;}
+#CityPilotFotter .FotterBot ul.navlist, .FotterBot ul.navlist li{margin:0px;padding:0px;}
+#CityPilotFotter .z-block{clear:left;}
+#CityPilotFotter .inner{width:940px;margin-left:auto;margin-right:auto;height:auto;}
+#CityPilotFotter .FooterBlock{min-height:276px;border-top:7px solid #2b2b2b;background:url(../images/FooterBG.png) repeat;}
+#CityPilotFotter .FotterTop{width:100%;height:103px;}
+#CityPilotFotter .FotterBot{width:100%;height:173px;color:#d2d2d2;}
+#CityPilotFotter .FotterLogo{width:239px;}
+#CityPilotFotter .FotterPayment ul.Payments, .FotterPayment ul.Payments li{margin:0px;list-style:none;padding:0px;float:right;}
+#CityPilotFotter .FotterPayment ul.Payments{margin-top:40px;}
+#CityPilotFotter #creditcard h4{display:none;}
+#CityPilotFotter .FotterBot ul, .FotterBot li{margin:0px;list-style:none;padding:0px;}
+#CityPilotFotter .FotterLogo img, .FotterPayment ul.Payments{margin-top:40px;}
+#CityPilotFotter .FotterLogo h4{display:none;}
+#CityPilotFotter .FotterBot h4{margin:0px;padding:0px;font-size:11px;margin-bottom:11px;text-transform:uppercase;font-weight:normal;color:white;}
+#CityPilotFotter .FooterSubBlock1{width:240px;}
+#CityPilotFotter .FooterSubBlock1 ul li a{text-decoration:none;color:#d2d2d2;font-size:11px;padding:0px;text-align:left;border:none;display:inline;}
+#CityPilotFotter .FooterSubBlock1 ul li a:hover{text-decoration:none;color:#d2d2d2;background:none;}
+#CityPilotFotter .FooterSubBlock1 ul li a:visted{text-decoration:none;color:#d2d2d2;}
+#CityPilotFotter .FooterSubBlock1 .extmenuadmin{display:none;}
+#CityPilotFotter .FooterSubBlock2{width:220px;}
+#CityPilotFotter .FotterRightSec{margin-left:44px;}
+#CityPilotFotter .FotterRightSec a{width:30px;height:35px;display:block;}
+#CityPilotFotter .FotterRightSec a, .FotterRightSec a:hover, .FotterRightSec a:visted{border:none;text-decoration:none;}
+#CityPilotFotter .FotterRightSec .socialIcons, .FotterRightSec ul.socialIcons li{margin:0px;padding:0px;list-style:none;float:left;}
+#CityPilotFotter .FotterRightSec ul.socialIcons li{margin-right:6px;}
+#CityPilotFotter .FotterRightSec ul.socialIcons li.Zero{margin:0px;}
+#CityPilotFotter .FotterRightSec a#fb{background:url(../images/fb.png) no-repeat;}
+#CityPilotFotter .FotterRightSec a#fb:hover{background:url(../images/fb_active.png) no-repeat;}
+#CityPilotFotter .FotterRightSec a#tw{background:url(../images/tw.png) no-repeat;}
+#CityPilotFotter .FotterRightSec a#tw:hover{background:url(../images/tw_active.png) no-repeat;}
+#CityPilotFotter .FotterRightSec a#Pinterest{background:url(../images/Pinterest.png) no-repeat;}
+#CityPilotFotter .FotterRightSec a#Pinterest:hover{background:url(../images/Pinterest_active.png) no-repeat;}
+#CityPilotFotter .FotterRightSec a#GPluse{background:url(../images/GPluse.png) no-repeat;}
+#CityPilotFotter .FotterRightSec a#GPluse:hover{background:url(../images/GPluse_active.png) no-repeat;}
+#CityPilotFotter .FotterRightSec a#Share{background:url(../images/Share.png) no-repeat;}
+#CityPilotFotter .FotterRightSec a#Share:hover{background:url(../images/Share_active.png) no-repeat;}
+#CityPilotFotter .Newletter{width:217px;height:24px;border:1px solid black;background:white;}
+#CityPilotFotter .Newletter input{border:none;background:none;float:left;margin-top:3px;color:black;}
+#CityPilotFotter .Newletter input[type=button]{float:right;color:#d2d2d2;}
+#CityPilotFotter .NewletterBot{margin-top:24px;width:217px;font-size:11px;}
+#CityPilotFotter .nav .navcontainer ul.navlist{list-style:none;border:none;}
+#CityPilotFotter .nav .navcontainer ul.navlist li{border:none;margin:0px;padding:0px;}
+#CityPilotFotter .nav .navcontainer ul.navlist li a{font-family:"Adelle Regular";font-weight:normal;}
+#CityPilotFotter ul.navlist{border:none;}
+
+#CityPilotFotter .FooterSubBlock1 input[type="button"] {
+    margin-top:-22px;
+}
+/***this was in footer tpl before**/
+.creditcard li {margin-left:3px;}
+#creditcard li img{filter: alpha(Opacity=90);opacity: 0.9;}
+/****************/

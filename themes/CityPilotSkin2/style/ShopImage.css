@@ -1,0 +1,8 @@
+.image_list{  display:inline-block; padding:15px 0px; }
+.image_section_shop{ width:300px; height:260px; float:left; margin-right:10px; border:1px solid #ececec;}
+h4.image_shop_list{height:20px; display:block; font-size:13px; font-family: 'Adelle Bold'; color:#474747; margin:0px; padding:6px 10px;}
+h4.image_shop_list span{color:#e65621; font-size:11px; font-family: 'Adelle Regular';}
+.image_shop_desc{ font-size:11px;; height:16px; display:block;  color:#474747; padding:10px}
+.image_shop_rating{ height:27px; width:100%}
+.RatingLeft{ width:50%; background:#999; height:27px; float:left}
+.RatingRight{ width:50%; background:red; height:27px; float:left}

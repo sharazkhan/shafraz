@@ -1,0 +1,97 @@
+<?php /* Smarty version 2.6.28, created on 2017-11-26 07:47:00
+         compiled from ajax/productadlow.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'ajax/productadlow.tpl', 16, false),array('function', 'setdiscount', 'ajax/productadlow.tpl', 20, false),array('function', 'modurl', 'ajax/productadlow.tpl', 21, false),array('function', 'imageproportional', 'ajax/productadlow.tpl', 29, false),array('function', 'shorttext', 'ajax/productadlow.tpl', 35, false),array('function', 'displayprice', 'ajax/productadlow.tpl', 40, false),array('modifier', 'replace', 'ajax/productadlow.tpl', 30, false),array('modifier', 'cleantext', 'ajax/productadlow.tpl', 35, false),)), $this); ?>
+ <script><?php echo '
+jQuery(document).ready(function() {
+    jQuery("img.lazy").lazyload();
+});
+'; ?>
+</script>
+  <?php if ($this->_tpl_vars['lowadCount'] < 1): ?> 
+        <style><?php echo '
+        #specialdeal_block_products_low {
+    border: 0px;
+    clear: none;
+    float: left;
+    margin-top: 0px;
+}
+'; ?>
+</style>
+<?php endif; ?>
+<?php echo smarty_function_counter(array('assign' => 'idx','start' => 0,'print' => 0), $this);?>
+
+        <?php $_from = $this->_tpl_vars['lowad']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['product']):
+?>
+        <?php echo smarty_function_counter(array(), $this);?>
+
+        <?php if ($this->_tpl_vars['product']['SHOPTYPE'] == 'iSHOP'): ?>
+             <?php echo smarty_function_setdiscount(array('value' => $this->_tpl_vars['product']['discount'],'orig_price' => $this->_tpl_vars['product']['original_price'],'product_id' => $this->_tpl_vars['product']['product_id']), $this);?>
+
+              <a href="<?php echo smarty_function_modurl(array('modname' => 'ZSELEX','type' => 'user','func' => 'productview','id' => $this->_tpl_vars['product']['products_id']), $this);?>
+">
+        <div class="Sec1 middle_block <?php if ($this->_tpl_vars['idx'] == $this->_tpl_vars['lowadCount']): ?> noborder<?php endif; ?>">
+             <?php if ($this->_tpl_vars['is_discount']): ?>
+            <div class="Circle"  style="display:block"><p class="CText">-<?php echo $this->_tpl_vars['dicount_value']; ?>
+</p></div>
+              <?php endif; ?>  
+            <div style="height:90px">
+               <?php $this->assign('imagepath', "zselexdata/".($this->_tpl_vars['product']['SHOPID'])."/products/thumb/".($this->_tpl_vars['product']['products_image'])); ?>
+               <?php if (file_exists ( $this->_tpl_vars['imagepath'] ) && $this->_tpl_vars['product']['products_image'] != ''): ?> 
+                 <?php echo smarty_function_imageproportional(array('image' => $this->_tpl_vars['product']['products_image'],'path' => ($this->_tpl_vars['baseurl'])."zselexdata/".($this->_tpl_vars['product']['SHOPID'])."/products/thumb",'height' => '90','width' => '128'), $this);?>
+
+               <img <?php echo $this->_tpl_vars['imagedimensions']; ?>
+ class="lazy"  src="<?php echo $this->_tpl_vars['baseurl']; ?>
+modules/ZSELEX/images/grey_small.gif" data-original="<?php echo $this->_tpl_vars['baseurl']; ?>
+zselexdata/<?php echo $this->_tpl_vars['product']['SHOPID']; ?>
+/products/thumb/<?php echo ((is_array($_tmp=$this->_tpl_vars['product']['products_image'])) ? $this->_run_mod_handler('replace', true, $_tmp, ' ', '%20') : smarty_modifier_replace($_tmp, ' ', '%20')); ?>
+" alt="<?php echo $this->_tpl_vars['product']['products_name']; ?>
+">
+            
+               <?php endif; ?>
+            </div>
+            <p class="sec1H">
+               <?php if ($this->_tpl_vars['product']['products_name'] != ''): ?><?php echo smarty_function_shorttext(array('text' => ((is_array($_tmp=$this->_tpl_vars['product']['products_name'])) ? $this->_run_mod_handler('cleantext', true, $_tmp) : smarty_modifier_cleantext($_tmp)),'len' => 40), $this);?>
+<?php else: ?><br><?php endif; ?>
+            </p>
+
+            <p class="sec1L">
+               <?php if ($this->_tpl_vars['is_discount']): ?>
+                  <?php echo smarty_function_displayprice(array('amount' => $this->_tpl_vars['dicount_price']), $this);?>
+ DKK
+                  <?php else: ?>
+                  <?php echo smarty_function_displayprice(array('amount' => $this->_tpl_vars['product']['prd_price']), $this);?>
+ DKK 
+                  <?php endif; ?>
+            </p>
+        </div>
+        </a>
+        <?php elseif ($this->_tpl_vars['product']['SHOPTYPE'] == 'zSHOP'): ?>
+        <div class="Sec1 <?php if ($this->_tpl_vars['idx'] == $this->_tpl_vars['lowadCount']): ?> noborder<?php endif; ?>">
+            <div style="height:90px">
+                <?php if ($this->_tpl_vars['product']['file_exists1']): ?>
+                <a href="http://<?php echo $this->_tpl_vars['product']['domainname']; ?>
+/index.php?main_page=product_info&products_id=<?php echo $this->_tpl_vars['product']['products_id']; ?>
+">
+                    <img class="lazy" <?php if (! empty ( $this->_tpl_vars['product']['W'] )): ?> style="width:<?php echo $this->_tpl_vars['product']['W']; ?>
+px;height:<?php echo $this->_tpl_vars['product']['H']; ?>
+px" <?php else: ?> width="170px" <?php endif; ?> src="<?php echo $this->_tpl_vars['baseurl']; ?>
+modules/ZSELEX/images/grey_small.gif" data-original="http://<?php echo $this->_tpl_vars['product']['domainname']; ?>
+/images/<?php echo $this->_tpl_vars['product']['products_image']; ?>
+" >
+                </a>
+                <?php endif; ?>
+            </div>
+            <p class="sec1H">
+                <a href="http://<?php echo $this->_tpl_vars['product']['domainname']; ?>
+/index.php?main_page=product_info&products_id=<?php echo $this->_tpl_vars['product']['products_id']; ?>
+"><?php if ($this->_tpl_vars['product']['manufacturers_name'] != ''): ?><?php echo smarty_function_shorttext(array('text' => ((is_array($_tmp=$this->_tpl_vars['product']['manufacturers_name'])) ? $this->_run_mod_handler('cleantext', true, $_tmp) : smarty_modifier_cleantext($_tmp)),'len' => 40), $this);?>
+<?php else: ?><br><?php endif; ?></a>
+            </p>
+            <p class="sec1L"> <?php echo smarty_function_displayprice(array('amount' => $this->_tpl_vars['product']['products_price']), $this);?>
+</p>
+        </div>
+        <?php endif; ?> 
+        <?php endforeach; else: ?>
+        <?php endif; unset($_from); ?>

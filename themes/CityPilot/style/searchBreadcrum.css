@@ -1,0 +1,9 @@
+ul.BrudcomeTree{ list-style:none; padding:0px; margin:0px;}
+ul.BrudcomeTree li{padding:3px 0}
+ul.BrudcomeTree li{ list-style:none; padding:2px 8px;; margin:0px; float:left;   margin-right:15px; border: 1px solid #717d82; border-radius:5px; vertical-align:top }
+ul.BrudcomeTree li a{ color:#E45620; text-decoration:none; display:inline-block; vertical-align:middle;  margin-right:5px;   }
+ul.BrudcomeTree li a:hover{ color:#E45620; text-decoration:none; }
+ul.BrudcomeTree li a:visted{ color:#E45620; text-decoration:none;  }
+ul.BrudcomeTree li img{ vertical-align:middle}
+#BreadCrumHead{/*margin-left: 206px;*/}
+.bc_button{cursor:pointer}

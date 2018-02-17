@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-19 23:49+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: javascript/delivery.js:23 javascript/delivery.js:128
+msgid "The entered discount code is not valid for this order"
+msgstr ""
+
+msgid "BUY"
+msgstr ""
+
+msgid "Special Deals"
+msgstr ""
+
+#: javascript/delivery.js:138
+msgid "Discount Applied"
+msgstr ""
+
+#: javascript/minishop.js:7
+msgid "select category"
+msgstr ""
+
+#: javascript/minishop.js:8
+msgid "select manufacturer"
+msgstr ""
+
+#: javascript/product_user.js:72 javascript/product_user.js:138
+msgid "This product is already in your cart!"
+msgstr ""
+
+#: javascript/product_user.js:77 javascript/product_user.js:144
+msgid "Product added to cart!"
+msgstr ""
+
+#: javascript/product_user.js:110 javascript/product_user.js:115
+msgid "Product not available in desired quantity!"
+msgstr ""
+
+#: javascript/product_user.js:235 javascript/product_user.js:292
+#: javascript/product_user.js:316
+msgid "Processing..."
+msgstr ""
+
+#: javascript/product_user.js:261 javascript/product_user.js:288
+#: javascript/product_user.js:300 javascript/product_user.js:306
+#: javascript/product_user.js:321 javascript/product_user.js:432
+msgid "Add to Cart"
+msgstr ""
+
+#: javascript/product_user.js:413
+msgid "Not Available!"
+msgstr ""
+
+#: javascript/product_user.js:416
+msgid "Out of stock!"
+msgstr ""
+
+#: javascript/product_user.js:587 javascript/product_user.js:734
+msgid "Please select available options"
+msgstr ""
+
+#: javascript/product_user.js:622
+msgid "Please answer question"
+msgstr ""
+
+#: javascript/searchbreadcrum.js:141 javascript/searchlist.js:418
+#: javascript/searchlist.js:908 javascript/searchlist.js:909
+#: javascript/searchlist.js:1046 javascript/searchlist.js:1050
+#: javascript/searchlist.js:1163 javascript/searchlist.js:1167
+#: javascript/searchlist.js:1293 javascript/searchlist.js:2157
+msgid "search for..."
+msgstr ""
+
+#: javascript/searchlist.js:837 javascript/searchlist.js:1081
+#: javascript/searchlist.js:1187 javascript/searchlist.js:1189
+msgid "search category"
+msgstr ""
+
+#: javascript/searchlist.js:859 javascript/searchlist.js:1075
+msgid "search region"
+msgstr ""
+
+#: javascript/searchlist.js:861 javascript/searchlist.js:893
+#: javascript/searchlist.js:1078
+msgid "search city"
+msgstr ""
+
+#: javascript/searchlist.js:863 javascript/searchlist.js:876
+#: javascript/searchlist.js:895 javascript/searchlist.js:1084
+#: javascript/searchlist.js:1191 javascript/searchlist.js:1193
+msgid "search area"
+msgstr ""
+
+#: javascript/searchlist.js:1036 javascript/searchlist.js:1153
+msgid "Select City"
+msgstr ""
+
+#: javascript/searchlist.js:1281 javascript/searchlist.js:1493
+#: javascript/searchlist.js:1536 javascript/searchlist.js:1719
+#: javascript/searchlist.js:1794 javascript/searchlist.js:1982
+msgid "Loading..."
+msgstr ""
+
+#: javascript/selections.js:30
+msgid "Select All Cities"
+msgstr ""
+
+#: javascript/selections.js:67
+msgid "loading cities..."
+msgstr ""
+
+#: javascript/selections.js:134
+msgid "Please select a region"
+msgstr ""

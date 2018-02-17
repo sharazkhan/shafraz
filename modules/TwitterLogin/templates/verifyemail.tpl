@@ -1,0 +1,1 @@
+Please verify your mail and complete the registration by clicking the link which we had sent to you email.

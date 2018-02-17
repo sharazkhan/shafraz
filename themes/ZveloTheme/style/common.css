@@ -1,0 +1,44 @@
+.TextColor
+{
+    color:white;   
+}
+.OrangeText{
+    color:#EE5C36;
+    text-align:middle;
+}
+.RightContent{
+    color:white; 
+    text-align: center;
+    margin-top: -526px;
+}
+.LeftContent h4{ display:none; }
+.RightContent h4{ display:none; }
+.button_link{
+
+}
+.statusMsg{
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 1024px;
+    z-index: 0;
+}
+.PopUpContent{
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 1024px;
+    z-index: 0;
+    margin-top: 176px;
+}
+.ListBikes{
+    margin-left: 289px;
+    margin-top: 169px;
+    z-index: 999;
+}

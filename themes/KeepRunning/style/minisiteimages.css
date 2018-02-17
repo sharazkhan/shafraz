@@ -1,0 +1,17 @@
+#minisiteimage_block{
+    border:solid 1px #CCC; 
+    padding-left:10px;
+    padding-right:10px; 
+    padding-top:10px;
+    padding-bottom:10px
+}
+#minisiteimage_block .minisiteimage_inner{
+    float:left; 
+    width:170px;
+    margin-left:15px; 
+    display:table-cell
+}
+
+#clearboth{
+    clear:both;
+}

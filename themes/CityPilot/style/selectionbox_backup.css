@@ -1,0 +1,28 @@
+
+.ajax-container input[type="text"],.ajax-container textarea {
+    padding: 0.09em;
+}
+
+.ajax-container ul {
+    margin:0px;
+}
+
+div.sexy input,div.sexy select {
+    background: url("text-bg.gif") repeat-x scroll 0 0 #FFFFFF;
+    border: 1px solid #B5B8C8;
+    font: 12px/18px ;
+    height: 13px;
+    left: 0;
+    margin: 0;
+    padding: 1px 3px;
+    top: 0;
+    vertical-align: middle;
+    width: 129px;
+    font-family:"Adelle Regular";
+}
+div.sexy input{width: 100px;} 
+div.sexy {width:127px}
+div.sexy div.icon{left:106px}
+div.sexy div.list-wrapper{width:122px}
+div.sexy li,select,select option {font-family:"Adelle Regular";}
+.ui-autocomplete{z-index:9 !important}

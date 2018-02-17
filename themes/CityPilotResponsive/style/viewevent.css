@@ -1,0 +1,69 @@
+.EventDetailsSchedule {
+    padding: 20px;
+    float: right;
+    width: 200px;
+    height: auto;
+    margin-top: 85px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    color: #717D82;
+}
+
+.EventDetailsSchedule ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.EventDetailsSchedule ul li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    height: 43px;
+    padding-left: 40px;
+}
+
+.EventDetailsSchedule ul li div {
+    padding: 13px 0px;
+}
+
+.EventDetailsSchedule ul li#Calander {
+    background: url(../images/showevent_Calander.png) left center  no-repeat;
+}
+
+.EventDetailsSchedule ul li#Clock {
+    background: url(../images/showevent_Clock.png) left center  no-repeat;
+}
+
+.EventDetailsSchedule ul li#Book {
+    background: url(../images/showevent_Book.png)  left center no-repeat;
+}
+
+.EventDetailsSchedule ul li#Mail {
+    background: url(../images/showevent_Mail.png) left center no-repeat;
+}
+
+.EventDetailsSchedule ul li#Price {
+    background: url(../images/showevent_Price.png) left center no-repeat;
+}
+
+.EventDetailsSchedule ul li#Phone {
+    background: url(../images/showevent_Mobile.png) left center  no-repeat;
+}
+
+.EventHeader {
+    display: block;
+    padding: 3px 0px;
+    border-bottom: 1px solid #CCC;
+    color: #717D82;
+}
+
+#EventName {
+    /* width: 367px; */
+    padding: 0px;
+    margin: 0px;
+    font-size: 60px;
+    display: inline-block;
+    color: #717D82;
+    word-break: break-all;
+}

@@ -1,0 +1,552 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'Adelle Bold';
+    src: url('../fonts/adelle_bold-webfont.eot');
+    src: url('../fonts/adelle_bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/adelle_bold-webfont.woff') format('woff'),
+        url('../fonts/adelle_bold-webfont.ttf') format('truetype'),
+        url('../fonts/adelle_bold-webfont.svg#adelle_rgbold') format('svg');
+}
+
+@font-face {
+    font-family: 'Adelle Regular';
+    src: url('../fonts/adelle_reg-webfont.eot');
+    src: url('../fonts/adelle_reg-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/adelle_reg-webfont.woff') format('woff'),
+        url('../fonts/adelle_reg-webfont.ttf') format('truetype'),
+        url('../fonts/adelle_reg-webfont.svg#adelle_rgregular') format('svg');
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: "Adelle Regular";
+    font-size: 11px;
+    color: #717d82;
+}
+
+input,  select, #CityPilotFotter textarea {
+    font-family: "Adelle Regular";
+}
+
+img {
+    border: none;
+}
+
+h4 {
+    color: #717d82;
+    font-size: 26px;
+    margin-bottom: 17px;
+    margin-top: 17px;
+}
+/*
+a{color:#e65621; text-decoration: none;}
+a:visited{color:#e65621; font-weight: normal; text-decoration:none}
+a:hover{text-decoration: underline}
+*/
+a {
+    color: #717D82;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #717D82;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e65621;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+ul li {
+    padding: 5px 0px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.TextRight {
+    text-align: right;
+}
+
+.TextCenter {
+    text-align: center;
+}
+
+
+.inner {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+
+
+.ImageBlock {
+    height: auto;
+    display: inline-block;
+}
+
+.ContentLeft {
+    width: 630px;
+    height: auto;
+}
+
+.ContentRight {
+    height: auto;
+    /*padding-top: 110px;*/
+    width: 310px;
+}
+
+
+
+.ImageSection {
+    border: 1px #dedede solid;
+    margin: 25px 0px;
+    display: inline-block;
+    height: auto;
+}
+
+
+
+
+
+
+/****************** Full column Layout ******************/
+.Fullwidth {
+    width: 100%;
+}
+
+
+/*******************************************************/
+
+/*************************RATING SECTION*******************************************/
+.ShopRatingDiv {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    color: #717d82;
+}
+
+#ShopName {
+    color: #717d82;
+    font-size: 50px;
+    font-family: 'Adelle Bold';
+    padding: 6px 0px;
+    border-bottom: 1px solid #8c969a;
+    margin: 0px;
+    display: block;
+}
+
+#ShopName span {
+    font-size: 22px;
+    color: #e65621;
+    font-weight: normal;
+    font-family: 'Adelle Regular';
+}
+
+.Rating {
+    width: 200px;
+    padding: 10px 0px;
+    float: right;
+    margin-top: -107px;
+}
+
+.Rating h5 {
+    background: url(../images/DownArow.png) left no-repeat;
+    padding-left: 15px;
+    color: #717d82;
+    font-weight: normal;
+}
+
+.Rating ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    height: 26px;
+    padding-left: 20px;
+}
+
+.Rating ul li {
+    width: 23px;
+    height: 26px;
+    margin: 0px;
+    padding: 0px;
+    background-position: center;
+    float: left;
+    cursor: pointer;
+}
+
+.Rating ul li.ActiveStar {
+    background: url(../images/ActiveStar.png) no-repeat top center;
+}
+
+.Rating ul li.FadeStar {
+    background: url(../images/FadeStar.png) no-repeat top center;
+}
+
+.Rating ul li.Chat {
+    background: url(../images/Chat.png) top right no-repeat;
+    width: 29px;
+    text-align: right;
+}
+
+.minishop_fullwidth .ShopRatingDiv {
+    width: 630px;
+}
+
+.ShopRatingDiv {
+    width: 630px;
+}
+
+
+#minisitemenu_block h4, #minisitemenu_block .extmenuadmin {
+    display: none;
+}
+
+#minisitemenu_block ul.navlist {
+    margin: 0px;
+    padding: 12px 0px;
+    list-style: none;
+    height: 20px;
+}
+
+#minisitemenu_block ul.navlist li {
+    display: inline-block;
+    padding-right: 15px;
+    list-style: none;
+}
+
+#minisitemenu_block ul.navlist li.selected a {
+    color: #e65622;
+}
+
+
+/*************************RATING SECTION*******************************************/
+.ImageBlock {
+    color: #717d82;
+}
+/*ul.ImagePrivew{height:auto; display:inline-block; list-style:none; width:100%; margin:0px; padding:0px;}*/
+
+
+.RatingContainer {
+    font-size: 14px;
+    padding: 20px 10px;
+    display: block;
+}
+
+.RatingContainer .Rating {
+    margin-top: -37px;
+}
+
+.ImageSection {
+    border: 1px #dedede solid;
+    margin: 25px 0px;
+}
+
+.ImageBlock h4 {
+    font-family: 'Adelle Bold';
+    font-size: 18px;
+    padding: 15px;
+    margin: 0px;
+}
+
+.SeALL {
+    font-family: 'Adelle Bold';
+    font-size: 18px;
+    padding: 14px;
+    margin: 0px;
+    width: 90px;
+    float: right;
+    color: #e65622;
+    margin-top: -55px;
+}
+
+.Product-Images-Sequence {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    text-align: left;
+}
+
+.Product-Images-Sequence li {
+    width: 232px;
+    height: auto;
+    list-style: none;
+    display: inline-block;
+    text-align: center; float: left;
+}
+
+.FlexiImg {
+    width: 230px;
+    height:200px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+.FlexiImg a{display: block; text-align: center;}
+
+.myimages {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border: solid 1px black;
+    overflow: hidden;
+}
+/*.FlexiImg img{width:90%; height:150px;}*/
+.Product-Images-Sequence .Circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 34px;
+    background: #e65622;
+    font-size: 24px;
+    font-family: 'Adelle Bold';
+    float: right;
+    margin-right: 20px;
+    margin-top: -160px;
+    position: relative;
+    z-index: 2;
+}
+
+.Product-Images-Sequence .Circle  p.CText {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+    color: #FFF;
+}
+
+.Product-Images-Sequence P.PText {
+    font-size: 18px;
+    font-family: 'Adelle Bold';
+}
+
+.Product-Images-Sequence .Box {
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Adelle Bold';
+    width: 45px;
+    margin: auto;
+    border-radius: 5px;
+    height: 20px;
+    background: #e65622;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.Box a.addbutton {
+    color: white;
+}
+
+.Box a.addbutton:hover {
+    color: white;
+}
+
+.Discussion {
+    width: 700px;
+    display: inline-block;
+    height: auto;
+}
+
+.Discussion h6 {
+    font-size: 14px;
+    color: #e65622;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Discussion p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.DiscSectionLeft {
+    width: 100%;
+    border: 1px #dedede solid;
+    padding: 10px;
+    margin: 10px 0px;
+    background: #FFF;
+    border-radius: 2px;
+}
+
+.DiscSectionRight {
+    width: 560px;
+}
+
+.ShiftRight {
+    margin-left: 145px;
+}
+
+.DiscSectionRight .Comment {
+    border: 1px #dedede solid;
+    padding: 10px;
+    margin: 10px 0px;
+    background: #FFF;
+    border-radius: 2px;
+    width: 540px;
+    margin-left: 160px;
+    margin-top: -10px;
+}
+
+.FormDiv {
+    width: 380px;
+}
+
+.FormDiv input, .FormDiv textarea {
+    margin: 8px 0px;
+    border: 1px #dedede solid;
+    border-radius: 4px;
+    padding: 4px;
+    color: #717d82;
+}
+
+.FormDiv input[type=button] {
+    background: #e65622;
+    color: #FFF;
+    float: right;
+    cursor: pointer;
+}
+
+.FormDiv textarea {
+    width: 380px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/***************Product view Detail ****************/
+
+
+.DetailProductImage {
+    display: inline-block;
+    height: auto;
+    margin-top: 5px;
+}
+
+.DetailedProductRight {
+    display: block;
+    font-size: 14px;
+}
+
+.DetailedProductRight h4 {
+    color: #717D82;
+    font-size: 40px;
+    font-family: 'Adelle Bold';
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.DetailedProductRight h5 {
+    font-size: 30px;
+    font-family: 'Adelle Bold';
+    margin: 0px;
+    padding: 10px 0px;
+    color: #E65621;
+}
+
+.DetailedProductRight p {
+    color: #717d82;
+}
+
+.DetailedProductRightForm select {
+    width: 127px;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    height: 23px;
+    color: #717d82;
+}
+
+#OrangeBtn {
+    background: #E65621;
+    color: #FFF;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    padding: 14px 10px;
+    font-family: 'Adelle Bold';
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#productview .ShopRatingDiv {
+    display: block;
+    width: 570px;
+    font-size: 14px;
+    color: #717d82;
+}
+
+
+
+
+
+.ButtonSection{ float:right; margin-left: 15px;}
+.SlitghtPad{ height:10px;}
+.SearchButtonNew{ border:2px #ba5530 solid; border-radius:5px; width:150px; height:30px; color:white; font-size:16px; text-align: left;
+                  background: #cf4f22; /* Old browsers */
+                  background: -moz-linear-gradient(top,  #cf4f22 0%, #c54d21 50%, #c04214 56%, #b73f14 100%); /* FF3.6+ */
+                  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cf4f22), color-stop(50%,#c54d21), color-stop(56%,#c04214), color-stop(100%,#b73f14)); /* Chrome,Safari4+ */
+                  background: -webkit-linear-gradient(top,  #cf4f22 0%,#c54d21 50%,#c04214 56%,#b73f14 100%); /* Chrome10+,Safari5.1+ */
+                  background: -o-linear-gradient(top,  #cf4f22 0%,#c54d21 50%,#c04214 56%,#b73f14 100%); /* Opera 11.10+ */
+                  background: -ms-linear-gradient(top,  #cf4f22 0%,#c54d21 50%,#c04214 56%,#b73f14 100%); /* IE10+ */
+                  background: linear-gradient(to bottom,  #cf4f22 0%,#c54d21 50%,#c04214 56%,#b73f14 100%); /* W3C */
+                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf4f22', endColorstr='#b73f14',GradientType=0 ); /* IE6-9 */}
+
+
+#CityPilotHeader .SearchFields span#Arrow{ float:none !important;}
+
+#CityPilotHeader .SearchFields input#searchfield{ width:97px !important}
+
+
+.ShopListText h4 a{color: #474747;}
+/****************** Search Ends ******************/
+
+.Employees h4{display:none;}
+.Employees div.Om_Txt  h4 { display: block}
+.shopheader{
+  width:625px !important;
+}
+
+.OrageEditSec a{ color:#ff5214; font-size:11px; z-index: 9; position: relative}
+.OrageEditSec a:hover{ color:#ff5214; font-size:11px}
+.OrageEditSec img{ vertical-align:top; margin-right:6px;  }
+.EditBanner{ margin-top:-20px;}
+.EditBanner img{ display: inline-block !important;}
+.mainHeadEdit{ margin-bottom: -17px; margin-top:15px; }
+.EditEvent{ margin-bottom: -20px; margin-top:20px;}
+.EditProducts{margin-bottom: 23px; margin-top:-18px;}
+.EditImages{margin-bottom: -20px; margin-top:20px;}
+.EditAddress{margin-left: 89px; margin-top: -3px; margin-bottom: -10px;}
+
+/**14-11-13***/
+.bodyImage {display:inline-block; width: 100%;}
+.bodyImage .left{ margin-right:15px;}
+.LinkContainer{ display: table-cell; vertical-align: middle;  width: 200px; height: 200px;   }
+.bodyImage .left a{ display:block; }
+
+.bodyImage .left a img{}
+
+
+
+.viewAllEvent{font-family: 'Adelle Bold'; font-size: 16px; width: 290px; text-align: right;   }
+
+.viewAllEvent a{color: #FF5214;}

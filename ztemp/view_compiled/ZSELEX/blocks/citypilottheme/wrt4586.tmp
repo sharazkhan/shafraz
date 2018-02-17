@@ -1,0 +1,106 @@
+<?php /* Smarty version 2.6.28, created on 2017-11-26 07:36:50
+         compiled from blocks/citypilottheme/header.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('function', 'fileversion', 'blocks/citypilottheme/header.tpl', 2, false),array('function', 'pageaddvar', 'blocks/citypilottheme/header.tpl', 4, false),array('function', 'blockposition', 'blocks/citypilottheme/header.tpl', 42, false),)), $this); ?>
+ 
+<?php echo smarty_function_fileversion(array(), $this);?>
+
+<!--  selection box js & css  -->
+<?php echo smarty_function_pageaddvar(array('name' => 'javascript','value' => "modules/ZSELEX/javascript/searchlist.js".($this->_tpl_vars['ver'])), $this);?>
+
+<?php echo smarty_function_pageaddvar(array('name' => 'javascript','value' => "modules/ZSELEX/javascript/selections.js?v=1.0"), $this);?>
+
+<?php echo smarty_function_pageaddvar(array('name' => 'javascript','value' => "modules/ZSELEX/javascript/selectioncookies.js".($this->_tpl_vars['ver'])), $this);?>
+
+<?php echo smarty_function_pageaddvar(array('name' => 'javascript','value' => "modules/ZSELEX/javascript/jqueryautocomplete/js/jquery-ui-1.8.2.custom.min.js".($this->_tpl_vars['ver'])), $this);?>
+ 
+<?php echo smarty_function_pageaddvar(array('name' => 'javascript','value' => "modules/ZSELEX/javascript/combo/jquery.sexy-combo.js".($this->_tpl_vars['ver'])), $this);?>
+
+<?php echo smarty_function_pageaddvar(array('name' => 'stylesheet','value' => "modules/ZSELEX/javascript/jqueryautocomplete/css/smoothness/jquery-ui-1.8.2.custom.css".($this->_tpl_vars['ver'])), $this);?>
+
+<?php echo smarty_function_pageaddvar(array('name' => 'stylesheet','value' => "modules/ZSELEX/style/combo/sexy-combo.css".($this->_tpl_vars['ver'])), $this);?>
+
+<?php echo smarty_function_pageaddvar(array('name' => 'stylesheet','value' => "modules/ZSELEX/style/combo/sexy/sexy.css".($this->_tpl_vars['ver'])), $this);?>
+
+<?php echo smarty_function_pageaddvar(array('name' => 'stylesheet','value' => ($this->_tpl_vars['themepath'])."/style/selectionbox.css".($this->_tpl_vars['ver'])), $this);?>
+
+<!--  selection box js & css ends  -->
+
+<?php echo smarty_function_pageaddvar(array('name' => 'stylesheet','value' => ($this->_tpl_vars['themepath'])."/style/Header.css".($this->_tpl_vars['ver'])), $this);?>
+
+<script type="text/javascript" src="<?php echo $this->_tpl_vars['themepath']; ?>
+/javascript/themejs.js<?php echo $this->_tpl_vars['ver']; ?>
+"><?php echo ''; ?>
+</script>
+
+<a href="#" class="scrollup">Scroll</a>
+<div class="HeaderBlock">
+     <div class="TopMenu">
+                 <div class="inner">
+                     <div class="CitySelect left">
+                           <span id="SelectedRegion" class="Orange"><?php if (! empty ( $_COOKIE['region_cookie'] )): ?><?php echo $_COOKIE['regionname_cookie']; ?>
+<?php endif; ?></span>
+                           <span id="SelectedCity" class="Orange">
+                               <?php if (! empty ( $_COOKIE['city_cookie'] )): ?>
+                                   <?php if (! empty ( $_COOKIE['region_cookie'] )): ?>
+                                   &nbsp;&raquo;&nbsp;<?php echo $_COOKIE['cityname_cookie']; ?>
+
+                                   <?php else: ?>
+                                       <?php echo $_COOKIE['cityname_cookie']; ?>
+
+                                   <?php endif; ?>
+                               <?php endif; ?>
+                           </span>
+                     </div>
+                        <div class="right">
+                             <div class="navi-outer">
+                              <div class="top-menu-inner">
+                           <?php echo smarty_function_blockposition(array('name' => 'verytop-right'), $this);?>
+
+                              </div>
+                              <div class="smart-shop-menu">
+                                  place shop menu shortcode here 
+                                  <?php echo smarty_function_blockposition(array('name' => 'minisitemenu'), $this);?>
+
+                              </div>
+                             </div>
+                        </div>
+                 </div>
+    </div>
+                        
+    <div class="LogoSection">
+        <div class="inner">
+                       <?php echo smarty_function_blockposition(array('name' => 'top-left'), $this);?>
+
+            <div class="top-center-block">
+             <?php echo smarty_function_blockposition(array('name' => 'top-center'), $this);?>
+
+            </div>
+            <?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "blocks/citypilottheme/map.tpl", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
+             <!-- MENU BUTTON -->
+             <button class="wsite-nav-button">Menu</button>
+            
+        </div>
+                  
+    </div>
+
+</div>
+<div class="SearchBlock">
+            <div class="inner">
+                <div class="SearchContent left">
+                  <?php echo smarty_function_blockposition(array('name' => 'selectionbox'), $this);?>
+
+                </div>
+            </div>
+</div>
+    <!-- Hide the h4 for footer block by js -->
+     <script><?php echo ' 
+          //  jQuery("#CityPilotHeader").children(\'div:first\').children(\'h4\').stop(true, true).css("display", "none");
+     '; ?>
+</script>
+    <!-------------------------------------------->
+               

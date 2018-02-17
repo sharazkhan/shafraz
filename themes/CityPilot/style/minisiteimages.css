@@ -1,0 +1,52 @@
+/*
+#minisiteimage_block{
+    border:solid 1px #CCC; 
+    padding-left:10px;
+    padding-right:10px; 
+    padding-top:10px;
+    padding-bottom:10px
+}
+#minisiteimage_block .minisiteimage_inner{
+    float:left; 
+    width:170px;
+    margin-left:15px; 
+    display:table-cell
+}
+
+#clearboth{
+    clear:both;
+}
+*/
+.z-bkey-minisiteimages h4 {display:none}
+
+
+/*ul.ImagePrivew {
+    height: auto;
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0px;
+}*/
+
+ul.ImagePrivew {
+    display: inline-block;
+    height: auto;
+    list-style: none outside none;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul.ImagePrivew li {
+    float: left;
+    list-style: none;
+    border: 1px #dedede solid;
+    height: 98px;
+    width: 114px;
+    margin-right: 10px;
+}
+
+
+
+

@@ -1,0 +1,567 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-11 15:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: javascript/adminajax.js:628
+msgid "PLEASE WAIT....."
+msgstr ""
+
+#: javascript/bundles.js:25 javascript/bundles.js:48
+#: javascript/product_admin.js:314 javascript/product_admin.js:502
+#: javascript/product_admin.js:549 javascript/product_admin.js:595
+#: javascript/product_admin.js:919 javascript/searchlist.js:1193
+#: javascript/searchlist.js:1405 javascript/searchlist.js:1448
+#: javascript/searchlist.js:1547 javascript/searchlist.js:1631
+#: javascript/searchlist.js:1706 javascript/searchlist.js:1893
+#: javascript/shopsetting/event.js:10 javascript/shopsetting/shopsetting.js:11
+#: javascript/shopsetting/shopsetting.js:77
+#: javascript/shopsetting/shopsetting.js:120
+#: javascript/shopsetting/shopsetting.js:509
+#: javascript/shopsetting/shopsetting.js:713 javascript/zselex_admin.js:115
+#: javascript/zselex_admin.js:134 javascript/zselex_admin.js.back_18-02-16:123
+msgid "Loading..."
+msgstr ""
+
+#: javascript/bundles.js:110
+msgid "You have not selected"
+msgstr ""
+
+#: javascript/delete_bulk.js:60
+msgid "delete"
+msgstr ""
+
+#: javascript/delete_bulk.js:61
+msgid "reactivate demo"
+msgstr ""
+
+#: javascript/delete_bulk.js:62
+msgid "publish"
+msgstr ""
+
+#: javascript/delete_bulk.js:63
+msgid "reject"
+msgstr ""
+
+#: javascript/delete_bulk.js:64
+msgid "change categories for"
+msgstr ""
+
+#: javascript/delete_bulk.js:67
+msgid "You cannot undo this operation!"
+msgstr ""
+
+#: javascript/delete_bulk.js:88
+#, php-format
+msgid "Are you sure you want to %s the following items"
+msgid_plural "Are you sure you want to %s the selected items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: javascript/delete_bulk.js:93
+msgid "Confirm Bulk Action"
+msgstr ""
+
+#: javascript/delete_bulk.js:110
+#, php-format
+msgid "Please select at least one service to %s."
+msgstr ""
+
+#: javascript/delete_bulk.js:111
+msgid "Bulk action error"
+msgstr ""
+
+#: javascript/DND/ajaxupload-min.js:148
+msgid "File validation failed"
+msgstr ""
+
+#: javascript/DND/ajaxupload-min.js:237
+msgid "Upload aborted"
+msgstr ""
+
+#: javascript/DND/ajaxupload-min.js:262
+msgid "File uploaded 100%"
+msgstr ""
+
+#: javascript/DND/ajaxupload-min.js:294
+msgid "Select Files"
+msgstr ""
+
+#: javascript/DND/ajaxupload-min.js:315
+msgid "Add files"
+msgstr ""
+
+#: javascript/DND/ajaxupload-min.js:325 javascript/dndfiles/ajaxupload.js:691
+msgid "Upload all files"
+msgstr ""
+
+#: javascript/DND/ajaxupload-min.js:325 javascript/dndfiles/ajaxupload.js:692
+msgid "Start upload"
+msgstr ""
+
+#: javascript/DND/ajaxupload-min.js:326 javascript/dndfiles/ajaxupload.js:695
+msgid "Remove all"
+msgstr ""
+
+#: javascript/DND/ajaxupload-min.js:362
+msgid "Select Files or Drag&Drop Files"
+msgstr ""
+
+#: javascript/DND/ajaxupload-min.js:417
+msgid "Max files number reached"
+msgstr ""
+
+#: javascript/DND/ajaxupload-min.js:418
+msgid "Extension not allowed"
+msgstr ""
+
+#: javascript/DND/ajaxupload-min.js:419
+msgid "File size now allowed"
+msgstr ""
+
+#: javascript/dndfiles/ajaxupload.js:12 javascript/dndfiles/ajaxupload.js:13
+#: javascript/dndfiles/ajaxupload.js:686 javascript/dndfiles/ajaxupload.js:687
+msgid "Add Files"
+msgstr ""
+
+#: javascript/dndfiles/ajaxupload.js:685
+msgid "Select files"
+msgstr ""
+
+#: javascript/dndfiles/ajaxupload.js:694
+msgid "Clear all"
+msgstr ""
+
+#: javascript/dndfiles/ajaxupload1.js:643
+msgid "Your changes wil be reloaded after few seconds"
+msgstr ""
+
+#: javascript/order.js:4
+msgid ""
+"We suspect the transaction has been tampered with. Its now invalid and will "
+"be terminated. Please try again."
+msgstr ""
+
+#: javascript/product_ad.js:271
+msgid "Choose a city..."
+msgstr ""
+
+#: javascript/product_ad.js:323
+msgid "Please choose a level"
+msgstr ""
+
+#: javascript/product_ad.js:346
+msgid "Do you really delete this Ad?"
+msgstr ""
+
+#: javascript/product_admin.js:52
+msgid "Do you really want to change the status?"
+msgstr ""
+
+#: javascript/product_admin.js:81 javascript/product_admin.js:92
+#: javascript/product_admin.js:837
+msgid "remove"
+msgstr ""
+
+#: javascript/product_admin.js:92
+msgid "value"
+msgstr ""
+
+#: javascript/product_admin.js:92
+msgid "sort order"
+msgstr ""
+
+#: javascript/product_admin.js:137
+msgid "value not entered!"
+msgstr ""
+
+#: javascript/product_admin.js:138
+msgid "Values are missing! Do you still want to save and exit?"
+msgstr ""
+
+#: javascript/product_admin.js:261
+msgid "This option is already selected"
+msgstr ""
+
+#: javascript/product_admin.js:269
+msgid "You have already selected this option"
+msgstr ""
+
+#: javascript/product_admin.js:341 javascript/product_admin.js:946
+#: javascript/product_admin.js:997 javascript/zselex_admin.js:281
+#: javascript/zselex_admin.js:299 javascript/zselex_admin.js.back_18-02-16:277
+msgid "some error occured!"
+msgstr ""
+
+#: javascript/product_admin.js:351
+msgid "This product does not exist!"
+msgstr ""
+
+#: javascript/product_admin.js:364 javascript/product_admin.js:794
+#: javascript/tpl/minishop.js:6
+msgid "select category"
+msgstr ""
+
+#: javascript/product_admin.js:389
+msgid "You have not selected any products"
+msgstr ""
+
+#: javascript/product_admin.js:395 javascript/zselex_admin.js:88
+#: javascript/zselex_admin.js.back_18-02-16:93
+msgid "Do you really want to delete?"
+msgstr ""
+
+#: javascript/product_admin.js:615 javascript/product_admin.js:667
+msgid "An error has occured. Please try again later"
+msgstr ""
+
+#: javascript/product_admin.js:626
+msgid "Do you really want to copy?"
+msgstr ""
+
+#: javascript/product_admin.js:644
+msgid "Copying..."
+msgstr ""
+
+#: javascript/product_admin.js:672
+msgid "Done! Product Copied Successfully!"
+msgstr ""
+
+#: javascript/product_admin.js:703
+msgid "Please enter a manufacturer name!"
+msgstr ""
+
+#: javascript/product_admin.js:731
+msgid "This manufacturer already exist!"
+msgstr ""
+
+#: javascript/product_admin.js:756
+msgid "Please enter a category name!"
+msgstr ""
+
+#: javascript/product_admin.js:784
+msgid "This category already exist!"
+msgstr ""
+
+#: javascript/product_admin.js:801
+msgid "Do you really want to delete this product?"
+msgstr ""
+
+#: javascript/product_admin.js:863 javascript/product_admin.js:889
+msgid "End date should be greater than Start date"
+msgstr ""
+
+#: javascript/product_admin.js:886
+msgid "Start date cannot be empty"
+msgstr ""
+
+#: javascript/product_admin.js:1006
+msgid "Some error occured. Please try later"
+msgstr ""
+
+#: javascript/product_admin.js:1013
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: javascript/product_user.js:74 javascript/product_user.js:140
+msgid "This product is already in your cart!"
+msgstr ""
+
+#: javascript/product_user.js:80 javascript/product_user.js:146
+msgid "Product added to cart!"
+msgstr ""
+
+#: javascript/product_user.js:117
+msgid "Product not available in desired quantity!"
+msgstr ""
+
+#: javascript/product_user.js:225 javascript/product_user.js:282
+#: javascript/product_user.js:306 javascript/shop_services.js:28
+#: javascript/shop_services.js:75 javascript/shop_services.js:121
+#: javascript/shop_services.js:166 javascript/shop_services.js:212
+#: javascript/shop_services.js:258
+msgid "Processing..."
+msgstr ""
+
+#: javascript/product_user.js:251 javascript/product_user.js:278
+#: javascript/product_user.js:290 javascript/product_user.js:296
+#: javascript/product_user.js:311 javascript/product_user.js:424
+msgid "Add to Cart"
+msgstr ""
+
+#: javascript/product_user.js:404
+msgid "Not Available!"
+msgstr ""
+
+#: javascript/product_user.js:408
+msgid "Out of stock!"
+msgstr ""
+
+#: javascript/product_user.js:582 javascript/product_user.js:733
+msgid "Please select available options"
+msgstr ""
+
+#: javascript/product_user.js:617
+msgid "Please answer question"
+msgstr ""
+
+#: javascript/searchbreadcrum.js:147 javascript/searchlist.js:375
+#: javascript/searchlist.js:836 javascript/searchlist.js:837
+#: javascript/searchlist.js:974 javascript/searchlist.js:978
+#: javascript/searchlist.js:1087 javascript/searchlist.js:1091
+#: javascript/searchlist.js:1205 javascript/searchlist.js:2055
+msgid "search for..."
+msgstr ""
+
+#: javascript/searchlist.js:374
+msgid "Choose a category..."
+msgstr ""
+
+#: javascript/searchlist.js:766 javascript/searchlist.js:767
+#: javascript/searchlist.js:1006 javascript/searchlist.js:1007
+#: javascript/searchlist.js:1111 javascript/searchlist.js:1112
+msgid "search category"
+msgstr ""
+
+#: javascript/searchlist.js:787 javascript/searchlist.js:788
+#: javascript/searchlist.js:1002 javascript/searchlist.js:1003
+msgid "search region"
+msgstr ""
+
+#: javascript/searchlist.js:789 javascript/searchlist.js:790
+#: javascript/searchlist.js:821 javascript/searchlist.js:822
+#: javascript/searchlist.js:1004 javascript/searchlist.js:1005
+msgid "search city"
+msgstr ""
+
+#: javascript/searchlist.js:791 javascript/searchlist.js:792
+#: javascript/searchlist.js:804 javascript/searchlist.js:805
+#: javascript/searchlist.js:823 javascript/searchlist.js:824
+#: javascript/searchlist.js:1008 javascript/searchlist.js:1009
+#: javascript/searchlist.js:1113 javascript/searchlist.js:1114
+msgid "search area"
+msgstr ""
+
+#: javascript/searchlist.js:964 javascript/searchlist.js:1077
+msgid "Select City"
+msgstr ""
+
+#: javascript/selections.js:30
+msgid "Select All Cities"
+msgstr ""
+
+#: javascript/selections.js:67
+msgid "loading cities..."
+msgstr ""
+
+#: javascript/selections.js:134
+msgid "Please select a region"
+msgstr ""
+
+#: javascript/shop_services.js:77 javascript/shop_services.js:260
+msgid "Downgrading..."
+msgstr ""
+
+#: javascript/shop_services.js:168
+msgid "Removing..."
+msgstr ""
+
+#: javascript/shopsetting/event.js:128
+msgid "Please upload a image minimum of width=900 and height=300 in size"
+msgstr ""
+
+#: javascript/shopsetting/event.js:135
+msgid "Do you really want to delete this event?"
+msgstr ""
+
+#: javascript/shopsetting/shopsetting.js:386
+msgid "lock"
+msgstr ""
+
+#: javascript/shopsetting/shopsetting.js:390
+msgid "unlock"
+msgstr ""
+
+#: javascript/shopsetting/shopsetting.js:397
+msgid "Do you really want to delete this image?"
+msgstr ""
+
+#: javascript/shopsetting/shopsetting.js:407
+msgid "Do you really want to delete this banner?"
+msgstr ""
+
+#: javascript/shopsetting/shopsetting.js:417
+msgid "Do you really want to delete this employee?"
+msgstr ""
+
+#: javascript/shopsetting/shopsetting.js:591
+msgid "Please select a crop region then press save"
+msgstr ""
+
+#: javascript/shopsetting/shopsetting.js:596
+msgid "Saving..."
+msgstr ""
+
+#: javascript/shopsetting/shopsetting.js:742
+#: javascript/shopsetting/shopsetting.js:806
+msgid "You dont have permission to delete this shop"
+msgstr ""
+
+#: javascript/shopsetting/shopsetting.js:749
+msgid "Deletion has already been requested"
+msgstr ""
+
+#: javascript/shopsetting/shopsetting.js:771
+msgid "Please specify a reason for deleting"
+msgstr ""
+
+#: javascript/shopsetting/shopsetting.js:774
+msgid "Deleting..."
+msgstr ""
+
+#: javascript/shopsetting/shopsetting.js:812
+msgid "Delete request has been initiated successfully"
+msgstr ""
+
+#: javascript/shopsetting/shopsetting.js:815
+msgid "An error occured. Please try later"
+msgstr ""
+
+#: javascript/tpl/minishop.js:7
+msgid "select manufacturer"
+msgstr ""
+
+#: javascript/users/Zikula.Users.PassMeter.js:2
+msgid "Weak"
+msgstr ""
+
+#: javascript/users/Zikula.Users.PassMeter.js:2
+msgid "Normal"
+msgstr ""
+
+#: javascript/users/Zikula.Users.PassMeter.js:2
+msgid "Strong"
+msgstr ""
+
+#: javascript/users/Zikula.Users.PassMeter.js:2
+msgid "Very Strong"
+msgstr ""
+
+#: javascript/users/Zikula.Users.PassMeter.js:2
+#, php-format
+msgid "The minimum length for user passwords is %s characters."
+msgstr ""
+
+#: javascript/users/Zikula.Users.PassMeter.js:2
+msgid "Password can not match the username, choose a different password."
+msgstr ""
+
+#: javascript/validation/delivery.js:23 javascript/validation/delivery.js:128
+msgid "The entered discount code is not valid for this order"
+msgstr ""
+
+#: javascript/validation/delivery.js:138
+msgid "Discount Applied"
+msgstr ""
+
+#: javascript/zselex.js:121
+msgid ""
+"Picture/file operations not supported in 'Quick edit' mode. You must click "
+"the 'Save full edit' button to complete these operations."
+msgstr ""
+
+#: javascript/zselex.js:331 javascript/zselex.js:332
+msgid "Saving quick draft..."
+msgstr ""
+
+#: javascript/zselex.js:345
+msgid "Save quick draft"
+msgstr ""
+
+#: javascript/zselex.js:346
+msgid "Save quick draft failed"
+msgstr ""
+
+#: javascript/zselex.js:353 javascript/zselex.js:379
+msgid "Update quick draft"
+msgstr ""
+
+#: javascript/zselex.js:370
+msgid ""
+"Picture/file operations not supported in 'Quick draft' mode. You must click "
+"the 'Save full draft' button to complete these operations."
+msgstr ""
+
+#: javascript/zselex.js:409 javascript/zselex.js:421 javascript/zselex.js:445
+msgid "Schedule"
+msgstr ""
+
+#: javascript/zselex.js:419
+msgid "Publish"
+msgstr ""
+
+#: javascript/zselex.js:438 javascript/zselex.js:453 javascript/zselex.js:472
+#: javascript/zselex.js:481 javascript/zselex.js:495 javascript/zselex.js:504
+msgid "Show"
+msgstr ""
+
+#: javascript/zselex.js:442 javascript/zselex.js:456 javascript/zselex.js:469
+#: javascript/zselex.js:484 javascript/zselex.js:507
+msgid "Hide"
+msgstr ""
+
+#: javascript/zselex.js:562
+msgid "Author updated"
+msgstr ""
+
+#: javascript/zselex_admin.js:53 javascript/zselex_admin.js:155
+#: javascript/zselex_admin.js:174 javascript/zselex_admin.js:198
+#: javascript/zselex_admin.js:224 javascript/zselex_admin.js.back_18-02-16:54
+#: javascript/zselex_admin.js.back_18-02-16:144
+#: javascript/zselex_admin.js.back_18-02-16:164
+#: javascript/zselex_admin.js.back_18-02-16:190
+#: javascript/zselex_admin.js.back_18-02-16:218
+msgid "You have not selected any shops"
+msgstr ""
+
+#: javascript/zselex_admin.js:106 javascript/zselex_admin.js.back_18-02-16:112
+msgid "Do you really want to reactivate demoperiod?"
+msgstr ""
+
+#: javascript/zselex_admin.js:165 javascript/zselex_admin.js.back_18-02-16:155
+msgid "Do you really want to change Affiliate?"
+msgstr ""
+
+#: javascript/zselex_admin.js:185 javascript/zselex_admin.js.back_18-02-16:176
+msgid "Do you really want to delete Category?"
+msgstr ""
+
+#: javascript/zselex_admin.js:187 javascript/zselex_admin.js.back_18-02-16:179
+msgid "Do you really want to change Category?"
+msgstr ""
+
+#: javascript/zselex_admin.js:210 javascript/zselex_admin.js.back_18-02-16:203
+msgid "Do you really want to delete Branch?"
+msgstr ""
+
+#: javascript/zselex_admin.js:212 javascript/zselex_admin.js.back_18-02-16:206
+msgid "Do you really want to change Branch?"
+msgstr ""
+
+#: javascript/zselex_admin.js:236 javascript/zselex_admin.js.back_18-02-16:231
+msgid "Do you really want to change Status?"
+msgstr ""

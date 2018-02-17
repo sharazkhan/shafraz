@@ -1,0 +1,817 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ZSELEX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-10 14:59+0200\n"
+"PO-Revision-Date: 2014-04-10 15:04+0100\n"
+"Last-Translator: Kim Enemark <kim@acta-it.dk>\n"
+"Language-Team: ACTA-IT <kim@acta-it.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+
+#: plugins/function.alteraccountmenu.php:35
+msgid "My Page"
+msgstr "Min Side"
+
+#: plugins/function.alteraccountmenu.php:49
+msgid "My Site"
+msgstr "Min forside"
+
+#: plugins/function.alteraccountmenu.php:64
+msgid "CityPilot Backend"
+msgstr "Backend"
+
+#: plugins/function.shiftshop.php:104 plugins/function.shiftshop.php:120
+msgid "Change Shop"
+msgstr "Skift butik"
+
+#: plugins/function.userloggedinname.php:34
+msgid "anonymous guest"
+msgstr "anonym gæst"
+
+#: plugins/function.zselex.php:5
+msgid "ZSELEX plugin"
+msgstr "System plugin"
+
+#: version.php:3
+msgid "CityPilot"
+msgstr "CityPilot"
+
+#: version.php:4
+msgid "CityPilot theme for zikula."
+msgstr "CityPilot tema for Zikula"
+
+#: templates/findus.tpl:36 templates/minisite.tpl:45
+msgid "Edit Shopsettings"
+msgstr "Rediger Butiksindstillinger"
+
+#: templates/includes/adminheader.tpl:30
+msgid "Home"
+msgstr "Hjem"
+
+#: templates/includes/adminheader.tpl:31
+msgid "Search"
+msgstr "Søg"
+
+#: templates/includes/adminheader.tpl:33
+msgid "User account panel"
+msgstr "Brugerkonto"
+
+#: templates/includes/feedback.tpl:136
+msgid "Please Send Us Your Feedback"
+msgstr "Send os din feedback"
+
+#: templates/includes/feedback.tpl:137
+msgid "Make sure to be placed on the page you want to give us info about!"
+msgstr "Stå venligst på den side du vil informere os om!"
+
+#: templates/includes/shopheader.tpl:11
+msgid "Edit Content"
+msgstr "Rediger Indhold"
+
+#: templates/includes/shopheader.tpl:18 templates/includes/shopheader.tpl:39
+msgid "You can rate shop"
+msgstr "Du kan vurdere denne butik"
+
+#: templates/just_translations.tpl:3
+msgid "Monday"
+msgstr "Mandag"
+
+#: templates/just_translations.tpl:4
+msgid "Tuesday"
+msgstr "Tirsdag"
+
+#: templates/just_translations.tpl:5
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: templates/just_translations.tpl:6
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: templates/just_translations.tpl:7
+msgid "Friday"
+msgstr "Fredag"
+
+#: templates/just_translations.tpl:8
+msgid "Saturday"
+msgstr "Lørdag"
+
+#: templates/just_translations.tpl:9
+msgid "Sunday"
+msgstr "Søndag"
+
+#: templates/just_translations.tpl:10
+msgid "January"
+msgstr "Januar"
+
+#: templates/just_translations.tpl:11
+msgid "February"
+msgstr "Februar"
+
+#: templates/just_translations.tpl:12
+msgid "March"
+msgstr "Marts"
+
+#: templates/just_translations.tpl:13
+msgid "April"
+msgstr "April"
+
+#: templates/just_translations.tpl:14
+msgid "May"
+msgstr "Maj"
+
+#: templates/just_translations.tpl:15
+msgid "June"
+msgstr "Juni"
+
+#: templates/just_translations.tpl:16
+msgid "July"
+msgstr "Juli"
+
+#: templates/just_translations.tpl:17
+msgid "August"
+msgstr "August"
+
+#: templates/just_translations.tpl:18
+msgid "September"
+msgstr "September"
+
+#: templates/just_translations.tpl:19
+msgid "October"
+msgstr "Oktober"
+
+#: templates/just_translations.tpl:20
+msgid "November"
+msgstr "November"
+
+#: templates/just_translations.tpl:21
+msgid "December"
+msgstr "December"
+
+#: templates/just_translations.tpl:23
+msgid "Feedback Sent"
+msgstr "Feedback er sendt"
+
+#: templates/just_translations.tpl:24
+msgid "Feedback Failed to Send"
+msgstr "Feedback kunne ikke sendes"
+
+#: templates/just_translations.tpl:25
+msgid "Please enter feedback!"
+msgstr "Indtast informationstekst!"
+
+#: templates/minisite.tpl:54
+#: templates/modules/ZSELEX/blocks/minisiteevent/minisiteevent.tpl:12
+msgid "Edit Events"
+msgstr "Rediger Events"
+
+#: templates/modules/admin_shop.tpl:53
+#: templates/modules/admin_shopinner.tpl:52
+#: templates/modules/admin_two_column.tpl:45
+msgid "I have had"
+msgstr "Jeg har haft"
+
+#: templates/modules/admin_shop.tpl:54
+#: templates/modules/admin_shopinner.tpl:53
+#: templates/modules/admin_two_column.tpl:46
+msgid "new visitors lately"
+msgstr "nye besøgende for nylig"
+
+#: templates/modules/admin_shop.tpl:54
+#: templates/modules/admin_shopinner.tpl:53
+#: templates/modules/admin_two_column.tpl:46
+msgid "visitors in total"
+msgstr "besøgende i alt"
+
+#: templates/modules/admin_shop.tpl:55
+#: templates/modules/admin_shopinner.tpl:54
+#: templates/modules/admin_two_column.tpl:47
+msgid "rated your page"
+msgstr "vurderede din side"
+
+#: templates/modules/admin_shop.tpl:55
+#: templates/modules/admin_shopinner.tpl:54
+#: templates/modules/admin_two_column.tpl:47
+msgid "has laid a comment"
+msgstr "har skrevet en kommentar"
+
+#: templates/modules/admin_shop.tpl:56
+#: templates/modules/admin_shopinner.tpl:55
+#: templates/modules/admin_two_column.tpl:48
+msgid "I've sold"
+msgstr "Jeg har solgt"
+
+#: templates/modules/admin_shop.tpl:56
+#: templates/modules/admin_shopinner.tpl:55
+#: templates/modules/admin_two_column.tpl:48
+msgid "Products in"
+msgstr "produkter i"
+
+#: templates/modules/admin_shop.tpl:57
+#: templates/modules/admin_shopinner.tpl:56
+#: templates/modules/admin_two_column.tpl:49
+msgid "products in total"
+msgstr "prodyjter i alt"
+
+#: templates/modules/News/user/articlecontent.tpl:22
+#: templates/modules/News/user/index.tpl:3
+msgid "Contributed"
+msgstr "Bidraget"
+
+#: templates/modules/News/user/articlecontent.tpl:22
+#: templates/modules/News/user/index.tpl:3
+#, php-format
+msgid "by %1$s on %2$s"
+msgstr "af %1$s på %2$s"
+
+#: templates/modules/News/user/articlecontent.tpl:31
+#: templates/modules/News/user/articlecontent.tpl:52
+#: templates/modules/News/user/index.tpl:9
+#: templates/modules/News/user/index.tpl:11
+#: templates/modules/ZSELEX/user/viewevent.tpl:51
+#: templates/modules/ZSELEX/user/viewevent.tpl:71
+#, php-format
+msgid "Picture %1$s for %2$s"
+msgstr "Billeder %1$s af %2$s"
+
+#: templates/modules/News/user/articlecontent.tpl:48
+#: templates/modules/ZSELEX/user/viewevent.tpl:67
+msgid "Picture gallery"
+msgstr "Billedgalleri"
+
+#: templates/modules/News/user/create1.tpl:48
+msgid "Create an article"
+msgstr "Opret en artikel"
+
+#: templates/modules/News/user/create1.tpl:68
+msgid "Title"
+msgstr "Titel"
+
+#: templates/modules/News/user/create1.tpl:71
+msgid "Title text"
+msgstr "Titeltekst"
+
+#: templates/modules/News/user/create1.tpl:77
+msgid "Permalink URL"
+msgstr "Permalink URL"
+
+#: templates/modules/News/user/create1.tpl:79
+msgid "(Generated automatically if left blank)"
+msgstr "(Genereres automatisk hvis blank)"
+
+#: templates/modules/News/user/create1.tpl:85
+msgid "Category"
+msgstr "Kategori"
+
+#: templates/modules/News/user/create1.tpl:86
+msgid "Choose category"
+msgstr "Vælg kategori"
+
+#: templates/modules/News/user/create1.tpl:114
+msgid "Language for which article should be displayed"
+msgstr "Sprog for hvilket artikel skal vises"
+
+#: templates/modules/News/user/create1.tpl:121
+msgid "Article"
+msgstr "Artikel"
+
+#: templates/modules/News/user/create1.tpl:124
+msgid "Permitted HTML tags"
+msgstr "Tilladte HTML-tags"
+
+#: templates/modules/News/user/create1.tpl:126
+msgid ""
+"You must enter either <strong>teaser text</strong> or <strong>body text</"
+"strong>."
+msgstr ""
+"Du skal angive enten <strong> teaser tekst </strong> eller <strong> body "
+"tekst </strong>."
+
+#: templates/modules/News/user/create1.tpl:129
+msgid "Index page teaser text"
+msgstr "Index sidens teaser tekst"
+
+#: templates/modules/News/user/create1.tpl:131
+#: templates/modules/News/user/create1.tpl:165
+#, php-format
+msgid "(Limit: %s characters)"
+msgstr "(Begræns: %s tegn)"
+
+#: templates/modules/News/user/create1.tpl:136
+msgid "Index page teaser format"
+msgstr "Index sidens teaser format"
+
+#: templates/modules/News/user/create1.tpl:138
+#: templates/modules/News/user/create1.tpl:154
+msgid "Plain text"
+msgstr "Almindelig tekst"
+
+#: templates/modules/News/user/create1.tpl:139
+#: templates/modules/News/user/create1.tpl:155
+msgid "Text formatted with mark-up language"
+msgstr "Tekst formateret med mark-up sprog"
+
+#: templates/modules/News/user/create1.tpl:145
+msgid "Article body text"
+msgstr "Artikeltekst"
+
+#: templates/modules/News/user/create1.tpl:147
+msgid "#{chars"
+msgstr "#{chars"
+
+#: templates/modules/News/user/create1.tpl:152
+msgid "Article body format"
+msgstr "Artikelformat"
+
+#: templates/modules/News/user/create1.tpl:162
+#: templates/modules/News/user/create1.tpl:213
+#: templates/modules/News/user/create1.tpl:280
+msgid "Show"
+msgstr "Vis"
+
+#: templates/modules/News/user/create1.tpl:162
+msgid "Footnote"
+msgstr "Fodnote"
+
+#: templates/modules/News/user/create1.tpl:173
+msgid "Pictures"
+msgstr "Billeder"
+
+#: templates/modules/News/user/create1.tpl:174
+#, php-format
+msgid "Select a picture (max. %s kB per picture)"
+msgstr "Vælg et billede (max. %s KB pr billede)"
+
+#: templates/modules/News/user/create1.tpl:180
+#, php-format
+msgid ""
+"(max files %s, first picture is used as thumbnail in the index teaser page "
+"for this article.)"
+msgstr ""
+"(maks antal filer %s, det første billede anvendes som miniature på teaser "
+"siden for denne artikel.)"
+
+#: templates/modules/News/user/create1.tpl:194
+#: templates/modules/News/user/create1.tpl:204
+msgid "Delete this picture"
+msgstr "Slet dette billede"
+
+#: templates/modules/News/user/create1.tpl:202
+msgid "news picture"
+msgstr "Nyhedsbillede"
+
+#: templates/modules/News/user/create1.tpl:213
+msgid "Publishing options"
+msgstr "Udgivelsesindstillinger"
+
+#: templates/modules/News/user/create1.tpl:216
+msgid "Display on news index page"
+msgstr "Vis på nyheds forsiden"
+
+#: templates/modules/News/user/create1.tpl:220
+msgid "Article weight"
+msgstr "artikel vægtning"
+
+#: templates/modules/News/user/create1.tpl:226
+msgid "No time limit"
+msgstr "Ingen tidsbegrænsning"
+
+#: templates/modules/News/user/create1.tpl:231
+msgid "Start date"
+msgstr "Startdato"
+
+#: templates/modules/News/user/create1.tpl:237
+msgid "No end date"
+msgstr "Ingen slutdato"
+
+#: templates/modules/News/user/create1.tpl:242
+msgid "End date"
+msgstr "Slutdato"
+
+#: templates/modules/News/user/create1.tpl:250
+msgid "Allow comments on this article"
+msgstr "Tillad kommentarer til denne artikel"
+
+#: templates/modules/News/user/create1.tpl:252
+msgid "(EZComments must be hooked to News to enable commenting.)"
+msgstr "(EZComments skal kobles til Nyheder for at aktivere kommentering.)"
+
+#: templates/modules/News/user/create1.tpl:255
+msgid "Article ID"
+msgstr "Artikel ID"
+
+#: templates/modules/News/user/create1.tpl:280
+msgid "Article attributes"
+msgstr "Artikelegenskaber"
+
+#: templates/modules/News/user/create1.tpl:296
+msgid "Submit this article"
+msgstr "Send denne artikel"
+
+#: templates/modules/News/user/create1.tpl:296
+msgid "Submit"
+msgstr "Send"
+
+#: templates/modules/News/user/create1.tpl:298
+msgid "Publish this article"
+msgstr "Udgive denne artikel"
+
+#: templates/modules/News/user/create1.tpl:298
+msgid "Publish"
+msgstr "Udgiv"
+
+#: templates/modules/News/user/create1.tpl:300
+msgid "Save this article as draft"
+msgstr "Gem denne artikel som kladde"
+
+#: templates/modules/News/user/create1.tpl:300
+msgid "Save as draft"
+msgstr "Gem som kladde"
+
+#: templates/modules/News/user/create1.tpl:303
+#: templates/modules/News/user/create1.tpl:304
+msgid "Save quick draft"
+msgstr "Gem hurtig kladde"
+
+#: templates/modules/News/user/create1.tpl:303
+msgid "Quick save as draft"
+msgstr "Hurtig gem som kladde"
+
+#: templates/modules/News/user/create1.tpl:307
+msgid "Save full draft"
+msgstr "Gem hele kladden"
+
+#: templates/modules/News/user/create1.tpl:308
+msgid "Mark this article as pending"
+msgstr "Markér denne artikel som afventende"
+
+#: templates/modules/News/user/create1.tpl:308
+msgid "Pending"
+msgstr "afventer"
+
+#: templates/modules/News/user/create1.tpl:310
+msgid "Preview this article"
+msgstr "Vis denne artikel"
+
+#: templates/modules/News/user/create1.tpl:310
+msgid "Preview"
+msgstr "Vis"
+
+#: templates/modules/News/user/create1.tpl:311
+msgid "Cancel"
+msgstr "Annuller"
+
+#: templates/modules/News/user/index.tpl:24
+msgid "Filed under:"
+msgstr "Arkiveret under:"
+
+#: templates/modules/News/user/menu.tpl:11
+msgid "News"
+msgstr "Nyheder"
+
+#: templates/modules/Search/search_user_results.tpl:1
+msgid "Search results"
+msgstr "Søgeresultater"
+
+#: templates/modules/Search/search_user_results.tpl:6
+#, php-format
+msgid "Number of hits: %s"
+msgstr "Antal søgeopslag: %s"
+
+#: templates/modules/Search/search_user_results.tpl:57
+#, php-format
+msgid "Created on %s."
+msgstr "Oprettet den %s."
+
+#: templates/modules/Search/search_user_results.tpl:66
+msgid "No search results found. You can try the following:"
+msgstr "Ingen søgeresultater fundet. Du kan prøve følgende:"
+
+#: templates/modules/Search/search_user_results.tpl:68
+msgid "Check that you spelled all words correctly."
+msgstr "Kontroller at du har stavet alle ord rigtigt."
+
+#: templates/modules/Search/search_user_results.tpl:69
+msgid "Use different keywords."
+msgstr "Anvend forskellige søgeord."
+
+#: templates/modules/Search/search_user_results.tpl:70
+msgid "Use keywords that are more general."
+msgstr "Anvend søgeord der er mere generelle."
+
+#: templates/modules/Search/search_user_results.tpl:71
+msgid "Use fewer words."
+msgstr "Anvend færre ord."
+
+#: templates/modules/Users/users_user_main.tpl:1
+#: templates/modules/Users/users_user_main1.tpl:1
+msgid "My account"
+msgstr "Min konto"
+
+#: templates/modules/ZSELEX/blocks/advertise.tpl:21
+msgid "DKK"
+msgstr "DKK"
+
+#: templates/modules/ZSELEX/blocks/advertise.tpl:24
+#: templates/modules/ZSELEX/user/productview.tpl:45
+msgid "Add to Cart"
+msgstr "Tilføj til indkøbskurv"
+
+#: templates/modules/ZSELEX/blocks/advertise.tpl:33
+msgid "No entries found."
+msgstr "Ingen indlæg fundet."
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:19
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:4
+msgid "Edit Products"
+msgstr "Rediger Produkter"
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:53
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:55
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:92
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:49
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:50
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:77
+msgid "Buy"
+msgstr "Køb"
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:102
+msgid "No products found."
+msgstr "Ingen produkter fundet."
+
+#: templates/modules/ZSELEX/blocks/minisiteevent/minisiteevent.tpl:16
+msgid "Event"
+msgstr "Event"
+
+#: templates/modules/ZSELEX/blocks/minisiteevent/minisiteevent.tpl:63
+msgid "view all"
+msgstr "Vis alle"
+
+#: templates/modules/ZSELEX/blocks/minisiteimagesblock/minisiteimages.tpl:55
+msgid "Edit Pictures"
+msgstr "Rediger Billeder"
+
+#: templates/modules/ZSELEX/blocks/minisiteimagesblock/minisiteimages.tpl:70
+#: templates/modules/ZSELEX/blocks/minisiteimagesblock/minisiteimages.tpl:81
+#: templates/modules/ZSELEX/blocks/minisiteimagesblock/minisiteimages.tpl:84
+msgid "more images"
+msgstr "flere billeder"
+
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:7
+msgid "Products"
+msgstr "Produkter"
+
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:10
+msgid "See All"
+msgstr "Vis alle"
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:64
+msgid "search area"
+msgstr "søg efter område"
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:76
+msgid "search category"
+msgstr "Søg efter kategori"
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:86
+msgid "search for..."
+msgstr "Søg efter..."
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:91
+msgid "Show shops"
+msgstr "Vis butikker"
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:94
+msgid "reset search"
+msgstr "nulstil søgning"
+
+#: templates/modules/ZSELEX/user/allevents.tpl:5
+msgid "Events"
+msgstr "Events"
+
+#: templates/modules/ZSELEX/user/allevents.tpl:40
+#: templates/modules/ZSELEX/user/cart.tpl:26
+msgid "Price"
+msgstr "Pris"
+
+#: templates/modules/ZSELEX/user/allevents.tpl:40
+#: templates/modules/ZSELEX/user/viewevent.tpl:153
+msgid "FREE"
+msgstr "GRATIS"
+
+#: templates/modules/ZSELEX/user/allevents.tpl:41
+msgid "Time"
+msgstr "Tid"
+
+#: templates/modules/ZSELEX/user/allevents.tpl:42
+msgid "Location"
+msgstr "Lokation"
+
+#: templates/modules/ZSELEX/user/allevents.tpl:46
+msgid "Contact"
+msgstr "Kontakt"
+
+#: templates/modules/ZSELEX/user/allevents.tpl:46
+msgid "Organizer"
+msgstr "Arrangør"
+
+#: templates/modules/ZSELEX/user/allevents.tpl:47
+msgid "See More..."
+msgstr "Se mere..."
+
+#: templates/modules/ZSELEX/user/allevents.tpl:54
+msgid "No Events Found"
+msgstr "Ingen Events fundet."
+
+#: templates/modules/ZSELEX/user/allevents.tpl:58
+msgid "Load More Events"
+msgstr "Vis flere Events"
+
+#: templates/modules/ZSELEX/user/allevents.tpl:76
+#: templates/modules/ZSELEX/user/allevents.tpl:78
+#: templates/modules/ZSELEX/user/allevents.tpl:80
+msgid "Back"
+msgstr "Tilbage"
+
+#: templates/modules/ZSELEX/user/cart.tpl:6
+msgid "Shopping Cart"
+msgstr "Indkøbskurv"
+
+#: templates/modules/ZSELEX/user/cart.tpl:11
+msgid "Seller"
+msgstr "Fra sælger"
+
+#: templates/modules/ZSELEX/user/cart.tpl:11
+msgid "Shop"
+msgstr "Butik"
+
+#: templates/modules/ZSELEX/user/cart.tpl:23
+msgid "Quantity"
+msgstr "Antal"
+
+#: templates/modules/ZSELEX/user/cart.tpl:25
+msgid "Product"
+msgstr "Produkt"
+
+#: templates/modules/ZSELEX/user/cart.tpl:27
+msgid "Total"
+msgstr "I alt"
+
+#: templates/modules/ZSELEX/user/cart.tpl:52
+msgid "delete"
+msgstr "Slet"
+
+#: templates/modules/ZSELEX/user/cart.tpl:61
+msgid "Total price"
+msgstr "Total pris"
+
+#: templates/modules/ZSELEX/user/cart.tpl:72
+#: templates/modules/ZSELEX/user/cart.tpl:74
+#: templates/modules/ZSELEX/user/checkout.tpl:34
+#: templates/modules/ZSELEX/user/checkout.tpl:37
+msgid "Continue Shopping"
+msgstr "Fortsæt med at handle"
+
+#: templates/modules/ZSELEX/user/cart.tpl:77
+msgid "Update Cart"
+msgstr "Opdater kurven"
+
+#: templates/modules/ZSELEX/user/cart.tpl:85
+msgid "Send Order"
+msgstr "Send ordre"
+
+#: templates/modules/ZSELEX/user/cart.tpl:92
+#: templates/modules/ZSELEX/user/cart.tpl:101
+msgid "Check Out"
+msgstr "Til kassen"
+
+#: templates/modules/ZSELEX/user/cart.tpl:106
+msgid "No Items In Cart"
+msgstr "Intet i din indkøbskurv"
+
+#: templates/modules/ZSELEX/user/cart.tpl:107
+msgid "Back to frontpage"
+msgstr "Tilbage til forsiden"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:10
+msgid "Enter Customer Information"
+msgstr "Indtast kundeoplysninger"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:15
+msgid "First Name"
+msgstr "Fornavn"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:16
+msgid "Please enter your first name"
+msgstr "Indtast fornavn"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:19
+msgid "Last Name"
+msgstr "Efternavn"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:20
+msgid "Please enter your last name"
+msgstr "Indtast efternavn"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:23
+msgid "Address"
+msgstr "Adresse"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:24
+msgid "Please enter your address"
+msgstr "Indtast adresse"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:27
+msgid "ZIP code. city"
+msgstr "Postnr. By"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:28
+msgid "Please enter your zip code"
+msgstr "Indtast postnr"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:28
+msgid "Please enter your city"
+msgstr "Indtast by"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:44
+msgid "Phone"
+msgstr "Telefon"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:45
+msgid "Please enter a valid phone number"
+msgstr "Indtast telefonnr"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:48
+msgid "Email address"
+msgstr "Emailadresse"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:49
+msgid "Please enter a valid email"
+msgstr "Skriv venligst en gyldig email adresse."
+
+#: templates/modules/ZSELEX/user/checkout.tpl:52
+msgid "Subscribe To Newsletter"
+msgstr "Tilmeld nyhedsbrev"
+
+#: templates/modules/ZSELEX/user/checkout.tpl:59
+msgid "Go to delivery"
+msgstr "Gå til levering"
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:34
+#: templates/modules/ZSELEX/user/viewevent.tpl:44
+msgid "Product name"
+msgstr "Produkt navn"
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:113
+#: templates/modules/ZSELEX/user/viewevent.tpl:127
+#: templates/modules/ZSELEX/user/viewevent.tpl:140
+#: templates/modules/ZSELEX/user/viewevent.tpl:157
+msgid "see event image"
+msgstr "se event billede"
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:115
+#: templates/modules/ZSELEX/user/viewevent.tpl:129
+#: templates/modules/ZSELEX/user/viewevent.tpl:142
+#: templates/modules/ZSELEX/user/viewevent.tpl:159
+msgid "see event"
+msgstr "se Event"
+
+#~ msgid "Antal"
+#~ msgstr "Antal"
+
+#~ msgid "search branch"
+#~ msgstr "Søg efter branche"
+
+#~ msgid "search shop"
+#~ msgstr "Søg efter butik"
+
+#~ msgid "CityPilot administration"
+#~ msgstr "CityPilot administration"
+
+#~ msgid "Unknown"
+#~ msgstr "Ukendt"
+
+#~ msgid "Not approved yet!"
+#~ msgstr "Ikke godkendt endnu"
+
+#~ msgid "Company: <b>%s</b>"
+#~ msgstr "Virksomhed: <b>%s</b>"
+
+#~ msgid "User: <b>%s</b>"
+#~ msgstr "Bruger: <b>%s</b>"
+
+#~ msgid "Please login to get access!"
+#~ msgstr "Log venligst ind for at få adgang!"
+
+#~ msgid "Ask in shop"
+#~ msgstr "Spørg i butikken"

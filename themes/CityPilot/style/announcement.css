@@ -1,0 +1,8 @@
+/****************  announcement  **************************/
+
+.Banner{ width:100%; /*background:Grey;*/ overflow: hidden}
+
+.SlopedText{ width:400px; background:#E45620; float:right; color:white; transform:rotate(45deg); display: inline-block; padding: 6px 0px;
+             -ms-transform:rotate(45deg); /* IE 9 */
+             -webkit-transform:rotate(45deg); /* Safari and Chrome */ margin-right:-120px; margin-top:-280px; font-size: 18px;}
+.InnerText{ display:block; text-align:center; font-weight:bold; word-wrap:break-word;  }

@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-01 18:23+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: javascript/dnd/ajaxupload-min.js:233 javascript/dnd/ajaxupload-min.js:234
+#: javascript/dnd/ajaxupload-min.js:1775
+msgid "Ready"
+msgstr ""
+
+#: javascript/dnd/ajaxupload-min.js:586 javascript/dnd/ajaxupload-min.js:1418
+msgid "Add Files"
+msgstr ""
+
+#: javascript/page.js:18
+msgid "Loading..."
+msgstr ""
+
+#: javascript/page.js:280
+msgid "Error occured please try later"
+msgstr ""
+
+#: javascript/page.js:328
+msgid "Do you really want to delete this page?"
+msgstr ""
+
+#: javascript/page.js:531
+msgid "Do you really want to delete the image?"
+msgstr ""

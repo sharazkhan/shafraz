@@ -1,0 +1,470 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zvelo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 12:59+0200\n"
+"PO-Revision-Date: 2014-08-14 13:38+0100\n"
+"Last-Translator: Kim Enemark <kim@acta-it.dk>\n"
+"Language-Team: ACTA-IT <kim@acta-it.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+
+#: lib/Zvelo/Api/Admin.php:29
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: lib/Zvelo/Api/Admin.php:36 templates/admin/view.tpl:10
+msgid "Zvelo List"
+msgstr "Zvelo liste"
+
+#: lib/Zvelo/Block/LeftBlock.php:29
+msgid "Left Block"
+msgstr "Venstre blok"
+
+#: lib/Zvelo/Block/RightBlock.php:29
+msgid "Right Block"
+msgstr "Højre blok"
+
+#: lib/Zvelo/Controller/Admin.php:53 lib/Zvelo/Controller/Admin.php:78
+msgid "Upgraded Successfully"
+msgstr "Opgraderet"
+
+#: lib/Zvelo/Controller/Admin.php:110
+msgid "Done! Updated the Tag configuration."
+msgstr ""
+
+#: lib/Zvelo/Controller/Admin.php:122
+msgid ""
+"CrpTag has been already been migrated. You can only run the migration once."
+msgstr ""
+
+#: lib/Zvelo/Controller/Admin.php:193
+#, php-format
+msgid "CrpTag has been migrated. %1$s objects and %2$s tags completed."
+msgstr ""
+
+#: lib/Zvelo/Controller/User.php:79
+msgid "Done! Customer deleted"
+msgstr "Færdig! Kunde er slettet"
+
+#: lib/Zvelo/Controller/User.php:81
+msgid "Could not delete.Api failed"
+msgstr "Kunne ikke slette. API fejlede!"
+
+#: lib/Zvelo/Controller/User.php:111
+msgid "Done! Created record"
+msgstr "Færdig! Post er oprettet"
+
+#: lib/Zvelo/Entity/Repository/BicycleRepo.php:103
+msgid "Error! Could not create a bicycle wish"
+msgstr "Fejl! Kunne ikke oprette cykelønske"
+
+#: lib/Zvelo/Entity/Repository/CustomerErgonomicValueRepo.php:64
+msgid "Error! Could not create values"
+msgstr "Fejl! Kunne ikke oprette værdier"
+
+#: lib/Zvelo/Entity/Repository/CustomerMeasurementRepo.php:39
+msgid "Error! Could not create measuremnt"
+msgstr "Fejl! Kunne ikke oprette mål"
+
+#: lib/Zvelo/Entity/Repository/CustomerRepo.php:31
+msgid "Error! Could not create record"
+msgstr "Fejl! Kunne ikke oprette posten"
+
+#: lib/Zvelo/Entity/Repository/CustomerWishRepo.php:76
+msgid "Error! Could not create customer wish"
+msgstr "Fejl! Kunne ikke oprette kundeønsker"
+
+#: lib/Zvelo/Entity/Repository/CustomerWishRepo.php:157
+msgid "Error! Could not create seat position"
+msgstr "Fejl! Kunne ikke oprette siddeposition"
+
+#: lib/Zvelo/Version.php:19
+msgid "Zvelo"
+msgstr "Zvelo"
+
+#: lib/Zvelo/Version.php:20
+msgid "Zvelo module"
+msgstr "Zvelo modul"
+
+#: lib/Zvelo/Version.php:21
+msgid "zvelo"
+msgstr "zvelo"
+
+#: templates/admin/edit.tpl:4
+msgid "Edit Tag"
+msgstr ""
+
+#: templates/admin/edit.tpl:4
+msgid "New Tag"
+msgstr ""
+
+#: templates/admin/edit.tpl:8 templates/admin/edit.tpl:13
+#: templates/search/options.tpl:3
+msgid "Tag"
+msgstr ""
+
+#: templates/admin/edit.tpl:17 templates/admin/modifyconfig.tpl:20
+#: templates/blocks/rightblock.tpl:40 templates/blocks/rightblock.tpl:41
+#: templates/plugin/rightblock.tpl:48 templates/plugin/rightblock.tpl:49
+msgid "Save"
+msgstr "Gem"
+
+#: templates/admin/edit.tpl:18 templates/admin/modifyconfig.tpl:21
+#: templates/user/load_users.tpl:67
+msgid "Cancel"
+msgstr "Afbryd"
+
+#: templates/admin/edit.tpl:19
+msgid "Delete"
+msgstr "Slet"
+
+#: templates/admin/edit.tpl:19
+msgid "Are you sure you want to delete this item"
+msgstr "Sikker på elementet skal slettes"
+
+#: templates/admin/modifyconfig.tpl:4
+msgid "Zvelo settings"
+msgstr "Zvelo indstillinger"
+
+#: templates/admin/modifyconfig.tpl:11
+msgid "General settings"
+msgstr "Generelle indstillinger"
+
+#: templates/admin/modifyconfig.tpl:14
+msgid "Number of popular tags to display on edit form"
+msgstr ""
+
+#: templates/ajax/bicycledetail.tpl:20
+msgid "No Bicycle selected"
+msgstr "Ingen cykel valgt"
+
+#: templates/blocks/leftblock.tpl:25 templates/plugin/leftblock.tpl:5
+msgid "Client data"
+msgstr "Kundedata"
+
+#: templates/blocks/leftblock.tpl:33 templates/plugin/leftblock.tpl:13
+msgid "Bicycle category"
+msgstr "Cykelkategori"
+
+#: templates/blocks/leftblock.tpl:38 templates/plugin/leftblock.tpl:18
+msgid "Client wishes"
+msgstr "Kundeønsker"
+
+#: templates/blocks/leftblock.tpl:41 templates/plugin/leftblock.tpl:27
+#: templates/user/wishes.tpl:10
+msgid "Usage"
+msgstr "Anvendelse"
+
+#: templates/blocks/leftblock.tpl:49 templates/plugin/leftblock.tpl:35
+msgid "Ageclass"
+msgstr "Aldersklasse"
+
+#: templates/blocks/leftblock.tpl:55 templates/plugin/leftblock.tpl:41
+#: templates/user/wishes.tpl:63
+msgid "KM / month"
+msgstr "KM / md."
+
+#: templates/blocks/leftblock.tpl:61 templates/plugin/leftblock.tpl:47
+#: templates/user/wishes.tpl:86
+msgid "Frame material"
+msgstr "Rammemateriale"
+
+#: templates/blocks/leftblock.tpl:69 templates/plugin/leftblock.tpl:55
+#: templates/user/wishes.tpl:108
+msgid "Frame type"
+msgstr "Type"
+
+#: templates/blocks/leftblock.tpl:77 templates/plugin/leftblock.tpl:63
+#: templates/user/wishes.tpl:130
+msgid "Suspension"
+msgstr "Affjedring"
+
+#: templates/blocks/leftblock.tpl:85 templates/plugin/leftblock.tpl:71
+msgid "Gear"
+msgstr "Gear"
+
+#: templates/blocks/leftblock.tpl:93 templates/plugin/leftblock.tpl:79
+#: templates/user/wishes.tpl:176
+msgid "Brakes"
+msgstr "Bremser"
+
+#: templates/blocks/leftblock.tpl:101 templates/plugin/leftblock.tpl:87
+#: templates/user/wishes.tpl:198
+msgid "Accessories"
+msgstr "Tilbehør"
+
+#: templates/blocks/leftblock.tpl:110 templates/plugin/leftblock.tpl:96
+#: templates/user/clientinfo.tpl:36
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: templates/blocks/leftblock_modify.tpl:4
+msgid "Select Shop"
+msgstr "Vælg butik"
+
+#: templates/blocks/leftblock_modify.tpl:15
+msgid "No: of products to display"
+msgstr ""
+
+#: templates/blocks/leftblock_modify.tpl:20
+msgid "Order by"
+msgstr "Sorter efter"
+
+#: templates/blocks/rightblock.tpl:27 templates/blocks/rightblock.tpl:29
+#: templates/plugin/rightblock.tpl:35 templates/plugin/rightblock.tpl:37
+msgid "Next"
+msgstr "Næste"
+
+#: templates/blocks/rightblock.tpl:34 templates/blocks/rightblock.tpl:35
+#: templates/plugin/rightblock.tpl:42 templates/plugin/rightblock.tpl:43
+msgid "Previous"
+msgstr "Forrige"
+
+#: templates/blocks/rightblock.tpl:45 templates/blocks/rightblock.tpl:46
+#: templates/plugin/rightblock.tpl:53 templates/plugin/rightblock.tpl:54
+msgid "Load Users"
+msgstr "Hent brugere"
+
+#: templates/blocks/rightblock.tpl:50 templates/blocks/rightblock.tpl:51
+#: templates/plugin/rightblock.tpl:58 templates/plugin/rightblock.tpl:59
+msgid "Reload"
+msgstr "Genindlæs"
+
+#: templates/blocks/rightblock.tpl:56 templates/blocks/rightblock.tpl:57
+#: templates/plugin/rightblock.tpl:64 templates/plugin/rightblock.tpl:65
+msgid "Delete User"
+msgstr "Slet bruger"
+
+#: templates/contenttype/tagcloud_edit.tpl:2
+msgid "Maximum tags to display"
+msgstr ""
+
+#: templates/contenttype/tagcloud_view.tpl:10 templates/user/view.tpl:14
+#, php-format
+msgid "tagged %s time"
+msgid_plural "tagged %s times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/contenttype/tagcloud_view.tpl:12 templates/hooks/edit.tpl:40
+#: templates/user/view.tpl:16
+msgid "No tags."
+msgstr ""
+
+#: templates/hooks/edit.tpl:12
+msgid "Tags"
+msgstr ""
+
+#: templates/hooks/edit.tpl:14
+msgid "Add tags"
+msgstr ""
+
+#: templates/hooks/edit.tpl:17
+msgid "Add"
+msgstr "Tilføj"
+
+#: templates/hooks/edit.tpl:20
+msgid "comma separated (e.g. zikula, computer, code)"
+msgstr "kommasepereret (eks. bil, cykel, knallert)"
+
+#: templates/hooks/edit.tpl:27
+msgid "remove tag"
+msgstr ""
+
+#: templates/hooks/edit.tpl:35
+msgid "Popular tags"
+msgstr ""
+
+#: templates/hooks/edit.tpl:38
+#, php-format
+msgid "Add tag \"%s\""
+msgstr ""
+
+#: templates/plugin/leftblock.tpl:4
+msgid "Profile"
+msgstr "Profil"
+
+#: templates/plugin/leftblock.tpl:21 templates/plugin/rightblock.tpl:91
+msgid "Seat Position"
+msgstr "Siddeposition"
+
+#: templates/plugin/rightblock.tpl:77
+msgid "Home"
+msgstr "Hjem"
+
+#: templates/plugin/rightblock.tpl:78
+msgid "1"
+msgstr "1"
+
+#: templates/plugin/rightblock.tpl:82
+msgid "customer Information"
+msgstr "Kundeoplysninger"
+
+#: templates/plugin/rightblock.tpl:83
+msgid "2"
+msgstr "2"
+
+#: templates/plugin/rightblock.tpl:87
+msgid "Bicycle"
+msgstr "Cykel"
+
+#: templates/plugin/rightblock.tpl:88
+msgid "3"
+msgstr "3"
+
+#: templates/plugin/rightblock.tpl:92
+msgid "4"
+msgstr "4"
+
+#: templates/plugin/rightblock.tpl:95
+msgid "Customer Wish"
+msgstr "Kundeønsker"
+
+#: templates/plugin/rightblock.tpl:96
+msgid "5"
+msgstr "5"
+
+#: templates/plugin/rightblock.tpl:99
+msgid "Ergonomic Value"
+msgstr "Ergonomisk værdi"
+
+#: templates/plugin/rightblock.tpl:100
+msgid "6"
+msgstr "6"
+
+#: templates/user/clientinfo.tpl:7
+msgid "Clientno"
+msgstr "Kundenr"
+
+#: templates/user/clientinfo.tpl:9
+msgid "Created"
+msgstr "Oprettet"
+
+#: templates/user/clientinfo.tpl:15
+msgid "First name"
+msgstr "Fornavn"
+
+#: templates/user/clientinfo.tpl:18
+msgid "Last name"
+msgstr "Efternavn"
+
+#: templates/user/clientinfo.tpl:22
+msgid "Address"
+msgstr "Adresse"
+
+#: templates/user/clientinfo.tpl:27
+msgid "ZIP"
+msgstr "Postnr"
+
+#: templates/user/clientinfo.tpl:28
+msgid "City"
+msgstr "By"
+
+#: templates/user/clientinfo.tpl:30
+msgid "Phone"
+msgstr "Telefon"
+
+#: templates/user/clientinfo.tpl:33
+msgid "Email"
+msgstr "Email"
+
+#: templates/user/clientinfo.tpl:87 templates/user/measurement.tpl:34
+msgid "Gender"
+msgstr "Køn"
+
+#: templates/user/clientinfo.tpl:88 templates/user/measurement.tpl:35
+msgid "Functional height"
+msgstr "FunktionelHøjde"
+
+#: templates/user/clientinfo.tpl:89 templates/user/measurement.tpl:36
+msgid "Shoulder height"
+msgstr "Skulderhøjde"
+
+#: templates/user/clientinfo.tpl:90 templates/user/measurement.tpl:37
+msgid "Shoulder width"
+msgstr "Skulderbredde"
+
+#: templates/user/clientinfo.tpl:91
+msgid "Arm length"
+msgstr "Armlængde"
+
+#: templates/user/clientinfo.tpl:92 templates/user/measurement.tpl:38
+msgid "Pelvic bone height"
+msgstr "Bækkenhøjde"
+
+#: templates/user/clientinfo.tpl:93 templates/user/measurement.tpl:39
+msgid "Fist height"
+msgstr "Håndhøjde"
+
+#: templates/user/clientinfo.tpl:94
+msgid "Leg length"
+msgstr "Benlængde"
+
+#: templates/user/clientinfo.tpl:95 templates/user/measurement.tpl:40
+msgid "Weight"
+msgstr "Vægt"
+
+#: templates/user/clientinfo.tpl:100 templates/user/clientinfo.tpl:101
+#: templates/user/clientinfo.tpl:102 templates/user/clientinfo.tpl:103
+#: templates/user/clientinfo.tpl:104 templates/user/clientinfo.tpl:105
+#: templates/user/clientinfo.tpl:106 templates/user/clientinfo.tpl:107
+#: templates/user/clientinfo.tpl:108 templates/user/measurement.tpl:14
+#: templates/user/measurement.tpl:15 templates/user/measurement.tpl:16
+#: templates/user/measurement.tpl:17 templates/user/measurement.tpl:18
+#: templates/user/measurement.tpl:19
+msgid "cm"
+msgstr "cm"
+
+#: templates/user/load_users.tpl:47
+msgid "Select User"
+msgstr "Vælg bruger"
+
+#: templates/user/load_users.tpl:49
+msgid "Select User..."
+msgstr "Vælg bruger..."
+
+#: templates/user/load_users.tpl:63
+msgid "Save this region"
+msgstr "Gem denne region"
+
+#: templates/user/load_users.tpl:64 templates/user/load_users.tpl:65
+msgid "Load"
+msgstr "Hent"
+
+#: templates/user/measurement.tpl:9
+msgid "Select"
+msgstr "Vælg"
+
+#: templates/user/measurement.tpl:10
+msgid "Male"
+msgstr "Mand"
+
+#: templates/user/measurement.tpl:11
+msgid "Female"
+msgstr "Kvinde"
+
+#: templates/user/view.tpl:10
+msgid "Tags on this site"
+msgstr ""
+
+#: templates/user/view.tpl:28
+msgid "No items tagged"
+msgstr ""
+
+#: templates/user/wishes.tpl:27
+msgid "Age class"
+msgstr "Aldersklasse"
+
+#: templates/user/wishes.tpl:153
+msgid "Gears"
+msgstr "Gear"

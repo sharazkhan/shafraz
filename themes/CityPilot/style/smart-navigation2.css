@@ -1,0 +1,107 @@
+.clearfix:after { clear: both; content: '.'; visibility: hidden; height: 0; display: block; }
+#CityPilotHeader .SearchFields div.FieldSet.smart-map { display: none; }
+#CityPilotHeader .SearchFields span.shop-buttons { float: right; margin-left: 2px; cursor: pointer; }
+#CityPilotHeader .SearchFields span.shop-buttons i { margin-right: 2px; }
+.DetailedProductRight iframe {width: 100% !important;}
+
+.smart-shop-menu {display: none;}
+.wsite-nav-button,.wsite-nav-button2 { display: none; }
+
+#CityPilotHeader .SearchFields span.cart-button {float:none; padding-right: 0px;padding-top: 0px;padding-bottom: 3px; min-width: 66px; display: inline-block;cursor:pointer}
+#CityPilotHeader .SearchFields span#carts_count {padding:0px;color:white;display:inline-block;float:left;width:16px;height:18px; padding-top:1px; text-align:center}
+#CityPilotHeader .SearchFields span#carts_total {float:none; padding:6px 0 0 0; display:inline-block;float: left;}
+
+
+ /*shop new*/
+.shop-name-head {background: #e35620;padding: 6px 0;text-align: left; font-size: 26px;color: #fff;font-weight: bold;}
+.shop-name-head .inner span {font-size: 30px !important;color: #fff; font-weight: bold !important;line-height: 38px !important;}
+#CityPilotHeader .MapDiv {display: none;}
+
+
+@media only screen and (max-width:991px) {
+    /*mobile nav*/
+    #CityPilotHeader .wsite-nav-button { width: 56px; height: 57px; display: block; outline: none; position: absolute; z-index: 9999999999; left: 10px; top: 2px; border: 0; cursor: pointer; background: #e45620 url(../images/menu-icon.png) no-repeat center center; text-indent: -9999px; padding: 10px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
+    .wsite-nav-button2 { width: 56px; height: 57px;margin-left: 10px; display: block; outline: none; position: static; border: 0; cursor: pointer; background: #fff url(../images/menu-icon1.png) no-repeat center center; text-indent: -9999px; padding: 10px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
+
+    #CityPilotHeader .wsite-nav-button:hover, .wsite-nav-button.open { }
+    #CityPilotHeader .wsite-nav-button2:hover, .wsite-nav-button2.open { }
+    #CityPilotHeader .TopMenu { background: #5b72dc; display: none; position: relative; top: 40px; right: -10px; z-index: 9989; width: 100%; margin: 0; }
+    #CityPilotHeader .TopMenu li { display: none; width: 100%; }
+    #CityPilotHeader .TopMenu li a { padding: 15px 10px; display: block; float: none; text-align: left; color: #fff; text-decoration: none; font-size: 14px; }
+    #CityPilotHeader .TopMenu li a:hover { background: #4D655F; }
+    #CityPilotHeader .TopMenu.open { height: auto; padding: 0; display: block; }
+    #CityPilotHeader .TopMenu.open li { display: block;}
+
+    
+    .BodyBlock .minisitemenu_block { background: #c5c5c5; display: none; position: relative; top: 0px; right: -10px; z-index: 9989; width: 100%; margin: 0; }
+    .BodyBlock .minisitemenu_block ul.navlist {height: auto !important;padding: 0 !important;background: #fff;border: 1px solid #ccc;position: absolute;z-index: 99;}
+    .BodyBlock .minisitemenu_block ul.navlist li a { border-color: #ccc; border-style: none none solid; border-width: 0 0 1px; color: #717d82; display: block; text-align: left; float: none; padding: 8px 10px; font-family: "Adelle Regular"; text-decoration: none; font-size: 11px; font-weight: normal; }
+    .BodyBlock .minisitemenu_block ul.navlist li { display: none; width: 100%; padding: 0; }
+    .BodyBlock .minisitemenu_block ul.navlist li a:hover { background: transparent; color: #000;}
+    .BodyBlock .minisitemenu_block ul.navlist li:last-child a { border-bottom: 0; }
+    .BodyBlock .minisitemenu_block.open { height: auto; padding: 0; display: block; }
+    .BodyBlock .minisitemenu_block.open li { display: block;}
+
+
+
+    #CityPilotHeader,#CityPilotFotter,.Containter,#CityPilotHeader .LogoSection {min-width: 940px;}
+    #CityPilotHeader .HeaderBlock, .SearchBlock, .BodyBlock, .ImageBlock, .FooterBlock {min-width: 940px;}
+
+    #CityPilotHeader .smart-shop-menu {border-top: 2px solid #ccc;}
+    #CityPilotHeader .smart-shop-menu.open #minisitemenu_block {display: block;}
+    #CityPilotHeader .smart-shop-menu.open #minisitemenu_block .navcontainer {right: 20px;}
+
+
+    #CityPilotHeader #minisitemenu_block ul.navlist {height: auto;}
+    #CityPilotHeader .navi-outer ul.navlist {padding-left: 0;}
+
+    #CityPilotHeader .MapDiv { display: none; }
+    #CityPilotHeader .CitySelect { display: none; }
+
+    #CityPilotHeader .inner { /*width: 740px;*/ position: relative; }
+    #CityPilotHeader .right .navi-outer {position: absolute; top:20px; width: 200px; left: 13px; z-index: 999; padding: 0; margin: 0; background: #fff; border: 1px solid #ccc; -webkit-border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;border-radius: 4px;}
+    #CityPilotHeader .TopMenu { height: 0; }
+    .BodyBlock .minisitemenu_block { height: 0; }
+    #CityPilotHeader .navcontainer ul.navlist li { display: block; float: none; }
+    #CityPilotHeader .navcontainer ul.navlist li a { display: block; float: none; border: 0; border-bottom: 1px solid #ccc;padding: 8px 10px; }
+
+    #CityPilotHeader .smart-shop-menu .navcontainer ul.navlist li:last-child a { border-bottom: 0; }
+
+    #CityPilotHeader .LogoSection .inner div.z-block { padding-left: 15px; float: none;text-align: center;width: 100%;}
+    #CityPilotHeader .LogoSection { height: 60px; }
+    #CityPilotHeader .HeaderBlock { height: 61px; }
+    #CityPilotHeader .LogoSection .logo { margin-top: 14px; }
+
+    /*SHOP PAGE*/
+    /*#minisitemenu_block {display: none;}*/
+    /*#CityPilotHeader .smart-shop-menu {display: block;}*/
+    #CityPilotHeader .top-menu-inner {display: block;}
+
+    #CityPilotHeader .SearchFields { height: auto; padding: 10px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+    #CityPilotHeader .SearchFields div.FieldSet.smart-map { display: block; }
+    #CityPilotHeader .SearchFields span.shop-buttons { border: 1px solid #888888; float: left; color: #fff; padding: 7px 10px; display: inline-block; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #A4A4A4), color-stop(1, #8F8F8F)); background-image: -o-linear-gradient(bottom, #A4A4A4 0%, #8F8F8F 100%); background-image: -moz-linear-gradient(bottom, #A4A4A4 0%, #8F8F8F 100%); background-image: -webkit-linear-gradient(bottom, #A4A4A4 0%, #8F8F8F 100%); background-image: -ms-linear-gradient(bottom, #A4A4A4 0%, #8F8F8F 100%); background-image: linear-gradient(to bottom, #A4A4A4 0%, #8F8F8F 100%); }
+    #CityPilotHeader .SearchFields span.shop-buttons:hover { text-shadow: none; }
+    #CityPilotHeader .SearchFields span.cart-button { border: 1px solid #888888; color: #fff; text-align: center; padding: 0; display: inline-block; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #A4A4A4), color-stop(1, #8F8F8F)); background-image: -o-linear-gradient(bottom, #A4A4A4 0%, #8F8F8F 100%); background-image: -moz-linear-gradient(bottom, #A4A4A4 0%, #8F8F8F 100%); background-image: -webkit-linear-gradient(bottom, #A4A4A4 0%, #8F8F8F 100%); background-image: -ms-linear-gradient(bottom, #A4A4A4 0%, #8F8F8F 100%); background-image: linear-gradient(to bottom, #A4A4A4 0%, #8F8F8F 100%); }
+    /*#CityPilotHeader .SearchFields input#searchfield { width: 123px !important; }*/
+    #CityPilotHeader .SearchFields span#carts_total {padding: 6px 0 6px 10px;}
+    #CityPilotHeader .SearchFields span#carts_count {padding-top: 3px;width: 20px;}
+    #CityPilotHeader .SearchButtonNew { float: left; }
+
+    #CityPilotHeader .fieldset-wrap.left { width: 100%; float: none; padding-bottom: 10px; }
+    #CityPilotHeader .ButtonSection { margin-left: 0; }
+    .top-center-block {padding-top: 2px;}
+        
+    /*Header Search new*/
+    .hidden-in-mobile {display: none !important;}
+    #CityPilotHeader .fieldset-wrap.left {width: 43%;float: left;}
+    #CityPilotHeader .ButtonSection {width: 17%;}
+    #CityPilotHeader .SearchFields span.shop-buttons {float: left;margin-left: 0;padding-bottom: 6px;}
+    #CityPilotHeader .SearchFields div.right {margin-left: -51px;padding-top: 0 !important;float: left;}
+    #CityPilotHeader .SearchButtonNew {margin-top: 7px;}
+    #CityPilotHeader .SearchFields input#searchfield {width: 180px !important;}
+    .top-center-block {display: none;}
+    .SearchButtonNew {width: 190px;}
+
+    
+}
+

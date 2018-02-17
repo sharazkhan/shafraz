@@ -1,0 +1,328 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-21 21:08+0000\n"
+"PO-Revision-Date: 2013-10-24 18:19+0100\n"
+"Last-Translator: Kim Enemark <kim@acta-it.dk>\n"
+"Language-Team: ACTA-IT <kim@acta-it.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"Language: da\n"
+
+#: lib/FAQ/Api/User.php:75 lib/FAQ/Api/Search.php:66 lib/FAQ/Api/Search.php:97
+msgid "Error! Could not load items."
+msgstr "Fejl! Kunne ikke indlæse data."
+
+#: lib/FAQ/Api/User.php:292 lib/FAQ/Api/Admin.php:212
+#: templates/admin/view.tpl:5
+msgid "View FAQ list"
+msgstr "Vis OSS liste"
+
+#: lib/FAQ/Api/User.php:297 templates/user/ask.tpl:2 templates/user/ask.tpl:8
+msgid "Submit a question"
+msgstr "Indsend et spørgsmål"
+
+#: lib/FAQ/Api/Admin.php:59
+msgid "Error! Creation attempt failed."
+msgstr "Fejl! Oprettelse mislykkedes."
+
+#: lib/FAQ/Api/Admin.php:83 lib/FAQ/Api/Admin.php:138
+#: lib/FAQ/Controller/Admin.php:96 lib/FAQ/Controller/Admin.php:156
+msgid "No such item found."
+msgstr "Elementet findes ikke."
+
+#: lib/FAQ/Api/Admin.php:92
+msgid "Error! Deletion attempt failed."
+msgstr "Fejl! Sletning mislykkedes."
+
+#: lib/FAQ/Api/Admin.php:147 lib/FAQ/Installer.php:59
+#: lib/FAQ/Installer.php:194
+msgid "Error! Update attempt failed."
+msgstr "Fejl! Opdatering mislykkedes."
+
+#: lib/FAQ/Api/Admin.php:217
+msgid "Create a FAQ"
+msgstr "Opret OSS"
+
+#: lib/FAQ/Api/Admin.php:222
+msgid "Purge PermaLinks"
+msgstr "Fjern Permalinks"
+
+#: lib/FAQ/Api/Admin.php:226 templates/admin/modifyconfig.tpl:4
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: lib/FAQ/Installer.php:38
+msgid ""
+"Warning! Could not create the default FAQ category tree. If you want to use "
+"categorisation with FAQ, register at least one property for the module in "
+"the Category Registry."
+msgstr ""
+"Advarsel! Standard OSS kategoristrukturen kunne ikke oprettes. Hvis der "
+"ønskes anvendt kategorisering sammen med OSS skal der registreres mindst et "
+"element i Kategoriregisteret."
+
+#: lib/FAQ/Installer.php:224 lib/FAQ/Version.php:19 templates/user/menu.tpl:4
+msgid "FAQ"
+msgstr "OSS"
+
+#: lib/FAQ/Installer.php:225 lib/FAQ/Version.php:20
+msgid "Frequently Asked Questions"
+msgstr "Ofte Stillede Spørgsmål (FAQ)"
+
+#: lib/FAQ/Controller/User.php:87
+msgid "Invalid category passed."
+msgstr "Ugyldig kategori angivet."
+
+#: lib/FAQ/Controller/User.php:183
+msgid "Failed to get any items"
+msgstr "Der kunne ikke hentes nogen elementer"
+
+#: lib/FAQ/Controller/User.php:236
+msgid "Thank you for your question"
+msgstr "Tak for dit spørgsmål"
+
+#: lib/FAQ/Controller/User.php:239
+msgid "Error! Hook data did not validate. FAQ not created."
+msgstr "Fejl! Hook data kunne ikke valideres. OSS blev ikke oprettet."
+
+#: lib/FAQ/Controller/Admin.php:69
+msgid "Done! Item created."
+msgstr "Færdig! Element er oprettet."
+
+#: lib/FAQ/Controller/Admin.php:128
+msgid "Done! Item updated."
+msgstr "Færdig! Element er blevet opdateret"
+
+#: lib/FAQ/Controller/Admin.php:178
+msgid "Done! Item deleted."
+msgstr "Færdig! Element  er blevet slettet."
+
+#: lib/FAQ/Controller/Admin.php:206
+msgid "Purging of the pemalinks was successful"
+msgstr "Fjernelse af permalinks lykkedes"
+
+#: lib/FAQ/Controller/Admin.php:208
+msgid "Purging of the pemalinks has failed"
+msgstr "Fjernelse af Permalinks mislykkedes"
+
+#: lib/FAQ/Controller/Admin.php:252
+msgid "Edit"
+msgstr "Redigere"
+
+#: lib/FAQ/Controller/Admin.php:256
+msgid "Delete"
+msgstr "Slet"
+
+#: lib/FAQ/Controller/Admin.php:328
+msgid "Done! Module configuration updated."
+msgstr "Færdig! Modulkonfiguration er gemt."
+
+#: lib/FAQ/Version.php:22
+msgid "faq"
+msgstr "oss"
+
+#: lib/FAQ/Version.php:30
+msgid "FAQ Hooks"
+msgstr "OSS Hooks"
+
+#: lib/FAQ/Version.php:38
+msgid "FAQ filter Hooks"
+msgstr "OSS filtrer Hooks"
+
+#: templates/admin/modify.tpl:4 templates/admin/modify.tpl:13
+msgid "Update FAQ"
+msgstr "Opdater OSS"
+
+#: templates/admin/modify.tpl:15 templates/admin/newfaq.tpl:13
+#: templates/admin/view.tpl:48 templates/user/display.tpl:3
+msgid "Question"
+msgstr "Spørgsmål"
+
+#: templates/admin/modify.tpl:19 templates/admin/newfaq.tpl:17
+msgid "PermaLink URL title"
+msgstr "Permalink URL titel"
+
+#: templates/admin/modify.tpl:21 templates/admin/newfaq.tpl:19
+msgid "(Blank = auto-generate)"
+msgstr "(Tom = autogenerer)"
+
+#: templates/admin/modify.tpl:24 templates/admin/newfaq.tpl:22
+#: templates/user/display.tpl:6
+msgid "Answer"
+msgstr "Svar"
+
+#: templates/admin/modify.tpl:29 templates/admin/newfaq.tpl:27
+#: templates/admin/view.tpl:12 templates/admin/view.tpl:51
+msgid "Category"
+msgstr "Kategori"
+
+#: templates/admin/modify.tpl:30 templates/admin/newfaq.tpl:28
+#: templates/admin/view.tpl:13
+msgid "Choose a category"
+msgstr "Vælg kategori"
+
+#: templates/admin/modify.tpl:46
+msgid "Meta data"
+msgstr "Meta data"
+
+#: templates/admin/modify.tpl:48 templates/user/display.tpl:11
+#, php-format
+msgid "Submitted by %s"
+msgstr "Indsendt af %s"
+
+#: templates/admin/modify.tpl:49 templates/user/display.tpl:14
+#, php-format
+msgid "Answered by %s"
+msgstr "Besvaret af %s"
+
+#: templates/admin/modify.tpl:50
+#, php-format
+msgid "Created by %1$s on %2$s"
+msgstr "Oprettet af %1$s d. %2$s"
+
+#: templates/admin/modify.tpl:51
+#, php-format
+msgid "Updated by %1$s on %2$s"
+msgstr "Opdateret af %1$s d. %2$s"
+
+#: templates/admin/modify.tpl:55 templates/admin/modifyconfig.tpl:29
+msgid "Update"
+msgstr "Opdater"
+
+#: templates/admin/modify.tpl:56 templates/admin/newfaq.tpl:39
+#: templates/admin/delete.tpl:17 templates/admin/modifyconfig.tpl:30
+#: templates/user/ask.tpl:23
+msgid "Cancel"
+msgstr "Annullere"
+
+#: templates/admin/newfaq.tpl:4 templates/admin/newfaq.tpl:11
+msgid "Create FAQ"
+msgstr "Opret OSS"
+
+#: templates/admin/newfaq.tpl:38
+msgid "Create"
+msgstr "Opret"
+
+#: templates/admin/view.tpl:36
+msgid "Filter"
+msgstr "Filter"
+
+#: templates/admin/view.tpl:37
+msgid "Reset"
+msgstr "Nulstil"
+
+#: templates/admin/view.tpl:47
+msgid "Internal ID"
+msgstr "Intern ID"
+
+#: templates/admin/view.tpl:49
+msgid "Answered"
+msgstr "Besvaret"
+
+#: templates/admin/view.tpl:53
+msgid "Options"
+msgstr "Indstillinger"
+
+#: templates/admin/view.tpl:63
+msgid "Yes"
+msgstr "Ja"
+
+#: templates/admin/view.tpl:65
+msgid "No"
+msgstr "Nej"
+
+#: templates/admin/view.tpl:80
+msgid "No items found."
+msgstr "Ingen elementer blev fundet."
+
+#: templates/admin/delete.tpl:4
+msgid "Delete FAQ"
+msgstr "Slet OSS"
+
+#: templates/admin/delete.tpl:13
+msgid "Confirmation prompt"
+msgstr "Bekræftelse prompt"
+
+#: templates/admin/delete.tpl:15
+msgid "Do you really want to delete this FAQ?"
+msgstr "Vil du virkelig slette denne OSS?"
+
+#: templates/admin/delete.tpl:16
+msgid "Confirm deletion?"
+msgstr "Bekræft sletning?"
+
+#: templates/admin/modifyconfig.tpl:11
+msgid "General settings"
+msgstr "Generelle indstillinger"
+
+#: templates/admin/modifyconfig.tpl:13
+msgid "Enable categorization"
+msgstr "Aktivere kategorisering"
+
+#: templates/admin/modifyconfig.tpl:17
+msgid "Items per page"
+msgstr "Elementer pr. side"
+
+#: templates/admin/modifyconfig.tpl:22
+msgid "PermaLinks"
+msgstr "Permalinks"
+
+#: templates/admin/modifyconfig.tpl:24
+msgid "Add category title to PermaLink"
+msgstr "Tilføj kategorititel til Permalink"
+
+#: templates/user/view.tpl:4
+msgid "Categories"
+msgstr "Kategorier"
+
+#: templates/user/view.tpl:34
+msgid "Recent FAQs"
+msgstr "Seneste OSSer"
+
+#: templates/user/view.tpl:40
+msgid "Questions"
+msgstr "Spørgsmål"
+
+#: templates/user/view.tpl:47
+msgid "Answers"
+msgstr "Svar"
+
+#: templates/user/ask.tpl:3
+msgid ""
+"Before submitting a question please check existing FAQ's as your question "
+"may have already been answered. If not then please submit your question via "
+"the form and below. Please use clear and precise language when submitting a "
+"question. After submission your question will be reviewed by the site editor"
+"(s)."
+msgstr ""
+"Kontroller venligst om dit spørgsmål allerede er blevet besvaret inden du "
+"indsender det. Hvis det ikke er besvaret indsend da venligst dit spørgsmål "
+"vha. nedenstående formular. Anvend venligst klar og præcis sprogbrug ved "
+"indsendelse af et spørgsmål. Efter indsendelse vil dit spørgsmål blive "
+"gennemgået og vurderet af en af vore redaktører."
+
+#: templates/user/ask.tpl:11
+msgid "Your name"
+msgstr "Dit navn"
+
+#: templates/user/ask.tpl:16
+msgid "Content"
+msgstr "Indhold"
+
+#: templates/user/ask.tpl:22
+msgid "Submit"
+msgstr "Send"
+
+#: templates/search/options.tpl:3
+msgid "FAQs"
+msgstr "OSS'er"

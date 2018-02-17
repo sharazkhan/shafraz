@@ -1,0 +1,1014 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ZSELEX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-20 00:00+0200\n"
+"PO-Revision-Date: 2016-09-20 00:01+0200\n"
+"Last-Translator: Kim Enemark <kim@acta-it.dk>\n"
+"Language-Team: ACTA-IT <kim@acta-it.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+
+#: javascript/delivery.js:23 javascript/delivery.js:128
+msgid "The entered discount code is not valid for this order"
+msgstr "Den angivne rabat kode er ikke anvendelig på denne ordre"
+
+msgid "BUY"
+msgstr "Køb"
+
+msgid "Special Deals"
+msgstr "Specielle tilbud"
+
+#: javascript/delivery.js:138
+msgid "Discount Applied"
+msgstr "Rabat anvendt"
+
+#: javascript/minishop.js:7
+msgid "select category"
+msgstr "Vælg Kategori"
+
+#: javascript/minishop.js:8
+msgid "select manufacturer"
+msgstr "Vælg Producent"
+
+#: javascript/product_user.js:72 javascript/product_user.js:138
+msgid "This product is already in your cart!"
+msgstr "Denne vare er allerede i din indkøbskurv!"
+
+#: javascript/product_user.js:77 javascript/product_user.js:144
+msgid "Product added to cart!"
+msgstr "Produkt er tilføjet til indkøbskurven!"
+
+#: javascript/product_user.js:110 javascript/product_user.js:115
+msgid "Product not available in desired quantity!"
+msgstr "Produktet er ikke tilgængeligt i det valgte antal!"
+
+#: javascript/product_user.js:235 javascript/product_user.js:292
+#: javascript/product_user.js:316
+msgid "Processing..."
+msgstr "Behandler..."
+
+#: javascript/product_user.js:261 javascript/product_user.js:288
+#: javascript/product_user.js:300 javascript/product_user.js:306
+#: javascript/product_user.js:321 javascript/product_user.js:432
+msgid "Add to Cart"
+msgstr "Tilføj til indkøbskurv"
+
+#: javascript/product_user.js:413
+msgid "Not Available!"
+msgstr "Ikke tilgængelig!"
+
+#: javascript/product_user.js:416
+msgid "Out of stock!"
+msgstr " Udsolgt!"
+
+#: javascript/product_user.js:587 javascript/product_user.js:734
+msgid "Please select available options"
+msgstr "Vælg venligst optioner"
+
+#: javascript/product_user.js:622
+msgid "Please answer question"
+msgstr "Svar venligst på spørgsmålet"
+
+#: javascript/searchbreadcrum.js:141 javascript/searchlist.js:418
+#: javascript/searchlist.js:908 javascript/searchlist.js:909
+#: javascript/searchlist.js:1046 javascript/searchlist.js:1050
+#: javascript/searchlist.js:1163 javascript/searchlist.js:1167
+#: javascript/searchlist.js:1293 javascript/searchlist.js:2157
+msgid "search for..."
+msgstr "Søg efter..."
+
+#: javascript/searchlist.js:837 javascript/searchlist.js:1081
+#: javascript/searchlist.js:1187 javascript/searchlist.js:1189
+msgid "search category"
+msgstr "Søg efter kategori"
+
+#: javascript/searchlist.js:859 javascript/searchlist.js:1075
+msgid "search region"
+msgstr "Søg efter region"
+
+#: javascript/searchlist.js:861 javascript/searchlist.js:893
+#: javascript/searchlist.js:1078
+msgid "search city"
+msgstr "Søg efter by"
+
+#: javascript/searchlist.js:863 javascript/searchlist.js:876
+#: javascript/searchlist.js:895 javascript/searchlist.js:1084
+#: javascript/searchlist.js:1191 javascript/searchlist.js:1193
+msgid "search area"
+msgstr "Søg efter område"
+
+#: javascript/searchlist.js:1036 javascript/searchlist.js:1153
+msgid "Select City"
+msgstr "Vælg By"
+
+#: javascript/searchlist.js:1281 javascript/searchlist.js:1493
+#: javascript/searchlist.js:1536 javascript/searchlist.js:1719
+#: javascript/searchlist.js:1794 javascript/searchlist.js:1982
+msgid "Loading..."
+msgstr "Indlæser..."
+
+#: javascript/selections.js:30
+msgid "Select All Cities"
+msgstr "Vælg alle byer"
+
+#: javascript/selections.js:67
+msgid "loading cities..."
+msgstr "indlæser byer..."
+
+#: javascript/selections.js:134
+msgid "Please select a region"
+msgstr "Vælg venligst en Region"
+
+#~ msgid "Error! in %1$s: the %2$s parameter must be specified."
+#~ msgstr "Fejl! i %1$s: Parameteren %2$s skal angives."
+
+#~ msgid "My Page"
+#~ msgstr "Min Side"
+
+#~ msgid "My Site"
+#~ msgstr "Min forside"
+
+#~ msgid "CityPilot Backend"
+#~ msgstr "Backend"
+
+#~ msgid "Change Shop"
+#~ msgstr "Skift butik"
+
+#~ msgid "anonymous guest"
+#~ msgstr "anonym gæst"
+
+#~ msgid "ZSELEX plugin"
+#~ msgstr "System plugin"
+
+#~ msgid "CityPilot"
+#~ msgstr "CityPilot"
+
+#~ msgid "CityPilot theme for zikula."
+#~ msgstr "CityPilot tema for Zikula"
+
+#~ msgid "Confirmation prompt"
+#~ msgstr "Bekræft"
+
+#~ msgid "Delete"
+#~ msgstr "Slet"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuller"
+
+#~ msgid "Edit Shopsettings"
+#~ msgstr "Rediger Butiksindstillinger"
+
+#~ msgid "Home"
+#~ msgstr "Hjem"
+
+#~ msgid "Search"
+#~ msgstr "Søg"
+
+#~ msgid "User account panel"
+#~ msgstr "Brugerkonto"
+
+#~ msgid "Cart"
+#~ msgstr "Kurv"
+
+#~ msgid "Please Send Us Your Feedback"
+#~ msgstr "Send os din feedback"
+
+#~ msgid "Make sure to be placed on the page you want to give us info about!"
+#~ msgstr "Stå venligst på den side du vil informere os om!"
+
+#~ msgid "Scroll"
+#~ msgstr "Scroll"
+
+#~ msgid "Edit Content"
+#~ msgstr "Rediger Indhold"
+
+#~ msgid "You can rate shop"
+#~ msgstr "Du kan vurdere denne butik"
+
+#~ msgid "Monday"
+#~ msgstr "Mandag"
+
+#~ msgid "Tuesday"
+#~ msgstr "Tirsdag"
+
+#~ msgid "Wednesday"
+#~ msgstr "Onsdag"
+
+#~ msgid "Thursday"
+#~ msgstr "Torsdag"
+
+#~ msgid "Friday"
+#~ msgstr "Fredag"
+
+#~ msgid "Saturday"
+#~ msgstr "Lørdag"
+
+#~ msgid "Sunday"
+#~ msgstr "Søndag"
+
+#~ msgid "January"
+#~ msgstr "Januar"
+
+#~ msgid "February"
+#~ msgstr "Februar"
+
+#~ msgid "March"
+#~ msgstr "Marts"
+
+#~ msgid "April"
+#~ msgstr "April"
+
+#~ msgid "May"
+#~ msgstr "Maj"
+
+#~ msgid "June"
+#~ msgstr "Juni"
+
+#~ msgid "July"
+#~ msgstr "Juli"
+
+#~ msgid "August"
+#~ msgstr "August"
+
+#~ msgid "September"
+#~ msgstr "September"
+
+#~ msgid "October"
+#~ msgstr "Oktober"
+
+#~ msgid "November"
+#~ msgstr "November"
+
+#~ msgid "December"
+#~ msgstr "December"
+
+#~ msgid "Feedback Sent"
+#~ msgstr "Feedback er sendt"
+
+#~ msgid "Feedback Failed to Send"
+#~ msgstr "Feedback kunne ikke sendes"
+
+#~ msgid "Please enter feedback!"
+#~ msgstr "Indtast informationstekst!"
+
+#~ msgid "Edit Product"
+#~ msgstr "Rediger produkt"
+
+#~ msgid "Show Shops"
+#~ msgstr "Vis butikker"
+
+#~ msgid "Edit Events"
+#~ msgstr "Rediger Events"
+
+#~ msgid "I have had"
+#~ msgstr "Jeg har haft"
+
+#~ msgid "new visitors lately"
+#~ msgstr "nye besøgende for nylig"
+
+#~ msgid "visitors in total"
+#~ msgstr "besøgende i alt"
+
+#~ msgid "rated your page"
+#~ msgstr "vurderede din side"
+
+#~ msgid "has laid a comment"
+#~ msgstr "har skrevet en kommentar"
+
+#~ msgid "I've sold"
+#~ msgstr "Jeg har solgt"
+
+#~ msgid "Products in"
+#~ msgstr "produkter i"
+
+#~ msgid "products in total"
+#~ msgstr "prodyjter i alt"
+
+#~ msgid "Contributed"
+#~ msgstr "Bidraget"
+
+#~ msgid "by %1$s on %2$s"
+#~ msgstr "af %1$s på %2$s"
+
+#~ msgid "Picture %1$s for %2$s"
+#~ msgstr "Billeder %1$s af %2$s"
+
+#~ msgid "Picture gallery"
+#~ msgstr "Billedgalleri"
+
+#~ msgid "Create an article"
+#~ msgstr "Opret en artikel"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Title text"
+#~ msgstr "Titeltekst"
+
+#~ msgid "Permalink URL"
+#~ msgstr "Permalink URL"
+
+#~ msgid "(Generated automatically if left blank)"
+#~ msgstr "(Genereres automatisk hvis blank)"
+
+#~ msgid "Category"
+#~ msgstr "Kategori"
+
+#~ msgid "Choose category"
+#~ msgstr "Vælg kategori"
+
+#~ msgid "Language for which article should be displayed"
+#~ msgstr "Sprog for hvilket artikel skal vises"
+
+#~ msgid "Article"
+#~ msgstr "Artikel"
+
+#~ msgid "Permitted HTML tags"
+#~ msgstr "Tilladte HTML-tags"
+
+#~ msgid "You must enter either <strong>teaser text</strong> or <strong>body text</strong>."
+#~ msgstr "Du skal angive enten <strong> teaser tekst </strong> eller <strong> body tekst </strong>."
+
+#~ msgid "Index page teaser text"
+#~ msgstr "Index sidens teaser tekst"
+
+#~ msgid "(Limit: %s characters)"
+#~ msgstr "(Begræns: %s tegn)"
+
+#~ msgid "Index page teaser format"
+#~ msgstr "Index sidens teaser format"
+
+#~ msgid "Plain text"
+#~ msgstr "Almindelig tekst"
+
+#~ msgid "Text formatted with mark-up language"
+#~ msgstr "Tekst formateret med mark-up sprog"
+
+#~ msgid "Article body text"
+#~ msgstr "Artikeltekst"
+
+#~ msgid "#{chars"
+#~ msgstr "#{chars"
+
+#~ msgid "Article body format"
+#~ msgstr "Artikelformat"
+
+#~ msgid "Show"
+#~ msgstr "Vis"
+
+#~ msgid "Footnote"
+#~ msgstr "Fodnote"
+
+#~ msgid "Pictures"
+#~ msgstr "Billeder"
+
+#~ msgid "Select a picture (max. %s kB per picture)"
+#~ msgstr "Vælg et billede (max. %s KB pr billede)"
+
+#~ msgid "(max files %s, first picture is used as thumbnail in the index teaser page for this article.)"
+#~ msgstr "(maks antal filer %s, det første billede anvendes som miniature på teaser siden for denne artikel.)"
+
+#~ msgid "Delete this picture"
+#~ msgstr "Slet dette billede"
+
+#~ msgid "news picture"
+#~ msgstr "Nyhedsbillede"
+
+#~ msgid "Publishing options"
+#~ msgstr "Udgivelsesindstillinger"
+
+#~ msgid "Display on news index page"
+#~ msgstr "Vis på nyheds forsiden"
+
+#~ msgid "Article weight"
+#~ msgstr "artikel vægtning"
+
+#~ msgid "No time limit"
+#~ msgstr "Ingen tidsbegrænsning"
+
+#~ msgid "Start date"
+#~ msgstr "Startdato"
+
+#~ msgid "No end date"
+#~ msgstr "Ingen slutdato"
+
+#~ msgid "End date"
+#~ msgstr "Slutdato"
+
+#~ msgid "Allow comments on this article"
+#~ msgstr "Tillad kommentarer til denne artikel"
+
+#~ msgid "(EZComments must be hooked to News to enable commenting.)"
+#~ msgstr "(EZComments skal kobles til Nyheder for at aktivere kommentering.)"
+
+#~ msgid "Article ID"
+#~ msgstr "Artikel ID"
+
+#~ msgid "Article attributes"
+#~ msgstr "Artikelegenskaber"
+
+#~ msgid "Submit this article"
+#~ msgstr "Send denne artikel"
+
+#~ msgid "Submit"
+#~ msgstr "Send"
+
+#~ msgid "Publish this article"
+#~ msgstr "Udgive denne artikel"
+
+#~ msgid "Publish"
+#~ msgstr "Udgiv"
+
+#~ msgid "Save this article as draft"
+#~ msgstr "Gem denne artikel som kladde"
+
+#~ msgid "Save as draft"
+#~ msgstr "Gem som kladde"
+
+#~ msgid "Save quick draft"
+#~ msgstr "Gem hurtig kladde"
+
+#~ msgid "Quick save as draft"
+#~ msgstr "Hurtig gem som kladde"
+
+#~ msgid "Save full draft"
+#~ msgstr "Gem hele kladden"
+
+#~ msgid "Mark this article as pending"
+#~ msgstr "Markér denne artikel som afventende"
+
+#~ msgid "Pending"
+#~ msgstr "afventer"
+
+#~ msgid "Preview this article"
+#~ msgstr "Vis denne artikel"
+
+#~ msgid "Preview"
+#~ msgstr "Vis"
+
+#~ msgid "Filed under:"
+#~ msgstr "Arkiveret under:"
+
+#~ msgid "News"
+#~ msgstr "Nyheder"
+
+#~ msgid "Search results"
+#~ msgstr "Søgeresultater"
+
+#~ msgid "Number of hits: %s"
+#~ msgstr "Antal søgeopslag: %s"
+
+#~ msgid "Created on %s."
+#~ msgstr "Oprettet den %s."
+
+#~ msgid "No search results found. You can try the following:"
+#~ msgstr "Ingen søgeresultater fundet. Du kan prøve følgende:"
+
+#~ msgid "Check that you spelled all words correctly."
+#~ msgstr "Kontroller at du har stavet alle ord rigtigt."
+
+#~ msgid "Use different keywords."
+#~ msgstr "Anvend forskellige søgeord."
+
+#~ msgid "Use keywords that are more general."
+#~ msgstr "Anvend søgeord der er mere generelle."
+
+#~ msgid "Use fewer words."
+#~ msgstr "Anvend færre ord."
+
+#~ msgid "Welcome to %1$s!"
+#~ msgstr "Velkommen hos %1$s!"
+
+#~ msgid "Welcome to %1$s (%2$s)!"
+#~ msgstr "Velkommen hos %1$s, %2$s!"
+
+#~ msgid "Hello! This e-mail address ('%1$s') has been used to register an account on the '%2$s' site."
+#~ msgstr "Hej! Denne emailadresse (%1$s) er blevet brugt til at registrere en brugerkonto på %2$s side."
+
+#~ msgid "Your account details are as follows:"
+#~ msgstr "Dine brugerkonto detaljer er følgende:"
+
+#~ msgid "User name: %s"
+#~ msgstr "Brugernavn: '%s'."
+
+#~ msgid "Password: %s"
+#~ msgstr "Adgangskode:  %s"
+
+#~ msgid "Reset your password at '%1$s'"
+#~ msgstr "Nulstil din adgangskode hos '%1$s'"
+
+#~ msgid "Hello!"
+#~ msgstr "Hej"
+
+#~ msgid "The user account '%1$s' at %2$s has this e-mail address associated with it."
+#~ msgstr "Brugerkontoen '%1$s' hos %2$s har denne emailadresse tilknyttet."
+
+#~ msgid "The administrator at %s requested that you receive a confirmation code that will allow you to reset your password."
+#~ msgstr "Administratoren hos %s har anmodet om, at du modtager en bekræftelseskode, som vil give dig mulighed for at nulstille din adgangskode."
+
+#~ msgid "Someone with the IP address %s has just requested a confirmation code to allow the password for your account to be reset."
+#~ msgstr "Nogen med IP-adressen %s har netop anmodet om en bekræftelseskode for at tillade, at adgangskoden til din brugerkonto bliver nulstillet."
+
+#~ msgid "The confirmation code is: %s"
+#~ msgstr "Bekræftelseskoden er: %s"
+
+#~ msgid "With this confirmation code, you can now create a new password by clicking on this link:"
+#~ msgstr "Med denne bekræftelseskode kan du nu oprette en ny adgangskode ved at klikke på dette link:"
+
+#~ msgid "Reset My Password"
+#~ msgstr "Nulstil min adgangskode"
+
+#~ msgid "(If you cannot click on the link, you can copy this URL and paste it into your browser: %s )"
+#~ msgstr "(Hvis du ikke kan klikke på linket, kan du kopiere denne URL-adresse, og indsætte den i din browser: %s )"
+
+#~ msgid "If the request was not made by you then you don't need to take any action."
+#~ msgstr "Hvis anmodningen ikke blev foretaget af dig så behøver du ikke at foretage dig noget."
+
+#~ msgid "The password won't be changed unless the confirmation code is used, and you are the only recipient of this message."
+#~ msgstr "Adgangskoden bliver ikke ændret, med mindre bekræftelseskoden anvendes. Du er den eneste modtager af denne meddelelse."
+
+#~ msgid "You can just delete the message and log-in with your existing password next time you visit the site."
+#~ msgstr "Du kan bare slette beskeden og logge ind med din eksisterende adgangskode, næste gang du besøger siden."
+
+#~ msgid "'%1$s' account information"
+#~ msgstr "'%1$s' brugerkonto oplysninger"
+
+#~ msgid "The administrator at %s requested that you receive your user name via e-mail."
+#~ msgstr "Administrator hos %s har anmodet om, at du modtager dit brugernavn via email."
+
+#~ msgid "Someone with the IP address %1$s has just requested the account information at %2$s associated with this e-mail address."
+#~ msgstr "Nogen med IP-adresse %1$s har netop anmodet om brugerkontooplysninger på %2$s som er forbundet med denne emailadresse."
+
+#~ msgid "The user name for your account is: %1$s"
+#~ msgstr "Brugernavnet til din brugerkonto er: %1$s"
+
+#~ msgid "You may use the following information to %1$slog into your account%2$s:"
+#~ msgstr "Du kan bruge følgende oplysninger til %1$slogge ind på din konto%2$s:"
+
+#~ msgid "(If you cannot click on the log-in link, you can copy this URL and paste it into your browser: %s )"
+#~ msgstr "(Hvis du ikke kan klikke på log ind linket, kan du kopiere denne URL-adresse, og indsætte den i din browser: %s )"
+
+#~ msgid "You do not have any active methods available to log into our site. Please contact a site administrator."
+#~ msgstr "Du har ingen mulighed for at logge på vores side. Kontakt venligst en administrator."
+
+#~ msgid "You are the only recipient of this message, and your user name has not been sent to any other e-mail address."
+#~ msgstr "Du er den eneste modtager af denne besked, og dit brugernavn er ikke blevet sendt til andre emailadresser."
+
+#~ msgid "You can just delete this message."
+#~ msgstr "Du kan bare slette denne besked."
+
+#~ msgid "New registration pending approval"
+#~ msgstr "Ny registrering afventer godkendelse"
+
+#~ msgid "New registration pending approval: %s"
+#~ msgstr "Ny registrering afventer godkendelse: %s"
+
+#~ msgid "New registration pending e-mail verification"
+#~ msgstr "Ny registrering afventer emailbekræftelse"
+
+#~ msgid "New registration pending verification: %s"
+#~ msgstr "Ny tilmelding afventer bekræftelse: %s"
+
+#~ msgid "New user activated"
+#~ msgstr "Ny bruger aktiveret"
+
+#~ msgid "New user activated: %s"
+#~ msgstr "Ny bruger aktiveret: %s"
+
+#~ msgid "A new user account has been activated on %1$s."
+#~ msgstr "En ny brugerkonto er blevet aktiveret på %1$s."
+
+#~ msgid "It was created by an administrator or sub-administrator logged in as '%1$s'."
+#~ msgstr "Oprettet af en administrator eller en under-administrator logget ind som '%1$s'."
+
+#~ msgid "The account details are as follows:"
+#~ msgstr "Brugerkonto detaljerne er følgende:"
+
+#~ msgid "User name: '%s'."
+#~ msgstr "Brugernavn: '%s'."
+
+#~ msgid "Your recent request at %1$s."
+#~ msgstr "Din seneste forespørgsel på %1$s."
+
+#~ msgid "A message from %1$s..."
+#~ msgstr "En besked fra %1$s..."
+
+#~ msgid "Recently, this e-mail address ('%1$s') was used to request an account on '%2$s' (%3$s)."
+#~ msgstr "Emailadressen (%1$s) blev for nylig anvendt til registrering af en brugerkonto på %2$s (%3$s)."
+
+#~ msgid "The information that was registered is as follows:"
+#~ msgstr "De registrerede oplysninger er følgende:"
+
+#~ msgid "User name"
+#~ msgstr "Brugernavn"
+
+#~ msgid "Thank you for your application for a new account. At this time we are unable to approve your application."
+#~ msgstr "Tak for din ansøgning om en ny brugerkonto. I øjeblikket kan vi ikke godkende din ansøgning."
+
+#~ msgid "Verify your e-mail address for %s."
+#~ msgstr "Bekræft din e-mail-adresse til %s."
+
+#~ msgid "Your e-mail address ('%1$s') has been used to register an account on '%2$s' (%3$s)."
+#~ msgstr "Din emailadresse (%1$s) er blevet anvendt til at registrere en brugerkonto hos %2$s (%3$s)."
+
+#~ msgid "Our system is waiting for you to verify your e-mail address."
+#~ msgstr "Vores system venter på at du bekræfter din emailadresse."
+
+#~ msgid "Your request is also waiting for administrator approval."
+#~ msgstr "Din anmodning venter også på administrator godkendelse."
+
+#~ msgid "We will not be able to approve your account until after you have completed this verification step."
+#~ msgstr "Vi er ikke i stand til at godkende din anmodning, før du har fuldført denne kontrol."
+
+#~ msgid "Once both this verification step is complete and an administrator has approved your request, you will be able to log in with your user name."
+#~ msgstr "Når både bekræftelsesprocessen er afsluttet, og en administrator har godkendt din anmodning, vil du være i stand til at logge ind med dit brugernavn."
+
+#~ msgid "Please click on the following link to complete the e-mail address check: "
+#~ msgstr "Klik på følgende link for at fuldføre kontrol af emailadresse:"
+
+#~ msgid "Verify my e-mail address"
+#~ msgstr "Bekræft min e-mail adresse"
+
+#~ msgid "If you are not able to click on the above link, you can copy the following URL into your browser:"
+#~ msgstr "Hvis du ikke er i stand til at klikke på ovenstående link, kan du kopiere følgende URL til din browser:"
+
+#~ msgid "Your verification code is:"
+#~ msgstr "Din bekræftelseskode er:"
+
+#~ msgid "Once verified and your account has been approved, then you will be able to log in."
+#~ msgstr "Når din brugerkonto er blevet bekræftet og godkendt, kan du logge ind."
+
+#~ msgid "Once verified, you will be able to choose a password and then log in."
+#~ msgstr "Når din brugerkonto er blevet bekræftet, kan du vælge en adgangskode og logge ind."
+
+#~ msgid "Once verified, you will be able to log in."
+#~ msgstr "Når din brugerkonto er blevet bekræftet, kan du logge ind."
+
+#~ msgid "Password reminder: %s"
+#~ msgstr "Adgangskode påmindelse: %s"
+
+#~ msgid "(This is the only time you will receive your password. Please keep it in a safe place.)"
+#~ msgstr "(Dette er den eneste gang, du vil modtage din adgangskode. Opbevar venligst adgangskoden på et sikkert sted.)"
+
+#~ msgid "Remember: both this verification step and approval from an administrator must be completed before you can log in."
+#~ msgstr "Husk: både bekræftelsesprocessen og godkendelse fra en administrator skal være afsluttet, før du kan logge ind"
+
+#~ msgid "You will receive an additional e-mail message once an administrator has reviewed your request."
+#~ msgstr "Du vil modtage en email, når en administrator har gennemgået din anmodning."
+
+#~ msgid "If you do not wish to use this web site, please either contact our site administrator, or simply disregard this message."
+#~ msgstr "Hvis du ikke ønsker at benytte dette website, kan du enten kontakte vores administrator, eller se bort fra denne besked."
+
+#~ msgid "Verify your request to change your e-mail address at '%1$s'"
+#~ msgstr "Bekræft din anmodning om at ændre din emailadresse hos %1$s"
+
+#~ msgid "You requested to change your e-mail address for user account '%1$s' at %2$s from %3$s to %4$s."
+#~ msgstr "Du har bedt om at ændre din emailadresse for bruger-konto '%1$s' hos %2$s fra %3$s til %4$s."
+
+#~ msgid "You must confirm this change before it will take effect."
+#~ msgstr "Du skal bekræfte ændringen, før den træder i kraft"
+
+#~ msgid "If you do not confirm this change within the next day, the request will be deleted from our system."
+#~ msgid_plural "If you do not confirm this change within the next %1$s days, the request will be deleted from our system."
+#~ msgstr[0] "Hvis du ikke bekræfter ændringen indenfor den næste dag vil forespørgslen blive slettet fra vores system."
+#~ msgstr[1] "Hvis du ikke bekræfter ændringen indenfor de næste %1$s dage vil forespørgslen blive slettet fra vores system."
+
+#~ msgid "You can confirm the e-mail address change by clicking on this link: "
+#~ msgstr "Du kan bekræfte emailadresseændringen ved at klikke på dette link:"
+
+#~ msgid "Verify my e-mail address change."
+#~ msgstr "Bekræft min ændring af emailadresse."
+
+#~ msgid "(If you cannot click on the link above, you can copy this URL into your browser:"
+#~ msgstr "(Hvis du ikke kan klikke på linket ovenfor, kan du kopiere denne URL ind i din browser:"
+
+#~ msgid "If you did not make this request then you do not need to take any action."
+#~ msgstr "Hvis du ikke har sendt denne anmodning behøver du ikke at gøre noget."
+
+#~ msgid "The e-mail address wil not be changed unless the confirmation code is used, and you are the only recipient of this message. You can just delete this message."
+#~ msgstr "Emailadressen bliver ikke ændret med mindre du anvender bekræftelseskoden. Du er den eneste modtager af denne besked. Du kan bare slette beskedden."
+
+#~ msgid "Welcome to %1$s, %2$s!"
+#~ msgstr "Velkommen hos %1$s, %2$s!"
+
+#~ msgid "This e-mail address ('%1$s') has been used to register an account on '%2$s' (%3$s)."
+#~ msgstr "Emailadressen (%1$s) er blevet anvendt til at registrere en brugerkonto hos %2$s (%3$s)."
+
+#~ msgid "Password"
+#~ msgstr "Adgangskode"
+
+#~ msgid "Password reminder"
+#~ msgstr "Adgangskode påmindelse"
+
+#~ msgid "Thank you for your application for a new account.  Your application has been forwarded to the site administrator for review. Please expect a message once the review process is complete."
+#~ msgstr "Tak for din ansøgning om en ny brugerkonto. Din ansøgning er blevet sendt til administratoren for at blive gennemgået. Du kan forvente en besked, når gennemgangen er afsluttet."
+
+#~ msgid "Your account application has been approved. Thank you for your patience during the new account application review process."
+#~ msgstr "Din ansøgning er blevet godkendt. Tak for din tålmodighed under godkendelsesprocessen."
+
+#~ msgid "The web site administrator has created this new account for you."
+#~ msgstr "Sidens administrator har oprettet brugerkontoen til dig."
+
+#~ msgid "You may now log into the web site with your user name and password."
+#~ msgstr "Du kan nu logge ind på siden med dit brugernavn og din adgangskode."
+
+#~ msgid "User log-in"
+#~ msgstr "Bruger log ind"
+
+#~ msgid "Choose how you would like to log in by clicking on one of the following..."
+#~ msgstr "Vælg hvordan du ønsker at logge ind ved at klikke på én af følgende..."
+
+#~ msgid "Log in below, or change how you would like to log in by clicking on one of the following..."
+#~ msgstr "Log ind herunder, eller ændre hvordan du ønsker at logge ind ved at klikke på én af følgende..."
+
+#~ msgid "Keep me logged in on this computer"
+#~ msgstr "Hold mig logget ind på denne computer"
+
+#~ msgid "Log in"
+#~ msgstr "Log ind"
+
+#~ msgid "The log-in option you chose is not available at the moment."
+#~ msgstr "Den log ind mulighed, du har valgt er ikke tilgængelig i øjeblikket."
+
+#~ msgid "Please choose another or contact the site administrator for assistance."
+#~ msgstr "Vælg en anden eller kontakt administrator for at få hjælp."
+
+#~ msgid "Please contact the site administrator for assistance."
+#~ msgstr "Kontakt venligst administrator for at få hjælp."
+
+#~ msgid "Lost password recovery"
+#~ msgstr "Gendannelse af mistet adgangskode"
+
+#~ msgid "Please enter EITHER your user name OR your e-mail address below and click the 'Submit' button. You will be e-mailed a confirmation code. Check your e-mail, and follow the given instructions."
+#~ msgstr "Du bedes indtaste ENTEN dit brugernavn ELLER din emailadresse nedenfor og klikke på 'Send' knappen. Du vil modtage en bekræftelseskode på email. Tjek din email og følg de givne anvisninger."
+
+#~ msgid "or"
+#~ msgstr "eller"
+
+#~ msgid "E-mail address"
+#~ msgstr "Emailadresse"
+
+#~ msgid "Enter confirmation code"
+#~ msgstr "Indtast bekræftelseskode"
+
+#~ msgid "Please enter and EITHER your user name OR your e-mail address, and also enter the confirmation code you received. Once you enter this information and click the 'Submit' button you will receive a new password via e-mail."
+#~ msgstr "Indtast venligst ENTEN dit brugernavn ELLER din emailadresse, og indtast også bekræftelseskoden du har modtaget. Når du indtaster disse oplysninger, og klikker på 'Send' knappen, vil du modtage et nyt kodeord via email."
+
+#~ msgid "Confirmation code"
+#~ msgstr "Bekræftelseskode"
+
+#~ msgid "Account information and password recovery"
+#~ msgstr "Gendannelse af kontooplysninger og adgangskode"
+
+#~ msgid "I have forgotten my account information (for example, my user name)."
+#~ msgstr "Jeg har glemt mine kontooplysninger (f.eks. mit brugernavn)"
+
+#~ msgid "I have forgotten my password."
+#~ msgstr "Jeg har glemt min adgangskode."
+
+#~ msgid "I have received a password recovery code, and would like to enter it."
+#~ msgstr "Jeg har modtaget en genopretningskode til min adgangskode, og vil gerne indtaste den."
+
+#~ msgid "Account information recovery"
+#~ msgstr "Gendannelse af kontooplysninger"
+
+#~ msgid "Please enter your e-mail address below and click the 'Submit' button. You will be sent an e-mail with your account information."
+#~ msgstr "Indtast venligst din emailadresse nedenfor og klikke på 'Send' knappen Du vil få tilsendt en email med dine kontooplysninger."
+
+#~ msgid "My account"
+#~ msgstr "Min konto"
+
+#~ msgid "DKK"
+#~ msgstr "DKK"
+
+#~ msgid "No entries found."
+#~ msgstr "Ingen indlæg fundet."
+
+#~ msgid "Edit Products"
+#~ msgstr "Rediger Produkter"
+
+#~ msgid "Buy"
+#~ msgstr "Køb"
+
+#~ msgid "No products found."
+#~ msgstr "Ingen produkter fundet."
+
+#~ msgid "Event"
+#~ msgstr "Event"
+
+#~ msgid "view all"
+#~ msgstr "Vis alle"
+
+#~ msgid "Edit Pictures"
+#~ msgstr "Rediger Billeder"
+
+#~ msgid "more images"
+#~ msgstr "flere billeder"
+
+#~ msgid "Products"
+#~ msgstr "Produkter"
+
+#~ msgid "See All"
+#~ msgstr "Vis alle"
+
+#~ msgid "reset search"
+#~ msgstr "nulstil søgning"
+
+#~ msgid "Show shops"
+#~ msgstr "Vis butikker"
+
+#~ msgid "Events"
+#~ msgstr "Events"
+
+#~ msgid "Back"
+#~ msgstr "Tilbage"
+
+#~ msgid "Price"
+#~ msgstr "Pris"
+
+#~ msgid "FREE"
+#~ msgstr "GRATIS"
+
+#~ msgid "Time"
+#~ msgstr "Tid"
+
+#~ msgid "Location"
+#~ msgstr "Lokation"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"
+
+#~ msgid "Organizer"
+#~ msgstr "Arrangør"
+
+#~ msgid "See More..."
+#~ msgstr "Se mere..."
+
+#~ msgid "No Events Found"
+#~ msgstr "Ingen Events fundet."
+
+#~ msgid "Load More Events"
+#~ msgstr "Vis flere Events"
+
+#~ msgid "Shopping Cart"
+#~ msgstr "Indkøbskurv"
+
+#~ msgid "Seller"
+#~ msgstr "Fra sælger"
+
+#~ msgid "Shop"
+#~ msgstr "Butik"
+
+#~ msgid "Quantity"
+#~ msgstr "Antal"
+
+#~ msgid "Product"
+#~ msgstr "Produkt"
+
+#~ msgid "Total"
+#~ msgstr "I alt"
+
+#~ msgid "In Stock"
+#~ msgstr "på lager"
+
+#~ msgid "Total price"
+#~ msgstr "Total pris"
+
+#~ msgid "Continue Shopping"
+#~ msgstr "Fortsæt med at handle"
+
+#~ msgid "Update Cart"
+#~ msgstr "Opdater kurven"
+
+#~ msgid "Send Order"
+#~ msgstr "Send ordre"
+
+#~ msgid "Check Out"
+#~ msgstr "Til kassen"
+
+#~ msgid "No Items In Cart"
+#~ msgstr "Intet i din indkøbskurv"
+
+#~ msgid "Back to frontpage"
+#~ msgstr "Tilbage til forsiden"
+
+#~ msgid "delete"
+#~ msgstr "Slet"
+
+#~ msgid "Enter Customer Information"
+#~ msgstr "Indtast kundeoplysninger"
+
+#~ msgid "First Name"
+#~ msgstr "Fornavn"
+
+#~ msgid "Please enter your first name"
+#~ msgstr "Indtast fornavn"
+
+#~ msgid "Last Name"
+#~ msgstr "Efternavn"
+
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#~ msgid "Please enter your address"
+#~ msgstr "Indtast adresse"
+
+#~ msgid "ZIP code. city"
+#~ msgstr "Postnr. By"
+
+#~ msgid "Please enter your zip code"
+#~ msgstr "Indtast postnr"
+
+#~ msgid "Please enter your city"
+#~ msgstr "Indtast by"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid "Please enter a valid phone number"
+#~ msgstr "Indtast telefonnr"
+
+#~ msgid "Email address"
+#~ msgstr "Emailadresse"
+
+#~ msgid "Please enter a valid email"
+#~ msgstr "Skriv venligst en gyldig email adresse."
+
+#~ msgid "Subscribe To Newsletter"
+#~ msgstr "Tilmeld nyhedsbrev"
+
+#~ msgid "Go to delivery"
+#~ msgstr "Gå til levering"
+
+#~ msgid "select"
+#~ msgstr "vælg"
+
+#~ msgid " Out Of Stock!"
+#~ msgstr "Udsolgt!"
+
+#~ msgid "Click here to go to our homepage (will open in new page)..."
+#~ msgstr "Klik her for at gå til vores hjemmeside (åbner ny side)..."
+
+#~ msgid "Edit Event"
+#~ msgstr "Rediger Event"
+
+#~ msgid "view document"
+#~ msgstr "Vis"
+
+#~ msgid "Product name"
+#~ msgstr "Produkt navn"
+
+#~ msgid "see event image"
+#~ msgstr "se event billede"
+
+#~ msgid "see event"
+#~ msgstr "se Event"
+
+#~ msgid "Event Site"
+#~ msgstr "Event Link"
+
+#~ msgid "Crop"
+#~ msgstr "Beskær"
+
+#~ msgid "Hello! This e-mail address ('%1$s') has been used to register an account on '%2$s' (%3$s)."
+#~ msgstr "Hej! Denne emailadresse (%1$s) er blevet brugt til at registrere en brugerkonto på %2$s (%3$s)."
+
+#~ msgid "Antal"
+#~ msgstr "Antal"
+
+#~ msgid "search branch"
+#~ msgstr "Søg efter branche"
+
+#~ msgid "search shop"
+#~ msgstr "Søg efter butik"
+
+#~ msgid "CityPilot administration"
+#~ msgstr "CityPilot administration"
+
+#~ msgid "Unknown"
+#~ msgstr "Ukendt"
+
+#~ msgid "Not approved yet!"
+#~ msgstr "Ikke godkendt endnu"
+
+#~ msgid "Company: <b>%s</b>"
+#~ msgstr "Virksomhed: <b>%s</b>"
+
+#~ msgid "User: <b>%s</b>"
+#~ msgstr "Bruger: <b>%s</b>"
+
+#~ msgid "Please login to get access!"
+#~ msgstr "Log venligst ind for at få adgang!"
+
+#~ msgid "Ask in shop"
+#~ msgstr "Spørg i butikken"

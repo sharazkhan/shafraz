@@ -1,0 +1,606 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ZSELEX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-11 15:53+0200\n"
+"PO-Revision-Date: 2016-04-11 15:54+0200\n"
+"Last-Translator: Kim Enemark <kim@acta-it.dk>\n"
+"Language-Team: ACTA-IT <kim@acta-it.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+
+#: javascript/adminajax.js:628
+msgid "PLEASE WAIT....."
+msgstr "VENT VENLIGST...."
+
+#: javascript/bundles.js:25 javascript/bundles.js:48
+#: javascript/product_admin.js:314 javascript/product_admin.js:502
+#: javascript/product_admin.js:549 javascript/product_admin.js:595
+#: javascript/product_admin.js:919 javascript/searchlist.js:1193
+#: javascript/searchlist.js:1405 javascript/searchlist.js:1448
+#: javascript/searchlist.js:1547 javascript/searchlist.js:1631
+#: javascript/searchlist.js:1706 javascript/searchlist.js:1893
+#: javascript/shopsetting/event.js:10 javascript/shopsetting/shopsetting.js:11
+#: javascript/shopsetting/shopsetting.js:77
+#: javascript/shopsetting/shopsetting.js:120
+#: javascript/shopsetting/shopsetting.js:509
+#: javascript/shopsetting/shopsetting.js:713 javascript/zselex_admin.js:115
+#: javascript/zselex_admin.js:134 javascript/zselex_admin.js.back_18-02-16:123
+msgid "Loading..."
+msgstr "Indlæser..."
+
+#: javascript/bundles.js:110
+msgid "You have not selected"
+msgstr "Du har ikke valgt"
+
+#: javascript/delete_bulk.js:60
+msgid "delete"
+msgstr "Slet"
+
+#: javascript/delete_bulk.js:61
+msgid "reactivate demo"
+msgstr "Genaktiver demo"
+
+#: javascript/delete_bulk.js:62
+msgid "publish"
+msgstr "Udgiv"
+
+#: javascript/delete_bulk.js:63
+msgid "reject"
+msgstr "Afvis"
+
+#: javascript/delete_bulk.js:64
+msgid "change categories for"
+msgstr "Ændre kategorier for"
+
+#: javascript/delete_bulk.js:67
+msgid "You cannot undo this operation!"
+msgstr "Du kan ikke fortryde denne handling!"
+
+#: javascript/delete_bulk.js:88
+#, php-format
+msgid "Are you sure you want to %s the following items"
+msgid_plural "Are you sure you want to %s the selected items"
+msgstr[0] "Er du sikker på, at du vil %s følgende emne"
+msgstr[1] "Er du sikker på, at du vil %s følgende emner"
+
+#: javascript/delete_bulk.js:93
+msgid "Confirm Bulk Action"
+msgstr "Bekræft Bulk Aktion"
+
+#: javascript/delete_bulk.js:110
+#, php-format
+msgid "Please select at least one service to %s."
+msgstr "Vælg mindst én service at %s."
+
+#: javascript/delete_bulk.js:111
+msgid "Bulk action error"
+msgstr "Bulk handlings fejl"
+
+#: javascript/DND/ajaxupload-min.js:148
+msgid "File validation failed"
+msgstr "Filvalidering fejlet"
+
+#: javascript/DND/ajaxupload-min.js:237
+msgid "Upload aborted"
+msgstr "Upload afbrudt"
+
+#: javascript/DND/ajaxupload-min.js:262
+msgid "File uploaded 100%"
+msgstr "Fil er uploadet 100%"
+
+#: javascript/DND/ajaxupload-min.js:294
+msgid "Select Files"
+msgstr "Vælg filer"
+
+#: javascript/DND/ajaxupload-min.js:315
+msgid "Add files"
+msgstr "Tilføj filer"
+
+#: javascript/DND/ajaxupload-min.js:325 javascript/dndfiles/ajaxupload.js:691
+msgid "Upload all files"
+msgstr "Upload alle filer"
+
+#: javascript/DND/ajaxupload-min.js:325 javascript/dndfiles/ajaxupload.js:692
+msgid "Start upload"
+msgstr "Start upload"
+
+#: javascript/DND/ajaxupload-min.js:326 javascript/dndfiles/ajaxupload.js:695
+msgid "Remove all"
+msgstr "Fjern alle"
+
+#: javascript/DND/ajaxupload-min.js:362
+msgid "Select Files or Drag&Drop Files"
+msgstr "Vælg filer eller Træk og Slip filer"
+
+#: javascript/DND/ajaxupload-min.js:417
+msgid "Max files number reached"
+msgstr "Maksimal antal filer angivet"
+
+#: javascript/DND/ajaxupload-min.js:418
+msgid "Extension not allowed"
+msgstr "Filtypen er ikke tilladt"
+
+#: javascript/DND/ajaxupload-min.js:419
+msgid "File size now allowed"
+msgstr "Tilladt filstørrelse"
+
+#: javascript/dndfiles/ajaxupload.js:12 javascript/dndfiles/ajaxupload.js:13
+#: javascript/dndfiles/ajaxupload.js:686 javascript/dndfiles/ajaxupload.js:687
+msgid "Add Files"
+msgstr "Tilføj filer"
+
+#: javascript/dndfiles/ajaxupload.js:685
+msgid "Select files"
+msgstr "Vælg filer"
+
+#: javascript/dndfiles/ajaxupload.js:694
+msgid "Clear all"
+msgstr "Rens alle"
+
+#: javascript/dndfiles/ajaxupload1.js:643
+msgid "Your changes wil be reloaded after few seconds"
+msgstr "Dine ændringer vil blive opdateret efter nogle få sekunder"
+
+#: javascript/order.js:4
+msgid ""
+"We suspect the transaction has been tampered with. Its now invalid and will "
+"be terminated. Please try again."
+msgstr ""
+"Vi har mistanke om, at transaktionen er blevet manipuleret med. Den er nu "
+"ugyldig og vil blive afbrudt. Prøv venligst igen."
+
+#: javascript/product_ad.js:271
+msgid "Choose a city..."
+msgstr "Vælg en by"
+
+#: javascript/product_ad.js:323
+msgid "Please choose a level"
+msgstr "Vælg venligst et niveau"
+
+#: javascript/product_ad.js:346
+msgid "Do you really delete this Ad?"
+msgstr "Vil du virkelig slette denne annonce?"
+
+#: javascript/product_admin.js:52
+msgid "Do you really want to change the status?"
+msgstr "Er du sikker på du vil ændre status?"
+
+#: javascript/product_admin.js:81 javascript/product_admin.js:92
+#: javascript/product_admin.js:837
+msgid "remove"
+msgstr "Fjern"
+
+#: javascript/product_admin.js:92
+msgid "value"
+msgstr "Værdi"
+
+#: javascript/product_admin.js:92
+msgid "sort order"
+msgstr "Sortering"
+
+#: javascript/product_admin.js:137
+msgid "value not entered!"
+msgstr "Værdier er ikke blevet indtastet!"
+
+#: javascript/product_admin.js:138
+msgid "Values are missing! Do you still want to save and exit?"
+msgstr "Der mangler værdier! Vil du stadig gemme og afslutte?"
+
+#: javascript/product_admin.js:261
+msgid "This option is already selected"
+msgstr "Denne option er allerede valgt"
+
+#: javascript/product_admin.js:269
+msgid "You have already selected this option"
+msgstr "Du har allerede valgt denne option"
+
+#: javascript/product_admin.js:341 javascript/product_admin.js:946
+#: javascript/product_admin.js:997 javascript/zselex_admin.js:281
+#: javascript/zselex_admin.js:299 javascript/zselex_admin.js.back_18-02-16:277
+msgid "some error occured!"
+msgstr "Der opstod en fejl!"
+
+#: javascript/product_admin.js:351
+msgid "This product does not exist!"
+msgstr "Produktet eksisterer ikke!"
+
+#: javascript/product_admin.js:364 javascript/product_admin.js:794
+#: javascript/tpl/minishop.js:6
+msgid "select category"
+msgstr "Vælg Kategori"
+
+#: javascript/product_admin.js:389
+msgid "You have not selected any products"
+msgstr "Du har ikke valgt noget produkt endnu"
+
+#: javascript/product_admin.js:395 javascript/zselex_admin.js:88
+#: javascript/zselex_admin.js.back_18-02-16:93
+msgid "Do you really want to delete?"
+msgstr "Vil du virkelig slette?"
+
+#: javascript/product_admin.js:615 javascript/product_admin.js:667
+msgid "An error has occured. Please try again later"
+msgstr "Fejl opstået. Prøv igen senere!"
+
+#: javascript/product_admin.js:626
+msgid "Do you really want to copy?"
+msgstr "Er du sikker på du vil kopiere?"
+
+#: javascript/product_admin.js:644
+msgid "Copying..."
+msgstr "Kopierer..."
+
+#: javascript/product_admin.js:672
+msgid "Done! Product Copied Successfully!"
+msgstr "Færdig! Produktet er kopieret."
+
+#: javascript/product_admin.js:703
+msgid "Please enter a manufacturer name!"
+msgstr "Indtast venligst et producentnavn"
+
+#: javascript/product_admin.js:731
+msgid "This manufacturer already exist!"
+msgstr "Denne producent eksisterer allerede!"
+
+#: javascript/product_admin.js:756
+msgid "Please enter a category name!"
+msgstr "Indtast venligst et kategorinavn!"
+
+#: javascript/product_admin.js:784
+msgid "This category already exist!"
+msgstr "Kategorien eksisterer allerede!"
+
+#: javascript/product_admin.js:801
+msgid "Do you really want to delete this product?"
+msgstr "Er du sikker på du vil slette produktet?"
+
+#: javascript/product_admin.js:863 javascript/product_admin.js:889
+msgid "End date should be greater than Start date"
+msgstr "Slutdato skal være senere end startdato"
+
+#: javascript/product_admin.js:886
+msgid "Start date cannot be empty"
+msgstr "Start dato kan ikke være tom"
+
+#: javascript/product_admin.js:1006
+msgid "Some error occured. Please try later"
+msgstr "Fejl opstået. Prøv igen senere!"
+
+#: javascript/product_admin.js:1013
+msgid "Settings saved successfully!"
+msgstr "Indstillinger er gemt!"
+
+#: javascript/product_user.js:74 javascript/product_user.js:140
+msgid "This product is already in your cart!"
+msgstr "Denne vare er allerede i din indkøbskurv"
+
+#: javascript/product_user.js:80 javascript/product_user.js:146
+msgid "Product added to cart!"
+msgstr "Produkt er tilføjet til indkøbskurven"
+
+#: javascript/product_user.js:117
+msgid "Product not available in desired quantity!"
+msgstr "Produktet er ikke tilgængeligt i det valgte antal!"
+
+#: javascript/product_user.js:225 javascript/product_user.js:282
+#: javascript/product_user.js:306 javascript/shop_services.js:28
+#: javascript/shop_services.js:75 javascript/shop_services.js:121
+#: javascript/shop_services.js:166 javascript/shop_services.js:212
+#: javascript/shop_services.js:258
+msgid "Processing..."
+msgstr "Behandler..."
+
+#: javascript/product_user.js:251 javascript/product_user.js:278
+#: javascript/product_user.js:290 javascript/product_user.js:296
+#: javascript/product_user.js:311 javascript/product_user.js:424
+msgid "Add to Cart"
+msgstr "Tilføj til indkøbskurv"
+
+#: javascript/product_user.js:404
+msgid "Not Available!"
+msgstr "Ikke tilgængelig!"
+
+#: javascript/product_user.js:408
+msgid "Out of stock!"
+msgstr "Udsolgt!"
+
+#: javascript/product_user.js:582 javascript/product_user.js:733
+msgid "Please select available options"
+msgstr "Vælg venligst optioner"
+
+#: javascript/product_user.js:617
+msgid "Please answer question"
+msgstr "Svar venligst på spørgsmålet"
+
+#: javascript/searchbreadcrum.js:147 javascript/searchlist.js:375
+#: javascript/searchlist.js:836 javascript/searchlist.js:837
+#: javascript/searchlist.js:974 javascript/searchlist.js:978
+#: javascript/searchlist.js:1087 javascript/searchlist.js:1091
+#: javascript/searchlist.js:1205 javascript/searchlist.js:2055
+msgid "search for..."
+msgstr "Søg efter..."
+
+#: javascript/searchlist.js:374
+msgid "Choose a category..."
+msgstr "Vælg kategori"
+
+#: javascript/searchlist.js:766 javascript/searchlist.js:767
+#: javascript/searchlist.js:1006 javascript/searchlist.js:1007
+#: javascript/searchlist.js:1111 javascript/searchlist.js:1112
+msgid "search category"
+msgstr "Søg efter kategori"
+
+#: javascript/searchlist.js:787 javascript/searchlist.js:788
+#: javascript/searchlist.js:1002 javascript/searchlist.js:1003
+msgid "search region"
+msgstr "Søg efter region"
+
+#: javascript/searchlist.js:789 javascript/searchlist.js:790
+#: javascript/searchlist.js:821 javascript/searchlist.js:822
+#: javascript/searchlist.js:1004 javascript/searchlist.js:1005
+msgid "search city"
+msgstr "søg efter by"
+
+#: javascript/searchlist.js:791 javascript/searchlist.js:792
+#: javascript/searchlist.js:804 javascript/searchlist.js:805
+#: javascript/searchlist.js:823 javascript/searchlist.js:824
+#: javascript/searchlist.js:1008 javascript/searchlist.js:1009
+#: javascript/searchlist.js:1113 javascript/searchlist.js:1114
+msgid "search area"
+msgstr "søg efter område"
+
+#: javascript/searchlist.js:964 javascript/searchlist.js:1077
+msgid "Select City"
+msgstr "Vælg By"
+
+#: javascript/selections.js:30
+msgid "Select All Cities"
+msgstr "Vælg alle byer"
+
+#: javascript/selections.js:67
+msgid "loading cities..."
+msgstr "indlæser byer..."
+
+#: javascript/selections.js:134
+msgid "Please select a region"
+msgstr "Vælg venligst en Region"
+
+#: javascript/shop_services.js:77 javascript/shop_services.js:260
+msgid "Downgrading..."
+msgstr "Nedgraderer..."
+
+#: javascript/shop_services.js:168
+msgid "Removing..."
+msgstr "Fjerner..."
+
+#: javascript/shopsetting/event.js:128
+msgid "Please upload a image minimum of width=900 and height=300 in size"
+msgstr ""
+"Upload venligst et billede med følgende minimumsstørrelse: Bredde = 900 "
+"pixel og Højde = 300 pixel."
+
+#: javascript/shopsetting/event.js:135
+msgid "Do you really want to delete this event?"
+msgstr "Er du sikker på du vi slette eventen?"
+
+#: javascript/shopsetting/shopsetting.js:386
+msgid "lock"
+msgstr "Lås"
+
+#: javascript/shopsetting/shopsetting.js:390
+msgid "unlock"
+msgstr "Lås op"
+
+#: javascript/shopsetting/shopsetting.js:397
+msgid "Do you really want to delete this image?"
+msgstr "Er du sikker på du vi slette billedet?"
+
+#: javascript/shopsetting/shopsetting.js:407
+msgid "Do you really want to delete this banner?"
+msgstr "Er du sikker på du vi slette banneret?"
+
+#: javascript/shopsetting/shopsetting.js:417
+msgid "Do you really want to delete this employee?"
+msgstr "Er du sikker på du vi slette medarbejderen?"
+
+#: javascript/shopsetting/shopsetting.js:591
+msgid "Please select a crop region then press save"
+msgstr "Vælg et område at beskære og tryk Gem"
+
+#: javascript/shopsetting/shopsetting.js:596
+msgid "Saving..."
+msgstr "Gemmer..."
+
+#: javascript/shopsetting/shopsetting.js:742
+#: javascript/shopsetting/shopsetting.js:806
+msgid "You dont have permission to delete this shop"
+msgstr "Du har ikke rettigheder til at slette denne butik"
+
+#: javascript/shopsetting/shopsetting.js:749
+msgid "Deletion has already been requested"
+msgstr "Sletning er allerede bestilt"
+
+#: javascript/shopsetting/shopsetting.js:771
+msgid "Please specify a reason for deleting"
+msgstr "Angiv venligst årsag til sletning"
+
+#: javascript/shopsetting/shopsetting.js:774
+msgid "Deleting..."
+msgstr "Sletter..."
+
+#: javascript/shopsetting/shopsetting.js:812
+msgid "Delete request has been initiated successfully"
+msgstr "Sletning er bestilt"
+
+#: javascript/shopsetting/shopsetting.js:815
+msgid "An error occured. Please try later"
+msgstr "Fejl opstået. Prøv igen senere!"
+
+#: javascript/tpl/minishop.js:7
+msgid "select manufacturer"
+msgstr "Vælg Producent"
+
+#: javascript/users/Zikula.Users.PassMeter.js:2
+msgid "Weak"
+msgstr "Svag"
+
+#: javascript/users/Zikula.Users.PassMeter.js:2
+msgid "Normal"
+msgstr "Normal"
+
+#: javascript/users/Zikula.Users.PassMeter.js:2
+msgid "Strong"
+msgstr "Stærk"
+
+#: javascript/users/Zikula.Users.PassMeter.js:2
+msgid "Very Strong"
+msgstr "Meget stærk"
+
+#: javascript/users/Zikula.Users.PassMeter.js:2
+#, php-format
+msgid "The minimum length for user passwords is %s characters."
+msgstr "Den minimale længde for brugernes passwords er %s tegn."
+
+#: javascript/users/Zikula.Users.PassMeter.js:2
+msgid "Password can not match the username, choose a different password."
+msgstr "Password og brugernavn kan ikke være det samme. Vælg et andet password"
+
+#: javascript/validation/delivery.js:23 javascript/validation/delivery.js:128
+msgid "The entered discount code is not valid for this order"
+msgstr "Den indtastede rabatkode kan ikke anvendes på denne ordre"
+
+#: javascript/validation/delivery.js:138
+msgid "Discount Applied"
+msgstr "Rabat anvendt"
+
+#: javascript/zselex.js:121
+msgid ""
+"Picture/file operations not supported in 'Quick edit' mode. You must click "
+"the 'Save full edit' button to complete these operations."
+msgstr ""
+"Billede/fil operationen understøttes ikke i 'Hurtig redigering' tilstand. Du "
+"skal klikke på 'Gem hele redigering' knappen for at fuldføre disse "
+"operationer."
+
+#: javascript/zselex.js:331 javascript/zselex.js:332
+msgid "Saving quick draft..."
+msgstr "Gemmer hurtig udkast ..."
+
+#: javascript/zselex.js:345
+msgid "Save quick draft"
+msgstr "Gem hurtig udkast"
+
+#: javascript/zselex.js:346
+msgid "Save quick draft failed"
+msgstr "Gem hurtig udkast mislykkedes"
+
+#: javascript/zselex.js:353 javascript/zselex.js:379
+msgid "Update quick draft"
+msgstr "Opdater hurtig udkast"
+
+#: javascript/zselex.js:370
+msgid ""
+"Picture/file operations not supported in 'Quick draft' mode. You must click "
+"the 'Save full draft' button to complete these operations."
+msgstr ""
+"Billede/fil operationer understøttes ikke i 'Hurtig kladde' tilstand. Du "
+"skal klikke på \"Gem hele kladde\" knappen for at fuldføre disse operationer."
+
+#: javascript/zselex.js:409 javascript/zselex.js:421 javascript/zselex.js:445
+msgid "Schedule"
+msgstr "Planlæg"
+
+#: javascript/zselex.js:419
+msgid "Publish"
+msgstr "Udgiv"
+
+#: javascript/zselex.js:438 javascript/zselex.js:453 javascript/zselex.js:472
+#: javascript/zselex.js:481 javascript/zselex.js:495 javascript/zselex.js:504
+msgid "Show"
+msgstr "Vis"
+
+#: javascript/zselex.js:442 javascript/zselex.js:456 javascript/zselex.js:469
+#: javascript/zselex.js:484 javascript/zselex.js:507
+msgid "Hide"
+msgstr "Gem"
+
+#: javascript/zselex.js:562
+msgid "Author updated"
+msgstr "Forfatter opdatering"
+
+#: javascript/zselex_admin.js:53 javascript/zselex_admin.js:155
+#: javascript/zselex_admin.js:174 javascript/zselex_admin.js:198
+#: javascript/zselex_admin.js:224 javascript/zselex_admin.js.back_18-02-16:54
+#: javascript/zselex_admin.js.back_18-02-16:144
+#: javascript/zselex_admin.js.back_18-02-16:164
+#: javascript/zselex_admin.js.back_18-02-16:190
+#: javascript/zselex_admin.js.back_18-02-16:218
+msgid "You have not selected any shops"
+msgstr "Du har ikke valgt nogen butikker"
+
+#: javascript/zselex_admin.js:106 javascript/zselex_admin.js.back_18-02-16:112
+msgid "Do you really want to reactivate demoperiod?"
+msgstr "Er du sikker på du vil genaktivere demoperioden?"
+
+#: javascript/zselex_admin.js:165 javascript/zselex_admin.js.back_18-02-16:155
+msgid "Do you really want to change Affiliate?"
+msgstr "Er du sikker på du vil ændre tilhørsforhold?"
+
+#: javascript/zselex_admin.js:185 javascript/zselex_admin.js.back_18-02-16:176
+msgid "Do you really want to delete Category?"
+msgstr "Er du sikker på, at du vil slette kategorien?"
+
+#: javascript/zselex_admin.js:187 javascript/zselex_admin.js.back_18-02-16:179
+msgid "Do you really want to change Category?"
+msgstr "Er du sikker på, at du vil ændre kategori?"
+
+#: javascript/zselex_admin.js:210 javascript/zselex_admin.js.back_18-02-16:203
+msgid "Do you really want to delete Branch?"
+msgstr "Vil du virkelig slette Branche?"
+
+#: javascript/zselex_admin.js:212 javascript/zselex_admin.js.back_18-02-16:206
+msgid "Do you really want to change Branch?"
+msgstr "Er du sikker på du vil ændre Branche?"
+
+#: javascript/zselex_admin.js:236 javascript/zselex_admin.js.back_18-02-16:231
+msgid "Do you really want to change Status?"
+msgstr "Er du sikker på du vil ændre status?"
+
+#~ msgid "Activate demo period for this bundle?"
+#~ msgstr "Aktivér demoperiode for denne pakke?"
+
+#~ msgid "Gift Card"
+#~ msgstr "Gavekort"
+
+#~ msgid "Member"
+#~ msgstr "Medlem"
+
+#~ msgid "Your browser does not support Ajax."
+#~ msgstr "Din webbrowser understøtter ikke Ajax"
+
+#~ msgid "No results!"
+#~ msgstr "Intet resultat!"
+
+#~ msgid "AJAX error:"
+#~ msgstr "AJAX fejl:"
+
+#~ msgid "deletetype"
+#~ msgstr "Slettype"
+
+#~ msgid "active"
+#~ msgstr "Aktiv"
+
+#~ msgid "Are you sure you want to %s the following type"
+#~ msgid_plural "Are you sure you want to %s the following types"
+#~ msgstr[0] "Er du sikker på, at du vil %s følgende type"
+#~ msgstr[1] "Er du sikker på, at du vil %s følgende typer"

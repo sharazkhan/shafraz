@@ -1,0 +1,346 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-01 18:25+0100\n"
+"PO-Revision-Date: 2015-06-01 18:25+0100\n"
+"Last-Translator: Kim Enemark <kim@acta-it.dk>\n"
+"Language-Team: \n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/ZTEXT/Api/Admin.php:29 templates/admin/page_dnd.tpl:34
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: lib/ZTEXT/Api/Admin.php:35
+msgid "Module Information"
+msgstr "Modulinformation"
+
+#: lib/ZTEXT/Api/Admin.php:95
+#, php-format
+msgid "Error! Invalid file type: %1$s"
+msgstr "Fejl! Ugyldig filtype: %1$s"
+
+#: lib/ZTEXT/Api/Admin.php:99
+msgid "Error! Your file is too big. The limit is 14 MB."
+msgstr "Fejl! Din fil er for stor. Grænsen er 14 MB."
+
+#: lib/ZTEXT/Api/User.php:154
+msgid "Error! Type not found."
+msgstr "Fejl! Type ikke fundet."
+
+#: lib/ZTEXT/Api/User.php:178 lib/ZTEXT/Controller/User.php:90
+msgid "Error! page not found."
+msgstr "Fejl! Side findes ikke."
+
+#: lib/ZTEXT/Block/Pageindex.php:31
+msgid "ZTEXT Page Index"
+msgstr "ZTEXT Sideoversigt"
+
+#: lib/ZTEXT/Controller/Admin.php:79
+msgid "Done! Updated the ZTEXT configuration."
+msgstr "Udført! Opdateret ZTEXT konfiguration."
+
+#: lib/ZTEXT/Controller/Admin.php:210 lib/ZTEXT/Controller/Admin.php:304
+#: templates/admin/view_pages.tpl:16
+msgid "All"
+msgstr "Alle"
+
+#: lib/ZTEXT/Controller/Admin.php:211 lib/ZTEXT/Controller/Admin.php:305
+#: templates/admin/create_page.tpl:57 templates/admin/create_page.tpl:59
+#: templates/admin/page_popup.tpl:22 templates/admin/page_popup.tpl:24
+msgid "Active"
+msgstr "Aktiv"
+
+#: lib/ZTEXT/Controller/Admin.php:212 lib/ZTEXT/Controller/Admin.php:306
+#: templates/admin/create_page.tpl:60 templates/admin/page_popup.tpl:25
+msgid "InActive"
+msgstr "Inaktiv"
+
+#: lib/ZTEXT/Controller/Admin.php:228
+#, php-format
+msgid ""
+"Error! The ShopID in URL is invalid (%1$s). Please contact the administrator "
+"of this site and inform about this error!"
+msgstr ""
+"Fejl! ShopID i URL er ugyldig (%1$s). Kontakt venligst administratoren af "
+"denne hjemmeside og informer om denne fejl!"
+
+#: lib/ZTEXT/Controller/Admin.php:402
+msgid "Done! Page has been updated successfully."
+msgstr "Udført! Side er blevet opdateret."
+
+#: lib/ZTEXT/Controller/Admin.php:431 lib/ZTEXT/Controller/Admin.php:432
+msgid "Page"
+msgstr "Side"
+
+#: lib/ZTEXT/Controller/Admin.php:431
+#, php-format
+msgid "Delete %s item"
+msgstr "Slet %s element"
+
+#: lib/ZTEXT/Controller/Admin.php:432
+#, php-format
+msgid "Do you want to delete this %s item"
+msgstr "Vil du slette dette %s element"
+
+#: lib/ZTEXT/Controller/Admin.php:437 templates/admin/deletecommon.tpl:16
+msgid "Confirmation prompt"
+msgstr "Bekræft"
+
+#: lib/ZTEXT/Controller/Admin.php:447
+msgid "Done! Page has been deleted successfully."
+msgstr "Færdig! Siden er blevet slettet."
+
+#: lib/ZTEXT/Controller/User.php:125
+msgid "file not found!"
+msgstr "Fil ikke fundet!"
+
+#: lib/ZTEXT/Installer.php:26
+#, php-format
+msgid "Error! Could not create table (%s)."
+msgstr "Fejl! Kunne ikke oprette tabellen (%s)."
+
+#: lib/ZTEXT/Installer.php:55 lib/ZTEXT/Installer.php:64
+#: lib/ZTEXT/Installer.php:73 lib/ZTEXT/Installer.php:82
+#, php-format
+msgid "Error! Could not update table (%s)."
+msgstr "Fejl! Opdatering af tabel (%s) mislykkedes."
+
+#: lib/ZTEXT/Version.php:15
+msgid "ZTEXT"
+msgstr "ZTEXT"
+
+#. !used in URL - nospaces, no special chars, lcase
+#: lib/ZTEXT/Version.php:16
+msgid "ztext"
+msgstr "ztext"
+
+#: lib/ZTEXT/Version.php:17
+msgid "ZTEXT block module!"
+msgstr "ZTEXT blok modul!"
+
+#: templates/admin/create_page.tpl:13 templates/admin/create_page.tpl:22
+#: templates/admin/page_popup.tpl:11 templates/admin/view_pages.tpl:6
+msgid "Create Page"
+msgstr "Opret side"
+
+#: templates/admin/create_page.tpl:24 templates/admin/page_popup.tpl:13
+#: templates/admin/single_content.tpl:6
+msgid "Title"
+msgstr "Titel"
+
+#: templates/admin/create_page.tpl:28 templates/admin/page_popup.tpl:17
+#: templates/admin/single_content.tpl:7
+msgid "Body Text"
+msgstr "Sidetekst"
+
+#: templates/admin/create_page.tpl:28 templates/admin/page_popup.tpl:17
+msgid "ID:"
+msgstr "ID:"
+
+#: templates/admin/create_page.tpl:32
+msgid "Attach Image"
+msgstr "Billede"
+
+#: templates/admin/create_page.tpl:44 templates/admin/full_content.tpl:15
+#: templates/admin/page_dnd.tpl:77
+msgid "Drag and Drop Image"
+msgstr "Træk og slip billede(r) hertil"
+
+#: templates/admin/create_page.tpl:64 templates/admin/page_popup.tpl:29
+msgid "Display on Front"
+msgstr "Vis på forsiden"
+
+#: templates/admin/create_page.tpl:66 templates/admin/page_popup.tpl:31
+msgid "Yes"
+msgstr "Ja"
+
+#: templates/admin/create_page.tpl:67 templates/admin/page_popup.tpl:32
+msgid "No"
+msgstr "Nej"
+
+#: templates/admin/create_page.tpl:71 templates/admin/page_popup.tpl:36
+msgid "Link"
+msgstr "Link"
+
+#: templates/admin/create_page.tpl:75 templates/admin/page_popup.tpl:40
+msgid "Sort Order"
+msgstr "Sortering"
+
+#: templates/admin/create_page.tpl:82 templates/admin/page_popup.tpl:48
+msgid "Save"
+msgstr "Gem"
+
+#: templates/admin/create_page.tpl:82
+msgid "formElements[action]"
+msgstr "formElements[action]"
+
+#: templates/admin/create_page.tpl:82
+msgid "save"
+msgstr "gem"
+
+#: templates/admin/create_page.tpl:83 templates/admin/deletecommon.tpl:19
+#: templates/admin/page_popup.tpl:50
+msgid "Cancel"
+msgstr "Annuller"
+
+#: templates/admin/deletecommon.tpl:18
+msgid "Delete"
+msgstr "Slet"
+
+#: templates/admin/full_content.tpl:11 templates/admin/page_dnd.tpl:73
+msgid "Edit This Page"
+msgstr "Rediger siden"
+
+#: templates/admin/info.tpl:4
+msgid "ZTEXT module"
+msgstr "ZTEXT modul"
+
+#: templates/admin/info.tpl:8
+msgid "ZTEXT module for custom build blocks"
+msgstr "ZTEXT modul for specielle blokke"
+
+#: templates/admin/modifyconfig.tpl:4
+msgid "Module settings"
+msgstr "Modulindstillinger"
+
+#: templates/admin/modifyconfig.tpl:8
+msgid "ZTEXT module settings..."
+msgstr "ZTEXT modulindstillinger..."
+
+#: templates/admin/page_dnd.tpl:29
+msgid "Manage Pages"
+msgstr "Håndtering af sider"
+
+#: templates/admin/page_dnd.tpl:34
+msgid "Click here to configure ztext"
+msgstr "Klik her for at konfigurere ztext"
+
+#: templates/admin/page_dnd.tpl:37
+msgid "Disable Page Index"
+msgstr "Deaktiver sideoversigt"
+
+#: templates/admin/page_dnd.tpl:41
+msgid "Disable images in frontpage"
+msgstr "Deaktiver billeder på forsiden"
+
+#: templates/admin/page_popup.tpl:14
+msgid "Title required"
+msgstr "Titel skal angives"
+
+#: templates/admin/page_popup.tpl:53 templates/admin/page_popup.tpl:54
+#: templates/admin/page_popup.tpl:55
+msgid "Delete Image"
+msgstr "Slet billede"
+
+#: templates/admin/page_popup.tpl:62 templates/admin/page_popup.tpl:63
+#: templates/admin/page_popup.tpl:64
+msgid "Delete Page"
+msgstr "Slet side"
+
+#: templates/admin/pages_left.tpl:8
+msgid ""
+"Drag and Drop Page image to<br> this box or just click anywhere inside the "
+"box"
+msgstr ""
+"Træk og slip Eventbillede eller dokument til <br />denne boks eller klik i "
+"boksen for at oprette"
+
+#: templates/admin/pages_left.tpl:8
+msgid "OR"
+msgstr "ELLER"
+
+#: templates/admin/single_content.tpl:2
+msgid ""
+"<b>Update This Event</b> : Drag and Drop new Event image or document to this "
+"box or click anywhere to edit Event information"
+msgstr ""
+"<b>Rediger Event</b> : Træk og slip nyt Eventbillede eller dokument til "
+"denne boks eller klik for at redigere Eventen"
+
+#: templates/admin/single_content.tpl:8
+msgid "Created Date"
+msgstr "Oprettet"
+
+#: templates/admin/single_content.tpl:9 templates/admin/view_pages.tpl:23
+#: templates/admin/view_pages.tpl:45
+msgid "Status"
+msgstr "Status"
+
+#: templates/admin/single_content.tpl:10
+msgid "Image"
+msgstr "Billede"
+
+#: templates/admin/view_pages.tpl:11
+msgid "Pages list"
+msgstr "Sider"
+
+#: templates/admin/view_pages.tpl:16
+msgid "active"
+msgstr "aktiv"
+
+#: templates/admin/view_pages.tpl:16
+msgid "inactive"
+msgstr "inaktiv"
+
+#: templates/admin/view_pages.tpl:17
+#, php-format
+msgid "Filter %1$s, %2$s page listed"
+msgid_plural "Filter %1$s, %2$s pages listed"
+msgstr[0] "Sorter %1$s, %2$s side"
+msgstr[1] "Sorter %1$s, %2$s sider"
+
+#: templates/admin/view_pages.tpl:21
+msgid "Identifier"
+msgstr "Identifikator"
+
+#: templates/admin/view_pages.tpl:28
+msgid "Filter"
+msgstr "Filter"
+
+#: templates/admin/view_pages.tpl:29
+msgid "Clear"
+msgstr "Ryd"
+
+#: templates/admin/view_pages.tpl:40
+msgid "Actions"
+msgstr "Handlinger"
+
+#: templates/admin/view_pages.tpl:41
+msgid "ID"
+msgstr "ID"
+
+#: templates/admin/view_pages.tpl:43
+msgid "Header Text"
+msgstr "Sideoverskrift"
+
+#: templates/admin/view_pages.tpl:44
+msgid "Body"
+msgstr "Sidetekst"
+
+#: templates/admin/view_pages.tpl:63
+msgid "No pages found."
+msgstr "Ingen sider."
+
+#: templates/blocks/pageindex.tpl:4
+msgid "Edit Pages"
+msgstr "Rediger sider"
+
+#: templates/blocks/pageindex.tpl:9
+msgid "Page Index"
+msgstr "Sideoversigt"
+
+#: templates/user/page.tpl:5 templates/user/pages.tpl:7
+msgid "Edit Page"
+msgstr "Rediger siden"

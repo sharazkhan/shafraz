@@ -1,0 +1,764 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-01 21:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/ZPayment/Api/Admin.php:31
+msgid "Settings"
+msgstr ""
+
+#: lib/ZPayment/Api/Admin.php:37
+msgid "Module Information"
+msgstr ""
+
+#: lib/ZPayment/Api/Netaxept.php:148
+msgid "Your order"
+msgstr ""
+
+#: lib/ZPayment/Api/Netaxept.php:148
+msgid "from"
+msgstr ""
+
+#: lib/ZPayment/Api/Netaxept.php:277
+msgid "Registration Failed for"
+msgstr ""
+
+#: lib/ZPayment/Api/Netaxept.php:277
+msgid "Shop ID"
+msgstr ""
+
+#: lib/ZPayment/Api/Netaxept.php:278
+msgid "Server"
+msgstr ""
+
+#: lib/ZPayment/Api/Netaxept.php:279
+msgid "Date"
+msgstr ""
+
+#: lib/ZPayment/Api/Netaxept.php:280
+msgid "Module"
+msgstr ""
+
+#: lib/ZPayment/Api/User.php:32
+msgid "Admin"
+msgstr ""
+
+#: lib/ZPayment/Api/User.php:38
+msgid "Standard caching"
+msgstr ""
+
+#: lib/ZPayment/Api/User.php:40
+msgid "Never cached"
+msgstr ""
+
+#: lib/ZPayment/Api/User.php:42
+msgid "Partial cache"
+msgstr ""
+
+#: lib/ZPayment/Api/User.php:44
+msgid "Multiple page caching"
+msgstr ""
+
+#: lib/ZPayment/Api/User.php:46
+msgid "is_cached demo"
+msgstr ""
+
+#: lib/ZPayment/Api/User.php:48
+msgid "Caching explained"
+msgstr ""
+
+#: lib/ZPayment/Api/User.php:53
+msgid "Cache demo"
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:90
+msgid "Done! Updated the ZPayment configuration."
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:117 lib/ZPayment/Controller/Admin.php:153
+msgid "Netaxept"
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:121 lib/ZPayment/Controller/Admin.php:157
+msgid "Paypal"
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:124
+msgid "QuickPay"
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:126
+msgid "ePay"
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:161
+msgid "Direct Payment"
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:207
+msgid "Done! Updated the Netaxept configuration."
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:240 lib/ZPayment/Controller/Admin.php:383
+msgid "Done! Updated the Paypal configuration."
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:274
+msgid "Done! Updated the QuickPay configuration."
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:306
+msgid "Done! Updated the Epay configuration."
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:318 lib/ZPayment/Controller/Admin.php:395
+#: lib/ZPayment/Controller/Admin.php:478
+#, php-format
+msgid ""
+"Error! The ShopID in URL is invalid (%1$s). Please contact the administrator "
+"of this site and inform about this error!"
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:322 lib/ZPayment/Controller/Admin.php:399
+#: lib/ZPayment/Controller/Admin.php:482
+msgid "You do not have sufficient permissions"
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:326 lib/ZPayment/Controller/Admin.php:404
+#: lib/ZPayment/Controller/Admin.php:487
+msgid "This payment module is not available"
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:379
+msgid "Done! Created Paypal configuration."
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:461
+msgid "Done! Created Netaxept configuration."
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:465
+msgid "Done! Updated Netaxept configuration."
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:544
+msgid "Done! Created Directpay configuration."
+msgstr ""
+
+#: lib/ZPayment/Controller/Admin.php:548
+msgid "Done! Updated Directpay configuration."
+msgstr ""
+
+#: lib/ZPayment/Controller/User.php:137
+#, php-format
+msgid "Just this version of '%s' cleared from cache."
+msgstr ""
+
+#: lib/ZPayment/Controller/User.php:141
+#, php-format
+msgid "All versions of '%s' cleared from cache."
+msgstr ""
+
+#: lib/ZPayment/Installer.php:41
+#, php-format
+msgid "Error! Could not create tables (%s)."
+msgstr ""
+
+#: lib/ZPayment/Installer.php:91 lib/ZPayment/Installer.php:119
+#: lib/ZPayment/Installer.php:130 lib/ZPayment/Installer.php:142
+#: lib/ZPayment/Installer.php:153 lib/ZPayment/Installer.php:165
+#: lib/ZPayment/Installer.php:177 lib/ZPayment/Installer.php:189
+#: lib/ZPayment/Installer.php:212 lib/ZPayment/Installer.php:224
+#, php-format
+msgid "Error! Could not create table (%s)."
+msgstr ""
+
+#. !used in URL - nospaces, no special chars, lcase
+#: lib/ZPayment/Version.php:19 lib/ZPayment/Version.php:20
+#: templates/user/cachedemo/checkiscached.tpl:1
+#: templates/user/cachedemo/info.tpl:1
+#: templates/user/cachedemo/nevercached.tpl:1
+#: templates/user/cachedemo/partialcache.tpl:1
+#: templates/user/cachedemo/standard.tpl:1
+#: templates/user/cachedemo/uniquepages.tpl:1
+msgid "ZPayment"
+msgstr ""
+
+#: lib/ZPayment/Version.php:21
+msgid "ZPayment payment module!"
+msgstr ""
+
+#: templates/plugins/function.helloworld.php:6
+msgid "ZPayment plugin"
+msgstr ""
+
+#: templates/admin/edit_directpay1.tpl:4
+#: templates/admin/edit_directpay1.tpl:13
+msgid "Directpay settings"
+msgstr ""
+
+#: templates/admin/edit_directpay1.tpl:15 templates/admin/edit_epay.tpl:14
+#: templates/admin/edit_netaxept.tpl:14 templates/admin/edit_netaxept1.tpl:15
+#: templates/admin/edit_paypal.tpl:14 templates/admin/edit_paypal1.tpl:15
+#: templates/admin/edit_quickpay.tpl:14
+msgid "Enable"
+msgstr ""
+
+#: templates/admin/edit_directpay1.tpl:21
+msgid "Info"
+msgstr ""
+
+#: templates/admin/edit_directpay1.tpl:25
+msgid ""
+"Note: Text written in this field will be presented to your customer as a "
+"selectable payment method. Here you can write something like: “Please make "
+"bank transfer to our account xxxx-xxxxxxxx.We will ship your items when we "
+"register your payment.”"
+msgstr ""
+
+#: templates/admin/edit_directpay1.tpl:33 templates/admin/edit_epay.tpl:44
+#: templates/admin/edit_netaxept.tpl:39 templates/admin/edit_netaxept1.tpl:32
+#: templates/admin/edit_paypal.tpl:32 templates/admin/edit_paypal1.tpl:29
+#: templates/admin/edit_quickpay.tpl:45 templates/admin/modifyconfig.tpl:128
+msgid "Save"
+msgstr ""
+
+#: templates/admin/edit_directpay1.tpl:34 templates/admin/edit_epay.tpl:45
+#: templates/admin/edit_netaxept.tpl:40 templates/admin/edit_netaxept1.tpl:33
+#: templates/admin/edit_paypal.tpl:33 templates/admin/edit_paypal1.tpl:30
+#: templates/admin/edit_quickpay.tpl:46 templates/admin/modifyconfig.tpl:129
+msgid "Cancel"
+msgstr ""
+
+#: templates/admin/edit_epay.tpl:4
+msgid "Epay settings"
+msgstr ""
+
+#: templates/admin/edit_epay.tpl:12
+msgid "ePay settings"
+msgstr ""
+
+#: templates/admin/edit_epay.tpl:18 templates/admin/edit_netaxept.tpl:18
+#: templates/admin/edit_netaxept1.tpl:19 templates/admin/edit_paypal.tpl:18
+#: templates/admin/edit_paypal1.tpl:19 templates/admin/edit_quickpay.tpl:18
+msgid "Test Mode"
+msgstr ""
+
+#: templates/admin/edit_epay.tpl:22
+msgid "ePay Test Merchant Number"
+msgstr ""
+
+#: templates/admin/edit_epay.tpl:27
+msgid "ePay Merchant Number"
+msgstr ""
+
+#: templates/admin/edit_epay.tpl:32
+msgid "ePay md5 Hash"
+msgstr ""
+
+#: templates/admin/edit_epay.tpl:37 templates/admin/edit_quickpay.tpl:34
+msgid "MD5 Secret"
+msgstr ""
+
+#: templates/admin/edit_netaxept.tpl:4 templates/admin/edit_netaxept.tpl:12
+#: templates/admin/edit_netaxept1.tpl:4 templates/admin/edit_netaxept1.tpl:13
+msgid "Netaxept settings"
+msgstr ""
+
+#: templates/admin/edit_netaxept.tpl:22
+msgid "Test Merchant ID"
+msgstr ""
+
+#: templates/admin/edit_netaxept.tpl:26
+msgid "Test Token"
+msgstr ""
+
+#: templates/admin/edit_netaxept.tpl:30 templates/admin/edit_netaxept1.tpl:23
+#: templates/admin/edit_quickpay.tpl:26
+msgid "Merchant ID"
+msgstr ""
+
+#: templates/admin/edit_netaxept.tpl:34 templates/admin/edit_netaxept1.tpl:27
+msgid "Token"
+msgstr ""
+
+#: templates/admin/edit_paypal.tpl:4 templates/admin/edit_paypal.tpl:12
+#: templates/admin/edit_paypal1.tpl:4 templates/admin/edit_paypal1.tpl:13
+#: templates/admin/edit_quickpay.tpl:12
+msgid "Paypal settings"
+msgstr ""
+
+#: templates/admin/edit_paypal.tpl:22 templates/admin/edit_paypal1.tpl:23
+msgid "Business Email"
+msgstr ""
+
+#: templates/admin/edit_paypal.tpl:26
+msgid "PDT(Payment Data Transfer)"
+msgstr ""
+
+#: templates/admin/edit_quickpay.tpl:4
+msgid "QuickPay settings"
+msgstr ""
+
+#: templates/admin/edit_quickpay.tpl:22
+msgid "QuickPay ID"
+msgstr ""
+
+#: templates/admin/edit_quickpay.tpl:30
+msgid "Agreement ID"
+msgstr ""
+
+#: templates/admin/edit_quickpay.tpl:39
+msgid "Api Key"
+msgstr ""
+
+#: templates/admin/info.tpl:4
+msgid "ZPayment info"
+msgstr ""
+
+#: templates/admin/info.tpl:8
+msgid "Information"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:4
+msgid "Module settings"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:11
+msgid "General settings"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:13
+msgid "Display Admin Hello World"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:17
+msgid "Enable Netaxept in general"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:21
+msgid "Enable Paypal in general"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:25
+msgid "Enable QuickPay in general"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:29
+msgid "Enable Epay in general"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:33
+msgid "Enable Direct pay in general"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:39
+msgid "Cards/Payments Accepted"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:44
+msgid "PayPal"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:48
+msgid "Dankort/Visa-Dankort"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:52
+msgid "Maestro (3D)"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:58
+msgid "Mastercard (3D)"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:62 templates/admin/modifyconfig.tpl:101
+msgid "Mastercard-Debet"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:67
+msgid "Visa (3D)"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:73
+msgid "Visa-Electron (3D)"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:77
+msgid "JCB (3D)"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:81
+msgid "LIC Mastercard"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:87
+msgid "Paii"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:91
+msgid "eDankort"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:95
+msgid "Mastercard"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:105
+msgid "Visa"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:109
+msgid "Visa-Electron"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:115
+msgid "JCB"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:119
+msgid "American Express"
+msgstr ""
+
+#: templates/admin/payments.tpl:10 templates/admin/payments1.tpl:5
+msgid "Payments Available"
+msgstr ""
+
+#: templates/admin/payments.tpl:23 templates/admin/payments1.tpl:14
+msgid "Payment Methods"
+msgstr ""
+
+#: templates/admin/payments.tpl:25 templates/admin/payments1.tpl:16
+msgid "Options"
+msgstr ""
+
+#: templates/admin/payments.tpl:34 templates/admin/payments1.tpl:26
+msgid "Edit"
+msgstr ""
+
+#: templates/user/cachedemo/checkiscached.tpl:6
+msgid "Cache Demo: is_cached"
+msgstr ""
+
+#: templates/user/cachedemo/checkiscached.tpl:10
+#: templates/user/cachedemo/partialcache.tpl:10
+msgid "Always Cached"
+msgstr ""
+
+#: templates/user/cachedemo/checkiscached.tpl:11
+#: templates/user/cachedemo/partialcache.tpl:11
+#: templates/user/cachedemo/uniquepages.tpl:29
+msgid "Cached timestamp"
+msgstr ""
+
+#: templates/user/cachedemo/checkiscached.tpl:11
+#: templates/user/cachedemo/modvar_report.tpl:6
+#: templates/user/cachedemo/modvar_report.tpl:11
+#: templates/user/cachedemo/nevercached.tpl:9
+#: templates/user/cachedemo/partialcache.tpl:11
+#: templates/user/cachedemo/partialcache.tpl:17
+#: templates/user/cachedemo/standard.tpl:10
+#: templates/user/cachedemo/standard.tpl:21
+#: templates/user/cachedemo/uniquepages.tpl:29
+#: templates/user/cachedemo/uniquepages.tpl:34
+msgid "seconds"
+msgstr ""
+
+#: templates/user/cachedemo/checkiscached.tpl:12
+#: templates/user/cachedemo/partialcache.tpl:12
+#, php-format
+msgid ""
+"This number should only advance when the module-set cache lifetime expires "
+"(%s seconds)."
+msgstr ""
+
+#: templates/user/cachedemo/checkiscached.tpl:14
+msgid ""
+"This page will take a long time to load the first time, but on repeated "
+"reloads it will load faster due to a check for is_cached(). When the cache "
+"is regenerated, it takes an additional 5 seconds."
+msgstr ""
+
+#: templates/user/cachedemo/checkiscached.tpl:17
+#: templates/user/cachedemo/nevercached.tpl:13
+#: templates/user/cachedemo/partialcache.tpl:23
+#: templates/user/cachedemo/standard.tpl:27
+msgid "Refresh page"
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:6
+msgid "Cache Demo: Information about caching"
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:10
+msgid "Demonstrations"
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:12
+msgid ""
+"See the menu above (Cache demo) and its sub-items for demonstrations of "
+"caching techniques. Be sure to see the PHP and template code to understand "
+"how each is achieved."
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:14
+msgid "Render Caching"
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:16
+#, php-format
+msgid ""
+"Caching is a technology which speeds up pageloads by storing a version of a "
+"page in the filesystem and loads that page (for a set time period or "
+"'lifetime') instead of reloading all the information from the database. "
+"Cached files are stored in %s and are specific to module, cacheId and "
+"template."
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:18
+msgid "Enable render cache"
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:18 templates/user/cachedemo/info.tpl:28
+#: templates/user/cachedemo/info.tpl:31
+msgid "Checkbox (enable/disable)"
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:19
+msgid ""
+"Render caching handles all <strong>module templates</strong>. It does not "
+"handle <strong>theme templates</strong>, but the concept is essentially the "
+"same for both. When enabled, Zikula will automatically cache templates for "
+"the length of time set in 'render cache lifetime'. This means that any data "
+"in the module template that is changed will not display as changed until the "
+"cache expires. This functionality is not dependant on the module code. The "
+"template will be cached automatically, although this behavior can be "
+"overridden with module code (see various demos)."
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:21
+msgid "Render cache lifetime"
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:21
+msgid "Integer (default 3600)"
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:22
+msgid ""
+"The render cache lifetime is the number of seconds that the cached template "
+"will 'live' or be displayed before being checked for new data. Entering a "
+"zero (0) for this value is essentially disabling caching. Entering negative "
+"one (-1) will set the cache output to never expire."
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:24
+msgid "Render Compilation"
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:26
+#, php-format
+msgid ""
+"Render compiling is done for all templates, one cannot disable it. Compiling "
+"basically converts the special template syntax into PHP and makes it "
+"understandable to the PHP rendering engine. Compiled files are stored in %s "
+"and are specific to language, theme and module."
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:28
+msgid "Render compile check"
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:29
+msgid ""
+"Render compilation is a check to see if the template has changed since its "
+"last display. When enabled, Zikula will automatically check to see if "
+"templates have changed since their last display and if so, display them even "
+"if the cache lifetime has not expired, thus resetting the cache lifetime. If "
+"the template has not changed, the cached template is displayed if the "
+"lifetime has not expired."
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:31
+msgid "Render force compile"
+msgstr ""
+
+#: templates/user/cachedemo/info.tpl:32
+msgid ""
+"Enabling force compile will regenerate all cached templates with each page "
+"refresh. This essentially disables caching, but allows the mechanism of "
+"caching to function. This is essentially only useful for debugging purposes."
+msgstr ""
+
+#: templates/user/cachedemo/modvar_report.tpl:2
+msgid "Cache-related modvars"
+msgstr ""
+
+#: templates/user/cachedemo/modvar_report.tpl:3
+msgid "Settings from the Theme module"
+msgstr ""
+
+#: templates/user/cachedemo/modvar_report.tpl:5
+msgid "enable render cache"
+msgstr ""
+
+#: templates/user/cachedemo/modvar_report.tpl:6
+msgid "render cache lifetime"
+msgstr ""
+
+#: templates/user/cachedemo/modvar_report.tpl:7
+msgid "render compile check"
+msgstr ""
+
+#: templates/user/cachedemo/modvar_report.tpl:8
+msgid "render force compile"
+msgstr ""
+
+#: templates/user/cachedemo/modvar_report.tpl:10
+msgid "enable theme cache"
+msgstr ""
+
+#: templates/user/cachedemo/modvar_report.tpl:11
+msgid "theme  lifetime"
+msgstr ""
+
+#: templates/user/cachedemo/modvar_report.tpl:12
+msgid "theme compile check"
+msgstr ""
+
+#: templates/user/cachedemo/modvar_report.tpl:13
+msgid "theme force compile"
+msgstr ""
+
+#: templates/user/cachedemo/modvar_report.tpl:17
+msgid ""
+"The current settings may cause some parts<br />of this demo not to function "
+"as intended."
+msgstr ""
+
+#: templates/user/cachedemo/modvar_report.tpl:20
+msgid "Change Theme settings"
+msgstr ""
+
+#: templates/user/cachedemo/nevercached.tpl:5
+msgid "Cache Demo: Never cached"
+msgstr ""
+
+#: templates/user/cachedemo/nevercached.tpl:9
+msgid "Current timestamp"
+msgstr ""
+
+#: templates/user/cachedemo/nevercached.tpl:10
+#: templates/user/cachedemo/partialcache.tpl:18
+#: templates/user/cachedemo/standard.tpl:22
+#: templates/user/cachedemo/uniquepages.tpl:35
+msgid ""
+"This number should advance with every page refresh, irrespective of cache "
+"settings."
+msgstr ""
+
+#: templates/user/cachedemo/partialcache.tpl:6
+msgid "Cache Demo: partial cache"
+msgstr ""
+
+#: templates/user/cachedemo/partialcache.tpl:15
+msgid "Never Cached"
+msgstr ""
+
+#: templates/user/cachedemo/partialcache.tpl:17
+#: templates/user/cachedemo/standard.tpl:21
+#: templates/user/cachedemo/uniquepages.tpl:34
+msgid "Uncached current timestamp"
+msgstr ""
+
+#: templates/user/cachedemo/standard.tpl:6
+msgid "Cache Demo: Standard caching"
+msgstr ""
+
+#: templates/user/cachedemo/standard.tpl:10
+msgid "Possibly cached current timestamp"
+msgstr ""
+
+#: templates/user/cachedemo/standard.tpl:13
+#, php-format
+msgid ""
+"Render cache is %s: this number should only advance when the cache lifetime "
+"expires. <br />This cache lifetime is set in the Theme module."
+msgstr ""
+
+#: templates/user/cachedemo/standard.tpl:15
+#, php-format
+msgid "Render cache is %s: this number should advance with every page refresh."
+msgstr ""
+
+#: templates/user/cachedemo/uniquepages.tpl:6
+msgid "Cache Demo: Multiple page caching"
+msgstr ""
+
+#: templates/user/cachedemo/uniquepages.tpl:16
+msgid "Choose page number"
+msgstr ""
+
+#: templates/user/cachedemo/uniquepages.tpl:17
+msgid "Enter integer 1 - 9"
+msgstr ""
+
+#: templates/user/cachedemo/uniquepages.tpl:19
+#: templates/user/cachedemo/uniquepages.tpl:20
+#: templates/user/cachedemo/uniquepages.tpl:21
+msgid "Submit"
+msgstr ""
+
+#: templates/user/cachedemo/uniquepages.tpl:20
+msgid "Reset template"
+msgstr ""
+
+#: templates/user/cachedemo/uniquepages.tpl:21
+msgid "Reset all templates"
+msgstr ""
+
+#: templates/user/cachedemo/uniquepages.tpl:27
+msgid "Current page displayed"
+msgstr ""
+
+#: templates/user/cachedemo/uniquepages.tpl:30
+#, php-format
+msgid ""
+"This number should only advance when the module-set cache lifetime expires "
+"(current setting: %s seconds)."
+msgstr ""
+
+#: templates/user/cachedemo/uniquepages.tpl:37
+msgid "cache id"
+msgstr ""
+
+#: templates/user/cachedemo/uniquepages.tpl:41
+msgid ""
+"Resubmit the form multiple times with the same and different values to see "
+"the effects of caching on the timestamps."
+msgstr ""
+
+#: templates/user/cachedemo/uniquepages.tpl:42
+msgid ""
+"Click <strong>reset template</strong> to clear the cache for this page only."
+msgstr ""
+
+#: templates/user/cachedemo/uniquepages.tpl:43
+msgid ""
+"Click <strong>reset all templates</strong> to clear the cache for all pages "
+"using this template."
+msgstr ""

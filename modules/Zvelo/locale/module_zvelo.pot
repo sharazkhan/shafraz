@@ -1,0 +1,469 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 12:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/Zvelo/Api/Admin.php:29
+msgid "Settings"
+msgstr ""
+
+#: lib/Zvelo/Api/Admin.php:36 templates/admin/view.tpl:10
+msgid "Zvelo List"
+msgstr ""
+
+#: lib/Zvelo/Block/LeftBlock.php:29
+msgid "Left Block"
+msgstr ""
+
+#: lib/Zvelo/Block/RightBlock.php:29
+msgid "Right Block"
+msgstr ""
+
+#: lib/Zvelo/Controller/Admin.php:53 lib/Zvelo/Controller/Admin.php:78
+msgid "Upgraded Successfully"
+msgstr ""
+
+#: lib/Zvelo/Controller/Admin.php:110
+msgid "Done! Updated the Tag configuration."
+msgstr ""
+
+#: lib/Zvelo/Controller/Admin.php:122
+msgid ""
+"CrpTag has been already been migrated. You can only run the migration once."
+msgstr ""
+
+#: lib/Zvelo/Controller/Admin.php:193
+#, php-format
+msgid "CrpTag has been migrated. %1$s objects and %2$s tags completed."
+msgstr ""
+
+#: lib/Zvelo/Controller/User.php:79
+msgid "Done! Customer deleted"
+msgstr ""
+
+#: lib/Zvelo/Controller/User.php:81
+msgid "Could not delete.Api failed"
+msgstr ""
+
+#: lib/Zvelo/Controller/User.php:111
+msgid "Done! Created record"
+msgstr ""
+
+#: lib/Zvelo/Entity/Repository/BicycleRepo.php:103
+msgid "Error! Could not create a bicycle wish"
+msgstr ""
+
+#: lib/Zvelo/Entity/Repository/CustomerErgonomicValueRepo.php:64
+msgid "Error! Could not create values"
+msgstr ""
+
+#: lib/Zvelo/Entity/Repository/CustomerMeasurementRepo.php:39
+msgid "Error! Could not create measuremnt"
+msgstr ""
+
+#: lib/Zvelo/Entity/Repository/CustomerRepo.php:31
+msgid "Error! Could not create record"
+msgstr ""
+
+#: lib/Zvelo/Entity/Repository/CustomerWishRepo.php:76
+msgid "Error! Could not create customer wish"
+msgstr ""
+
+#: lib/Zvelo/Entity/Repository/CustomerWishRepo.php:157
+msgid "Error! Could not create seat position"
+msgstr ""
+
+#: lib/Zvelo/Version.php:19
+msgid "Zvelo"
+msgstr ""
+
+#: lib/Zvelo/Version.php:20
+msgid "Zvelo module"
+msgstr ""
+
+#: lib/Zvelo/Version.php:21
+msgid "zvelo"
+msgstr ""
+
+#: templates/admin/edit.tpl:4
+msgid "Edit Tag"
+msgstr ""
+
+#: templates/admin/edit.tpl:4
+msgid "New Tag"
+msgstr ""
+
+#: templates/admin/edit.tpl:8 templates/admin/edit.tpl:13
+#: templates/search/options.tpl:3
+msgid "Tag"
+msgstr ""
+
+#: templates/admin/edit.tpl:17 templates/admin/modifyconfig.tpl:20
+#: templates/blocks/rightblock.tpl:40 templates/blocks/rightblock.tpl:41
+#: templates/plugin/rightblock.tpl:48 templates/plugin/rightblock.tpl:49
+msgid "Save"
+msgstr ""
+
+#: templates/admin/edit.tpl:18 templates/admin/modifyconfig.tpl:21
+#: templates/user/load_users.tpl:67
+msgid "Cancel"
+msgstr ""
+
+#: templates/admin/edit.tpl:19
+msgid "Delete"
+msgstr ""
+
+#: templates/admin/edit.tpl:19
+msgid "Are you sure you want to delete this item"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:4
+msgid "Zvelo settings"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:11
+msgid "General settings"
+msgstr ""
+
+#: templates/admin/modifyconfig.tpl:14
+msgid "Number of popular tags to display on edit form"
+msgstr ""
+
+#: templates/ajax/bicycledetail.tpl:20
+msgid "No Bicycle selected"
+msgstr ""
+
+#: templates/blocks/leftblock.tpl:25 templates/plugin/leftblock.tpl:5
+msgid "Client data"
+msgstr ""
+
+#: templates/blocks/leftblock.tpl:33 templates/plugin/leftblock.tpl:13
+msgid "Bicycle category"
+msgstr ""
+
+#: templates/blocks/leftblock.tpl:38 templates/plugin/leftblock.tpl:18
+msgid "Client wishes"
+msgstr ""
+
+#: templates/blocks/leftblock.tpl:41 templates/plugin/leftblock.tpl:27
+#: templates/user/wishes.tpl:10
+msgid "Usage"
+msgstr ""
+
+#: templates/blocks/leftblock.tpl:49 templates/plugin/leftblock.tpl:35
+msgid "Ageclass"
+msgstr ""
+
+#: templates/blocks/leftblock.tpl:55 templates/plugin/leftblock.tpl:41
+#: templates/user/wishes.tpl:63
+msgid "KM / month"
+msgstr ""
+
+#: templates/blocks/leftblock.tpl:61 templates/plugin/leftblock.tpl:47
+#: templates/user/wishes.tpl:86
+msgid "Frame material"
+msgstr ""
+
+#: templates/blocks/leftblock.tpl:69 templates/plugin/leftblock.tpl:55
+#: templates/user/wishes.tpl:108
+msgid "Frame type"
+msgstr ""
+
+#: templates/blocks/leftblock.tpl:77 templates/plugin/leftblock.tpl:63
+#: templates/user/wishes.tpl:130
+msgid "Suspension"
+msgstr ""
+
+#: templates/blocks/leftblock.tpl:85 templates/plugin/leftblock.tpl:71
+msgid "Gear"
+msgstr ""
+
+#: templates/blocks/leftblock.tpl:93 templates/plugin/leftblock.tpl:79
+#: templates/user/wishes.tpl:176
+msgid "Brakes"
+msgstr ""
+
+#: templates/blocks/leftblock.tpl:101 templates/plugin/leftblock.tpl:87
+#: templates/user/wishes.tpl:198
+msgid "Accessories"
+msgstr ""
+
+#: templates/blocks/leftblock.tpl:110 templates/plugin/leftblock.tpl:96
+#: templates/user/clientinfo.tpl:36
+msgid "Comments"
+msgstr ""
+
+#: templates/blocks/leftblock_modify.tpl:4
+msgid "Select Shop"
+msgstr ""
+
+#: templates/blocks/leftblock_modify.tpl:15
+msgid "No: of products to display"
+msgstr ""
+
+#: templates/blocks/leftblock_modify.tpl:20
+msgid "Order by"
+msgstr ""
+
+#: templates/blocks/rightblock.tpl:27 templates/blocks/rightblock.tpl:29
+#: templates/plugin/rightblock.tpl:35 templates/plugin/rightblock.tpl:37
+msgid "Next"
+msgstr ""
+
+#: templates/blocks/rightblock.tpl:34 templates/blocks/rightblock.tpl:35
+#: templates/plugin/rightblock.tpl:42 templates/plugin/rightblock.tpl:43
+msgid "Previous"
+msgstr ""
+
+#: templates/blocks/rightblock.tpl:45 templates/blocks/rightblock.tpl:46
+#: templates/plugin/rightblock.tpl:53 templates/plugin/rightblock.tpl:54
+msgid "Load Users"
+msgstr ""
+
+#: templates/blocks/rightblock.tpl:50 templates/blocks/rightblock.tpl:51
+#: templates/plugin/rightblock.tpl:58 templates/plugin/rightblock.tpl:59
+msgid "Reload"
+msgstr ""
+
+#: templates/blocks/rightblock.tpl:56 templates/blocks/rightblock.tpl:57
+#: templates/plugin/rightblock.tpl:64 templates/plugin/rightblock.tpl:65
+msgid "Delete User"
+msgstr ""
+
+#: templates/contenttype/tagcloud_edit.tpl:2
+msgid "Maximum tags to display"
+msgstr ""
+
+#: templates/contenttype/tagcloud_view.tpl:10 templates/user/view.tpl:14
+#, php-format
+msgid "tagged %s time"
+msgid_plural "tagged %s times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/contenttype/tagcloud_view.tpl:12 templates/hooks/edit.tpl:40
+#: templates/user/view.tpl:16
+msgid "No tags."
+msgstr ""
+
+#: templates/hooks/edit.tpl:12
+msgid "Tags"
+msgstr ""
+
+#: templates/hooks/edit.tpl:14
+msgid "Add tags"
+msgstr ""
+
+#: templates/hooks/edit.tpl:17
+msgid "Add"
+msgstr ""
+
+#: templates/hooks/edit.tpl:20
+msgid "comma separated (e.g. zikula, computer, code)"
+msgstr ""
+
+#: templates/hooks/edit.tpl:27
+msgid "remove tag"
+msgstr ""
+
+#: templates/hooks/edit.tpl:35
+msgid "Popular tags"
+msgstr ""
+
+#: templates/hooks/edit.tpl:38
+#, php-format
+msgid "Add tag \"%s\""
+msgstr ""
+
+#: templates/plugin/leftblock.tpl:4
+msgid "Profile"
+msgstr ""
+
+#: templates/plugin/leftblock.tpl:21 templates/plugin/rightblock.tpl:91
+msgid "Seat Position"
+msgstr ""
+
+#: templates/plugin/rightblock.tpl:77
+msgid "Home"
+msgstr ""
+
+#: templates/plugin/rightblock.tpl:78
+msgid "1"
+msgstr ""
+
+#: templates/plugin/rightblock.tpl:82
+msgid "customer Information"
+msgstr ""
+
+#: templates/plugin/rightblock.tpl:83
+msgid "2"
+msgstr ""
+
+#: templates/plugin/rightblock.tpl:87
+msgid "Bicycle"
+msgstr ""
+
+#: templates/plugin/rightblock.tpl:88
+msgid "3"
+msgstr ""
+
+#: templates/plugin/rightblock.tpl:92
+msgid "4"
+msgstr ""
+
+#: templates/plugin/rightblock.tpl:95
+msgid "Customer Wish"
+msgstr ""
+
+#: templates/plugin/rightblock.tpl:96
+msgid "5"
+msgstr ""
+
+#: templates/plugin/rightblock.tpl:99
+msgid "Ergonomic Value"
+msgstr ""
+
+#: templates/plugin/rightblock.tpl:100
+msgid "6"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:7
+msgid "Clientno"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:9
+msgid "Created"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:15
+msgid "First name"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:18
+msgid "Last name"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:22
+msgid "Address"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:27
+msgid "ZIP"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:28
+msgid "City"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:30
+msgid "Phone"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:33
+msgid "Email"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:87 templates/user/measurement.tpl:34
+msgid "Gender"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:88 templates/user/measurement.tpl:35
+msgid "Functional height"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:89 templates/user/measurement.tpl:36
+msgid "Shoulder height"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:90 templates/user/measurement.tpl:37
+msgid "Shoulder width"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:91
+msgid "Arm length"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:92 templates/user/measurement.tpl:38
+msgid "Pelvic bone height"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:93 templates/user/measurement.tpl:39
+msgid "Fist height"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:94
+msgid "Leg length"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:95 templates/user/measurement.tpl:40
+msgid "Weight"
+msgstr ""
+
+#: templates/user/clientinfo.tpl:100 templates/user/clientinfo.tpl:101
+#: templates/user/clientinfo.tpl:102 templates/user/clientinfo.tpl:103
+#: templates/user/clientinfo.tpl:104 templates/user/clientinfo.tpl:105
+#: templates/user/clientinfo.tpl:106 templates/user/clientinfo.tpl:107
+#: templates/user/clientinfo.tpl:108 templates/user/measurement.tpl:14
+#: templates/user/measurement.tpl:15 templates/user/measurement.tpl:16
+#: templates/user/measurement.tpl:17 templates/user/measurement.tpl:18
+#: templates/user/measurement.tpl:19
+msgid "cm"
+msgstr ""
+
+#: templates/user/load_users.tpl:47
+msgid "Select User"
+msgstr ""
+
+#: templates/user/load_users.tpl:49
+msgid "Select User..."
+msgstr ""
+
+#: templates/user/load_users.tpl:63
+msgid "Save this region"
+msgstr ""
+
+#: templates/user/load_users.tpl:64 templates/user/load_users.tpl:65
+msgid "Load"
+msgstr ""
+
+#: templates/user/measurement.tpl:9
+msgid "Select"
+msgstr ""
+
+#: templates/user/measurement.tpl:10
+msgid "Male"
+msgstr ""
+
+#: templates/user/measurement.tpl:11
+msgid "Female"
+msgstr ""
+
+#: templates/user/view.tpl:10
+msgid "Tags on this site"
+msgstr ""
+
+#: templates/user/view.tpl:28
+msgid "No items tagged"
+msgstr ""
+
+#: templates/user/wishes.tpl:27
+msgid "Age class"
+msgstr ""
+
+#: templates/user/wishes.tpl:153
+msgid "Gears"
+msgstr ""

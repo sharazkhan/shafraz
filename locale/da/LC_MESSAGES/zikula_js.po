@@ -1,0 +1,353 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-29 01:58+0100\n"
+"PO-Revision-Date: 2015-05-29 01:58+0100\n"
+"Last-Translator: Kim Enemark <kim@acta-it.dk>\n"
+"Language-Team: Kim Enemark <kimenemark@zikula.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: javascript/helpers/Zikula.itemlist.js:236
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:46
+msgid "Maximum depth reached. Limit is: "
+msgstr "Maximum dybde nået. Grænsen er:"
+
+#: javascript/helpers/Zikula.itemlist.js:237
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:47
+msgid "You have unsaved changes!"
+msgstr "Dine ændringer er ikke gemt!"
+
+#: javascript/helpers/Zikula.UI.js:953 javascript/helpers/Zikula.UI.js:1036
+#: javascript/helpers/Zikula.UI.js:1200
+msgid "Ok"
+msgstr "Ok"
+
+#: javascript/helpers/Zikula.UI.js:1037 javascript/helpers/Zikula.UI.js:1156
+#: modules/Clip/javascript/Zikula.Clip.Container.js:614
+#: modules/Clip/javascript/Zikula.Clip.Container.js:646
+#: modules/Clip/javascript/Clip.Pubfields.js:59
+#: system/Categories/javascript/categories_admin_view.js:93
+#: system/Categories/javascript/categories_admin_view.js:104
+#: system/Categories/javascript/categories_admin_view.js:249
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:42
+msgid "Cancel"
+msgstr "Annuller"
+
+#: javascript/helpers/Zikula.UI.js:1155
+#: modules/Clip/javascript/Zikula.Clip.Container.js:613
+#: system/Categories/javascript/categories_admin_view.js:248
+msgid "Submit"
+msgstr "Send"
+
+#: javascript/helpers/Zikula.UI.js:1198
+msgid "Select multiple"
+msgstr "Vælg flere"
+
+#: javascript/helpers/Zikula.js:105
+#, php-format
+msgid "illegal JSON response: \\n%1$s in\\n%2$s"
+msgstr "ulovligt JSON svar: \\n%1$s in\\n%2$s"
+
+#: javascript/helpers/Zikula.js:410
+msgid "Ajax connection time out!"
+msgstr "Ajaxforbindelse fik timeout!"
+
+#: javascript/helpers/Zikula.js:693 javascript/helpers/Zikula.js:785
+msgid "hello"
+msgstr "hej"
+
+#: javascript/helpers/Zikula.js:694 javascript/helpers/Zikula.js:799
+#, php-format
+msgid "hello %s"
+msgstr "hej %s"
+
+#: javascript/helpers/Zikula.js:695 javascript/helpers/Zikula.js:814
+msgid "hello my friend"
+msgid_plural "hello my friends"
+msgstr[0] "hej min ven"
+msgstr[1] "hej mine venner"
+
+#: javascript/helpers/Zikula.js:696 javascript/helpers/Zikula.js:837
+#, php-format
+msgid "hello my friend %s"
+msgid_plural "hello my friends %s"
+msgstr[0] "hej min ven %s"
+msgstr[1] "hej mine venner %s"
+
+#: javascript/helpers/Zikula.ImageViewer.js:68
+msgid "Close"
+msgstr "Luk"
+
+#: javascript/helpers/Zikula.ImageViewer.js:69
+msgid "Next"
+msgstr "Næste"
+
+#: javascript/helpers/Zikula.ImageViewer.js:70
+msgid "Prev"
+msgstr "Forrige"
+
+#: javascript/helpers/Zikula.ImageViewer.js:71
+msgid "Image #{index} of #{total}"
+msgstr "Billede #{index} af #{total}"
+
+#: modules/Clip/javascript/Zikula.Clip.Container.js:410
+#: modules/Clip/javascript/Zikula.Clip.Container.js:447
+#: system/Categories/javascript/categories_admin_view.js:30
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:30
+msgid "Edit"
+msgstr "Rediger"
+
+#: modules/Clip/javascript/Zikula.Clip.Container.js:419
+#: modules/Clip/javascript/Zikula.Clip.Container.js:645
+#: system/Categories/javascript/categories_admin_view.js:36
+#: system/Categories/javascript/categories_admin_view.js:92
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:31
+msgid "Delete"
+msgstr "Slet"
+
+#: modules/Clip/javascript/Zikula.Clip.Container.js:428
+msgid "Add group after selected"
+msgstr "Tilføj kategori (efter valgte)"
+
+#: modules/Clip/javascript/Zikula.Clip.Container.js:437
+msgid "Add subgroup into selected"
+msgstr "Tilføj underkategori (i valgte)"
+
+#: modules/Clip/javascript/Zikula.Clip.Container.js:458
+msgid "Fields"
+msgstr "Felter"
+
+#: modules/Clip/javascript/Zikula.Clip.Container.js:469
+msgid "Relations"
+msgstr "Relationer"
+
+#: modules/Clip/javascript/Zikula.Clip.Container.js:480
+msgid "Code"
+msgstr "Kode"
+
+#: modules/Clip/javascript/Zikula.Clip.Container.js:492
+msgid "Editor list"
+msgstr "Editorliste"
+
+#: modules/Clip/javascript/Zikula.Clip.Container.js:503
+msgid "New publication"
+msgstr "Ny artikel"
+
+#: modules/Clip/javascript/Zikula.Clip.Container.js:642
+msgid "Do you really want to delete this group?"
+msgstr "Er du sikker på du vil slette denne gruppe?"
+
+#: modules/Clip/javascript/Zikula.Clip.Container.js:652
+#: system/Categories/javascript/categories_admin_view.js:110
+#: system/PageLock/javascript/pagelock.js:27
+msgid "Confirmation prompt"
+msgstr "Bekræft"
+
+#: modules/Clip/javascript/Clip.Pubfields.js:54
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:43
+msgid "Save"
+msgstr "Gem"
+
+#: modules/Clip/javascript/Clip.Pubfields.js:65
+msgid "Plugin configuration"
+msgstr "Pluginkonfiguration"
+
+#: system/Categories/javascript/categories_admin_view.js:42
+msgid "Copy"
+msgstr "Kopier"
+
+#: system/Categories/javascript/categories_admin_view.js:48
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:28
+msgid "Activate"
+msgstr "Aktiver"
+
+#: system/Categories/javascript/categories_admin_view.js:57
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:29
+msgid "Deactivate"
+msgstr "Deaktiver"
+
+#: system/Categories/javascript/categories_admin_view.js:66
+msgid "Add category (after selected)); ?>"
+msgstr "Tilføj kategori (efter valgte)); ?>"
+
+#: system/Categories/javascript/categories_admin_view.js:72
+msgid "Add subcategory (into selected)); ?>"
+msgstr "Tilføj underkategori (i valgte)); ?>"
+
+#: system/Categories/javascript/categories_admin_view.js:89
+msgid "Do you really want to delete this category?"
+msgstr "Er du sikker på, at du vil slette denne kategori?"
+
+#: system/Categories/javascript/categories_admin_view.js:97
+#, php-format
+msgid "It contains %s direct sub-categories."
+msgstr "Den indeholder %s direkte underkategorier."
+
+#: system/Categories/javascript/categories_admin_view.js:99
+msgid "Please also choose what to do with this category's sub-categories."
+msgstr "Vælg også hvad der skal ske med denne kategori's underkategorier."
+
+#: system/Categories/javascript/categories_admin_view.js:102
+msgid "Delete all sub-categories"
+msgstr "Slet alle underkategorier"
+
+#: system/Categories/javascript/categories_admin_view.js:103
+msgid "Move all sub-categories"
+msgstr "Flyt alle underkategorier"
+
+#: system/PageLock/javascript/pagelock.js:26
+msgid "Are you sure you want to break this lock?"
+msgstr "Er du sikker på, at du vil bryde denne låsning?"
+
+#: system/PageLock/javascript/pagelock.js:130
+msgid "Back"
+msgstr "Tilbage"
+
+#: system/PageLock/javascript/pagelock.js:131
+msgid "Check again"
+msgstr "Kontroller igen"
+
+#: system/PageLock/javascript/pagelock.js:132
+msgid "Ignore Lock"
+msgstr "Ignorer låsning"
+
+#: system/Admin/javascript/admin_admin_ajax.js:12
+msgid "Right-click down arrows to edit tab name"
+msgstr "Højreklik pilned for at redigere tabnavn"
+
+#: system/Admin/javascript/admin_admin_ajax.js:13
+msgid "Edit category"
+msgstr "Redigér kategori"
+
+#: system/Admin/javascript/admin_admin_ajax.js:14
+msgid "Delete category"
+msgstr "Slet kategori"
+
+#: system/Admin/javascript/admin_admin_ajax.js:15
+msgid "Make default category"
+msgstr "Gør til standard kategori"
+
+#: system/Admin/javascript/admin_admin_ajax.js:16
+msgid "Saving"
+msgstr "Gemmer"
+
+#: system/Admin/javascript/admin_admin_ajax.js:282
+msgid "You must enter a name for the new category"
+msgstr "Du skal indtaste et navn på den nye kategori"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:20
+msgid "Do you really want to delete this node and all of it child nodes?"
+msgstr "Er du sikker på, at du vil slette dette emne og alle dets underemner?"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:21
+msgid "Link name"
+msgstr "Link navn"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:22
+msgid "Link URL"
+msgstr "Link URL"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:23
+msgid "Link title"
+msgstr "Link titel"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:24
+msgid "Link class"
+msgstr "Link klasse"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:25
+msgid "Select class"
+msgstr "Vælg klasse"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:26
+msgid "Language"
+msgstr "Sprog"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:27
+msgid "Active?"
+msgstr "Aktiv?"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:32
+msgid "Add new..."
+msgstr "Tilføj ny..."
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:33
+msgid "before"
+msgstr "før"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:34
+msgid "after"
+msgstr "efter"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:35
+msgid "as child"
+msgstr "som child"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:36
+msgid "Expand this node"
+msgstr "Udvid dette emne"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:37
+msgid "Collapse this node"
+msgstr "Skjul dette emne"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:38
+msgid "Status"
+msgstr "Status"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:39
+msgid "Activate for all langs"
+msgstr "Aktiver for alle sprog"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:40
+msgid "Deactivate for all langs"
+msgstr "Deaktiver for alle sprog"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:41
+msgid "Use one for all langs"
+msgstr "Anvend en for alle sprog"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:44
+msgid "Please fill required fields"
+msgstr "Udfyld venligst obligatoriske felter"
+
+#: system/Blocks/javascript/Zikula.Menutree.Tree.js:45
+msgid "Marked fields are required"
+msgstr "Markerede felter er obligatoriske"
+
+#: system/Users/javascript/Zikula.Users.PassMeter.js:154
+msgid "Weak"
+msgstr "Svag"
+
+#: system/Users/javascript/Zikula.Users.PassMeter.js:154
+msgid "Normal"
+msgstr "Normal"
+
+#: system/Users/javascript/Zikula.Users.PassMeter.js:154
+msgid "Strong"
+msgstr "Stærk"
+
+#: system/Users/javascript/Zikula.Users.PassMeter.js:154
+msgid "Very Strong"
+msgstr "Meget stærk"
+
+#: system/Users/javascript/Zikula.Users.PassMeter.js:158
+#, php-format
+msgid "The minimum length for user passwords is %s characters."
+msgstr "Minimumslængden for brugeradgangskoder er %s tegn."
+
+#: system/Users/javascript/Zikula.Users.PassMeter.js:164
+msgid "Password can not match the username, choose a different password."
+msgstr "Adgangskoden matcher ikke brugernavnet, vælg en anden adgangskode."

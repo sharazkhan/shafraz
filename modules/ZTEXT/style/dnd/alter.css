@@ -1,0 +1,36 @@
+.ax-legend{display:none;} 
+.aj-frame{border:none !important; background: none !important}
+.ax-upload-all{display:none;} 
+.ax-clear{display:none;}
+
+.ax-button {color:#000; border:none; background:none; box-shadow:none;}
+a.ax-button:hover{color:#000;}
+a.ax-button:visted{color:#000;}
+.OrageEvenTextR{ padding-top:5px}
+.ax-browse{border:none;}
+.ax-progress-info{height:auto}
+.SettingBottomOrange{height:51px;}
+.TopAddFile a.ax-button{ color:#FFF;  /*margin-left: 497px;*/ margin-top:-58px}
+.BottomAddImage a.ax-button {margin-left:270px; margin-top:-45px}
+
+span.ax-plus-icon{ display:none;}
+
+
+.ax-button{
+    background: linear-gradient(180deg, rgb(164, 164, 164) 30%, rgb(145, 145, 145) 60%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 2px solid #8b8b8b;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.ax-button:hover{opacity:1;text-decoration:none}
+.ax-main-container h5{display:none}
+/*
+.ax-main-container{font-size: 12px !important; text-align: right; width:100%}
+.ax-button{top:126px;left:-19px}
+*/
+.ax-main-container{font-size: 12px;text-align: right;}
+.ax-button{left:50px;}
+.ax-main-container input{position:absolute !important}
+

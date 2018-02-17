@@ -1,0 +1,86 @@
+
+@charset "utf-8";@font-face{font-family:'Adelle Bold';src:url('../fonts/adelle_bold-webfont.eot');src:url('../fonts/adelle_bold-webfont.eot?#iefix') format('embedded-opentype'),
+                                url('../fonts/adelle_bold-webfont.woff') format('woff'),
+                                url('../fonts/adelle_bold-webfont.ttf') format('truetype'),
+                                url('../fonts/adelle_bold-webfont.svg#adelle_rgbold') format('svg');}
+@font-face{font-family:'Adelle Regular';src:url('../fonts/adelle_reg-webfont.eot');src:url('../fonts/adelle_reg-webfont.eot?#iefix') format('embedded-opentype'),
+               url('../fonts/adelle_reg-webfont.woff') format('woff'),
+               url('../fonts/adelle_reg-webfont.ttf') format('truetype'),
+               url('../fonts/adelle_reg-webfont.svg#adelle_rgregular') format('svg');}
+
+.ImageSection{
+    border:1px #dedede solid !important;
+    margin:25px 0px !important;
+    display:inline-block !important;
+    height:auto !important;
+}
+.Product-Images-Sequence{
+    list-style:none !important;
+    margin:0px !important;
+    padding:0px;text-align:center !important;
+    padding:20px 0px;display:inline-block !important;
+    height:auto;width:100% !important;
+    text-align:left !important;
+}
+.Product-Images-Sequence li
+{
+    width:232px !important;
+    height:auto !important;
+    list-style:none !important;
+    display:inline-block !important;
+    text-align:center !important;
+    float:left !important;
+}
+.Product-Images-Sequence .Circle{
+    width:64px !important;
+    height:64px !important;
+    border-radius:34px !important;
+    background:#e65622 !important;
+    font-size:24px;font-family:'Adelle Bold' !important;
+    float:right !important;
+    margin-right:20px !important;
+    margin-top:-160px !important;
+    position:relative !important;
+    /*z-index:2;*/
+    z-index:0 !important;
+}
+.Product-Images-Sequence .Circle p.CText{
+    margin:0px !important;
+    padding:0px !important;
+    padding-top:15px !important;
+    color:#FFF !important;
+}
+.Product-Images-Sequence P.PText{
+    font-size:18px !important;
+    font-family:'Adelle Bold' !important;
+}
+.Product-Images-Sequence .Box{
+    cursor:pointer !important;
+    font-size:18px !important;
+    font-family:'Adelle Bold' !important;
+    width:45px;margin:auto !important;
+    border-radius:5px !important;
+    height:20px !important;
+    background:#e65622 !important;
+    text-transform:uppercase !important;
+    color:#FFF !important;
+    font-size:14px !important;
+    line-height:20px !important;
+}
+.FlexiImg{
+    width:230px !important;
+    height:200px !important;
+    display:table-cell !important;
+    vertical-align:middle !important;
+    margin:auto !important;
+}
+.FlexiImg a{
+    display:block !important;
+    text-align:center !important;
+}
+.Box a.addbutton{
+    color:white !important;
+}
+.Box a.addbutton:hover{
+    color:white !important;
+}

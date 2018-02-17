@@ -1,0 +1,782 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-10 14:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plugins/function.alteraccountmenu.php:35
+msgid "My Page"
+msgstr ""
+
+#: plugins/function.alteraccountmenu.php:49
+msgid "My Site"
+msgstr ""
+
+#: plugins/function.alteraccountmenu.php:64
+msgid "CityPilot Backend"
+msgstr ""
+
+#: plugins/function.shiftshop.php:104 plugins/function.shiftshop.php:120
+msgid "Change Shop"
+msgstr ""
+
+#: plugins/function.userloggedinname.php:34
+msgid "anonymous guest"
+msgstr ""
+
+#: plugins/function.zselex.php:5
+msgid "ZSELEX plugin"
+msgstr ""
+
+#: version.php:3
+msgid "CityPilot"
+msgstr ""
+
+#: version.php:4
+msgid "CityPilot theme for zikula."
+msgstr ""
+
+#: templates/findus.tpl:36 templates/minisite.tpl:45
+msgid "Edit Shopsettings"
+msgstr ""
+
+#: templates/includes/adminheader.tpl:30
+msgid "Home"
+msgstr ""
+
+#: templates/includes/adminheader.tpl:31
+msgid "Search"
+msgstr ""
+
+#: templates/includes/adminheader.tpl:33
+msgid "User account panel"
+msgstr ""
+
+#: templates/includes/feedback.tpl:136
+msgid "Please Send Us Your Feedback"
+msgstr ""
+
+#: templates/includes/feedback.tpl:137
+msgid "Make sure to be placed on the page you want to give us info about!"
+msgstr ""
+
+#: templates/includes/shopheader.tpl:11
+msgid "Edit Content"
+msgstr ""
+
+#: templates/includes/shopheader.tpl:18 templates/includes/shopheader.tpl:39
+msgid "You can rate shop"
+msgstr ""
+
+#: templates/just_translations.tpl:3
+msgid "Monday"
+msgstr ""
+
+#: templates/just_translations.tpl:4
+msgid "Tuesday"
+msgstr ""
+
+#: templates/just_translations.tpl:5
+msgid "Wednesday"
+msgstr ""
+
+#: templates/just_translations.tpl:6
+msgid "Thursday"
+msgstr ""
+
+#: templates/just_translations.tpl:7
+msgid "Friday"
+msgstr ""
+
+#: templates/just_translations.tpl:8
+msgid "Saturday"
+msgstr ""
+
+#: templates/just_translations.tpl:9
+msgid "Sunday"
+msgstr ""
+
+#: templates/just_translations.tpl:10
+msgid "January"
+msgstr ""
+
+#: templates/just_translations.tpl:11
+msgid "February"
+msgstr ""
+
+#: templates/just_translations.tpl:12
+msgid "March"
+msgstr ""
+
+#: templates/just_translations.tpl:13
+msgid "April"
+msgstr ""
+
+#: templates/just_translations.tpl:14
+msgid "May"
+msgstr ""
+
+#: templates/just_translations.tpl:15
+msgid "June"
+msgstr ""
+
+#: templates/just_translations.tpl:16
+msgid "July"
+msgstr ""
+
+#: templates/just_translations.tpl:17
+msgid "August"
+msgstr ""
+
+#: templates/just_translations.tpl:18
+msgid "September"
+msgstr ""
+
+#: templates/just_translations.tpl:19
+msgid "October"
+msgstr ""
+
+#: templates/just_translations.tpl:20
+msgid "November"
+msgstr ""
+
+#: templates/just_translations.tpl:21
+msgid "December"
+msgstr ""
+
+#: templates/just_translations.tpl:23
+msgid "Feedback Sent"
+msgstr ""
+
+#: templates/just_translations.tpl:24
+msgid "Feedback Failed to Send"
+msgstr ""
+
+#: templates/just_translations.tpl:25
+msgid "Please enter feedback!"
+msgstr ""
+
+#: templates/minisite.tpl:54
+#: templates/modules/ZSELEX/blocks/minisiteevent/minisiteevent.tpl:12
+msgid "Edit Events"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:53
+#: templates/modules/admin_shopinner.tpl:52
+#: templates/modules/admin_two_column.tpl:45
+msgid "I have had"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:54
+#: templates/modules/admin_shopinner.tpl:53
+#: templates/modules/admin_two_column.tpl:46
+msgid "new visitors lately"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:54
+#: templates/modules/admin_shopinner.tpl:53
+#: templates/modules/admin_two_column.tpl:46
+msgid "visitors in total"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:55
+#: templates/modules/admin_shopinner.tpl:54
+#: templates/modules/admin_two_column.tpl:47
+msgid "rated your page"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:55
+#: templates/modules/admin_shopinner.tpl:54
+#: templates/modules/admin_two_column.tpl:47
+msgid "has laid a comment"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:56
+#: templates/modules/admin_shopinner.tpl:55
+#: templates/modules/admin_two_column.tpl:48
+msgid "I've sold"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:56
+#: templates/modules/admin_shopinner.tpl:55
+#: templates/modules/admin_two_column.tpl:48
+msgid "Products in"
+msgstr ""
+
+#: templates/modules/admin_shop.tpl:57
+#: templates/modules/admin_shopinner.tpl:56
+#: templates/modules/admin_two_column.tpl:49
+msgid "products in total"
+msgstr ""
+
+#: templates/modules/News/user/articlecontent.tpl:22
+#: templates/modules/News/user/index.tpl:3
+msgid "Contributed"
+msgstr ""
+
+#: templates/modules/News/user/articlecontent.tpl:22
+#: templates/modules/News/user/index.tpl:3
+#, php-format
+msgid "by %1$s on %2$s"
+msgstr ""
+
+#: templates/modules/News/user/articlecontent.tpl:31
+#: templates/modules/News/user/articlecontent.tpl:52
+#: templates/modules/News/user/index.tpl:9
+#: templates/modules/News/user/index.tpl:11
+#: templates/modules/ZSELEX/user/viewevent.tpl:51
+#: templates/modules/ZSELEX/user/viewevent.tpl:71
+#, php-format
+msgid "Picture %1$s for %2$s"
+msgstr ""
+
+#: templates/modules/News/user/articlecontent.tpl:48
+#: templates/modules/ZSELEX/user/viewevent.tpl:67
+msgid "Picture gallery"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:48
+msgid "Create an article"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:68
+msgid "Title"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:71
+msgid "Title text"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:77
+msgid "Permalink URL"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:79
+msgid "(Generated automatically if left blank)"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:85
+msgid "Category"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:86
+msgid "Choose category"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:114
+msgid "Language for which article should be displayed"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:121
+msgid "Article"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:124
+msgid "Permitted HTML tags"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:126
+msgid ""
+"You must enter either <strong>teaser text</strong> or <strong>body text</"
+"strong>."
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:129
+msgid "Index page teaser text"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:131
+#: templates/modules/News/user/create1.tpl:165
+#, php-format
+msgid "(Limit: %s characters)"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:136
+msgid "Index page teaser format"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:138
+#: templates/modules/News/user/create1.tpl:154
+msgid "Plain text"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:139
+#: templates/modules/News/user/create1.tpl:155
+msgid "Text formatted with mark-up language"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:145
+msgid "Article body text"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:147
+msgid "#{chars"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:152
+msgid "Article body format"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:162
+#: templates/modules/News/user/create1.tpl:213
+#: templates/modules/News/user/create1.tpl:280
+msgid "Show"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:162
+msgid "Footnote"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:173
+msgid "Pictures"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:174
+#, php-format
+msgid "Select a picture (max. %s kB per picture)"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:180
+#, php-format
+msgid ""
+"(max files %s, first picture is used as thumbnail in the index teaser page "
+"for this article.)"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:194
+#: templates/modules/News/user/create1.tpl:204
+msgid "Delete this picture"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:202
+msgid "news picture"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:213
+msgid "Publishing options"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:216
+msgid "Display on news index page"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:220
+msgid "Article weight"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:226
+msgid "No time limit"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:231
+msgid "Start date"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:237
+msgid "No end date"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:242
+msgid "End date"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:250
+msgid "Allow comments on this article"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:252
+msgid "(EZComments must be hooked to News to enable commenting.)"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:255
+msgid "Article ID"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:280
+msgid "Article attributes"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:296
+msgid "Submit this article"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:296
+msgid "Submit"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:298
+msgid "Publish this article"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:298
+msgid "Publish"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:300
+msgid "Save this article as draft"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:300
+msgid "Save as draft"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:303
+#: templates/modules/News/user/create1.tpl:304
+msgid "Save quick draft"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:303
+msgid "Quick save as draft"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:307
+msgid "Save full draft"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:308
+msgid "Mark this article as pending"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:308
+msgid "Pending"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:310
+msgid "Preview this article"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:310
+msgid "Preview"
+msgstr ""
+
+#: templates/modules/News/user/create1.tpl:311
+msgid "Cancel"
+msgstr ""
+
+#: templates/modules/News/user/index.tpl:24
+msgid "Filed under:"
+msgstr ""
+
+#: templates/modules/News/user/menu.tpl:11
+msgid "News"
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:1
+msgid "Search results"
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:6
+#, php-format
+msgid "Number of hits: %s"
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:57
+#, php-format
+msgid "Created on %s."
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:66
+msgid "No search results found. You can try the following:"
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:68
+msgid "Check that you spelled all words correctly."
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:69
+msgid "Use different keywords."
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:70
+msgid "Use keywords that are more general."
+msgstr ""
+
+#: templates/modules/Search/search_user_results.tpl:71
+msgid "Use fewer words."
+msgstr ""
+
+#: templates/modules/Users/users_user_main.tpl:1
+#: templates/modules/Users/users_user_main1.tpl:1
+msgid "My account"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/advertise.tpl:21
+msgid "DKK"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/advertise.tpl:24
+#: templates/modules/ZSELEX/user/productview.tpl:45
+msgid "Add to Cart"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/advertise.tpl:33
+msgid "No entries found."
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:19
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:4
+msgid "Edit Products"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:53
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:55
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:92
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:49
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:50
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:77
+msgid "Buy"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minishopproducts.tpl:102
+msgid "No products found."
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minisiteevent/minisiteevent.tpl:16
+msgid "Event"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minisiteevent/minisiteevent.tpl:63
+msgid "view all"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minisiteimagesblock/minisiteimages.tpl:55
+msgid "Edit Pictures"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/minisiteimagesblock/minisiteimages.tpl:70
+#: templates/modules/ZSELEX/blocks/minisiteimagesblock/minisiteimages.tpl:81
+#: templates/modules/ZSELEX/blocks/minisiteimagesblock/minisiteimages.tpl:84
+msgid "more images"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:7
+msgid "Products"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/miniwebsiteproducts.tpl:10
+msgid "See All"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:64
+msgid "search area"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:76
+msgid "search category"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:86
+msgid "search for..."
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:91
+msgid "Show shops"
+msgstr ""
+
+#: templates/modules/ZSELEX/blocks/selection.tpl:94
+msgid "reset search"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents.tpl:5
+msgid "Events"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents.tpl:40
+#: templates/modules/ZSELEX/user/cart.tpl:26
+msgid "Price"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents.tpl:40
+#: templates/modules/ZSELEX/user/viewevent.tpl:153
+msgid "FREE"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents.tpl:41
+msgid "Time"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents.tpl:42
+msgid "Location"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents.tpl:46
+msgid "Contact"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents.tpl:46
+msgid "Organizer"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents.tpl:47
+msgid "See More..."
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents.tpl:54
+msgid "No Events Found"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents.tpl:58
+msgid "Load More Events"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/allevents.tpl:76
+#: templates/modules/ZSELEX/user/allevents.tpl:78
+#: templates/modules/ZSELEX/user/allevents.tpl:80
+msgid "Back"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:6
+msgid "Shopping Cart"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:11
+msgid "Seller"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:11
+msgid "Shop"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:23
+msgid "Quantity"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:25
+msgid "Product"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:27
+msgid "Total"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:52
+msgid "delete"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:61
+msgid "Total price"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:72
+#: templates/modules/ZSELEX/user/cart.tpl:74
+#: templates/modules/ZSELEX/user/checkout.tpl:34
+#: templates/modules/ZSELEX/user/checkout.tpl:37
+msgid "Continue Shopping"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:77
+msgid "Update Cart"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:85
+msgid "Send Order"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:92
+#: templates/modules/ZSELEX/user/cart.tpl:101
+msgid "Check Out"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:106
+msgid "No Items In Cart"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/cart.tpl:107
+msgid "Back to frontpage"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:10
+msgid "Enter Customer Information"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:15
+msgid "First Name"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:16
+msgid "Please enter your first name"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:19
+msgid "Last Name"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:20
+msgid "Please enter your last name"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:23
+msgid "Address"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:24
+msgid "Please enter your address"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:27
+msgid "ZIP code. city"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:28
+msgid "Please enter your zip code"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:28
+msgid "Please enter your city"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:44
+msgid "Phone"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:45
+msgid "Please enter a valid phone number"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:48
+msgid "Email address"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:49
+msgid "Please enter a valid email"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:52
+msgid "Subscribe To Newsletter"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/checkout.tpl:59
+msgid "Go to delivery"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:34
+#: templates/modules/ZSELEX/user/viewevent.tpl:44
+msgid "Product name"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:113
+#: templates/modules/ZSELEX/user/viewevent.tpl:127
+#: templates/modules/ZSELEX/user/viewevent.tpl:140
+#: templates/modules/ZSELEX/user/viewevent.tpl:157
+msgid "see event image"
+msgstr ""
+
+#: templates/modules/ZSELEX/user/viewevent.tpl:115
+#: templates/modules/ZSELEX/user/viewevent.tpl:129
+#: templates/modules/ZSELEX/user/viewevent.tpl:142
+#: templates/modules/ZSELEX/user/viewevent.tpl:159
+msgid "see event"
+msgstr ""

@@ -1,0 +1,125 @@
+.chekout_form{ display:block; color:#6c7e83;}
+.chekout_sec{ width:440px;}
+.checkout_form h2{ font-size:34px; color:#6c7e83;}
+
+.height_sink{ min-height:225px;  display:inline-block; width:100%;}
+.checkout_table{ table-layout:fixed; width:440px; text-align:left; } 
+.checkout_table tr{ height:44px;}
+table.checkout_table td{ width:126px;}
+table.checkout_table td+td{ width:312px; }
+table.checkout_table td label{ color:#ff5515; font-size:12px; font-family: 'Adelle Bold'; }
+table.checkout_table td+td input[type=text]{ width:302px; border-radius:4px; border:1px solid #cecece; height:25px; }
+table.checkout_table td+td input#country_code{ width:72px;}
+table.checkout_table td+td input#telephone{width:220px;}
+button.gray_button{ border:2px solid #8b8b8b; height:28px; color:#FFF; font-weight:bold; border-radius:4px; cursor:pointer;
+                    background: rgb(164, 164, 164);
+                    background: -moz-linear-gradient(90deg, rgb(164, 164, 164) 30%, rgb(145, 145, 145) 60%);
+                    background: -webkit-linear-gradient(90deg, rgb(164, 164, 164) 30%, rgb(145, 145, 145) 60%);
+                    background: -o-linear-gradient(90deg, rgb(164, 164, 164) 30%, rgb(145, 145, 145) 60%);
+                    background: -ms-linear-gradient(90deg, rgb(164, 164, 164) 30%, rgb(145, 145, 145) 60%);
+                    background: linear-gradient(180deg, rgb(164, 164, 164) 30%, rgb(145, 145, 145) 60%);  }
+span.Left_Arrow{ display:inline-block; width:15px; height:15px; background:url(../images/ArrowShadow_left.png) no-repeat center; float:left }
+span.Right_Arrow{ 
+    display:inline-block; 
+    width:15px; 
+    height:15px; 
+    background:url(../images/ArrowShadow.png) no-repeat center; 
+    float:right 
+}
+
+button.Orange_button{
+    border:2px solid #d5542a; height:28px; color:#FFF; font-weight:bold; border-radius:4px; cursor:pointer;
+    background: #cf4f22; /* Old browsers */
+                  background: -moz-linear-gradient(top,  #cf4f22 0%, #c54d21 50%, #c04214 56%, #b73f14 100%); /* FF3.6+ */
+                  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cf4f22), color-stop(50%,#c54d21), color-stop(56%,#c04214), color-stop(100%,#b73f14)); /* Chrome,Safari4+ */
+                  background: -webkit-linear-gradient(top,  #cf4f22 0%,#c54d21 50%,#c04214 56%,#b73f14 100%); /* Chrome10+,Safari5.1+ */
+                  background: -o-linear-gradient(top,  #cf4f22 0%,#c54d21 50%,#c04214 56%,#b73f14 100%); /* Opera 11.10+ */
+                  background: -ms-linear-gradient(top,  #cf4f22 0%,#c54d21 50%,#c04214 56%,#b73f14 100%); /* IE10+ */
+                  background: linear-gradient(to bottom,  #cf4f22 0%,#c54d21 50%,#c04214 56%,#b73f14 100%); /* W3C */
+                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf4f22', endColorstr='#b73f14',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+/************************************** Checkout table item list ********************/
+.checkout_table_list{ display:block; padding:10px; }	
+table.checkout_table_list{ table-layout:fixed; width:940px; text-align:left; } 
+.table.checkout_table_list td{padding:20px;}
+
+
+
+
+/************************************** cart********************/
+.checkout_list_containter{ padding-bottom:20px}
+table.checkout_table_list{ table-layout:fixed; width:940px; display:block; padding:20px 0px; border-collapse: collapse  } 
+table.checkout_table_list th{background:#f2f2f2; height:32px; border-top:1px solid #cdcdcd; color:black; font-size:13px}
+table.checkout_table_list tbody td{ height:137px; border-top:1px solid #cdcdcd; text-align:center; font-size:14px;}
+table.checkout_table_list tfoot td{ height:42px;  border-top:1px solid #cdcdcd;  border-bottom:1px solid #cdcdcd;background:#f2f2f2; color:#e55621; font-size:14px;  font-family: 'Adelle Bold';  text-align:right; font-size:14px}
+
+.firstcol{ width:125px; }
+.ProductImage{width:222px;}
+.ProductName{width:166px;}
+.amount1{width:189px;}
+.amount2{width:174px;}
+.close{width:66px;}
+.Clos_img{cursor:pointer}
+
+table.checkout_table_list tbody td.TextLeft, th.TextLeft{ text-align:left;}
+table.checkout_table_list tbody td.TextRight, table.checkout_table_list tfoot td.TextRight{ text-align:right; padding-right:15px;}
+.checkout_list_containter span.Right_Arrow{ height:19px;}
+input.Quantity{ width:35px;  border-radius:4px; border:1px solid #cecece; text-align:center }
+span.font_Gray{ color:grey}
+
+
+/****** Cart Menu  *****/
+.diagonalMenuSec{width:100%; display:block}
+ul.DiagonalMenu{ margin:0px; padding:0px; list-style:none;}
+ul.DiagonalMenu li{ margin:0px; padding:0px; list-style:none; float:left; height: 28px; margin-right:-26px}
+
+
+ul.DiagonalMenu li span.LeftBG{ float:left; height:28px; width:28px; background:url(../images/GrayLeft.png) no-repeat}
+ul.DiagonalMenu li span.RightBG{ float:left; height:28px; width:28px; background:url(../images/GrayRight.png) no-repeat}
+ul.DiagonalMenu li span.DiagonalText{ float:left; height:18px; background:#f2f2f2; padding:3px 10px; border-top:1px #cdcdcd solid; border-bottom:1px #cdcdcd solid;}
+ul.DiagonalMenu li a{ color:#e65621; text-decoration:none; font-size:14px;}
+ul.DiagonalMenu li a:hover span.DiagonalText{ color:#FFF !important; text-decoration:none; background:#e65621 !important;}
+ul.DiagonalMenu li a:visited span.DiagonalText{ color:#e65621; background:#f2f2f2;}
+
+ul.DiagonalMenu li a:hover span.LeftBG{background:url(../images/OrangeLeft.png) no-repeat}
+ul.DiagonalMenu li span.RightBG{ float:left; height:28px; width:28px; background:url(../images/GrayRight.png) no-repeat}
+ul.DiagonalMenu li a:hover span.RightBG{background:url(../images/OrangeRight.png) no-repeat}
+ul.DiagonalMenu li a span.Leftmenu{ border-left:1px #cdcdcd solid;}
+ul.DiagonalMenu li a.ActiveMenu span.LeftBG{ background:url(../images/OrangeLeft.png) no-repeat}
+ul.DiagonalMenu li a.ActiveMenu span.DiagonalText{ color:#FFF; text-decoration:none; background:#e65621;}
+ul.DiagonalMenu li a.ActiveMenu span.RightBG{background:url(../images/OrangeRight.png) no-repeat}
+.CC{ float:right}
+
+.checkout_list_containter h2{ font-size: 34px;}
+
+table.checkout_table_list tfoot td.TextLeft{ text-align: left;}
+
+
+/***** Delivery *****/
+.OrangeP{ color: #FF5515;  font-family: 'Adelle Bold'; font-size:12px; }
+.OrangeH{color: #FF5515;  font-family: 'Adelle Bold'; font-size:20px; }
+.BlackPara{color:#2a2a2a; font-size:13px;}
+
+.BlackPara input{ border-radius:4px; border:1px solid #cecece; width:300px; height:25px}
+.checkout3 .checkout_table label
+{  color:#ffaa8a;	}
+.checkout3 .height_sink{ height:auto; display:block}
+
+.MinH{ height:240px;}
+.checkout_table_GrayBox{ table-layout:fixed; width:423px;;  border-collapse:collapse} 
+
+.checkout_table_GrayBox tr{height:30px;}
+.checkout_table_GrayBox td, .checkout_table_GrayBox th{ background:#f2f2f2; padding:6px; font-size:13px; padding-left:15px; padding-right:15px; }
+.checkout_table_GrayBox th{ text-align:left;  color:#FF5515;  border-top:1px solid #cdcdcd;}
+.checkout_table_GrayBox tbody td+td{ text-align:right }
+.checkout_table_GrayBox tfoot td{text-align:center;  border-bottom:1px solid #cdcdcd;}
+
+span.Orange, .Orange{ color:#FF5515;}
+.firstcol_checkout3{ width:50%}
+.ProductImage_checkout3{width:50%;}
+
+.ButtonDiv{ width:100%; display:block; padding:20px 0px;}
+button.gray_button, button.Orange_button{ height:30px;}

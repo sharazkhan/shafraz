@@ -1,0 +1,307 @@
+<?php /* Smarty version 2.6.28, created on 2017-11-26 08:07:46
+         compiled from blocks/selection.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('function', 'pageaddvar', 'blocks/selection.tpl', 1, false),array('function', 'modurl', 'blocks/selection.tpl', 76, false),array('function', 'gt', 'blocks/selection.tpl', 92, false),array('modifier', 'upper', 'blocks/selection.tpl', 109, false),)), $this); ?>
+<?php echo smarty_function_pageaddvar(array('name' => 'javascript','value' => 'jquery'), $this);?>
+
+<?php echo smarty_function_pageaddvar(array('name' => 'javascript','value' => 'zikula.ui'), $this);?>
+
+
+<script type="text/javascript" src="modules/ZSELEX/javascript/jqueryautocomplete/js/jquery-ui-1.8.2.custom.min.js"><?php echo ''; ?>
+</script>
+<link rel="stylesheet" href="modules/ZSELEX/javascript/jqueryautocomplete/css/smoothness/jquery-ui-1.8.2.custom.css" /> 
+
+<?php echo smarty_function_pageaddvar(array('name' => 'javascript','value' => 'modules/ZSELEX/javascript/validation.js'), $this);?>
+    
+<link href="modules/ZSELEX/style/combo/sexy-combo.css" rel="stylesheet" type="text/css" />
+<link href="modules/ZSELEX/style/combo/sexy/sexy.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="modules/ZSELEX/javascript/combo/jquery.sexy-combo.js"><?php echo ''; ?>
+</script>
+<?php echo smarty_function_pageaddvar(array('name' => 'javascript','value' => 'modules/ZSELEX/javascript/searchlist.js'), $this);?>
+
+       <script type="text/javascript" ><?php echo '
+     
+    
+        //jQuery.noConflict();
+        
+        '; ?>
+</script>
+
+<script type="text/javascript"><?php echo '
+    
+		jQuery(document).ready(function(){
+                var cache = {};
+                         //alert(document.location.pnbaseURL+"index.php?module=ZSELEX&type=ajax&func=searchres"); exit();
+                var frm_source = document.location.pnbaseURL+"index.php?module=ZSELEX&type=ajax&func=searchres";  
+                //var frm_source = [{"value":"Some Name","id":1},{"value":"Some Othername","id":2}];
+		jQuery(\'#hsearch\').autocomplete({source:frm_source, minLength:1});
+		});
+
+'; ?>
+</script>
+
+
+        <style><?php echo '
+        
+        .ajax-container input[type="text"],.ajax-container textarea {
+         padding: 0.09em;
+         }
+
+          .ajax-container ul {
+              margin:0px;
+          }
+          
+          
+          div.sexy input {
+    background: url("text-bg.gif") repeat-x scroll 0 0 #FFFFFF;
+    border: 1px solid #B5B8C8;
+    font: 12px/18px tahoma,arial,helvetica,sans-serif;
+    height: 13px;
+    left: 0;
+    margin: 0;
+    padding: 1px 3px;
+    top: 0;
+    vertical-align: middle;
+    width: 129px;
+}
+        '; ?>
+</style>
+
+
+<input type='hidden' id=test1234 value='1234'>
+<input type='hidden' id='countrycounts' name='countrycounts' value='<?php echo $this->_tpl_vars['countryCount']; ?>
+'>
+<input id="regionsearchid" type="hidden" name='formElements[parentCountry][]'   />
+<input id="citysearchid" type="hidden" name='formElements[parentCountry][]'  />
+
+<input id="shopsearchid" type="hidden" name='formElements[parentCountry][]'  />
+
+<input type='hidden' id='temps' name='temps' value=''>
+
+<input type='hidden' id='fieldid' name='fieldid' value=''>
+<input type='hidden' id='strsval' name='strsval' value=''>
+
+
+<?php if ($this->_tpl_vars['vars']['displayinfo'] == 'yes'): ?>
+  <a class="infoclass"  id="miniSiteImageInfo" href="<?php echo smarty_function_modurl(array('modname' => 'ZSELEX','type' => 'info','func' => 'displayInfo','bid' => $this->_tpl_vars['bid']), $this);?>
+" title="<?php echo $this->_tpl_vars['info']['title']; ?>
+">
+      <img  src="<?php echo $this->_tpl_vars['baseurl']; ?>
+images/icons/extrasmall/info.png">
+  </a>
+<?php endif; ?>
+
+  <input type='hidden' id='countryback' name='countryback' value=''>
+
+ <script type="text/javascript"><?php echo '
+ var defwindowajax = new Zikula.UI.Window($(\'miniSiteImageInfo\'),{resizable: true });
+ '; ?>
+</script>
+
+
+<form class="z-form" id='form' name='form' action='' method='get'>
+   <fieldset>
+    <div style="float:left">
+                  <?php echo smarty_function_gt(array('text' => 'Search'), $this);?>
+ : <input type="texbox" value="" id="hsearch" onkeyup="searchvalue(this.value)" size="30"> 
+              <input type="button" value="find" onClick="displayBlocks();">
+    </div>
+        <span style="float:left"  class="z-nowrap z-buttons">
+                    <input type="button" value="Reset" onClick='resets();'>
+        </span>
+    <table>
+     <tr>
+            <td><?php echo smarty_function_gt(array('text' => 'Country'), $this);?>
+</td>
+            <td>
+                 <span class="ajax-container" id="country-div">
+                <select id="country-combo" name="formElements[country-combo]" size="1" >
+                    
+                       <option value=''><?php echo smarty_function_gt(array('text' => 'search country'), $this);?>
+</option>
+                       
+                        <?php $_from = $this->_tpl_vars['countries']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['country']):
+?>
+                        <option value="<?php echo $this->_tpl_vars['country']['country_id']; ?>
+" <?php if ($_REQUEST['country_id'] == $this->_tpl_vars['country']['country_id']): ?> selected="selected" <?php endif; ?>><?php echo ((is_array($_tmp=$this->_tpl_vars['country']['country_name'])) ? $this->_run_mod_handler('upper', true, $_tmp) : smarty_modifier_upper($_tmp)); ?>
+</option>
+                        <?php endforeach; endif; unset($_from); ?>
+               </select>
+                 </span>
+                
+            </td>
+
+            <td><?php echo smarty_function_gt(array('text' => 'Region'), $this);?>
+</td>
+            <td>
+                <span id="region-div">
+                 <select id="region-combo" name="formElements[region-combo]" size="1" >
+                    <option value=''><?php echo smarty_function_gt(array('text' => 'search region'), $this);?>
+</option>
+                        <?php $_from = $this->_tpl_vars['regions']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['region']):
+?>
+                        <option value="<?php echo $this->_tpl_vars['region']['region_id']; ?>
+" <?php if ($_REQUEST['region_id'] == $this->_tpl_vars['region']['region_id']): ?> selected="selected" <?php endif; ?>><?php echo ((is_array($_tmp=$this->_tpl_vars['region']['region_name'])) ? $this->_run_mod_handler('upper', true, $_tmp) : smarty_modifier_upper($_tmp)); ?>
+</option>
+                        <?php endforeach; endif; unset($_from); ?>
+               </select>
+                </span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+        </tr>
+
+
+        <tr>
+            <td><?php echo smarty_function_gt(array('text' => 'City'), $this);?>
+</td>
+            <td id='displaycity'>
+                 <span id="city-div">
+                 <select id="city-combo" name="formElements[city-combo]" size="1" >
+                    <option value='0'><?php echo smarty_function_gt(array('text' => 'search city'), $this);?>
+</option>
+                        <?php $_from = $this->_tpl_vars['cities']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['city']):
+?>
+                        <option value="<?php echo $this->_tpl_vars['city']['city_id']; ?>
+" <?php if ($_REQUEST['city_id'] == $this->_tpl_vars['city']['city_id']): ?> selected="selected" <?php endif; ?>><?php echo ((is_array($_tmp=$this->_tpl_vars['city']['city_name'])) ? $this->_run_mod_handler('upper', true, $_tmp) : smarty_modifier_upper($_tmp)); ?>
+</option>
+                        <?php endforeach; endif; unset($_from); ?>
+               </select>
+                </span>
+                
+            </td>
+            
+            <td><?php echo smarty_function_gt(array('text' => 'Area'), $this);?>
+</td>
+            <td  id='displayarea'>
+               <span id="area-div">
+                   
+                    <select id="area-combo" name="formElements[area-combo]" size="1" >
+                    <option value=''><?php echo smarty_function_gt(array('text' => 'search area'), $this);?>
+</option>
+                        <?php $_from = $this->_tpl_vars['areas']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['area']):
+?>
+                        <option value="<?php echo $this->_tpl_vars['area']['area_id']; ?>
+" <?php if ($_REQUEST['area_id'] == $this->_tpl_vars['area']['area_id']): ?> selected="selected" <?php endif; ?>><?php echo ((is_array($_tmp=$this->_tpl_vars['area']['area_name'])) ? $this->_run_mod_handler('upper', true, $_tmp) : smarty_modifier_upper($_tmp)); ?>
+</option>
+                        <?php endforeach; endif; unset($_from); ?>
+               </select>
+                   
+               </span>
+            </td>
+
+           
+        </tr>
+
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td><?php echo smarty_function_gt(array('text' => 'Shop'), $this);?>
+</td>
+            <td  id='displayshop'>
+               <span id="shop-div">
+                   
+                    <select id="shop-combo" name="formElements[shop-combo]" size="1" >
+                    <option value=''><?php echo smarty_function_gt(array('text' => 'search shop'), $this);?>
+</option>
+                        <?php $_from = $this->_tpl_vars['shops']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['shop']):
+?>
+                        <option value="<?php echo $this->_tpl_vars['shop']['shop_id']; ?>
+" <?php if ($_REQUEST['shop_id'] == $this->_tpl_vars['shop']['shop_id']): ?> selected="selected" <?php endif; ?>><?php echo ((is_array($_tmp=$this->_tpl_vars['shop']['shop_name'])) ? $this->_run_mod_handler('upper', true, $_tmp) : smarty_modifier_upper($_tmp)); ?>
+</option>
+                        <?php endforeach; endif; unset($_from); ?>
+               </select>
+                   
+               </span>
+            </td>
+            <td><?php echo smarty_function_gt(array('text' => 'Category'), $this);?>
+</td>
+            <td  id='displaycats'>
+               <span id="cat-div">
+                   
+                    <select id="cat-combo" name="formElements[cat-combo]" size="1" >
+                    <option value=''><?php echo smarty_function_gt(array('text' => 'search category'), $this);?>
+</option>
+                        <?php $_from = $this->_tpl_vars['category']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['cat']):
+?>
+                        <option value="<?php echo $this->_tpl_vars['cat']['category_id']; ?>
+" ><?php echo ((is_array($_tmp=$this->_tpl_vars['cat']['category_name'])) ? $this->_run_mod_handler('upper', true, $_tmp) : smarty_modifier_upper($_tmp)); ?>
+</option>
+                        <?php endforeach; endif; unset($_from); ?>
+                    </select>
+                   
+               </span>
+            </td>
+
+        </tr>
+         <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        
+         <tr>
+            
+            <td><?php echo smarty_function_gt(array('text' => 'Branch'), $this);?>
+</td>
+            <td  id='displaybranch'>
+               <span id="branch-div">
+                     <select id="branch-combo" name="formElements[branch]" size="1" >
+                    <option value=''><?php echo smarty_function_gt(array('text' => 'search branch'), $this);?>
+</option>
+                        <?php $_from = $this->_tpl_vars['branchs']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['branch']):
+?>
+                        <option value="<?php echo $this->_tpl_vars['branch']['branch_id']; ?>
+"><?php echo ((is_array($_tmp=$this->_tpl_vars['branch']['branch_name'])) ? $this->_run_mod_handler('upper', true, $_tmp) : smarty_modifier_upper($_tmp)); ?>
+</option>
+                        <?php endforeach; endif; unset($_from); ?>
+               </select>
+                   
+               </span>
+            </td>
+           
+           
+            </td>
+
+        </tr>
+
+
+    </table>
+               
+     </fieldset>
+              
+                                              
+</form>
+
+<input type='hidden' id='hcountry' name='hcountry' value='61'>
+<input type='hidden' id='hregion' name='hregion' value=''>
+<input type='hidden' id='hcity' name='hcity' value=''>
+<input type='hidden' id='hshop' name='hshop' value=''>
+<input type='hidden' id='harea' name='harea' value=''>
+<input type='hidden' id='hcategory' name='hcategory' value=''>
+<input type='hidden' id='hbranch'  value=''>
+
+<input type='hidden' id='level'  value=''>
+<input type='hidden' id='type'  value=''>
+<input type='hidden' id='name'  value=''>
+
+<input type='hidden' id='hcountryname' name='hcountry' value='DENMARK'>
+<input type='hidden' id='hregionname' name='hregion' value=''>
+<input type='hidden' id='hcity_name' name='hcity' value=''>
+<input type='hidden' id='hshop_name' name='hshop' value=''>
+<input type='hidden' id='hareaname' name='harea' value=''>
+
+<input type='hidden' id='hsearch' name='hsearch' value=''>
+
+<input type='hidden' id='offset' name='offset' value='0'>
+<br><br><br>

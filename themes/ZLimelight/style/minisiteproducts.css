@@ -1,0 +1,13 @@
+
+
+#minisiteproducts{
+    width:400px;
+    height:auto; 
+    display:table-cell
+}
+#minisiteproducts .minisiteproducts_inner{
+    float:left; 
+    width:170px; 
+    margin-left:15px;
+    display:table-cell;
+}

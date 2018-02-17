@@ -1,0 +1,67 @@
+<?php /* Smarty version 2.6.28, created on 2018-02-03 06:44:21
+         compiled from ajax/upcommingevents.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'explode', 'ajax/upcommingevents.tpl', 4, false),array('modifier', 'replace', 'ajax/upcommingevents.tpl', 8, false),array('modifier', 'cleantext', 'ajax/upcommingevents.tpl', 25, false),array('modifier', 'wordwrap', 'ajax/upcommingevents.tpl', 25, false),array('function', 'modurl', 'ajax/upcommingevents.tpl', 18, false),array('function', 'dayname', 'ajax/upcommingevents.tpl', 22, false),array('function', 'shorttext', 'ajax/upcommingevents.tpl', 27, false),array('function', 'gt', 'ajax/upcommingevents.tpl', 28, false),array('function', 'displayprice', 'ajax/upcommingevents.tpl', 28, false),)), $this); ?>
+<?php if ($this->_tpl_vars['totalcount'] > 0): ?>
+     <ul class="events-wrap clearfix">
+     <?php $_from = $this->_tpl_vars['events']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['date'] => $this->_tpl_vars['event']):
+?>  
+           <?php $this->assign('datebreak', ((is_array($_tmp='-')) ? $this->_run_mod_handler('explode', true, $_tmp, $this->_tpl_vars['event']['event_date']) : explode($_tmp, $this->_tpl_vars['event']['event_date']))); ?>
+                  <!--  <ul class="events-wrap clearfix"> -->
+                        <li>
+                            <?php if ($this->_tpl_vars['event']['aff_id'] > 0): ?>
+                                 <?php $this->assign('imagename', ((is_array($_tmp=$this->_tpl_vars['event']['aff_image'])) ? $this->_run_mod_handler('replace', true, $_tmp, ' ', '%20') : smarty_modifier_replace($_tmp, ' ', '%20'))); ?>
+        <?php $this->assign('image', "modules/ZSELEX/images/affiliates/".($this->_tpl_vars['imagename'])); ?>
+          <?php if (is_file ( $this->_tpl_vars['image'] )): ?>
+                            <span class="e-icon">
+                               
+                                  <img src="<?php echo $this->_tpl_vars['baseurl']; ?>
+modules/ZSELEX/images/affiliates/<?php echo $this->_tpl_vars['imagename']; ?>
+" alt="" width="49" height="50">
+                            </span>
+                           <?php endif; ?>
+           <?php endif; ?>
+                           
+                             <a <?php if ($this->_tpl_vars['event']['event_link'] != '' && $this->_tpl_vars['event']['call_link_directly'] == 1): ?><?php if ($this->_tpl_vars['event']['open_new']): ?>target="_blank"<?php endif; ?><?php endif; ?> href="<?php if ($this->_tpl_vars['event']['event_link'] != '' && $this->_tpl_vars['event']['call_link_directly'] == 1): ?><?php echo $this->_tpl_vars['event']['event_link']; ?>
+<?php else: ?><?php echo smarty_function_modurl(array('modname' => 'ZSELEX','type' => 'user','func' => 'viewevent','shop_id' => $this->_tpl_vars['event']['shop_id'],'eventId' => $this->_tpl_vars['event']['shop_event_id']), $this);?>
+<?php endif; ?>" class="clearfix">
+                                <div class="event-date">
+                                    <span class="ev-date"><?php echo $this->_tpl_vars['datebreak'][2]; ?>
+/<?php echo $this->_tpl_vars['datebreak'][1]; ?>
+</span>
+                                    <span class="ev-year"><?php echo $this->_tpl_vars['datebreak'][0]; ?>
+</span>
+                                    <span class="ev-weekday"><?php echo smarty_function_dayname(array('date' => $this->_tpl_vars['event']['event_date']), $this);?>
+</span>
+                                </div>
+                                <div class="event-contents">
+                                    <h3><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['event']['shop_event_name'])) ? $this->_run_mod_handler('cleantext', true, $_tmp) : smarty_modifier_cleantext($_tmp)))) ? $this->_run_mod_handler('wordwrap', true, $_tmp, 19, "<br/>", true) : smarty_modifier_wordwrap($_tmp, 19, "<br/>", true)); ?>
+</h3>
+                                    <div class="clearfix">
+                                        <p class="event-contents-left"><?php echo smarty_function_shorttext(array('text' => $this->_tpl_vars['event']['shop_event_shortdescription'],'len' => 100), $this);?>
+</p>
+                                        <p class="event-contents-right"><?php echo smarty_function_gt(array('text' => 'Price'), $this);?>
+ <?php if ($this->_tpl_vars['event']['price'] > 0): ?><?php echo smarty_function_displayprice(array('amount' => $this->_tpl_vars['event']['price']), $this);?>
+<?php else: ?><?php echo smarty_function_gt(array('text' => 'FREE'), $this);?>
+<?php endif; ?></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                       
+
+                   <!-- </ul> -->
+                            <?php endforeach; endif; unset($_from); ?>
+     </ul>
+                             <?php else: ?>
+          &nbsp;&nbsp;&nbsp;&nbsp; <?php echo smarty_function_gt(array('text' => 'No events found'), $this);?>
+ 
+        <?php endif; ?>
+        
+         <?php if ($this->_tpl_vars['totalcount'] > 10): ?>
+        <a href="<?php echo smarty_function_modurl(array('modname' => 'ZSELEX','type' => 'user','func' => 'showEvents'), $this);?>
+"><?php echo smarty_function_gt(array('text' => 'All Events'), $this);?>
+</a>
+     <?php endif; ?>
+              
