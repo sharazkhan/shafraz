@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 06:44:20
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:33:09
          compiled from ajax/specialdealevents.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'ajax/specialdealevents.tpl', 2, false),array('function', 'modurl', 'ajax/specialdealevents.tpl', 4, false),array('function', 'imageproportional', 'ajax/specialdealevents.tpl', 13, false),array('function', 'eventimage', 'ajax/specialdealevents.tpl', 20, false),array('function', 'shorttext', 'ajax/specialdealevents.tpl', 45, false),array('function', 'gt', 'ajax/specialdealevents.tpl', 49, false),array('function', 'displayprice', 'ajax/specialdealevents.tpl', 49, false),array('modifier', 'replace', 'ajax/specialdealevents.tpl', 10, false),array('modifier', 'pathinfo', 'ajax/specialdealevents.tpl', 33, false),array('modifier', 'cat', 'ajax/specialdealevents.tpl', 35, false),array('modifier', 'cleantext', 'ajax/specialdealevents.tpl', 45, false),)), $this); ?>
@@ -87,4 +87,3 @@ zselexdata/<?php echo $this->_tpl_vars['event']['shop_id']; ?>
     </div>
 </a>
 <?php endforeach; endif; unset($_from); ?>
-

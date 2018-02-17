@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 06:44:20
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:33:09
          compiled from ajax/productadmid.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'ajax/productadmid.tpl', 1, false),array('function', 'setdiscount', 'ajax/productadmid.tpl', 5, false),array('function', 'modurl', 'ajax/productadmid.tpl', 6, false),array('function', 'imageproportional', 'ajax/productadmid.tpl', 15, false),array('function', 'shorttext', 'ajax/productadmid.tpl', 22, false),array('function', 'displayprice', 'ajax/productadmid.tpl', 27, false),array('modifier', 'replace', 'ajax/productadmid.tpl', 16, false),array('modifier', 'cleantext', 'ajax/productadmid.tpl', 22, false),)), $this); ?>
@@ -88,4 +88,3 @@ modules/ZSELEX/images/grey_small.gif" data-original="http://<?php echo $this->_t
 </a>
 <?php endif; ?>
 <?php endforeach; endif; unset($_from); ?>
-

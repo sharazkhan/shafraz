@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 08:18:09
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:13:55
          compiled from blocks/citypilottheme/footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'fileversion', 'blocks/citypilottheme/footer.tpl', 1, false),array('function', 'pageaddvar', 'blocks/citypilottheme/footer.tpl', 2, false),array('function', 'blockposition', 'blocks/citypilottheme/footer.tpl', 10, false),array('function', 'cardsaccepted', 'blocks/citypilottheme/footer.tpl', 32, false),array('function', 'gt', 'blocks/citypilottheme/footer.tpl', 46, false),array('function', 'modurl', 'blocks/citypilottheme/footer.tpl', 49, false),array('modifier', 'unserialize', 'blocks/citypilottheme/footer.tpl', 45, false),)), $this); ?>
@@ -135,4 +135,4 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'fileversion
    '; ?>
 </script>
     <!-------------------------------------------->
-   
+   

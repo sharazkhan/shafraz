@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 06:49:26
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:13:18
          compiled from plugin/showRating.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'pageaddvar', 'plugin/showRating.tpl', 2, false),array('modifier', 'intval', 'plugin/showRating.tpl', 9, false),)), $this); ?>

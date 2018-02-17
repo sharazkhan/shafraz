@@ -26,7 +26,7 @@ $ZConfig['System']['system.chmod_dir'] = 0777;  // The default chmod for new dir
 // This is the definition for the default Zikula system database.
 // It must be named 'default'
 // ----------------------------------------------------------------------
-$ZConfig['DBInfo']['databases']['default']['host'] = 'localhost';
+$ZConfig['DBInfo']['databases']['default']['host'] = 'db';
 $ZConfig['DBInfo']['databases']['default']['user'] = 'root';
 $ZConfig['DBInfo']['databases']['default']['password'] = '';
 $ZConfig['DBInfo']['databases']['default']['dbname'] = 'c5z13x';

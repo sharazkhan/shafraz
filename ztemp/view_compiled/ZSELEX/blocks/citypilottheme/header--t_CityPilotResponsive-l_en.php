@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 08:18:11
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:33:08
          compiled from blocks/citypilottheme/header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'pageaddvar', 'blocks/citypilottheme/header.tpl', 2, false),array('function', 'cartcount2', 'blocks/citypilottheme/header.tpl', 10, false),array('function', 'blockposition', 'blocks/citypilottheme/header.tpl', 33, false),array('function', 'modurl', 'blocks/citypilottheme/header.tpl', 54, false),array('function', 'homepage', 'blocks/citypilottheme/header.tpl', 57, false),)), $this); ?>

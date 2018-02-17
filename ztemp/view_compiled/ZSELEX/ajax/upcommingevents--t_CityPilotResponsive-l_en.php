@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 06:44:21
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:33:09
          compiled from ajax/upcommingevents.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'explode', 'ajax/upcommingevents.tpl', 4, false),array('modifier', 'replace', 'ajax/upcommingevents.tpl', 8, false),array('modifier', 'cleantext', 'ajax/upcommingevents.tpl', 25, false),array('modifier', 'wordwrap', 'ajax/upcommingevents.tpl', 25, false),array('function', 'modurl', 'ajax/upcommingevents.tpl', 18, false),array('function', 'dayname', 'ajax/upcommingevents.tpl', 22, false),array('function', 'shorttext', 'ajax/upcommingevents.tpl', 27, false),array('function', 'gt', 'ajax/upcommingevents.tpl', 28, false),array('function', 'displayprice', 'ajax/upcommingevents.tpl', 28, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 08:18:10
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:16:52
          compiled from errors_user_404.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'gt', 'errors_user_404.tpl', 2, false),array('function', 'modavailable', 'errors_user_404.tpl', 13, false),array('function', 'modurl', 'errors_user_404.tpl', 16, false),array('modifier', 'safetext', 'errors_user_404.tpl', 5, false),array('modifier', 'safehtml', 'errors_user_404.tpl', 23, false),)), $this); ?>
@@ -42,4 +42,4 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'gt', 'error
     <p><a href="javascript:history.back(-1)"><?php echo smarty_function_gt(array('text' => 'Go back to previous page'), $this);?>
 </a></p>
 
-</div>
+</div>

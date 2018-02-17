@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 06:44:22
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:33:10
          compiled from blocks/Newshops/newshops.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'gt', 'blocks/Newshops/newshops.tpl', 4, false),)), $this); ?>
@@ -17,4 +17,3 @@ $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
 </div>
-

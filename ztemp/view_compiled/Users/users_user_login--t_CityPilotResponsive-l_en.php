@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 08:17:10
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:13:42
          compiled from users_user_login.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'ajaxheader', 'users_user_login.tpl', 5, false),array('function', 'gt', 'users_user_login.tpl', 8, false),array('function', 'modulelinks', 'users_user_login.tpl', 9, false),array('function', 'modurl', 'users_user_login.tpl', 17, false),array('function', 'authentication_method_selector', 'users_user_login.tpl', 23, false),array('function', 'login_form_fields', 'users_user_login.tpl', 30, false),array('function', 'notifyevent', 'users_user_login.tpl', 57, false),array('function', 'notifydisplayhooks', 'users_user_login.tpl', 67, false),array('function', 'button', 'users_user_login.tpl', 73, false),array('function', 'img', 'users_user_login.tpl', 79, false),array('modifier', 'cat', 'users_user_login.tpl', 5, false),array('modifier', 'safetext', 'users_user_login.tpl', 34, false),array('modifier', 'default', 'users_user_login.tpl', 34, false),array('modifier', 'lower', 'users_user_login.tpl', 39, false),array('modifier', 'gt', 'users_user_login.tpl', 73, false),array('insert', 'csrftoken', 'users_user_login.tpl', 37, false),)), $this); ?>
@@ -136,4 +136,4 @@ echo smarty_core_run_insert_handler(array('args' => array('name' => 'csrftoken')
 <script type="text/javascript" language="JavaScript"><?php echo '
 document.getElementById("users_login_login_id").focus();
 '; ?>
-</script>
+</script>

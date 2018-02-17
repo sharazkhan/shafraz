@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 06:44:21
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:33:09
          compiled from ajax/productadlow.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'ajax/productadlow.tpl', 2, false),array('function', 'setdiscount', 'ajax/productadlow.tpl', 5, false),array('function', 'modurl', 'ajax/productadlow.tpl', 6, false),array('function', 'imageproportional', 'ajax/productadlow.tpl', 16, false),array('function', 'shorttext', 'ajax/productadlow.tpl', 23, false),array('function', 'displayprice', 'ajax/productadlow.tpl', 28, false),array('modifier', 'replace', 'ajax/productadlow.tpl', 17, false),array('modifier', 'cleantext', 'ajax/productadlow.tpl', 23, false),)), $this); ?>
@@ -57,4 +57,4 @@ zselexdata/<?php echo $this->_tpl_vars['product']['SHOPID']; ?>
         <!--</a>-->
     </div>
 </a>
-<?php endforeach; endif; unset($_from); ?>
+<?php endforeach; endif; unset($_from); ?>

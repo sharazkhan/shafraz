@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 08:18:11
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:33:09
          compiled from blocks/selection.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'pageaddvar', 'blocks/selection.tpl', 2, false),array('function', 'gt', 'blocks/selection.tpl', 9, false),array('function', 'modurl', 'blocks/selection.tpl', 38, false),array('modifier', 'cleantext', 'blocks/selection.tpl', 33, false),)), $this); ?>
@@ -141,4 +141,4 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'pageaddvar'
     resetAutocomplete();
     });
 '; ?>
-</script>
+</script>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2017-12-10 15:14:44
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:13:54
          compiled from admin_admin_footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'modgetinfo', 'admin_admin_footer.tpl', 2, false),)), $this); ?>

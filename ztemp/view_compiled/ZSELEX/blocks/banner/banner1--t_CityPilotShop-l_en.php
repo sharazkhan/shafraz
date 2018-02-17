@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2017-10-29 15:00:51
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:13:18
          compiled from blocks/banner/banner1.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'replace', 'blocks/banner/banner1.tpl', 19, false),array('function', 'blockposition', 'blocks/banner/banner1.tpl', 20, false),array('function', 'modurl', 'blocks/banner/banner1.tpl', 27, false),array('function', 'gt', 'blocks/banner/banner1.tpl', 28, false),)), $this); ?>
@@ -44,4 +44,3 @@ zselexdata/<?php echo $this->_tpl_vars['shop_id']; ?>
 </section>
 <?php endif; ?>
 <?php endif; ?>
-

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 06:44:23
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:33:10
          compiled from ajax/newshops.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'modurl', 'ajax/newshops.tpl', 4, false),array('function', 'shorttext', 'ajax/newshops.tpl', 7, false),array('function', 'gt', 'ajax/newshops.tpl', 50, false),array('modifier', 'cleantext', 'ajax/newshops.tpl', 7, false),array('modifier', 'replace', 'ajax/newshops.tpl', 7, false),array('modifier', 'round', 'ajax/newshops.tpl', 31, false),array('modifier', 'intval', 'ajax/newshops.tpl', 32, false),)), $this); ?>
@@ -86,4 +86,3 @@ $this->_sections['starcount']['last']       = ($this->_sections['starcount']['it
 
 <?php endif; unset($_from); ?>    
 
-

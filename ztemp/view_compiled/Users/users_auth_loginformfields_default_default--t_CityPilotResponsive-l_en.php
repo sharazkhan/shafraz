@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 08:17:10
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:13:42
          compiled from users_auth_loginformfields_default_default.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'gt', 'users_auth_loginformfields_default_default.tpl', 2, false),array('function', 'pageaddvar', 'users_auth_loginformfields_default_default.tpl', 4, false),array('block', 'pageaddvarblock', 'users_auth_loginformfields_default_default.tpl', 6, false),)), $this); ?>

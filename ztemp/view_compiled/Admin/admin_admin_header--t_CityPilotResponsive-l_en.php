@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2017-12-10 15:14:03
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:13:53
          compiled from admin_admin_header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'admincategorymenu', 'admin_admin_header.tpl', 1, false),array('function', 'modgetinfo', 'admin_admin_header.tpl', 4, false),array('function', 'modgetimage', 'admin_admin_header.tpl', 5, false),array('function', 'modulelinks', 'admin_admin_header.tpl', 8, false),array('modifier', 'safetext', 'admin_admin_header.tpl', 5, false),)), $this); ?>
@@ -15,4 +15,3 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'admincatego
 </h2>
     </div>
     <?php echo smarty_function_modulelinks(array('modname' => $this->_tpl_vars['toplevelmodule'],'type' => 'admin'), $this);?>
-

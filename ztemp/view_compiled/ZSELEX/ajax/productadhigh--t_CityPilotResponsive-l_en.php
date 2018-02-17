@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 06:44:19
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:33:09
          compiled from ajax/productadhigh.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'setdiscount', 'ajax/productadhigh.tpl', 4, false),array('function', 'modurl', 'ajax/productadhigh.tpl', 5, false),array('function', 'imageproportional', 'ajax/productadhigh.tpl', 14, false),array('function', 'shorttext', 'ajax/productadhigh.tpl', 21, false),array('function', 'gt', 'ajax/productadhigh.tpl', 26, false),array('function', 'displayprice', 'ajax/productadhigh.tpl', 31, false),array('modifier', 'replace', 'ajax/productadhigh.tpl', 15, false),array('modifier', 'cleantext', 'ajax/productadhigh.tpl', 21, false),)), $this); ?>

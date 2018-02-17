@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2017-10-29 15:00:53
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:13:19
          compiled from blocks/miniwebsiteproducts.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'pageaddvar', 'blocks/miniwebsiteproducts.tpl', 1, false),array('function', 'modurl', 'blocks/miniwebsiteproducts.tpl', 5, false),array('function', 'gt', 'blocks/miniwebsiteproducts.tpl', 5, false),array('function', 'setdiscount', 'blocks/miniwebsiteproducts.tpl', 18, false),array('function', 'imageproportional', 'blocks/miniwebsiteproducts.tpl', 25, false),array('function', 'shorttext', 'blocks/miniwebsiteproducts.tpl', 32, false),array('function', 'displayprice', 'blocks/miniwebsiteproducts.tpl', 35, false),array('function', 'product_option_exist', 'blocks/miniwebsiteproducts.tpl', 50, false),)), $this); ?>

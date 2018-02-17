@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 06:44:21
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:33:09
          compiled from blocks/upcommingevents/upcommingevents.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'gt', 'blocks/upcommingevents/upcommingevents.tpl', 12, false),)), $this); ?>
@@ -20,4 +20,3 @@ unset($_smarty_tpl_vars);
  ?>
 </div>
   </div>
-

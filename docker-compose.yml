@@ -1,0 +1,45 @@
+version: '3'
+
+volumes:
+ zselex_db_vol:
+
+services:
+  db:
+    image: mysql:5.6
+    container_name: zselex_db
+    ports: 
+      - "8889:3306"
+    volumes:
+      - zselex_db_vol:/var/lib/mysql
+    environment:
+        - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+        - MYSQL_DATABASE=c5z13x
+        #- MYSQL_USER=${DB_USERNAME}
+        #- MYSQL_PASSWORD=${DB_PASSWORD}
+        #- MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
+    restart: always
+
+  web:
+    build: .
+    container_name: zselex_web
+    ports:
+      - "8888:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db
+    restart: always
+
+  phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        container_name: zselex_phpmyadmin
+        ports:
+            - "8890:80"
+        environment:
+            - PMA_ARBITRARY=1
+            - PMA_HOST=db
+        restart: always
+        depends_on:
+            - db
+
+

@@ -258,6 +258,18 @@ class ZSELEX_Entity_ProductProxy extends \ZSELEX_Entity_Product implements \Doct
         return parent::getMax_discount();
     }
 
+    public function setNo_delivery($no_delivery)
+    {
+        $this->__load();
+        return parent::setNo_delivery($no_delivery);
+    }
+
+    public function getNo_delivery()
+    {
+        $this->__load();
+        return parent::getNo_delivery();
+    }
+
     public function getCr_date()
     {
         $this->__load();
@@ -351,7 +363,7 @@ class ZSELEX_Entity_ProductProxy extends \ZSELEX_Entity_Product implements \Doct
 
     public function __sleep()
     {
-        return array('__isInitialized__', 'product_id', 'product_name', 'shop', 'urltitle', 'prd_description', 'manufacturer', 'keywords', 'original_price', 'prd_price', 'discount', 'shipping_price', 'prd_quantity', 'prd_image', 'enable_question', 'validate_question', 'prd_question', 'no_vat', 'prd_status', 'advertise', 'max_discount', 'cr_date', 'cr_uid', 'lu_date', 'lu_uid', 'product_options', 'product_options_values', 'quantity_discounts', 'product_to_category');
+        return array('__isInitialized__', 'product_id', 'product_name', 'shop', 'urltitle', 'prd_description', 'manufacturer', 'keywords', 'original_price', 'prd_price', 'discount', 'shipping_price', 'prd_quantity', 'prd_image', 'enable_question', 'validate_question', 'prd_question', 'no_vat', 'prd_status', 'advertise', 'max_discount', 'no_delivery', 'cr_date', 'cr_uid', 'lu_date', 'lu_uid', 'product_options', 'product_options_values', 'quantity_discounts', 'product_to_category');
     }
 
     public function __clone()

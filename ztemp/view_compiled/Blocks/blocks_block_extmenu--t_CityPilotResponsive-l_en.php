@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 08:18:11
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:33:08
          compiled from blocks_block_extmenu.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('block', 'menu', 'blocks_block_extmenu.tpl', 2, false),array('modifier', 'replace', 'blocks_block_extmenu.tpl', 4, false),array('modifier', 'urldecode', 'blocks_block_extmenu.tpl', 4, false),array('modifier', 'safetext', 'blocks_block_extmenu.tpl', 5, false),array('function', 'modurl', 'blocks_block_extmenu.tpl', 18, false),array('function', 'gt', 'blocks_block_extmenu.tpl', 18, false),)), $this); ?>
@@ -36,4 +36,4 @@ smarty_core_load_plugins(array('plugins' => array(array('block', 'menu', 'blocks
 </a>
     </p>
     <?php endif; ?>
-</div>
+</div>

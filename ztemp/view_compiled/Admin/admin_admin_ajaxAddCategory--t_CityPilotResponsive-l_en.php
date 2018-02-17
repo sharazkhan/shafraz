@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 08:18:06
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:13:54
          compiled from admin_admin_ajaxAddCategory.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'img', 'admin_admin_ajaxAddCategory.tpl', 5, false),array('modifier', 'gt', 'admin_admin_ajaxAddCategory.tpl', 5, false),)), $this); ?>
@@ -12,4 +12,4 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'img', 'admi
 </a>
         </div>
     </form>
-</div>
+</div>

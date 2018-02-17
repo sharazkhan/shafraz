@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-02-03 06:44:17
+<?php /* Smarty version 2.6.28, created on 2018-02-17 19:33:09
          compiled from blocks/exclusiveevents/exclusive_events.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'pageaddvar', 'blocks/exclusiveevents/exclusive_events.tpl', 3, false),)), $this); ?>
